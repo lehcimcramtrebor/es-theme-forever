@@ -1,0 +1,255 @@
+<!--
+NEXTFULL THEME by Lorenzolamas and Kayl for EmulationStation FCAMOD / RetroBat (www.retrobat.ovh)
+Based on work of Fagnerpc for ALEKFULL V1 THEME (facebook.com/alekfull.arcade)  
+Based on work by SUPERNATURE2K'S FUZION THEME and some visuals from Cosmo Robospin Artworks
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+  <include subset="colorset" name="default" displayName="${default}">./_inc/colors/default.xml</include>
+  
+  <include subset="shader" name="None" displayName="${none}"/>
+  <include subset="shader" name="ScanLines">./_inc/scanlines.xml</include>
+  <include subset="shader" name="Crt">./_inc/crt.xml</include>
+  
+<view name="screen">
+    <text name="clock">
+      <textColor>777777FF</textColor>
+      <fontSize>0.035</fontSize>
+      <pos>0.94 0.94</pos>
+      <size>0.05 0.058</size>
+      <verticalAlignment>center</verticalAlignment>
+    </text>
+    <controllerActivity name="controllerActivity">
+      <pos>0.01 0.012</pos>
+      <size>0.085 0.025</size>
+      <!--<horizontalAlignment>right</horizontalAlignment>-->
+      <itemSpacing>0.003</itemSpacing>
+      <imagePath>./_inc/gamepad.svg</imagePath>
+      <color>FFFFFF80</color>
+      <activityColor>A0A0FFC0</activityColor>
+      <hotkeyColor>FFA0A0C0</hotkeyColor>
+    </controllerActivity>
+  </view>
+  
+<view name="menu">
+    <menuText name="menutitle">
+      <fontPath>./_inc/Nunito-SemiBold.ttf</fontPath>
+      <fontSize>0.042</fontSize>
+      <color>1c1632</color>
+    </menuText>
+    <menuText name="menufooter">
+      <fontPath>./_inc/Nunito-Regular.ttf</fontPath>
+      <fontSize>0.024</fontSize>
+      <color>777777FF</color>
+    </menuText>
+    <menuText name="menutext">
+      <fontPath>./_inc/Nunito-Regular.ttf</fontPath>
+      <fontSize>0.03</fontSize>
+      <color>1c1632</color>
+      <separatorColor>b49ead</separatorColor>
+      <selectorColor>${baseColor}</selectorColor>
+      <selectorColorEnd>${gradientEndColor}</selectorColorEnd>
+      <selectedColor>FFFFFF</selectedColor>
+      <selectorGradientType>horizontal</selectorGradientType>
+    </menuText>
+    <menuTextSmall name="menutextsmall">
+      <fontPath>./_inc/Nunito-Regular.ttf</fontPath>
+      <fontSize>0.022</fontSize>
+      <color>48387a</color>
+    </menuTextSmall>
+    <menuBackground name="menubg">
+      <color>f8f6f6</color>
+      <cornerSize>32 32</cornerSize>
+      <path>./_inc/frame.png</path>
+    </menuBackground>
+    <menuIcons name="menuicons">
+      <iconKodi>./_inc/icons/Kodi.png</iconKodi>
+      <iconSystem>./_inc/icons/System.png</iconSystem>
+      <iconUpdates>./_inc/icons/Updates.png</iconUpdates>
+      <iconGames>./_inc/icons/Games.png</iconGames>
+      <iconControllers>./_inc/icons/Controllers.png</iconControllers>
+      <iconUI>./_inc/icons/UI.png</iconUI>
+      <iconSound>./_inc/icons/Sound.png</iconSound>
+      <iconNetwork>./_inc/icons/Network.png</iconNetwork>
+      <iconScraper>./_inc/icons/Scraper.png</iconScraper>
+      <iconAdvanced>./_inc/icons/Advanced.png</iconAdvanced>
+      <iconQuit>./_inc/icons/Quit.png</iconQuit>
+      <iconRestart>./_inc/icons/Restart.png</iconRestart>
+      <iconShutdown>./_inc/icons/Shutdown.png</iconShutdown>
+      <iconFastShutdown>./_inc/icons/Fastshutdown.png</iconFastShutdown>
+      <iconRetroachievements>./_inc/icons/Contest.png</iconRetroachievements>
+    </menuIcons>
+    <menuTextEdit name="menutextedit">
+      <inactive>./_inc/textinput_ninepatch.png</inactive>
+      <active>./_inc/textinput_ninepatch_active.png</active>
+    </menuTextEdit>
+  </view>
+
+<view name="menu, system, basic, detailed, video">  
+      <helpsystem name="help">
+         <fontPath>./_inc/Nunito-SemiBold.ttf</fontPath>
+         <fontSize>0.02</fontSize>      
+         <pos>0.02 0.968</pos>      
+         <textColor>ffffff</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>	  
+</view>
+  
+<view name="system">
+
+	  <text name="system_label" extra="true">
+			<text>${system.name}</text>
+			<color>ff0000</color>
+			<backgrounColor>ffffff</backgrounColor>		 			
+			<zIndex>100</zIndex>
+			<fontPath>./_assets/mario.ttf</fontPath>
+			<fontSize>0.08</fontSize>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.06</pos>
+      </text>
+	  
+      <carousel name="systemcarousel">
+        <color>00000000</color>
+		<pos>1 1</pos>
+      </carousel>
+	  <text name="systemInfo">
+         <zIndex>44</zIndex>       
+         <pos>0.33 0.580</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>cbcbcb</color>
+         <fontPath>./_inc/Nunito-SemiBold.ttf</fontPath>
+	     <fontSize>0.017</fontSize>
+         <zIndex>44</zIndex>	     
+      </text>
+      <image name="background" extra="true">
+		 <path>./_assets/texture.png</path>
+		 <color>ffffff</color>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>40</zIndex>                 
+      </image> 
+	<image name="art2" extra="true">
+		<path>./_inc/overlay.png</path>
+		<size>1 1</size>
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+		<zIndex>92</zIndex>
+	</image>
+
+</view>
+   
+<view name="basic, detailed, video">
+       <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 0.070</size>
+         <zIndex>41</zIndex>          
+      </image>
+      <image name="bg3" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/bellobg.png</path>
+		 <color>2A4055</color>
+		 <zIndex>41</zIndex>
+      </image>	  
+	  <image name="logo">
+		<pos>0.095 0.868</pos>
+		<maxSize>0.131 0.118</maxSize>
+		<zIndex>53</zIndex>
+      </image>   
+      <helpsystem name="help">
+         <fontPath>./_inc/Nunito-SemiBold.ttf</fontPath>
+         <fontSize>0.02</fontSize>      
+         <pos>0.02 0.968</pos>      
+         <textColor>ffffff</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>	  
+	  <textlist name="gamelist">
+         <pos>0.567 0.125</pos>
+         <size>0.345 0.75</size>
+         <selectorColor>f8f6f6aa</selectorColor>
+         <selectedColor>0B2161</selectedColor>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+         <fontPath>./_inc/Nunito-SemiBold.ttf</fontPath>
+         <fontSize>0.032</fontSize>
+         <alignment>left</alignment>
+		 <horizontalMargin>0.01</horizontalMargin>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound>./_inc/scroll.wav</scrollSound>
+		 <lineSpacing>2.2</lineSpacing>
+		 <zIndex>42</zIndex>
+      </textlist>	  
+	   <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>41</zIndex>          
+      </image>	  
+	    <text name="md_rating, md_developer, md_publisher, md_genre, md_playcount, md_players">
+         <pos>2 2</pos> <size>0 0</size>
+         <fontSize>0.0</fontSize>
+         <zIndex>0</zIndex>
+      </text>  
+	  <datetime name="md_releasedate, md_lastplayed">
+	  <pos>2 2</pos>
+		<fontSize>0.00</fontSize>
+		<size>0 0</size><zIndex>0</zIndex>
+	</datetime>	
+      <text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite">
+         <pos>2 2</pos>
+         <size>0 0</size>
+		 <fontSize>0.0</fontSize>
+		 <zIndex>0</zIndex>
+      </text>	  
+      <text name="md_description">
+         <color>ffffff</color>      
+         <pos>0.185 0.835</pos>
+         <size>0.305 0.115</size>
+         <fontSize>0.024</fontSize>
+         <zIndex>42</zIndex>         
+      </text>	  
+      <image name="md_thumbnail">
+		 <pos>0.02 0.551</pos>
+         <origin>0 0</origin>
+         <maxSize>0.25 0.25</maxSize>
+         <zIndex>45</zIndex>         
+      </image>	  
+      <image name="md_marquee">
+		 <pos>0.28 0.10</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.25 0.2</maxSize>
+         <zIndex>45</zIndex>         
+      </image>      
+   </view>
+   
+<view name="detailed">
+      
+	<image name="md_image">
+        <pos>0.28 0.45</pos>
+		<origin>0.5 0.5</origin>
+        <maxSize>0.523 0.516</maxSize>
+        <zIndex>42</zIndex>
+    </image> 
+	  
+</view> 
+   
+<view name="video">
+      
+	<video name="md_video">
+        <pos>0.28 0.45</pos>
+		<origin>0.5 0.5</origin>
+        <maxSize>0.510 0.502</maxSize>
+        <delay>1.5</delay>
+        <zIndex>43</zIndex>         
+        <showSnapshotNoVideo>true</showSnapshotNoVideo>
+        <showSnapshotDelay>true</showSnapshotDelay>
+    </video>
+	  
+   </view> 
+  
+</theme>
