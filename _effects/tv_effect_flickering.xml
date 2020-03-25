@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+   <formatv_effectersion>4</formatv_effectersion>
+   
+   
+   <feature supported="carousel">
+
+		<view name="system, basic, detailed, video, grid">
+
+    <video name="tv_effect" extra="true">
+      <path>./../_assets/effect_flickering.mp4</path>
+      <color>ffffff50</color>
+    </video>
+	
+		</view>
+	
+	</feature>
+   
+</theme>

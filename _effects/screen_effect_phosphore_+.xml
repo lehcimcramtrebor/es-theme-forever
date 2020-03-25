@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+   <formatVersion>4</formatVersion>
+   
+   
+   <feature supported="carousel">
+
+		<view name="system, basic, detailed, video, grid">
+
+			<image name="screen_effect" extra="true">
+				<path>./../_assets/effect_phosphore_+.png</path>
+			</image>
+	
+		</view>
+	
+	</feature>
+   
+</theme>

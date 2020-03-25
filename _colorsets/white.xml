@@ -1,0 +1,57 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+  
+<view name="system">
+
+		<image name="systemInfo_edge, label_edge" extra="true">
+			<color>ffffff</color>
+		</image>
+		
+	  <text name="systemInfo">
+
+         <color>ffffff</color>
+		 <glowColor>202020</glowColor>
+     
+      </text>
+
+		<image name="systemInfo_frame" extra="true">
+			<color>505050</color>
+			<colorEnd>000000</colorEnd>
+			<gradientType>horizontal</gradientType>
+			</image>
+
+		<image name="label_frame" extra="true">
+			<color>000000</color>
+			<colorEnd>505050</colorEnd>
+			<gradientType>horizontal</gradientType>
+		</image>
+
+		<image name="system_frame" extra="true">
+			<colorEnd>000000</colorEnd>
+		</image>		
+
+</view>
+   
+<view name="menu, system, basic, detailed, video,grid">  
+
+      <helpsystem name="help">
+         <iconColor>ffffff</iconColor>
+      </helpsystem>	 
+
+		<image name="line_bottom" extra="true">
+			<color>ffffff</color>
+		</image>
+		
+</view>
+ 
+<view name="menu">  
+
+    <menuText name="menutext">
+      <selectorColor>000000</selectorColor>
+    </menuText> 
+
+</view>
+	
+</theme>

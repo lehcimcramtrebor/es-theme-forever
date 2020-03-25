@@ -2,15 +2,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
    <formatVersion>7</formatVersion>
-   
+
+<!--		COLORSETS		-->
+
+  <include subset="Colorset" name="White">./_colorsets/white.xml</include>
   <include subset="Colorset" name="Red">./_colorsets/red.xml</include>
 
-  
+<!--		LOGOS		-->
+
+  <include subset="Logos" name="Arcade">./_logos/arcade.xml</include>
+  <include subset="Logos" name="Mario">./_logos/mario.xml</include>
+  <include subset="Logos" name="College">./_logos/college.xml</include>
+
+<!--		SYSTEM INFO		-->
+
+  <include subset="System Info" name="Distress">./_system_info/distress.xml</include>
+  <include subset="System Info" name="Arcade">./_system_info/arcade.xml</include>
+
+
+<!--		BACKGROUNDS SUBSETS		-->
+
+  <include subset="Background" name="Steel-01">./_backgrounds/steel/01.xml</include>
+  <include subset="Background" name="Steel-02">./_backgrounds/steel/02.xml</include>
+  <include subset="Background" name="Steel-03">./_backgrounds/steel/03.xml</include>
+  <include subset="Background" name="Steel-04">./_backgrounds/steel/04.xml</include>
+  <include subset="Background" name="Steel-05">./_backgrounds/steel/05.xml</include>
+  <include subset="Background" name="Steel-06">./_backgrounds/steel/06.xml</include>
+  <include subset="Background" name="Steel-07">./_backgrounds/steel/07.xml</include>
+  <include subset="Background" name="Steel-08">./_backgrounds/steel/08.xml</include>
+  <include subset="Background" name="Steel-09">./_backgrounds/steel/09.xml</include>
+  <include subset="Background" name="Steel-10">./_backgrounds/steel/10.xml</include>
+  <include subset="Background" name="Steel-11">./_backgrounds/steel/11.xml</include>
+
+
+
+  <include subset="Background" name="Mosaic Steamless-01">./_backgrounds/mosaic_steamless/01.xml</include>
+  <include subset="Background" name="Mosaic Steamless-02">./_backgrounds/mosaic_steamless/02.xml</include>
+  <include subset="Background" name="Mosaic Steamless-03">./_backgrounds/mosaic_steamless/03.xml</include>
+  <include subset="Background" name="Mosaic Steamless-04">./_backgrounds/mosaic_steamless/04.xml</include>
+  <include subset="Background" name="Mosaic Steamless-05">./_backgrounds/mosaic_steamless/05.xml</include>
+
+
+
+  <include subset="Background" name="Gold Flowers-01">./_backgrounds/gold_flowers/01.xml</include>
+  <include subset="Background" name="Gold Flowers-02">./_backgrounds/gold_flowers/02.xml</include>
+
+
+
+  <include subset="Background" name="Stained Glass-01">./_backgrounds/stained_glass/01.xml</include>
+  <include subset="Background" name="Stained Glass-02">./_backgrounds/stained_glass/02.xml</include>
+  <include subset="Background" name="Stained Glass-03">./_backgrounds/stained_glass/03.xml</include>
+  <include subset="Background" name="Stained Glass-04">./_backgrounds/stained_glass/04.xml</include>
+  <include subset="Background" name="Stained Glass-05">./_backgrounds/stained_glass/05.xml</include>
+  <include subset="Background" name="Stained Glass-06">./_backgrounds/stained_glass/06.xml</include>
+  <include subset="Background" name="Stained Glass-07">./_backgrounds/stained_glass/07.xml</include>
+  <include subset="Background" name="Stained Glass-08">./_backgrounds/stained_glass/08.xml</include>
+
+
+
+  <include subset="Background" name="Starfield-01">./_backgrounds/starfield/01.xml</include>
+  <include subset="Background" name="Starfield-02">./_backgrounds/starfield/02.xml</include>
+  <include subset="Background" name="Starfield-03">./_backgrounds/starfield/03.xml</include>
+  <include subset="Background" name="Starfield-04">./_backgrounds/starfield/04.xml</include>
+  <include subset="Background" name="Starfield-05">./_backgrounds/starfield/05.xml</include>
+
+
+
+  <include subset="Background" name="Butterflies-01">./_backgrounds/butterflies/01.xml</include>
+  <include subset="Background" name="Butterflies-02">./_backgrounds/butterflies/02.xml</include>
+
+
+
+  <include subset="Background" name="Wood-01">./_backgrounds/wood/01.xml</include>
+  <include subset="Background" name="Wood-02">./_backgrounds/wood/02.xml</include>
+
+
+
+  <include subset="Background" name="Stone-01">./_backgrounds/stone/01.xml</include>
+  <include subset="Background" name="Stone-02">./_backgrounds/stone/02.xml</include>
+
+
+
+  <include subset="Background" name="Retro Game-01">./_backgrounds/retrogame/01.xml</include>
+  <include subset="Background" name="Retro Game-02">./_backgrounds/retrogame/02.xml</include>
+  <include subset="Background" name="Retro Game-03">./_backgrounds/retrogame/03.xml</include>
+  <include subset="Background" name="Retro Game-04">./_backgrounds/retrogame/04.xml</include>
+  <include subset="Background" name="Retro Game-05">./_backgrounds/retrogame/05.xml</include>
+  <include subset="Background" name="Retro Game-06">./_backgrounds/retrogame/06.xml</include>
+  <include subset="Background" name="Retro Game-07">./_backgrounds/retrogame/07.xml</include>
+  <include subset="Background" name="Retro Game-08">./_backgrounds/retrogame/08.xml</include>
+
+
+
+  <include subset="Background" name="Plain-01">./_backgrounds/plain/01.xml</include>
+  <include subset="Background" name="Plain-02">./_backgrounds/plain/02.xml</include>
+  <include subset="Background" name="Plain-03">./_backgrounds/plain/03.xml</include>
+  <include subset="Background" name="Plain-04">./_backgrounds/plain/04.xml</include>
+  <include subset="Background" name="Plain-05">./_backgrounds/plain/05.xml</include>
+  <include subset="Background" name="Plain-06">./_backgrounds/plain/06.xml</include>
+  <include subset="Background" name="Plain-07">./_backgrounds/plain/07.xml</include>
+  <include subset="Background" name="Plain-08">./_backgrounds/plain/08.xml</include>
+  <include subset="Background" name="Plain-09">./_backgrounds/plain/09.xml</include>
+  <include subset="Background" name="Plain-10">./_backgrounds/plain/10.xml</include>
+  <include subset="Background" name="Plain-11">./_backgrounds/plain/11.xml</include>
+
+
+
+  <include subset="Background" name="Squares-01">./_backgrounds/squares/01.xml</include>
+  <include subset="Background" name="Squares-02">./_backgrounds/squares/02.xml</include>
+  <include subset="Background" name="Squares-03">./_backgrounds/squares/03.xml</include>
+  <include subset="Background" name="Squares-04">./_backgrounds/squares/04.xml</include>
+  <include subset="Background" name="Squares-05">./_backgrounds/squares/05.xml</include>
+  <include subset="Background" name="Squares-06">./_backgrounds/squares/06.xml</include>
+  <include subset="Background" name="Squares-07">./_backgrounds/squares/07.xml</include>
+  <include subset="Background" name="Squares-08">./_backgrounds/squares/08.xml</include>
+
+
+
+
+<!------STATIC EFFECTS------>
+
+		<include subset="Screen Effects" name="CRT">./_effects/screen_effect_crt.xml</include>		
+
+		<include subset="Screen Effects" name="Scanlines">./_effects/screen_effect_scanlines.xml</include>
+
+		<include subset="Screen Effects" name="Vertical Scanlines">./_effects/screen_effect_scanlines_vertical.xml</include>
+
+		<include subset="Screen Effects" name="Scanlines Fine">./_effects/screen_effect_scanlines_fine.xml</include>	
+
+		<include subset="Screen Effects" name="Vertical Scanlines Fine">./_effects/screen_effect_scanlines_vertical_fine.xml</include>
+
+		<include subset="Screen Effects" name="Phosphore">./_effects/screen_effect_phosphore.xml</include>
+
+		<include subset="Screen Effects" name="Phosphore +">./_effects/screen_effect_phosphore_+.xml</include>
+
+		<include subset="Screen Effects" name="NO o:(">./nope.xml</include>
+
+
+
+<!------VIDEO EFFECTS------>
+
+		<include subset="Video Effect" name="HERTZ">./_effects/tv_effect_hertz.xml</include>	
+
+		<include subset="Video Effect" name="CRT">./_effects/tv_effect_crt.xml</include>
+
+		<include subset="Video Effect" name="FLICKERING">./_effects/tv_effect_flickering.xml</include>		
+
+		<include subset="Video Effect" name="GLITCH">./_effects/tv_effect_glitch.xml</include>						
+
+		<include subset="Video Effect" name="VHS GLITCH">./_effects/tv_effect_vhs_glitch.xml</include>
+
+		<include subset="Video Effect" name="No">./_effects/nope.xml.xml</include>						
+
+ 
 <view name="screen">
     <text name="clock">
-      <textColor>777777FF</textColor>
-      <fontSize>0.035</fontSize>
-      <pos>0.94 0.94</pos>
+      <fontSize>0.02</fontSize>
+      <pos>0.94 0.945</pos>
       <size>0.05 0.058</size>
       <verticalAlignment>center</verticalAlignment>
     </text>
@@ -28,132 +176,155 @@
   
 <view name="menu">
     <menuText name="menutitle">
-      <fontPath>./_inc/Nunito-SemiBold.ttf</fontPath>
+      <fontPath>./_assets/adventure.otf</fontPath>
       <fontSize>0.042</fontSize>
       <color>1c1632</color>
     </menuText>
     <menuText name="menufooter">
-      <fontPath>./_inc/Nunito-Regular.ttf</fontPath>
+      <fontPath>./_assets/adventure.otf</fontPath>
       <fontSize>0.024</fontSize>
       <color>777777FF</color>
     </menuText>
     <menuText name="menutext">
-      <fontPath>./_inc/Nunito-Regular.ttf</fontPath>
+      <fontPath>./_assets/adventure.otf</fontPath>
       <fontSize>0.03</fontSize>
       <color>1c1632</color>
       <separatorColor>b49ead</separatorColor>
-      <selectorColor>${baseColor}</selectorColor>
-      <selectorColorEnd>${gradientEndColor}</selectorColorEnd>
       <selectedColor>FFFFFF</selectedColor>
       <selectorGradientType>horizontal</selectorGradientType>
     </menuText>
+	
     <menuTextSmall name="menutextsmall">
-      <fontPath>./_inc/Nunito-Regular.ttf</fontPath>
+      <fontPath>./_assets/adventure.otf</fontPath>
       <fontSize>0.022</fontSize>
       <color>48387a</color>
     </menuTextSmall>
     <menuBackground name="menubg">
       <color>f8f6f6</color>
       <cornerSize>32 32</cornerSize>
-      <path>./_inc/frame.png</path>
     </menuBackground>
-    <menuIcons name="menuicons">
-      <iconKodi>./_inc/icons/Kodi.png</iconKodi>
-      <iconSystem>./_inc/icons/System.png</iconSystem>
-      <iconUpdates>./_inc/icons/Updates.png</iconUpdates>
-      <iconGames>./_inc/icons/Games.png</iconGames>
-      <iconControllers>./_inc/icons/Controllers.png</iconControllers>
-      <iconUI>./_inc/icons/UI.png</iconUI>
-      <iconSound>./_inc/icons/Sound.png</iconSound>
-      <iconNetwork>./_inc/icons/Network.png</iconNetwork>
-      <iconScraper>./_inc/icons/Scraper.png</iconScraper>
-      <iconAdvanced>./_inc/icons/Advanced.png</iconAdvanced>
-      <iconQuit>./_inc/icons/Quit.png</iconQuit>
-      <iconRestart>./_inc/icons/Restart.png</iconRestart>
-      <iconShutdown>./_inc/icons/Shutdown.png</iconShutdown>
-      <iconFastShutdown>./_inc/icons/Fastshutdown.png</iconFastShutdown>
-      <iconRetroachievements>./_inc/icons/Contest.png</iconRetroachievements>
-    </menuIcons>
-    <menuTextEdit name="menutextedit">
-      <inactive>./_inc/textinput_ninepatch.png</inactive>
-      <active>./_inc/textinput_ninepatch_active.png</active>
-    </menuTextEdit>
+
+
   </view>
 
-<view name="menu, system, basic, detailed, video">  
+<view name="menu, system, basic, detailed, video, grid">  
+
       <helpsystem name="help">
-         <fontPath>./_inc/Nunito-SemiBold.ttf</fontPath>
-         <fontSize>0.02</fontSize>      
-         <pos>0.02 0.968</pos>      
+<!--         <fontPath>./_assets/arcade.ttf</fontPath> 	-->
+         <fontSize>0.03</fontSize>      
+         <pos>0.02 0.96</pos>      
          <textColor>ffffff</textColor>
       </helpsystem>	  
+
+      <image name="background" extra="true">
+		 <tile>true</tile>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>1</zIndex>                 
+      </image>
+
+		<image name="line_bottom" extra="true">
+			<path>./_assets/white.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.95</pos>
+			<size>1 0.002</size>
+			<zIndex>200</zIndex>
+		</image> 
+		
 </view>
   
 <view name="system">
 
-	  <text name="system_label" extra="true">
-			<text>${system.name}</text>
-			<zIndex>100</zIndex>
-			<fontPath>./_assets/college.ttf</fontPath>
-			<glowColor>00000007</glowColor>
-			<glowSize>7.5</glowSize>
-			<fontSize>0.16</fontSize>
+
+		<image name="test" extra="true">
+			<path>./_assets/test.svg</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.521</pos>
+			<size>0.52 0.65</size>
+			<color>ffffff</color>
+			<zIndex>36</zIndex>
+		</image>
+		
+			<image name="screen_effect" extra="true">
+				<size>0.33 0.45</size>
+				<pos>0.45 0.493</pos>
+				<origin>0.5 0.5</origin>
+				<tile>true</tile>
+				<zIndex>35</zIndex>
+			</image>	  
+
+	    <video name="tv_effect" extra="true">
+				<size>0.33 0.45</size>
+				<pos>0.45 0.493</pos>
+				<origin>0.5 0.5</origin>
+				<zIndex>34</zIndex>
+		</video>
+		
+    <video name="backgroundvideo" extra="true">
+		<path>{random}</path>
+		<path>./CUSTOMIZE_YOUR_THEME/videos/${system.theme}.mp4</path>                 		
+		<origin>0.5 0.5</origin>
+		<pos>0.45 0.493</pos>
+		<maxSize>0.335 1</maxSize>
+		<delay>0.01</delay>
+		<effect>none</effect>		
+		<default>./_assets/noise.mp4</default>
+		<showSnapshotNoVideo>false</showSnapshotNoVideo>
+		<showSnapshotDelay>false</showSnapshotDelay>
+		<color>ffffff</color>
+		<zIndex>33</zIndex>      
+    </video>
+
+		<image name="video_black" extra="true">
+			<path>./_assets/white.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.45 0.493</pos>
+			<size>0.33 0.45</size>
+			<color>000000</color>
+			<zIndex>32</zIndex>
+		</image>
+
+		<image name="systemInfo_frame" extra="true">
+			<path>./_assets/white.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.8985</pos>
+			<size>1 0.1</size>
+			<zIndex>82</zIndex>
+		</image>
+
+		<image name="systemInfo_edge" extra="true">
+			<path>./_assets/white.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.8985</pos>
+			<size>1 0.105</size>
+			<zIndex>81</zIndex>
+		</image>
+				
+		<image name="label_frame" extra="true">
+			<path>./_assets/white.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.1</pos>
-      </text>
+			<size>1 0.16</size>
+			<zIndex>95</zIndex>
+		</image>
+
+		<image name="label_edge" extra="true">
+			<path>./_assets/white.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.1</pos>
+			<size>1 0.165</size>
+			<zIndex>94</zIndex>
+		</image>
 	  
       <carousel name="systemcarousel">
         <color>00000000</color>
 		<pos>1 1</pos>
       </carousel>
 	  
-	  <text name="systemInfo">
-         <zIndex>101</zIndex>       
-         <pos>0 0.75</pos>
-         <color>000000</color>
-		 <fontPath>./_assets/college.ttf</fontPath>
-	     <fontSize>0.024</fontSize>
-         <zIndex>44</zIndex>	     
-      </text>
-
-      <image name="texture" extra="true">
-		 <path>./_assets/texture.png</path>
-		 <tile>true</tile>
-		 <color>ffffff</color>
-		 <colorEnd>252525</colorEnd>
-		 <gradientType>vertical</gradientType>
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>1</zIndex>                 
-      </image> 
-	  
-      <image name="frame" extra="true">
-		 <path>./_assets/frame.png</path>
-		 <color>ffffff</color>
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>40</zIndex>                 
-      </image> 
-
 </view>
    
 <view name="basic, detailed, video">
-       <image name="background" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 0.070</size>
-         <zIndex>41</zIndex>          
-      </image>
-      <image name="bg3" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>        
-         <path>./_inc/bellobg.png</path>
-		 <color>2A4055</color>
-		 <zIndex>41</zIndex>
-      </image>	  
 	  <image name="logo">
 		<pos>0.095 0.868</pos>
 		<maxSize>0.131 0.118</maxSize>
@@ -167,7 +338,7 @@
          <selectedColor>0B2161</selectedColor>
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>ffffff</secondaryColor>
-         <fontPath>./_inc/Nunito-SemiBold.ttf</fontPath>
+         <fontPath>./_assets/snes.ttf</fontPath>
          <fontSize>0.032</fontSize>
          <alignment>left</alignment>
 		 <horizontalMargin>0.01</horizontalMargin>
@@ -176,12 +347,7 @@
 		 <lineSpacing>2.2</lineSpacing>
 		 <zIndex>42</zIndex>
       </textlist>	  
-	   <image name="background" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>41</zIndex>          
-      </image>	  
+
 	    <text name="md_rating, md_developer, md_publisher, md_genre, md_playcount, md_players">
          <pos>2 2</pos> <size>0 0</size>
          <fontSize>0.0</fontSize>
@@ -243,5 +409,7 @@
     </video>
 	  
    </view> 
-  
+ 
+
+
 </theme>

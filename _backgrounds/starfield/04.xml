@@ -1,0 +1,17 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+<view name="menu, system, basic, detailed, video, grid">  
+
+      <image name="background" extra="true">
+		 <color>ffffff</color>
+		 <colorEnd>252525</colorEnd>
+		 <gradientType>vertical</gradientType>	  
+		 <path>./../../_assets/starfield/04.jpg</path>
+      </image>
+	  
+</view>
+   
+</theme>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+   <formatv_effectersion>4</formatv_effectersion>
+   
+   
+   <feature supported="carousel">
+
+		<view name="system, basic, detailed, video, grid">
+
+    <video name="tv_effect" extra="true">
+      <path>./../_assets/effect_hertz.mp4</path>
+      <color>A0A0A010</color>
+    </video>
+	
+		</view>
+	
+	</feature>
+   
+</theme>

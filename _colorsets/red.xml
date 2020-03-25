@@ -5,17 +5,54 @@
   
 <view name="system">
 
-	  <text name="system_label" extra="true">
-			<color>ff0000</color>
+		<image name="systemInfo_edge, label_edge" extra="true">
+			<color>000000</color>
+		</image>
+		
+
+	  <text name="systemInfo">
+
+         <color>000000</color>
+		 <glowColor>ffffff</glowColor>
+    
       </text>
-	  
+
+		<image name="systemInfo_frame" extra="true">
+			<color>ff4040</color>
+			<colorEnd>ff0000</colorEnd>
+			<gradientType>horizontal</gradientType>			
+		</image>
+
+		<image name="label_frame" extra="true">
+			<color>ff0000</color>
+			<colorEnd>ff4040</colorEnd>
+			<gradientType>horizontal</gradientType>			
+		</image>
+
+		<image name="system_frame" extra="true">
+			<colorEnd>ff303050</colorEnd>
+		</image>		
 
 </view>
    
 <view name="menu, system, basic, detailed, video">  
+
       <helpsystem name="help">
-         <iconColor>ff0000</iconColor>
+         <iconColor>ff3030</iconColor>
       </helpsystem>	 
+
+		<image name="line_bottom" extra="true">
+			<color>000000</color>
+		</image>
+		
 </view>
-  
+ 
+<view name="menu">  
+
+    <menuText name="menutext">
+      <selectorColor>ff3030</selectorColor>
+    </menuText> 
+
+</view>
+	
 </theme>
