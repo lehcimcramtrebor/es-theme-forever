@@ -5,10 +5,7 @@
   
 <view name="system">
 
-		<image name="systemInfo_edge, label_edge" extra="true">
-			<color>ffffff</color>
-		</image>
-		
+
 	  <text name="systemInfo">
 
          <color>ffffff</color>
@@ -17,20 +14,13 @@
       </text>
 
 		<image name="systemInfo_frame" extra="true">
-			<color>505050</color>
-			<colorEnd>000000</colorEnd>
-			<gradientType>horizontal</gradientType>
+			<color>50505090</color>
 			</image>
 
 		<image name="label_frame" extra="true">
-			<color>000000</color>
-			<colorEnd>505050</colorEnd>
-			<gradientType>horizontal</gradientType>
+			<color>50505090</color>
 		</image>
-
-		<image name="system_frame" extra="true">
-			<colorEnd>000000</colorEnd>
-		</image>		
+		
 
 </view>
    

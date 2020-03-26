@@ -5,10 +5,10 @@
 <view name="system">
 
 	  <text name="systemInfo">
-        <pos>0 0.8687</pos>
+        <pos>-0.065 0.7</pos>
 		<fontPath>./../_assets/distress.otf</fontPath>
-	    <fontSize>0.1</fontSize>
-        <zIndex>90</zIndex>
+	    <fontSize>0.05</fontSize>
+        <zIndex>26</zIndex>
 		<glowSize>1</glowSize>
       </text>
 	  
