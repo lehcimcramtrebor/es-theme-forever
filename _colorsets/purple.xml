@@ -7,7 +7,7 @@
 
 		<text name="system_label" extra="true">
 			<color>ffffff</color>		
-			<glowColor>ff3030</glowColor>
+			<glowColor>ee82ee</glowColor>
 
 		</text>
 
@@ -15,8 +15,8 @@
 
 	  <text name="systemInfo">
 
-         <color>ffffff</color>
-		 <glowColor>ff3030</glowColor>
+         <color>ee82ee</color>
+		 <glowColor>ffffff</glowColor>
     
       </text>
 
@@ -32,11 +32,11 @@
 		</image> 
 		
       <helpsystem name="help">
-         <iconColor>ff3030</iconColor>
+         <iconColor>ee82ee</iconColor>
       </helpsystem>	 
 
 		<image name="line_bottom" extra="true">
-			<color>ff3030</color>
+			<color>ee82ee</color>
 		</image>
 		
 </view>
@@ -44,7 +44,7 @@
 <view name="menu">  
 
     <menuText name="menutext">
-      <selectorColor>ff3030</selectorColor>
+      <selectorColor>ee82ee</selectorColor>
     </menuText> 
 
 </view>

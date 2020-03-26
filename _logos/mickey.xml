@@ -1,0 +1,25 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+		<text name="system_label" extra="true">
+			<text>${system.name}</text>
+			<fontPath>./../_assets/mickey.ttf</fontPath>
+			<fontSize>0.07</fontSize>
+			<origin>0.5 0.5</origin>
+			<pos>0.435 0.25</pos>
+			<glowSize>3</glowSize>
+			<zIndex>30</zIndex>
+		</text>
+
+
+
+
+   </view> 
+ 
+
+
+</theme>

@@ -1,0 +1,52 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+  
+<view name="system">
+
+		<text name="system_label" extra="true">
+			<color>ffffff</color>		
+			<glowColor>bb0b0b</glowColor>
+
+		</text>
+
+		
+
+	  <text name="systemInfo">
+
+         <color>bb0b0b</color>
+		 <glowColor>ffffff</glowColor>
+    
+      </text>
+
+		
+
+</view>
+   
+<view name="menu, system, basic, detailed, video, grid">  
+
+
+		<image name="frame_bottom" extra="true">
+			<color>000000</color>
+		</image> 
+		
+      <helpsystem name="help">
+         <iconColor>bb0b0b</iconColor>
+      </helpsystem>	 
+
+		<image name="line_bottom" extra="true">
+			<color>bb0b0b</color>
+		</image>
+		
+</view>
+ 
+<view name="menu">  
+
+    <menuText name="menutext">
+      <selectorColor>bb0b0b</selectorColor>
+    </menuText> 
+
+</view>
+	
+</theme>

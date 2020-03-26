@@ -1,0 +1,52 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+  
+<view name="system">
+
+		<text name="system_label" extra="true">
+			<color>ffffff</color>		
+			<glowColor>efd807</glowColor>
+
+		</text>
+
+		
+
+	  <text name="systemInfo">
+
+         <color>efd807</color>
+		 <glowColor>ffffff</glowColor>
+    
+      </text>
+
+		
+
+</view>
+   
+<view name="menu, system, basic, detailed, video, grid">  
+
+
+		<image name="frame_bottom" extra="true">
+			<color>000000</color>
+		</image> 
+		
+      <helpsystem name="help">
+         <iconColor>efd807</iconColor>
+      </helpsystem>	 
+
+		<image name="line_bottom" extra="true">
+			<color>efd807</color>
+		</image>
+		
+</view>
+ 
+<view name="menu">  
+
+    <menuText name="menutext">
+      <selectorColor>efd807</selectorColor>
+    </menuText> 
+
+</view>
+	
+</theme>

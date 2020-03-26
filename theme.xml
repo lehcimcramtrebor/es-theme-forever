@@ -4,25 +4,32 @@
    <formatVersion>7</formatVersion>
 
 <!--		COLORSETS		-->
-
+  <include subset="Colorset" name="Green Apple">./_colorsets/green_apple.xml</include>
+  <include subset="Colorset" name="Cherry">./_colorsets/cherry.xml</include>
+  <include subset="Colorset" name="French Blue">./_colorsets/french_blue.xml</include>
+  <include subset="Colorset" name="Gold Yellow">./_colorsets/gold_yellow.xml</include>
+  <include subset="Colorset" name="Orange">./_colorsets/orange.xml</include>
+  <include subset="Colorset" name="Bubble Gum">./_colorsets/bubble_gum.xml</include>
+  <include subset="Colorset" name="Purple">./_colorsets/purple.xml</include>
+  <include subset="Colorset" name="Salmon">./_colorsets/salmon.xml</include>
   <include subset="Colorset" name="White">./_colorsets/white.xml</include>
-  <include subset="Colorset" name="Red">./_colorsets/red.xml</include>
 
 <!--		LOGOS		-->
 
-  <include subset="Logos" name="Arcade">./_logos/arcade.xml</include>
   <include subset="Logos" name="Mario">./_logos/mario.xml</include>
+  <include subset="Logos" name="Arcade">./_logos/arcade.xml</include>
   <include subset="Logos" name="College">./_logos/college.xml</include>
+  <include subset="Logos" name="Mickey">./_logos/mickey.xml</include>
+  <include subset="Logos" name="Godzilla">./_logos/godzilla.xml</include>
+  <include subset="Logos" name="Chunq">./_logos/chunq.xml</include>
+  <include subset="Logos" name="Adventure">./_logos/adventure.xml</include>
+  <include subset="Logos" name="Top Secret">./_logos/topsecret.xml</include>
 
 <!--		FRAMES TV		-->
 
-  <include subset="TV Frames" name="Yes">./_frames/frames.xml</include>
+  <include subset="TV Frames" name="Transparent">./_frames/transparent_frames.xml</include>
+  <include subset="TV Frames" name="Plain">./_frames/plain_frames.xml</include>
   <include subset="TV Frames" name="No">./nope.xml</include>
-
-<!--		SYSTEM INFO		-->
-
-  <include subset="System Info" name="Distress">./_system_info/distress.xml</include>
-  <include subset="System Info" name="Arcade">./_system_info/arcade.xml</include>
 
 
 <!--		BACKGROUNDS SUBSETS		-->
@@ -215,9 +222,9 @@
 <view name="menu, system, basic, detailed, video, grid">  
 
       <helpsystem name="help">
-<!--         <fontPath>./_assets/arcade.ttf</fontPath> 	-->
+         <fontPath>./_assets/adventure.otf</fontPath>
          <fontSize>0.03</fontSize>      
-         <pos>0.02 0.96</pos>      
+         <pos>0.02 0.965</pos>      
          <textColor>ffffff</textColor>
       </helpsystem>	  
 
@@ -392,6 +399,13 @@
 	  
    </view> 
  
+<!--		SYSTEM INFO		-->
+
+  <include subset="System Info" name="Distress">./_system_info/distress.xml</include>
+  <include subset="System Info" name="Arcade">./_system_info/arcade.xml</include>
+  <include subset="System Info" name="Adventure">./_system_info/adventure.xml</include>
+  <include subset="System Info" name="Top Scret">./_system_info/topsecret.xml</include>
+
 
 
 </theme>
