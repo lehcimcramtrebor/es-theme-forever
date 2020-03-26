@@ -5,27 +5,30 @@
   
 <view name="system">
 
+		<text name="system_label" extra="true">
+			<color>ffffff</color>		
+			<glowColor>000000</glowColor>
+
+		</text>
+
 
 	  <text name="systemInfo">
 
          <color>ffffff</color>
-		 <glowColor>202020</glowColor>
+		 <glowColor>000000</glowColor>
      
       </text>
 
-		<image name="systemInfo_frame" extra="true">
-			<color>50505090</color>
-			</image>
 
-		<image name="label_frame" extra="true">
-			<color>50505090</color>
-		</image>
-		
 
 </view>
    
-<view name="menu, system, basic, detailed, video,grid">  
+<view name="menu, system, basic, detailed, video, grid">  
 
+		<image name="frame_bottom" extra="true">
+			<color>000000</color>
+		</image> 
+		
       <helpsystem name="help">
          <iconColor>ffffff</iconColor>
       </helpsystem>	 

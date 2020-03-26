@@ -5,38 +5,38 @@
   
 <view name="system">
 
+		<text name="system_label" extra="true">
+			<color>ffffff</color>		
+			<glowColor>ff3030</glowColor>
+
+		</text>
 
 		
 
 	  <text name="systemInfo">
 
-         <color>000000</color>
-		 <glowColor>ffffff</glowColor>
+         <color>ffffff</color>
+		 <glowColor>ff3030</glowColor>
     
       </text>
 
-		<image name="systemInfo_frame" extra="true">
-			<color>ff404090</color>
-		</image>
-
-		<image name="label_frame" extra="true">
-			<color>ff404090</color>
-		</image>
-
-		<image name="system_frame" extra="true">
-			<colorEnd>ff303050</colorEnd>
-		</image>		
+		
 
 </view>
    
-<view name="menu, system, basic, detailed, video">  
+<view name="menu, system, basic, detailed, video, grid">  
 
+
+		<image name="frame_bottom" extra="true">
+			<color>000000</color>
+		</image> 
+		
       <helpsystem name="help">
          <iconColor>ff3030</iconColor>
       </helpsystem>	 
 
 		<image name="line_bottom" extra="true">
-			<color>000000</color>
+			<color>ff3030</color>
 		</image>
 		
 </view>

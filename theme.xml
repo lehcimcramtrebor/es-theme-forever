@@ -14,6 +14,11 @@
   <include subset="Logos" name="Mario">./_logos/mario.xml</include>
   <include subset="Logos" name="College">./_logos/college.xml</include>
 
+<!--		FRAMES TV		-->
+
+  <include subset="TV Frames" name="Yes">./_frames/frames.xml</include>
+  <include subset="TV Frames" name="No">./nope.xml</include>
+
 <!--		SYSTEM INFO		-->
 
   <include subset="System Info" name="Distress">./_system_info/distress.xml</include>
@@ -224,6 +229,14 @@
          <zIndex>1</zIndex>                 
       </image>
 
+		<image name="frame_bottom" extra="true">
+			<path>./_assets/white.png</path>
+			<origin>0.5 1</origin>
+			<pos>0.5 1</pos>
+			<size>1 0.05</size>
+			<zIndex>2</zIndex>
+		</image> 
+		
 		<image name="line_bottom" extra="true">
 			<path>./_assets/white.png</path>
 			<origin>0.5 0.5</origin>
@@ -238,7 +251,7 @@
 
 
 		<image name="tv" extra="true">
-			<path>./_assets/test.svg</path>
+			<path>./_assets/tv.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.521</pos>
 			<size>0.684 0.855</size>
@@ -283,24 +296,6 @@
 			<size>0.44 0.6</size>
 			<color>000000</color>
 			<zIndex>20</zIndex>
-		</image>
-
-		<image name="systemInfo_frame" extra="true">
-			<path>./_assets/white.png</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.435 0.735</pos>
-			<size>0.435 0.09</size>
-			<zIndex>23</zIndex>
-		</image>
-
-
-				
-		<image name="label_frame" extra="true">
-			<path>./_assets/white.png</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.435 0.25</pos>
-			<size>0.435 0.11</size>
-			<zIndex>24</zIndex>
 		</image>
 
   
