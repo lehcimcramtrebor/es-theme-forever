@@ -10,7 +10,7 @@
 			<fontPath>./../_assets/godzilla.ttf</fontPath>
 			<fontSize>0.07</fontSize>
 			<origin>0.5 0.5</origin>
-			<pos>0.435 0.25</pos>
+			<pos>0.585 0.25</pos>
 			<glowSize>5</glowSize>
 			<zIndex>30</zIndex>
 		</text>

@@ -3,6 +3,20 @@
 <theme>
    <formatVersion>7</formatVersion>
 
+<!--		ILLUSTRATIONS		-->
+
+  <include subset="Illustration" name="Sonic">./_illustrations/sonic.xml</include>
+  <include subset="Illustration" name="Mario">./_illustrations/mario.xml</include>
+  <include subset="Illustration" name="Luigi">./_illustrations/luigi.xml</include>
+  <include subset="Illustration" name="Ryu">./_illustrations/ryu.xml</include>
+  <include subset="Illustration" name="Goku">./_illustrations/goku.xml</include>
+
+  <include subset="Illustration" name="Shadow of Sonic">./_illustrations/sonic_shadow.xml</include>
+  <include subset="Illustration" name="Shadow of Mario">./_illustrations/mario_shadow.xml</include>
+  <include subset="Illustration" name="Shadow of Luigi">./_illustrations/luigi_shadow.xml</include>
+  <include subset="Illustration" name="Shadow of Ryu">./_illustrations/ryu_shadow.xml</include>
+  <include subset="Illustration" name="Shadow of Goku">./_illustrations/goku_shadow.xml</include>
+
 <!--		COLORSETS		-->
   <include subset="Colorset" name="Green Apple">./_colorsets/green_apple.xml</include>
   <include subset="Colorset" name="Cherry">./_colorsets/cherry.xml</include>
@@ -101,8 +115,6 @@
   <include subset="Background" name="Retro Game-04">./_backgrounds/retrogame/04.xml</include>
   <include subset="Background" name="Retro Game-05">./_backgrounds/retrogame/05.xml</include>
   <include subset="Background" name="Retro Game-06">./_backgrounds/retrogame/06.xml</include>
-  <include subset="Background" name="Retro Game-07">./_backgrounds/retrogame/07.xml</include>
-  <include subset="Background" name="Retro Game-08">./_backgrounds/retrogame/08.xml</include>
 
 
 
@@ -219,6 +231,109 @@
 
   </view>
 
+<view name="system">
+
+
+		<image name="tv" extra="true">
+			<path>./_assets/tv.svg</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.65 0.521</pos>
+			<size>0.684 0.855</size>
+			<color>ffffff</color>
+			<zIndex>36</zIndex>
+		</image>
+
+		<image name="tv_shadow" extra="true">
+			<path>./_assets/tv.svg</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.66 0.541</pos>
+			<size>0.684 0.855</size>
+			<color>00000050</color>
+			<zIndex>2</zIndex>
+		</image>
+		
+			<image name="screen_effect" extra="true">
+				<size>0.44 0.6</size>
+				<pos>0.585 0.485</pos>
+				<origin>0.5 0.5</origin>
+				<tile>true</tile>
+				<zIndex>35</zIndex>
+			</image>	  
+
+	    <video name="tv_effect" extra="true">
+				<size>0.44 0.6</size>
+				<pos>0.585 0.485</pos>
+				<origin>0.5 0.5</origin>
+				<zIndex>34</zIndex>
+		</video>
+		
+    <video name="backgroundvideo" extra="true">
+		<path>{random}</path>
+		<path>./CUSTOMIZE_YOUR_THEME/videos/${system.theme}.mp4</path>                 		
+		<origin>0.5 0.5</origin>
+		<pos>0.585 0.485</pos>
+		<size>0.5 0.57</size>
+		<delay>0.6</delay>
+		<effect>none</effect>		
+		<default>./../_assets/noise.mp4</default>
+		<showSnapshotNoVideo>false</showSnapshotNoVideo>
+		<showSnapshotDelay>false</showSnapshotDelay>
+		<color>ffffff</color>
+		<zIndex>21</zIndex>      
+    </video>
+
+		<image name="video_black" extra="true">
+			<path>./_assets/white.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.585 0.485</pos>
+			<size>0.44 0.6</size>
+			<color>000000</color>
+			<zIndex>20</zIndex>
+		</image>
+
+  
+      <carousel name="systemcarousel">
+        <color>00000000</color>
+		<pos>1 1</pos>
+		<defaultTransition>instant</defaultTransition>
+      </carousel>
+
+		<image name="systemInfo_frame" extra="true">
+			<path>./_assets/white.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.585 0.735</pos>
+			<size>0.435 0.09</size>
+			<zIndex>23</zIndex>
+		</image>
+
+
+				
+		<image name="label_frame" extra="true">
+			<path>./_assets/white.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.585 0.25</pos>
+			<size>0.435 0.11</size>
+			<zIndex>24</zIndex>
+		</image>
+
+		<image name="line_up" extra="true">
+			<path>./_assets/white.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.585 0.306</pos>
+			<size>0.5 0.002</size>
+			<zIndex>22</zIndex>
+		</image>
+
+		<image name="line_down" extra="true">
+			<path>./_assets/white.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.585 0.687</pos>
+			<size>0.5 0.002</size>
+			<zIndex>22</zIndex>
+		</image>
+		
+</view>
+
 <view name="menu, system, basic, detailed, video, grid">  
 
       <helpsystem name="help">
@@ -241,7 +356,7 @@
 			<origin>0.5 1</origin>
 			<pos>0.5 1</pos>
 			<size>1 0.05</size>
-			<zIndex>2</zIndex>
+			<zIndex>3</zIndex>
 		</image> 
 		
 		<image name="line_bottom" extra="true">
@@ -251,99 +366,6 @@
 			<size>1 0.002</size>
 			<zIndex>200</zIndex>
 		</image> 
-		
-</view>
-  
-<view name="system">
-
-
-		<image name="tv" extra="true">
-			<path>./_assets/tv.svg</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.521</pos>
-			<size>0.684 0.855</size>
-			<color>ffffff</color>
-			<zIndex>36</zIndex>
-		</image>
-		
-			<image name="screen_effect" extra="true">
-				<size>0.44 0.6</size>
-				<pos>0.435 0.485</pos>
-				<origin>0.5 0.5</origin>
-				<tile>true</tile>
-				<zIndex>35</zIndex>
-			</image>	  
-
-	    <video name="tv_effect" extra="true">
-				<size>0.44 0.6</size>
-				<pos>0.435 0.485</pos>
-				<origin>0.5 0.5</origin>
-				<zIndex>34</zIndex>
-		</video>
-		
-    <video name="backgroundvideo" extra="true">
-		<path>{random}</path>
-		<path>./CUSTOMIZE_YOUR_THEME/videos/${system.theme}.mp4</path>                 		
-		<origin>0.5 0.5</origin>
-		<pos>0.435 0.485</pos>
-		<size>0.435 0.57</size>
-		<delay>0.6</delay>
-		<effect>none</effect>		
-		<default>./_assets/noise.mp4</default>
-		<showSnapshotNoVideo>false</showSnapshotNoVideo>
-		<showSnapshotDelay>false</showSnapshotDelay>
-		<color>ffffff</color>
-		<zIndex>21</zIndex>      
-    </video>
-
-		<image name="video_black" extra="true">
-			<path>./_assets/white.png</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.435 0.485</pos>
-			<size>0.44 0.6</size>
-			<color>000000</color>
-			<zIndex>20</zIndex>
-		</image>
-
-  
-      <carousel name="systemcarousel">
-        <color>00000000</color>
-		<pos>1 1</pos>
-      </carousel>
-
-		<image name="systemInfo_frame" extra="true">
-			<path>./_assets/white.png</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.435 0.735</pos>
-			<size>0.435 0.09</size>
-			<zIndex>23</zIndex>
-		</image>
-
-
-				
-		<image name="label_frame" extra="true">
-			<path>./_assets/white.png</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.435 0.25</pos>
-			<size>0.435 0.11</size>
-			<zIndex>24</zIndex>
-		</image>
-
-		<image name="line_up" extra="true">
-			<path>./_assets/white.png</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.435 0.306</pos>
-			<size>0.435 0.002</size>
-			<zIndex>22</zIndex>
-		</image>
-
-		<image name="line_down" extra="true">
-			<path>./_assets/white.png</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.435 0.687</pos>
-			<size>0.435 0.002</size>
-			<zIndex>22</zIndex>
-		</image>
 		
 </view>
    
