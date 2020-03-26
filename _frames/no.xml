@@ -7,21 +7,21 @@
 <view name="system">
 
 		<image name="systemInfo_frame" extra="true">
-			<color>00000099</color>			
+			<visible>false</visible>			
 		</image>
 
 
 				
 		<image name="label_frame" extra="true">
-			<color>00000099</color>
+			<visible>false</visible>			
 		</image>
 
 		<image name="line_up" extra="true">
-			<color>ffffff</color>			
+			<visible>false</visible>			
 		</image>
 
 		<image name="line_down" extra="true">
-			<color>ffffff</color>			
+			<visible>false</visible>			
 		</image>
 		
    </view> 
