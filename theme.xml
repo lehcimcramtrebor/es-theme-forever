@@ -9,11 +9,11 @@
   <include subset="Colorset" name="Red">./_colorsets/red.xml</include>
 
 <!--		LOGOS		-->
-
+<!--
   <include subset="Logos" name="Arcade">./_logos/arcade.xml</include>
   <include subset="Logos" name="Mario">./_logos/mario.xml</include>
   <include subset="Logos" name="College">./_logos/college.xml</include>
-
+-->
 <!--		SYSTEM INFO		-->
 
   <include subset="System Info" name="Distress">./_system_info/distress.xml</include>
@@ -267,7 +267,7 @@
 		<origin>0.5 0.5</origin>
 		<pos>0.45 0.493</pos>
 		<maxSize>0.335 1</maxSize>
-		<delay>0.01</delay>
+		<delay>0.6</delay>
 		<effect>none</effect>		
 		<default>./_assets/noise.mp4</default>
 		<showSnapshotNoVideo>false</showSnapshotNoVideo>
