@@ -5,6 +5,7 @@
   
 <view name="system">
 
+		
 		<text name="system_label" extra="true">
 			<color>ffffff</color>		
 			<glowColor>fd5da8</glowColor>
@@ -26,6 +27,9 @@
    
 <view name="menu, system, basic, detailed, video, grid">  
 
+		<image name="tv" extra="true">
+			<path>./../_assets/tv_bubble_gum.svg</path>
+		</image>
 
 		<image name="frame_bottom" extra="true">
 			<color>000000</color>
