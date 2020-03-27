@@ -339,7 +339,7 @@
       <helpsystem name="help">
          <fontPath>./_assets/adventure.otf</fontPath>
          <fontSize>0.03</fontSize>      
-         <pos>0.02 0.965</pos>      
+         <pos>0.02 0.96</pos>      
          <textColor>ffffff</textColor>
       </helpsystem>	  
 
