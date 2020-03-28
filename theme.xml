@@ -307,7 +307,7 @@
 		<text name="logoText">
 			<text>${system.name}</text>
 			<fontPath>./_assets/label.ttf</fontPath>
-			<fontSize>0.06</fontSize>
+			<fontSize>0.046</fontSize>
 			<color>ffffff</color>
 			<glowColor>000000</glowColor>
 			<glowSize>3</glowSize>
