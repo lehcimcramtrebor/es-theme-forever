@@ -9,14 +9,14 @@
         <type>vertical_wheel</type>
 		<origin>1 0</origin>
         <pos>1 -0.1</pos>
-		<size>0.22 1.12</size>
+		<size>0.27 1.12</size>
         <logoScale>1</logoScale>
-        <logoSize>0.18 0.10</logoSize>
+        <logoSize>0.27 0.10</logoSize>
         <color>00000000</color>
-		<logoRotation>-22</logoRotation>
-		<logoRotationOrigin>2 0.5</logoRotationOrigin>
-		<logoAlignment>left</logoAlignment>
-        <maxLogoCount>8</maxLogoCount>
+		<logoRotation>25</logoRotation>
+		<logoRotationOrigin>1.25 0.5</logoRotationOrigin>
+		<logoAlignment>center</logoAlignment>
+        <maxLogoCount>9</maxLogoCount>
 		<zIndex>3</zIndex>
 		<defaultTransition>instant</defaultTransition>
 		</carousel>

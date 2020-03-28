@@ -268,7 +268,7 @@
 		<path>./CUSTOMIZE_YOUR_THEME/videos/${system.theme}.mp4</path>                 		
 		<origin>0.5 0.5</origin>
 		<pos>0.5 0.4835</pos>
-		<size>0.4 0.48</size>
+		<size>0.4 0.485</size>
 		<delay>0.6</delay>
 		<effect>none</effect>		
 		<default>./_assets/noise.mp4</default>
@@ -282,7 +282,7 @@
 			<path>./_assets/white.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.4835</pos>
-			<size>0.4 0.48</size>
+			<size>0.4 0.485</size>
 			<color>000000</color>
 			<zIndex>20</zIndex>
 		</image>
@@ -290,7 +290,7 @@
 		<text name="logoText">
 			<text>${system.name}</text>
 			<fontPath>./_assets/label.ttf</fontPath>
-			<fontSize>0.046</fontSize>
+			<fontSize>0.04</fontSize>
 			<glowSize>2</glowSize>
 
 		</text>
@@ -329,7 +329,7 @@
 		<image name="line_down" extra="true">
 			<path>./_assets/white.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.5 0.632</pos>
+			<pos>0.5 0.634</pos>
 			<size>0.4 0.002</size>
 			<zIndex>22</zIndex>
 		</image>
