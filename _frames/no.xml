@@ -10,16 +10,6 @@
 			<visible>false</visible>			
 		</image>
 
-
-				
-		<image name="label_frame" extra="true">
-			<visible>false</visible>			
-		</image>
-
-		<image name="line_up" extra="true">
-			<visible>false</visible>			
-		</image>
-
 		<image name="line_down" extra="true">
 			<visible>false</visible>			
 		</image>

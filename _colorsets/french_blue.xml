@@ -7,8 +7,8 @@
 
 		
 		<text name="system_label" extra="true">
-			<color>ffffff</color>		
-			<glowColor>318ce7</glowColor>
+			<color>318ce7</color>		
+			<glowColor>318ce712</glowColor>
 
 		</text>
 
@@ -26,10 +26,6 @@
 </view>
    
 <view name="menu, system, basic, detailed, video, grid">  
-
-		<image name="tv" extra="true">
-			<path>./../_assets/tv_french_blue.svg</path>
-		</image>
 
 		<image name="frame_bottom" extra="true">
 			<color>000000</color>

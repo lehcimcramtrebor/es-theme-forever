@@ -8,8 +8,8 @@
 
 		
 		<text name="system_label" extra="true">
-			<color>ffffff</color>		
-			<glowColor>f88e55</glowColor>
+			<color>f88e55</color>		
+			<glowColor>f88e5512</glowColor>
 
 		</text>
 
@@ -27,11 +27,7 @@
 </view>
    
 <view name="menu, system, basic, detailed, video, grid">  
-
-		<image name="tv" extra="true">
-			<path>./../_assets/tv_salmon.svg</path>
-		</image>
-		
+	
 		<image name="frame_bottom" extra="true">
 			<color>000000</color>
 		</image> 

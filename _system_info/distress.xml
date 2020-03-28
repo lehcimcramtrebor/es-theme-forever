@@ -5,7 +5,7 @@
 <view name="system">
 
 	  <text name="systemInfo">
-        <pos>0.085 0.7</pos>
+        <pos>0 0.64</pos>
 		<fontPath>./../_assets/distress.otf</fontPath>
 	    <fontSize>0.05</fontSize>
         <zIndex>26</zIndex>

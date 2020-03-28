@@ -28,16 +28,6 @@
   <include subset="Colorset" name="Salmon">./_colorsets/salmon.xml</include>
   <include subset="Colorset" name="White">./_colorsets/white.xml</include>
 
-<!--		LOGOS		-->
-
-  <include subset="Logos" name="Mario">./_logos/mario.xml</include>
-  <include subset="Logos" name="Arcade">./_logos/arcade.xml</include>
-  <include subset="Logos" name="College">./_logos/college.xml</include>
-  <include subset="Logos" name="Mickey">./_logos/mickey.xml</include>
-  <include subset="Logos" name="Godzilla">./_logos/godzilla.xml</include>
-  <include subset="Logos" name="Chunq">./_logos/chunq.xml</include>
-  <include subset="Logos" name="Adventure">./_logos/adventure.xml</include>
-  <include subset="Logos" name="Top Secret">./_logos/topsecret.xml</include>
 
 <!--		FRAMES TV		-->
 
@@ -235,34 +225,34 @@
 
 
 		<image name="tv" extra="true">
-<!--			path by subset		-->
+			<path>./_assets/cabinet.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.65 0.521</pos>
-			<size>0.684 0.855</size>
+			<pos>0.5 0.45</pos>
+			<size>0.7817589576 1</size>
 			<color>ffffff</color>
 			<zIndex>36</zIndex>
 		</image>
 
 		<image name="tv_shadow" extra="true">
-			<path>./_assets/tv.svg</path>
+			<path>./_assets/cabinet.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.66 0.541</pos>
-			<size>0.684 0.855</size>
+			<pos>0.51 0.47</pos>
+			<size>0.7817589576 1</size>
 			<color>00000050</color>
 			<zIndex>2</zIndex>
 		</image>
 		
 			<image name="screen_effect" extra="true">
-				<size>0.44 0.6</size>
-				<pos>0.585 0.485</pos>
+				<pos>0.5 0.4835</pos>
+				<size>0.4 0.48</size>
 				<origin>0.5 0.5</origin>
 				<tile>true</tile>
 				<zIndex>35</zIndex>
 			</image>	  
 
 	    <video name="tv_effect" extra="true">
-				<size>0.44 0.6</size>
-				<pos>0.585 0.485</pos>
+				<pos>0.5 0.4835</pos>
+				<size>0.4 0.48</size>
 				<origin>0.5 0.5</origin>
 				<zIndex>34</zIndex>
 		</video>
@@ -271,11 +261,11 @@
 		<path>{random}</path>
 		<path>./CUSTOMIZE_YOUR_THEME/videos/${system.theme}.mp4</path>                 		
 		<origin>0.5 0.5</origin>
-		<pos>0.585 0.485</pos>
-		<size>0.5 0.57</size>
+		<pos>0.5 0.4835</pos>
+		<size>0.4 0.48</size>
 		<delay>0.6</delay>
 		<effect>none</effect>		
-		<default>./../_assets/noise.mp4</default>
+		<default>./_assets/noise.mp4</default>
 		<showSnapshotNoVideo>false</showSnapshotNoVideo>
 		<showSnapshotDelay>false</showSnapshotDelay>
 		<color>ffffff</color>
@@ -285,50 +275,71 @@
 		<image name="video_black" extra="true">
 			<path>./_assets/white.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.585 0.485</pos>
-			<size>0.44 0.6</size>
+			<pos>0.5 0.4835</pos>
+			<size>0.4 0.48</size>
 			<color>000000</color>
 			<zIndex>20</zIndex>
 		</image>
 
-  
+ <!-- 
       <carousel name="systemcarousel">
         <color>00000000</color>
 		<pos>1 1</pos>
 		<defaultTransition>instant</defaultTransition>
       </carousel>
+-->
+      <carousel name="systemcarousel">
+        <type>vertical_wheel</type>
+		<origin>1 0</origin>
+        <pos>1 -0.12</pos>
+		<size>0.27 1.12</size>
+        <logoScale>2</logoScale>
+        <logoSize>0.18 0.10</logoSize>
+        <color>00000000</color>
+		<logoRotation>-13</logoRotation>
+		<logoRotationOrigin>4 0.5</logoRotationOrigin>
+		<logoAlignment>center</logoAlignment>
+        <maxLogoCount>7</maxLogoCount>
+		<zIndex>3</zIndex>
+		<defaultTransition>instant</defaultTransition>
+		</carousel>
+		
+		<text name="logoText">
+			<text>${system.name}</text>
+			<fontPath>./_assets/label.ttf</fontPath>
+			<fontSize>0.06</fontSize>
+			<color>ffffff</color>
+			<glowColor>000000</glowColor>
+			<glowSize>3</glowSize>
 
+		</text>
+		
+		<text name="system_label" extra="true">
+			<text>${system.fullName}</text>
+			<fontPath>./_assets/arcade_r.ttf</fontPath>
+			<fontSize>0.026</fontSize>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.095</pos>
+			<forceUppercase>false</forceUppercase>
+			<size>0.4 0.1</size>
+			<alignment>center</alignment>
+			<glowSize>2</glowSize>
+			<zIndex>900</zIndex>
+		</text>
+	
 		<image name="systemInfo_frame" extra="true">
 			<path>./_assets/white.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.585 0.735</pos>
-			<size>0.435 0.09</size>
+			<pos>0.5 0.68</pos>
+			<size>0.4 0.09</size>
 			<zIndex>23</zIndex>
-		</image>
-
-
-				
-		<image name="label_frame" extra="true">
-			<path>./_assets/white.png</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.585 0.25</pos>
-			<size>0.435 0.11</size>
-			<zIndex>24</zIndex>
-		</image>
-
-		<image name="line_up" extra="true">
-			<path>./_assets/white.png</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.585 0.306</pos>
-			<size>0.5 0.002</size>
-			<zIndex>22</zIndex>
 		</image>
 
 		<image name="line_down" extra="true">
 			<path>./_assets/white.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.585 0.687</pos>
-			<size>0.5 0.002</size>
+			<pos>0.5 0.632</pos>
+			<size>0.4 0.002</size>
 			<zIndex>22</zIndex>
 		</image>
 		
