@@ -5,7 +5,11 @@
   
 <view name="system">
 
-
+		<text name="logoText">
+			<color>000000</color>
+			<glowColor>ffffff</glowColor>
+		</text>
+			
 		<text name="system_label" extra="true">
 			<color>ffffff</color>		
 			<glowColor>ffffff08</glowColor>

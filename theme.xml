@@ -3,6 +3,12 @@
 <theme>
    <formatVersion>7</formatVersion>
 
+<!--		CAROUSELS		-->
+
+  <include subset="Carousel" name="Wheel">./_carousels/wheel.xml</include>
+  <include subset="Carousel" name="Vertical">./_carousels/vertical.xml</include>
+  <include subset="Carousel" name="Jukebox">./_carousels/jukebox.xml</include>
+
 <!--		ILLUSTRATIONS		-->
 
   <include subset="Illustration" name="Sonic">./_illustrations/sonic.xml</include>
@@ -280,37 +286,12 @@
 			<color>000000</color>
 			<zIndex>20</zIndex>
 		</image>
-
- <!-- 
-      <carousel name="systemcarousel">
-        <color>00000000</color>
-		<pos>1 1</pos>
-		<defaultTransition>instant</defaultTransition>
-      </carousel>
--->
-      <carousel name="systemcarousel">
-        <type>vertical_wheel</type>
-		<origin>1 0</origin>
-        <pos>1 -0.12</pos>
-		<size>0.27 1.12</size>
-        <logoScale>2</logoScale>
-        <logoSize>0.18 0.10</logoSize>
-        <color>00000000</color>
-		<logoRotation>-13</logoRotation>
-		<logoRotationOrigin>4 0.5</logoRotationOrigin>
-		<logoAlignment>center</logoAlignment>
-        <maxLogoCount>7</maxLogoCount>
-		<zIndex>3</zIndex>
-		<defaultTransition>instant</defaultTransition>
-		</carousel>
 		
 		<text name="logoText">
 			<text>${system.name}</text>
 			<fontPath>./_assets/label.ttf</fontPath>
 			<fontSize>0.046</fontSize>
-			<color>ffffff</color>
-			<glowColor>000000</glowColor>
-			<glowSize>3</glowSize>
+			<glowSize>2</glowSize>
 
 		</text>
 		
@@ -326,7 +307,17 @@
 			<glowSize>2</glowSize>
 			<zIndex>900</zIndex>
 		</text>
-	
+
+	  <text name="systemInfo">
+        <pos>0 0.64</pos>
+		<fontPath>./_assets/arcade.ttf</fontPath>
+	    <fontSize>0.027</fontSize>
+        <zIndex>26</zIndex>
+		<color>ffffff</color>
+		<glowColor>000000</glowColor>
+		<glowSize>3</glowSize>
+      </text> 
+   
 		<image name="systemInfo_frame" extra="true">
 			<path>./_assets/white.png</path>
 			<origin>0.5 0.5</origin>
@@ -466,13 +457,4 @@
 	  
    </view> 
  
-<!--		SYSTEM INFO		-->
-
-  <include subset="System Info" name="Distress">./_system_info/distress.xml</include>
-  <include subset="System Info" name="Arcade">./_system_info/arcade.xml</include>
-  <include subset="System Info" name="Adventure">./_system_info/adventure.xml</include>
-  <include subset="System Info" name="Top Scret">./_system_info/topsecret.xml</include>
-
-
-
 </theme>
