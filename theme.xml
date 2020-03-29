@@ -3,6 +3,12 @@
 <theme>
    <formatVersion>7</formatVersion>
 
+<!--		MUSIC			-->
+
+  <include subset="Music" name="No">./nope.xml</include>
+  <include subset="Music" name="Batocera JukeBox (Retrobat Users)">./jukebox.xml</include>
+  <include subset="Music" name="Custom Sounds">./custom_sound.xml</include>
+
 <!--		CAROUSELS		-->
 
   <include subset="Carousel" name="Wheel">./_carousels/wheel.xml</include>
@@ -246,7 +252,6 @@
   </view>
 
 <view name="system">
-
 
 		<image name="cabinet" extra="true">
 			<origin>0.5 0.5</origin>
