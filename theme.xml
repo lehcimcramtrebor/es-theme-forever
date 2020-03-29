@@ -9,10 +9,12 @@
   <include subset="Carousel" name="Vertical">./_carousels/vertical.xml</include>
   <include subset="Carousel" name="Jukebox">./_carousels/jukebox.xml</include>
 
+  <include subset="Carousel" name="No Carousel">./_carousels/no_carousel.xml</include>
+
 <!--		CABINETS		-->
 
-  <include subset="Caninet" name="Default">./_cabinets/cabinet_default.xml</include>
-  <include subset="Caninet" name="Grey">./_cabinets/cabinet_grey.xml</include>
+  <include subset="Cabinet" name="Default">./_cabinets/cabinet_default.xml</include>
+  <include subset="Cabinet" name="Grey">./_cabinets/cabinet_grey.xml</include>
 
 <!--		ILLUSTRATIONS		-->
 
@@ -39,6 +41,8 @@
   <include subset="Illustration" name="Shadow of Hulk">./_illustrations/hulk_shadow.xml</include>
   <include subset="Illustration" name="Shadow of Mickey">./_illustrations/mickey_shadow.xml</include>
   <include subset="Illustration" name="Shadow of Minnie">./_illustrations/minnie_shadow.xml</include>
+
+  <include subset="Illustration" name="No Illustration">./nope.xml</include>
 
 <!--		COLORSETS		-->
   <include subset="Colorset" name="Green Apple">./_colorsets/green_apple.xml</include>
@@ -153,9 +157,6 @@
   <include subset="Background" name="Squares-06">./_backgrounds/squares/06.xml</include>
   <include subset="Background" name="Squares-07">./_backgrounds/squares/07.xml</include>
   <include subset="Background" name="Squares-08">./_backgrounds/squares/08.xml</include>
-
-
-
 
 <!------STATIC EFFECTS------>
 
@@ -302,13 +303,7 @@
 			<zIndex>20</zIndex>
 		</image>
 		
-		<text name="logoText">
-			<text> ${system.name} </text>
-			<fontPath>./_assets/label.ttf</fontPath>
-			<fontSize>0.04</fontSize>
-			<glowSize>2</glowSize>
 
-		</text>
 		
 		<text name="system_label" extra="true">
 			<text>${system.fullName}</text>
@@ -471,5 +466,11 @@
     </video>
 	  
    </view> 
- 
+
+<!--		CUSTOM BACKGROUNDS		-->
+
+  <include subset="Background" name="Custom Fixed Tile">./_backgrounds/custom/tile.xml</include>
+  <include subset="Background" name="Custom Fixed Background">./_backgrounds/custom/background.xml</include>
+  <include subset="Background" name="Custom by System">./_backgrounds/custom/system.xml</include>
+
 </theme>

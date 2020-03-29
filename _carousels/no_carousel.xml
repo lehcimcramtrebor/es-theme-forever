@@ -3,26 +3,22 @@
 <theme>
    <formatVersion>7</formatVersion>
 
-<include>./logo.xml</include>
-
 <view name="system">
 
       <carousel name="systemcarousel">
         <type>vertical</type>
 		<origin>1 0</origin>
-        <pos>1 -0.1</pos>
-		<size>0.27 1.12</size>
-        <logoScale>1</logoScale>
-        <logoSize>0.27 0.10</logoSize>
+        <pos>0 1</pos>
+		<size>0.1 0.1</size>
         <color>00000000</color>
-		<logoRotation>-22</logoRotation>
-		<logoRotationOrigin>2 0.5</logoRotationOrigin>
-		<logoAlignment>center</logoAlignment>
-        <maxLogoCount>8</maxLogoCount>
 		<zIndex>3</zIndex>
 		<defaultTransition>instant</defaultTransition>
 		</carousel>
-		
+
+		<text name="logoText">
+			<text>essai</text>
+		</text>		
+
 </view>
 
 </theme>

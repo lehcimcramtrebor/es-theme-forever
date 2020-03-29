@@ -3,6 +3,8 @@
 <theme>
    <formatVersion>7</formatVersion>
 
+<include>./logo.xml</include>
+
 <view name="system">
 
       <carousel name="systemcarousel">
