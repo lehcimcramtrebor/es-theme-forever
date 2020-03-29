@@ -6,7 +6,6 @@
 <!--		MUSIC			-->
 
   <include subset="Music" name="No">./nope.xml</include>
-  <include subset="Music" name="Batocera JukeBox (Retrobat Users)">./jukebox.xml</include>
   <include subset="Music" name="Custom Sounds">./custom_sound.xml</include>
 
 <!--		CAROUSELS		-->
