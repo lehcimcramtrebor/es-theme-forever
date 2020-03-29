@@ -9,6 +9,11 @@
   <include subset="Carousel" name="Vertical">./_carousels/vertical.xml</include>
   <include subset="Carousel" name="Jukebox">./_carousels/jukebox.xml</include>
 
+<!--		CABINETS		-->
+
+  <include subset="Caninet" name="Default">./_cabinets/cabinet_default.xml</include>
+  <include subset="Caninet" name="Grey">./_cabinets/cabinet_grey.xml</include>
+
 <!--		ILLUSTRATIONS		-->
 
   <include subset="Illustration" name="Sonic">./_illustrations/sonic.xml</include>
@@ -242,8 +247,7 @@
 <view name="system">
 
 
-		<image name="tv" extra="true">
-			<path>./_assets/cabinet.png</path>
+		<image name="cabinet" extra="true">
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.45</pos>
 			<size>0.7817589576 1</size>
@@ -251,8 +255,7 @@
 			<zIndex>36</zIndex>
 		</image>
 
-		<image name="tv_shadow" extra="true">
-			<path>./_assets/cabinet.png</path>
+		<image name="cabinet_shadow" extra="true">
 			<origin>0.5 0.5</origin>
 			<pos>0.51 0.47</pos>
 			<size>0.7817589576 1</size>
