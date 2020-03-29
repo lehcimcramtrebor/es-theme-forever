@@ -11,11 +11,6 @@
 		</text>
 			
 		
-		<text name="system_label" extra="true">
-			<color>f88e55</color>		
-			<glowColor>f88e5512</glowColor>
-
-		</text>
 
 		
 
@@ -31,6 +26,12 @@
 </view>
    
 <view name="menu, system, basic, detailed, video, grid">  
+
+		<text name="system_label" extra="true">
+			<color>f88e55</color>		
+			<glowColor>f88e5512</glowColor>
+
+		</text>
 	
 		<image name="frame_bottom" extra="true">
 			<color>000000</color>

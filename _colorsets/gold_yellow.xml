@@ -10,11 +10,7 @@
 			<glowColor>000000</glowColor>
 		</text>
 				
-		<text name="system_label" extra="true">
-			<color>efd807</color>		
-			<glowColor>efd80712</glowColor>
 
-		</text>
 
 		
 
@@ -31,6 +27,12 @@
    
 <view name="menu, system, basic, detailed, video, grid">  
 
+		<text name="system_label" extra="true">
+			<color>efd807</color>		
+			<glowColor>efd80712</glowColor>
+
+		</text>
+		
 		<image name="frame_bottom" extra="true">
 			<color>000000</color>
 		</image> 

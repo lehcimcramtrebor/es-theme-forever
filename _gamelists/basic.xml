@@ -1,0 +1,54 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme defaultView="basic">
+
+   <formatVersion>7</formatVersion>
+  
+	<view name="basic">
+      
+		<image name="cabinet" extra="true">
+			<pos>0.5 0.45</pos>
+		</image>
+		
+		<image name="cabinet_shadow" extra="true">
+			<pos>0.51 0.47</pos>
+		</image>
+		
+			<image name="screen_effect" extra="true">
+				<pos>0.5 0.4835</pos>
+			</image>	  
+
+	    <video name="tv_effect" extra="true">
+				<pos>0.5 0.4835</pos>
+		</video>
+
+		<image name="video_black" extra="true">
+			<pos>0.5 0.4835</pos>
+		</image>
+		
+		<text name="system_label" extra="true">
+			<pos>0.5 0.095</pos>
+		</text>
+		
+	  <textlist name="gamelist">
+		 <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <size>0.40 0.4835</size>
+         <selectorColor>f8f6f6aa</selectorColor>
+         <selectedColor>0B2161</selectedColor>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+         <fontPath>./../_assets/adventure.otf</fontPath>
+         <fontSize>0.032</fontSize>
+         <alignment>center</alignment>
+		 <horizontalMargin>0.01</horizontalMargin>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound>./_inc/scroll.wav</scrollSound>
+		 <lineSpacing>2.2</lineSpacing>
+		 <zIndex>21</zIndex>
+      </textlist>	  
+	</view> 
+   
+
+</theme>

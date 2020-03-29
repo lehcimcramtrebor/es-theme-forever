@@ -10,11 +10,6 @@
 			<glowColor>ffffff</glowColor>
 		</text>
 			
-		<text name="system_label" extra="true">
-			<color>ffffff</color>		
-			<glowColor>ffffff08</glowColor>
-
-		</text>
 
 
 	  <text name="systemInfo">
@@ -29,6 +24,12 @@
 </view>
    
 <view name="menu, system, basic, detailed, video, grid">  
+
+		<text name="system_label" extra="true">
+			<color>ffffff</color>		
+			<glowColor>ffffff08</glowColor>
+
+		</text>
 
 		<image name="frame_bottom" extra="true">
 			<color>000000</color>

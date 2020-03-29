@@ -28,24 +28,15 @@
   <include subset="Illustration" name="Luigi">./_illustrations/luigi.xml</include>
   <include subset="Illustration" name="Ryu">./_illustrations/ryu.xml</include>
   <include subset="Illustration" name="Goku">./_illustrations/goku.xml</include>
+  <include subset="Illustration" name="Bulma">./_illustrations/bulma.xml</include> 
+  <include subset="Illustration" name="Krillin">./_illustrations/krillin.xml</include> 
+  <include subset="Illustration" name="Donald">./_illustrations/donald.xml</include>
   <include subset="Illustration" name="Link">./_illustrations/link.xml</include>
   <include subset="Illustration" name="Yoshi">./_illustrations/yoshi.xml</include>
   <include subset="Illustration" name="Spiderman">./_illustrations/spiderman.xml</include>
   <include subset="Illustration" name="Hulk">./_illustrations/hulk.xml</include>
   <include subset="Illustration" name="Mickey">./_illustrations/mickey.xml</include>
   <include subset="Illustration" name="Minnie">./_illustrations/minnie.xml</include>
-
-  <include subset="Illustration" name="Shadow of Sonic">./_illustrations/sonic_shadow.xml</include>
-  <include subset="Illustration" name="Shadow of Mario">./_illustrations/mario_shadow.xml</include>
-  <include subset="Illustration" name="Shadow of Luigi">./_illustrations/luigi_shadow.xml</include>
-  <include subset="Illustration" name="Shadow of Ryu">./_illustrations/ryu_shadow.xml</include>
-  <include subset="Illustration" name="Shadow of Goku">./_illustrations/goku_shadow.xml</include>
-  <include subset="Illustration" name="Shadow of Link">./_illustrations/link_shadow.xml</include>
-  <include subset="Illustration" name="Shadow of Yoshi">./_illustrations/yoshi_shadow.xml</include>
-  <include subset="Illustration" name="Shadow of Spiderman">./_illustrations/spiderman_shadow.xml</include>
-  <include subset="Illustration" name="Shadow of Hulk">./_illustrations/hulk_shadow.xml</include>
-  <include subset="Illustration" name="Shadow of Mickey">./_illustrations/mickey_shadow.xml</include>
-  <include subset="Illustration" name="Shadow of Minnie">./_illustrations/minnie_shadow.xml</include>
 
   <include subset="Illustration" name="No Illustration">./nope.xml</include>
 
@@ -250,11 +241,10 @@
 
   </view>
 
-<view name="system">
+<view name="menu, system, basic, detailed, video, grid">  
 
 		<image name="cabinet" extra="true">
 			<origin>0.5 0.5</origin>
-			<pos>0.5 0.45</pos>
 			<size>0.7817589576 1</size>
 			<color>ffffff</color>
 			<zIndex>36</zIndex>
@@ -262,14 +252,12 @@
 		
 		<image name="cabinet_shadow" extra="true">
 			<origin>0.5 0.5</origin>
-			<pos>0.51 0.47</pos>
 			<size>0.7817589576 1</size>
 			<color>00000050</color>
 			<zIndex>2</zIndex>
 		</image>
 		
 			<image name="screen_effect" extra="true">
-				<pos>0.5 0.4835</pos>
 				<size>0.4 0.48</size>
 				<origin>0.5 0.5</origin>
 				<tile>true</tile>
@@ -277,81 +265,31 @@
 			</image>	  
 
 	    <video name="tv_effect" extra="true">
-				<pos>0.5 0.4835</pos>
 				<size>0.4 0.48</size>
 				<origin>0.5 0.5</origin>
 				<zIndex>34</zIndex>
 		</video>
-		
-    <video name="backgroundvideo" extra="true">
-		<path>{random}</path>
-		<path>./CUSTOMIZE_YOUR_THEME/videos/${system.theme}.mp4</path>                 		
-		<origin>0.5 0.5</origin>
-		<pos>0.5 0.4835</pos>
-		<size>0.4 0.485</size>
-		<delay>0.6</delay>
-		<effect>none</effect>		
-		<default>./_assets/noise.mp4</default>
-		<showSnapshotNoVideo>false</showSnapshotNoVideo>
-		<showSnapshotDelay>false</showSnapshotDelay>
-		<color>ffffff</color>
-		<zIndex>21</zIndex>      
-    </video>
 
 		<image name="video_black" extra="true">
 			<path>./_assets/white.png</path>
 			<origin>0.5 0.5</origin>
-			<pos>0.5 0.4835</pos>
 			<size>0.4 0.485</size>
 			<color>000000</color>
 			<zIndex>20</zIndex>
 		</image>
-		
-
 		
 		<text name="system_label" extra="true">
 			<text>${system.fullName}</text>
 			<fontPath>./_assets/arcade_r.ttf</fontPath>
 			<fontSize>0.026</fontSize>
 			<origin>0.5 0.5</origin>
-			<pos>0.5 0.095</pos>
 			<forceUppercase>false</forceUppercase>
 			<size>0.4 0.1</size>
 			<alignment>center</alignment>
 			<glowSize>2</glowSize>
 			<zIndex>900</zIndex>
 		</text>
-
-	  <text name="systemInfo">
-        <pos>0 0.64</pos>
-		<fontPath>./_assets/arcade.ttf</fontPath>
-	    <fontSize>0.027</fontSize>
-        <zIndex>26</zIndex>
-		<color>ffffff</color>
-		<glowColor>000000</glowColor>
-		<glowSize>3</glowSize>
-      </text> 
-   
-		<image name="systemInfo_frame" extra="true">
-			<path>./_assets/white.png</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.68</pos>
-			<size>0.4 0.09</size>
-			<zIndex>23</zIndex>
-		</image>
-
-		<image name="line_down" extra="true">
-			<path>./_assets/white.png</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.634</pos>
-			<size>0.4 0.002</size>
-			<zIndex>22</zIndex>
-		</image>
 		
-</view>
-
-<view name="menu, system, basic, detailed, video, grid">  
-
       <helpsystem name="help">
          <fontPath>./_assets/adventure.otf</fontPath>
          <fontSize>0.03</fontSize>      
@@ -384,92 +322,81 @@
 		</image> 
 		
 </view>
-   
-<view name="basic, detailed, video">
-	  <image name="logo">
-		<pos>0.095 0.868</pos>
-		<maxSize>0.131 0.118</maxSize>
-		<zIndex>53</zIndex>
-      </image>   
-  
-	  <textlist name="gamelist">
-         <pos>0.567 0.125</pos>
-         <size>0.345 0.75</size>
-         <selectorColor>f8f6f6aa</selectorColor>
-         <selectedColor>0B2161</selectedColor>
-         <primaryColor>ffffff</primaryColor>
-         <secondaryColor>ffffff</secondaryColor>
-         <fontPath>./_assets/snes.ttf</fontPath>
-         <fontSize>0.032</fontSize>
-         <alignment>left</alignment>
-		 <horizontalMargin>0.01</horizontalMargin>
-         <forceUppercase>1</forceUppercase>
-         <scrollSound>./_inc/scroll.wav</scrollSound>
-		 <lineSpacing>2.2</lineSpacing>
-		 <zIndex>42</zIndex>
-      </textlist>	  
 
-	    <text name="md_rating, md_developer, md_publisher, md_genre, md_playcount, md_players">
-         <pos>2 2</pos> <size>0 0</size>
-         <fontSize>0.0</fontSize>
-         <zIndex>0</zIndex>
-      </text>  
-	  <datetime name="md_releasedate, md_lastplayed">
-	  <pos>2 2</pos>
-		<fontSize>0.00</fontSize>
-		<size>0 0</size><zIndex>0</zIndex>
-	</datetime>	
-      <text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite">
-         <pos>2 2</pos>
-         <size>0 0</size>
-		 <fontSize>0.0</fontSize>
-		 <zIndex>0</zIndex>
-      </text>	  
-      <text name="md_description">
-         <color>ffffff</color>      
-         <pos>0.185 0.835</pos>
-         <size>0.305 0.115</size>
-         <fontSize>0.024</fontSize>
-         <zIndex>42</zIndex>         
-      </text>	  
-      <image name="md_thumbnail">
-		 <pos>0.02 0.551</pos>
-         <origin>0 0</origin>
-         <maxSize>0.25 0.25</maxSize>
-         <zIndex>45</zIndex>         
-      </image>	  
-      <image name="md_marquee">
-		 <pos>0.28 0.10</pos>
-         <origin>0.5 0.5</origin>
-         <maxSize>0.25 0.2</maxSize>
-         <zIndex>45</zIndex>         
-      </image>      
-   </view>
-   
-<view name="detailed">
-      
-	<image name="md_image">
-        <pos>0.28 0.45</pos>
+<view name="system">
+
+		<image name="cabinet" extra="true">
+			<pos>0.5 0.45</pos>
+		</image>
+		
+		<image name="cabinet_shadow" extra="true">
+			<pos>0.51 0.47</pos>
+		</image>
+		
+			<image name="screen_effect" extra="true">
+				<pos>0.5 0.4835</pos>
+			</image>	  
+
+	    <video name="tv_effect" extra="true">
+				<pos>0.5 0.4835</pos>
+		</video>
+
+		<image name="video_black" extra="true">
+			<pos>0.5 0.4835</pos>
+		</image>
+		
+		<text name="system_label" extra="true">
+			<pos>0.5 0.095</pos>
+		</text>
+
+		
+    <video name="backgroundvideo" extra="true">
+		<path>{random}</path>
+		<path>./CUSTOMIZE_YOUR_THEME/videos/${system.theme}.mp4</path>                 		
 		<origin>0.5 0.5</origin>
-        <maxSize>0.523 0.516</maxSize>
-        <zIndex>42</zIndex>
-    </image> 
-	  
-</view> 
-   
-<view name="video">
-      
-	<video name="md_video">
-        <pos>0.28 0.45</pos>
-		<origin>0.5 0.5</origin>
-        <maxSize>0.510 0.502</maxSize>
-        <delay>1.5</delay>
-        <zIndex>43</zIndex>         
-        <showSnapshotNoVideo>true</showSnapshotNoVideo>
-        <showSnapshotDelay>true</showSnapshotDelay>
+		<pos>0.5 0.4835</pos>
+		<size>0.4 0.485</size>
+		<delay>0.6</delay>
+		<effect>none</effect>		
+		<default>./_assets/noise.mp4</default>
+		<showSnapshotNoVideo>false</showSnapshotNoVideo>
+		<showSnapshotDelay>false</showSnapshotDelay>
+		<color>ffffff</color>
+		<zIndex>21</zIndex>      
     </video>
-	  
-   </view> 
+
+	  <text name="systemInfo">
+        <pos>0 0.64</pos>
+		<fontPath>./_assets/arcade.ttf</fontPath>
+	    <fontSize>0.027</fontSize>
+        <zIndex>26</zIndex>
+		<color>ffffff</color>
+		<glowColor>000000</glowColor>
+		<glowSize>3</glowSize>
+      </text> 
+   
+		<image name="systemInfo_frame" extra="true">
+			<path>./_assets/white.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.68</pos>
+			<size>0.4 0.09</size>
+			<zIndex>23</zIndex>
+		</image>
+
+		<image name="line_down" extra="true">
+			<path>./_assets/white.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.634</pos>
+			<size>0.4 0.002</size>
+			<zIndex>22</zIndex>
+		</image>
+		
+</view>
+
+
+<!--		GAMELISTS		-->
+
+  <include subset="Gamelist" name="Basic">./_gamelists/basic.xml</include>
 
 <!--		CUSTOM BACKGROUNDS		-->
 
