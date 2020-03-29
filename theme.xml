@@ -254,7 +254,7 @@
 			<color>ffffff</color>
 			<zIndex>36</zIndex>
 		</image>
-
+		
 		<image name="cabinet_shadow" extra="true">
 			<origin>0.5 0.5</origin>
 			<pos>0.51 0.47</pos>
