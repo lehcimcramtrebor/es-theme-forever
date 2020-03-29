@@ -300,7 +300,7 @@
 		</image>
 		
 		<text name="logoText">
-			<text>${system.name}</text>
+			<text> ${system.name} </text>
 			<fontPath>./_assets/label.ttf</fontPath>
 			<fontSize>0.04</fontSize>
 			<glowSize>2</glowSize>
