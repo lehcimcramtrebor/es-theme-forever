@@ -16,12 +16,24 @@
   <include subset="Illustration" name="Luigi">./_illustrations/luigi.xml</include>
   <include subset="Illustration" name="Ryu">./_illustrations/ryu.xml</include>
   <include subset="Illustration" name="Goku">./_illustrations/goku.xml</include>
+  <include subset="Illustration" name="Link">./_illustrations/link.xml</include>
+  <include subset="Illustration" name="Yoshi">./_illustrations/yoshi.xml</include>
+  <include subset="Illustration" name="Spiderman">./_illustrations/spiderman.xml</include>
+  <include subset="Illustration" name="Hulk">./_illustrations/hulk.xml</include>
+  <include subset="Illustration" name="Mickey">./_illustrations/mickey.xml</include>
+  <include subset="Illustration" name="Minnie">./_illustrations/minnie.xml</include>
 
   <include subset="Illustration" name="Shadow of Sonic">./_illustrations/sonic_shadow.xml</include>
   <include subset="Illustration" name="Shadow of Mario">./_illustrations/mario_shadow.xml</include>
   <include subset="Illustration" name="Shadow of Luigi">./_illustrations/luigi_shadow.xml</include>
   <include subset="Illustration" name="Shadow of Ryu">./_illustrations/ryu_shadow.xml</include>
   <include subset="Illustration" name="Shadow of Goku">./_illustrations/goku_shadow.xml</include>
+  <include subset="Illustration" name="Shadow of Link">./_illustrations/link_shadow.xml</include>
+  <include subset="Illustration" name="Shadow of Yoshi">./_illustrations/yoshi_shadow.xml</include>
+  <include subset="Illustration" name="Shadow of Spiderman">./_illustrations/spiderman_shadow.xml</include>
+  <include subset="Illustration" name="Shadow of Hulk">./_illustrations/hulk_shadow.xml</include>
+  <include subset="Illustration" name="Shadow of Mickey">./_illustrations/mickey_shadow.xml</include>
+  <include subset="Illustration" name="Shadow of Minnie">./_illustrations/minnie_shadow.xml</include>
 
 <!--		COLORSETS		-->
   <include subset="Colorset" name="Green Apple">./_colorsets/green_apple.xml</include>
