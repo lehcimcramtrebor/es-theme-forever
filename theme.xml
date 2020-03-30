@@ -188,8 +188,14 @@
 
 		<include subset="Video Effect" name="No">./_effects/nope.xml.xml</include>						
 
- 
+ <!--		ANIMATED BACKGROUND		-->
+
+  		<include subset="Animated Background" name="No">./nope.xml</include>	
+ 		<include subset="Animated Background" name="Yes">./_backgrounds/video/carbon.xml</include>	
+
+
 <view name="screen">
+
     <text name="clock">
       <fontSize>0.02</fontSize>
       <pos>0.94 0.945</pos>
@@ -310,7 +316,7 @@
 			<origin>0.5 1</origin>
 			<pos>0.5 1</pos>
 			<size>1 0.05</size>
-			<zIndex>3</zIndex>
+			<zIndex>997</zIndex>
 		</image> 
 		
 		<image name="line_bottom" extra="true">
@@ -318,7 +324,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.95</pos>
 			<size>1 0.002</size>
-			<zIndex>200</zIndex>
+			<zIndex>999</zIndex>
 		</image> 
 		
 </view>

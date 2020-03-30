@@ -26,6 +26,10 @@
    
 <view name="menu, system, basic, detailed, video, grid">  
 
+     <image name="gamelist_line" extra="true">
+		<color>ee82ee</color>       
+      </image>  
+	  
      <image name="gamelist_back_h1" extra="true">
 		<colorEnd>ee82ee90</colorEnd>
       </image>   
