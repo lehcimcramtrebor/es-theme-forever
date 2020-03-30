@@ -27,6 +27,18 @@
    
 <view name="menu, system, basic, detailed, video, grid">  
 
+     <image name="gamelist_back_h1" extra="true">
+		<colorEnd>fd5da890</colorEnd>
+      </image>   
+	  
+     <image name="gamelist_back_h2" extra="true">
+		<color>fd5da890</color>        
+      </image>  
+	  
+    <image name="frame_edge" extra="true">
+		<color>fd5da8</color>     
+      </image> 
+	  
 		<text name="system_label" extra="true">
 			<color>fd5da8</color>		
 			<glowColor>fd5da812</glowColor>
@@ -43,6 +55,10 @@
 		<image name="line_bottom" extra="true">
 			<color>fd5da8</color>
 		</image>
+
+	 <textlist name="gamelist">
+         <selectorColor>fd5da8</selectorColor>	  
+	</textlist>
 		
 </view>
  

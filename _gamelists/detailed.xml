@@ -1,0 +1,143 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme defaultView="detailed">
+
+   <formatVersion>7</formatVersion>
+  
+	<view name="detailed">
+      
+		<image name="cabinet" extra="true">
+			<pos>0.265 0.45</pos>
+		</image>
+		
+		<image name="cabinet_shadow" extra="true">
+			<pos>0.265 0.47</pos>
+		</image>
+		
+			<image name="screen_effect" extra="true">
+				<pos>0.265 0.4835</pos>
+			</image>	  
+
+	    <video name="tv_effect" extra="true">
+				<pos>0.265 0.4835</pos>
+		</video>
+
+		<image name="video_black" extra="true">
+			<pos>0.265 0.4835</pos>
+		</image>
+		
+		<text name="system_label" extra="true">
+			<visible>false</visible>
+		</text>
+
+      <image name="md_marquee">
+		 <pos>0.265 0.095</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.2 0.1</maxSize>
+         <zIndex>400</zIndex>         
+      </image>   
+	  
+     <image name="md_image">
+		<default>./../_assets/noise.jpg</default>         		
+ 		<origin>0.5 0.5</origin>
+		<color>ffffff</color>
+		<pos>0.265 0.4835</pos>
+		<size>0.4 0.485</size>
+        <zIndex>21</zIndex>         
+      </image>    
+	  		
+	  <textlist name="gamelist">
+		 <origin>0.5 0.5</origin>
+         <pos>0.76 0.264</pos>
+         <size>0.44 0.46</size>
+         <selectedColor>000000</selectedColor>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>000000</secondaryColor>
+         <fontPath>./../_assets/adventure.otf</fontPath>
+         <fontSize>0.032</fontSize>
+         <alignment>center</alignment>
+		 <horizontalMargin>0.01</horizontalMargin>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound>./_inc/scroll.wav</scrollSound>
+		 <lineSpacing>2.2</lineSpacing>
+		 <zIndex>300</zIndex>
+      </textlist>
+
+     <image name="gamelist_back" extra="true">
+		<path>./../_assets/white.png</path>         		
+ 		<origin>0.5 0.5</origin>
+		<color>303030</color>
+         <pos>0.76 0.265</pos>
+         <size>0.45 0.48</size>
+        <zIndex>295</zIndex>         
+      </image>   
+
+     <image name="gamelist_back_h1" extra="true">
+		<path>./../_assets/white.png</path>         		
+ 		<origin>1 0.5</origin>
+		<color>00000000</color>
+		<gradientType>horizontal</gradientType>
+		<pos>0.76 0.265</pos>
+         <size>0.225 0.48</size>
+        <zIndex>296</zIndex>         
+      </image>   
+	  
+     <image name="gamelist_back_h2" extra="true">
+		<path>./../_assets/white.png</path>         		
+ 		<origin>0 0.5</origin>
+		<colorEnd>00000000</colorEnd>
+		<gradientType>horizontal</gradientType>
+		<pos>0.76 0.265</pos>
+         <size>0.225 0.48</size>
+        <zIndex>296</zIndex>         
+      </image>   
+	  
+     <image name="frame_back" extra="true">
+		<path>./../_assets/white.png</path>         		
+ 		<origin>0.5 0</origin>
+		<color>303030</color>
+		<colorEnd>000000</colorEnd>
+		<gradientType>vertical</gradientType>
+        <pos>0.76 0.5</pos>
+         <size>0.45 0.425</size>
+        <zIndex>290</zIndex>         
+      </image>      
+
+     <image name="frame_edge" extra="true">
+		<path>./../_assets/white.png</path>         		
+ 		<origin>0.5 0.5</origin>
+        <pos>0.76 0.475</pos>
+         <size>0.452 0.903</size>
+        <zIndex>280</zIndex>         
+      </image>    
+
+     <image name="frame_edge_ext" extra="true">
+		<path>./../_assets/white.png</path>         		
+ 		<origin>0.5 0.5</origin>
+        <pos>0.76 0.475</pos>
+		<color>303030</color>
+         <size>0.463 0.925</size>
+        <zIndex>270</zIndex>         
+      </image>    
+	  
+     <image name="gamelist_line" extra="true">
+		<path>./../_assets/white.png</path>         		
+ 		<origin>0.5 0.5</origin>
+		<color>FFFFFF</color>
+        <pos>0.76 0.505</pos>
+         <size>0.4 0.001</size>
+        <zIndex>320</zIndex>         
+      </image>  
+	  
+     <image name="md_thumbnail">
+        <pos>0.005 0.94</pos>
+        <origin>0 1</origin>
+        <maxSize>0.25 0.4444444444</maxSize>
+        <zIndex>200</zIndex>         
+      </image>    
+	  
+	</view> 
+   
+
+</theme>

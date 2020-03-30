@@ -396,7 +396,10 @@
 
 <!--		GAMELISTS		-->
 
+  <include>./_gamelists/basic_elements.xml</include>
+
   <include subset="Gamelist" name="Basic">./_gamelists/basic.xml</include>
+  <include subset="Gamelist" name="Detailed">./_gamelists/detailed.xml</include>
 
 <!--		CUSTOM BACKGROUNDS		-->
 
