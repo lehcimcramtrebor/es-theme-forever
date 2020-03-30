@@ -64,23 +64,25 @@
 		 <zIndex>300</zIndex>
       </textlist>
 
-     <image name="gamelist_back" extra="true">
+     <image name="frame_adjust" extra="true">
+		<color>00000099</color>
+		<colorEnd>00000060</colorEnd>
+		<gradientType>vertical</gradientType>
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0.5</origin>
-		<color>303030</color>
-         <pos>0.76 0.265</pos>
-         <size>0.45 0.48</size>
-        <zIndex>295</zIndex>         
-      </image>   
-
+        <pos>0.76 0.476</pos>
+         <size>0.45 0.90</size>
+        <zIndex>298</zIndex>         
+      </image>
+	  
      <image name="gamelist_back_h1" extra="true">
 		<path>./../_assets/white.png</path>         		
  		<origin>1 0.5</origin>
 		<color>00000000</color>
 		<gradientType>horizontal</gradientType>
-		<pos>0.76 0.265</pos>
-         <size>0.225 0.48</size>
-        <zIndex>296</zIndex>         
+		<pos>0.76 0.476</pos>
+         <size>0.225 0.90</size>
+        <zIndex>297</zIndex>         
       </image>   
 	  
      <image name="gamelist_back_h2" extra="true">
@@ -88,22 +90,21 @@
  		<origin>0 0.5</origin>
 		<colorEnd>00000000</colorEnd>
 		<gradientType>horizontal</gradientType>
-		<pos>0.76 0.265</pos>
-         <size>0.225 0.48</size>
-        <zIndex>296</zIndex>         
+		<pos>0.76 0.476</pos>
+         <size>0.225 0.90</size>
+        <zIndex>297</zIndex>         
       </image>   
-	  
-     <image name="frame_back" extra="true">
-		<path>./../_assets/white.png</path>         		
- 		<origin>0.5 0</origin>
-		<color>303030</color>
-		<colorEnd>000000</colorEnd>
-		<gradientType>vertical</gradientType>
-        <pos>0.76 0.5</pos>
-         <size>0.45 0.425</size>
-        <zIndex>290</zIndex>         
-      </image>      
 
+     <image name="frame_texture" extra="true">
+		<color>ffffff75</color>
+		<tile>true</tile>
+		<path>./../_assets/grid.jpg</path>         		
+ 		<origin>0.5 0.5</origin>
+        <pos>0.76 0.476</pos>
+         <size>0.45 0.90</size>
+        <zIndex>294</zIndex>         
+      </image>
+	  
      <image name="frame_edge" extra="true">
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0.5</origin>
@@ -116,7 +117,7 @@
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0.5</origin>
         <pos>0.76 0.475</pos>
-		<color>303030</color>
+		<color>000000</color>
          <size>0.463 0.925</size>
         <zIndex>270</zIndex>         
       </image>    

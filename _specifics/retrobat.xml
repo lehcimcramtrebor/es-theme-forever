@@ -1,0 +1,28 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme defaultView="detailed, video, grid">
+
+   <formatVersion>7</formatVersion>
+  
+	<view name="detailed">
+	
+		<image name="md_thumbnail">
+        <visible>false</visible>         
+		</image>    
+
+		<image name="video_black" extra="true">
+			<color>ffffff</color>
+		</image>
+
+		<image name="retrobat" extra="true">
+		<path>./../_assets/retrobat.png</path>
+		<color>ffffff</color>
+		<pos>0.265 0.095</pos>
+        <origin>0.5 0.5</origin>
+        <maxSize>0.2 0.1</maxSize>
+        <zIndex>400</zIndex>       			
+		</image>		
+	</view>
+	
+</theme>

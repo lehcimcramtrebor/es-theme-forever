@@ -407,4 +407,8 @@
   <include subset="Background" name="Custom Fixed Background">./_backgrounds/custom/background.xml</include>
   <include subset="Background" name="Custom by System">./_backgrounds/custom/system.xml</include>
 
+<!--		SPECIFICS SYSTEMS		-->
+
+  <include>./_specifics/${system.name}.xml</include>
+
 </theme>
