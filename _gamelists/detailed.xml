@@ -259,7 +259,7 @@
     </rating>
 
 	<datetime name="md_releasedate">
-		<pos>0.2345 0.86</pos>
+		<pos>0.225 0.86</pos>
 		<color>ff7a00bb</color>      
 		<size>0.12 0.020</size>
 		<fontPath>./../_assets/roundedledboard.ttf</fontPath>		 			
