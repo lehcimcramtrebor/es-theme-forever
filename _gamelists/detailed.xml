@@ -35,7 +35,8 @@
 		 <pos>0.265 0.095</pos>
          <origin>0.5 0.5</origin>
          <maxSize>0.2 0.1</maxSize>
-         <zIndex>400</zIndex>         
+         <zIndex>400</zIndex>
+		 <reflexion>0.025 0</reflexion>         
       </image>   
 	  
      <image name="md_image">
@@ -50,12 +51,12 @@
 	  <textlist name="gamelist">
 		 <origin>0.5 0.5</origin>
          <pos>0.76 0.264</pos>
-         <size>0.44 0.46</size>
+         <size>0.45 0.46</size>
          <selectedColor>000000</selectedColor>
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>000000</secondaryColor>
-         <fontPath>./../_assets/adventure.otf</fontPath>
-         <fontSize>0.032</fontSize>
+         <fontPath>./../_assets/jcandlestick.ttf</fontPath>
+         <fontSize>0.039</fontSize>
          <alignment>center</alignment>
 		 <horizontalMargin>0.01</horizontalMargin>
          <forceUppercase>1</forceUppercase>
@@ -70,8 +71,13 @@
 		<gradientType>vertical</gradientType>
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0.5</origin>
+<!--
         <pos>0.76 0.475</pos>
-         <size>0.45 0.90</size>
+        <size>0.45 0.90</size>
+-->
+        <pos>0.76 0.5</pos>
+        <size>0.45 1</size>
+
         <zIndex>298</zIndex>         
       </image>
 	  
@@ -80,8 +86,13 @@
  		<origin>1 0.5</origin>
 		<color>00000000</color>
 		<gradientType>horizontal</gradientType>
+<!--
 		<pos>0.76 0.475</pos>
-         <size>0.225 0.90</size>
+        <size>0.225 0.90</size>
+-->
+		<pos>0.76 0.5</pos>
+        <size>0.225 1</size>
+
         <zIndex>297</zIndex>         
       </image>   
 	  
@@ -90,8 +101,12 @@
  		<origin>0 0.5</origin>
 		<colorEnd>00000000</colorEnd>
 		<gradientType>horizontal</gradientType>
+<!--
 		<pos>0.76 0.475</pos>
-         <size>0.225 0.90</size>
+        <size>0.225 0.90</size>
+-->		
+		<pos>0.76 0.5</pos>
+        <size>0.225 1</size>
         <zIndex>297</zIndex>         
       </image>   
 
@@ -102,55 +117,81 @@
 		<tile>true</tile>
 		<path>./../_assets/grid.jpg</path>         		
  		<origin>0.5 0.5</origin>
+<!--
         <pos>0.76 0.475</pos>
-         <size>0.45 0.90</size>
+        <size>0.45 0.90</size>
+-->		
+        <pos>0.76 0.5</pos>
+        <size>0.45 1</size>
         <zIndex>294</zIndex>         
       </image>
 	  
      <image name="frame_edge" extra="true">
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0.5</origin>
+<!--
         <pos>0.7601 0.475</pos>
-         <size>0.452 0.903</size>
+        <size>0.452 0.903</size>
+-->
+        <pos>0.7601 0.5</pos>
+        <size>0.452 1</size>
+
         <zIndex>280</zIndex>         
       </image>    
 
      <image name="frame_edge_ext" extra="true">
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0.5</origin>
-        <pos>0.76 0.475</pos>
 		<color>000000</color>
-         <size>0.463 0.925</size>
+<!--
+        <size>0.463 0.925</size>
+        <pos>0.76 0.475</pos>
+-->
+        <pos>0.76 0.5</pos>
+         <size>0.463 1</size>
         <zIndex>270</zIndex>         
       </image>    
 
      <image name="frame_edge_trans" extra="true">
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0.5</origin>
-        <pos>0.76 0.475</pos>
 		<color>00000075</color>
-         <size>0.466 0.930</size>
+<!--
+        <pos>0.76 0.475</pos>
+        <size>0.466 0.930</size>
+-->
+        <pos>0.76 0.5</pos>
+        <size>0.466 1</size>
         <zIndex>33</zIndex>         
       </image>    
 
      <image name="frame_edge_trans2" extra="true">
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0.5</origin>
-        <pos>0.76 0.475</pos>
 		<color>00000050</color>
-         <size>0.469 0.935</size>
+<!--
+        <pos>0.76 0.475</pos> 
+		<size>0.469 0.935</size>
+-->
+        <pos>0.76 0.5</pos> 
+		<size>0.469 1</size>
         <zIndex>32</zIndex>         
       </image>    
 
      <image name="frame_edge_trans3" extra="true">
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0.5</origin>
-        <pos>0.76 0.475</pos>
 		<color>00000025</color>
-         <size>0.471 0.9385</size>
+<!--
+        <pos>0.76 0.475</pos>
+        <size>0.471 0.9385</size>
+-->
+        <pos>0.76 0.5</pos>
+        <size>0.471 1</size>
+
         <zIndex>31</zIndex>         
       </image>    
-	  
+<!--	  
      <image name="gamelist_line" extra="true">
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0.5</origin>
@@ -158,12 +199,13 @@
          <size>0.45 0.003</size>
         <zIndex>320</zIndex>         
       </image>  
-	  
+-->	  
      <image name="md_thumbnail">
         <maxSize>0.19 0.32</maxSize>	 
         <pos>0.8825 0.8815</pos>
         <origin>0.5 1</origin>
-        <zIndex>999</zIndex>         
+		<reflexion>0.20 0</reflexion>
+        <zIndex>900</zIndex>         
       </image>    
 
      <text name="md_description">
@@ -179,6 +221,25 @@
         <zIndex>800</zIndex>         
       </text>
 
+     <image name="d_line_up" extra="true">
+		<path>./../_assets/white.png</path>         		
+ 		<origin>0.5 1</origin>
+		<color>ffffff</color>
+        <pos>0.67 0.56</pos>
+        <size>0.25 0.003</size>
+        <zIndex>600</zIndex>         
+      </image>  
+
+     <image name="d_line_down" extra="true">
+		<path>./../_assets/white.png</path>         		
+ 		<origin>0.5 0</origin>
+		<color>ffffff</color>
+        <pos>0.67 0.882</pos>
+        <size>0.25 0.003</size>
+        <zIndex>600</zIndex>         
+      </image>  
+	  
+<!--
      <image name="frame_description" extra="true">
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0.5</origin>
@@ -187,7 +248,7 @@
         <size>0.45 0.41</size>
         <zIndex>700</zIndex>         
       </image>    
-	  
+-->	  
 	</view> 
    
 
