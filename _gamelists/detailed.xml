@@ -28,7 +28,12 @@
 		</image>
 		
 		<text name="system_label" extra="true">
-			<visible>false</visible>
+			<pos>0.76 0.026</pos>
+			<text> ${system.name} </text>
+			<fontPath>./../_assets/label.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+			<glowSize>2</glowSize>
+			<glowColor>000000</glowColor>
 		</text>
 
       <image name="md_marquee">
@@ -47,11 +52,20 @@
 		<size>0.4 0.485</size>
         <zIndex>21</zIndex>         
       </image>    
-	  		
+
+     <image name="g_line" extra="true">
+		<path>./../_assets/white.png</path>         		
+ 		<origin>0.5 1</origin>
+		<color>ffffff</color>
+        <pos>0.76 0.069</pos>
+        <size>0.397 0.003</size>
+        <zIndex>950</zIndex>         
+      </image>  
+	  
 	  <textlist name="gamelist">
 		 <origin>0.5 0.5</origin>
-         <pos>0.76 0.264</pos>
-         <size>0.45 0.46</size>
+         <pos>0.76 0.2965</pos>
+        <size>0.4498 0.45</size>
          <selectedColor>000000</selectedColor>
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>000000</secondaryColor>
@@ -61,10 +75,19 @@
 		 <horizontalMargin>0.01</horizontalMargin>
          <forceUppercase>1</forceUppercase>
          <scrollSound>./_inc/scroll.wav</scrollSound>
-		 <lineSpacing>2.1</lineSpacing>
+		 <lineSpacing>1.7</lineSpacing>
 		 <zIndex>300</zIndex>
       </textlist>
-
+<!--
+     <image name="test_gamelist" extra="true">
+		<color>ff0000</color>	 
+		<path>./../_assets/white.png</path>         		
+ 		<origin>0.5 0.5</origin>
+         <pos>0.76 0.299</pos>
+        <size>0.4498 0.46</size>
+        <zIndex>1500</zIndex>         
+      </image>
+-->	  
      <image name="frame_adjust" extra="true">
 		<color>00000099</color>
 		<colorEnd>00000060</colorEnd>
@@ -201,8 +224,8 @@
       </image>  
 -->	  
      <image name="md_thumbnail">
-        <maxSize>0.21 0.3733333333</maxSize>	 
-        <pos>0.66 0.7</pos>
+        <maxSize>0.196875 0.35</maxSize>	 
+        <pos>0.66 0.72</pos>
         <origin>0.5 0.5</origin>
 		<reflexion>0.3 0</reflexion>
         <zIndex>900</zIndex>         
@@ -214,8 +237,8 @@
 		<glowColor>202020</glowColor>		
 		<glowSize>1</glowSize>
         <fontPath>./../_assets/arcade_r.ttf</fontPath>		 
-        <pos>0.873 0.7715</pos>
-        <size>0.2 0.32</size>
+        <pos>0.873 0.72</pos>
+        <size>0.2 0.3733333333</size>
 		<alignment>center</alignment>
         <fontSize>0.022</fontSize>
         <zIndex>800</zIndex>         
@@ -225,18 +248,18 @@
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 1</origin>
 		<color>ffffff</color>
-        <pos>0.873 0.61</pos>
-        <size>0.2 0.003</size>
-        <zIndex>600</zIndex>         
+        <pos>0.76 0.5325</pos>
+        <size>0.397 0.003</size>
+        <zIndex>950</zIndex>         
       </image>  
 
      <image name="d_line_down" extra="true">
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0</origin>
 		<color>ffffff</color>
-        <pos>0.873 0.932</pos>
-        <size>0.2 0.003</size>
-        <zIndex>600</zIndex>         
+        <pos>0.76 0.907</pos>
+        <size>0.397 0.003</size>
+        <zIndex>950</zIndex>         
       </image>  
 	  
 <!--
