@@ -36,7 +36,7 @@
          <origin>0.5 0.5</origin>
          <maxSize>0.2 0.1</maxSize>
          <zIndex>400</zIndex>
-		 <reflexion>0.025 0</reflexion>         
+		 <reflexion>0.03 0</reflexion>         
       </image>   
 	  
      <image name="md_image">
@@ -201,10 +201,10 @@
       </image>  
 -->	  
      <image name="md_thumbnail">
-        <maxSize>0.19 0.32</maxSize>	 
-        <pos>0.8825 0.8815</pos>
-        <origin>0.5 1</origin>
-		<reflexion>0.20 0</reflexion>
+        <maxSize>0.21 0.3733333333</maxSize>	 
+        <pos>0.66 0.7</pos>
+        <origin>0.5 0.5</origin>
+		<reflexion>0.3 0</reflexion>
         <zIndex>900</zIndex>         
       </image>    
 
@@ -214,8 +214,8 @@
 		<glowColor>202020</glowColor>		
 		<glowSize>1</glowSize>
         <fontPath>./../_assets/arcade_r.ttf</fontPath>		 
-        <pos>0.67 0.7215</pos>
-        <size>0.25 0.32</size>
+        <pos>0.873 0.7715</pos>
+        <size>0.2 0.32</size>
 		<alignment>center</alignment>
         <fontSize>0.022</fontSize>
         <zIndex>800</zIndex>         
@@ -225,8 +225,8 @@
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 1</origin>
 		<color>ffffff</color>
-        <pos>0.67 0.56</pos>
-        <size>0.25 0.003</size>
+        <pos>0.873 0.61</pos>
+        <size>0.2 0.003</size>
         <zIndex>600</zIndex>         
       </image>  
 
@@ -234,8 +234,8 @@
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0</origin>
 		<color>ffffff</color>
-        <pos>0.67 0.882</pos>
-        <size>0.25 0.003</size>
+        <pos>0.873 0.932</pos>
+        <size>0.2 0.003</size>
         <zIndex>600</zIndex>         
       </image>  
 	  
