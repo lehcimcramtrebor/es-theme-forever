@@ -36,6 +36,18 @@
 			<glowColor>000000</glowColor>
 		</text>
 
+		<text name="system_label_shadow" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0.762 0.029</pos>
+			<text> ${system.name} </text>
+			<fontPath>./../_assets/label.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+			<glowSize>2</glowSize>
+			<color>00000025</color>
+			<glowColor>00000025</glowColor>
+			<zIndex>899</zIndex>
+		</text>
+		
       <image name="md_marquee">
 		 <pos>0.265 0.095</pos>
          <origin>0.5 0.5</origin>
@@ -64,12 +76,12 @@
 	  
 	  <textlist name="gamelist">
 		 <origin>0.5 0.5</origin>
-         <pos>0.76 0.2965</pos>
-        <size>0.4498 0.45</size>
+         <pos>0.76 0.297</pos>
+         <size>0.4498 0.45</size>
          <selectedColor>000000</selectedColor>
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>000000</secondaryColor>
-         <fontPath>./../_assets/jcandlestick.ttf</fontPath>
+         <fontPath>./../_assets/blackops.ttf</fontPath>
          <fontSize>0.039</fontSize>
          <alignment>center</alignment>
 		 <horizontalMargin>0.01</horizontalMargin>
@@ -158,62 +170,27 @@
 -->
         <pos>0.7601 0.5</pos>
         <size>0.452 1</size>
-
         <zIndex>280</zIndex>         
       </image>    
 
-     <image name="frame_edge_ext" extra="true">
+     <image name="frame_black" extra="true">
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0.5</origin>
 		<color>000000</color>
-<!--
-        <size>0.463 0.925</size>
-        <pos>0.76 0.475</pos>
--->
-        <pos>0.76 0.5</pos>
-         <size>0.463 1</size>
-        <zIndex>270</zIndex>         
+        <pos>0.7601 0.5</pos>
+        <size>0.454 1</size>
+        <zIndex>4</zIndex>         
       </image>    
 
-     <image name="frame_edge_trans" extra="true">
-		<path>./../_assets/white.png</path>         		
- 		<origin>0.5 0.5</origin>
-		<color>00000075</color>
-<!--
-        <pos>0.76 0.475</pos>
-        <size>0.466 0.930</size>
--->
-        <pos>0.76 0.5</pos>
-        <size>0.466 1</size>
-        <zIndex>33</zIndex>         
-      </image>    
-
-     <image name="frame_edge_trans2" extra="true">
+     <image name="frame_shadow" extra="true">
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0.5</origin>
 		<color>00000050</color>
-<!--
-        <pos>0.76 0.475</pos> 
-		<size>0.469 0.935</size>
--->
-        <pos>0.76 0.5</pos> 
-		<size>0.469 1</size>
-        <zIndex>32</zIndex>         
+        <pos>0.765 0.5</pos>
+        <size>0.454 1</size>
+        <zIndex>3</zIndex>         
       </image>    
-
-     <image name="frame_edge_trans3" extra="true">
-		<path>./../_assets/white.png</path>         		
- 		<origin>0.5 0.5</origin>
-		<color>00000025</color>
-<!--
-        <pos>0.76 0.475</pos>
-        <size>0.471 0.9385</size>
--->
-        <pos>0.76 0.5</pos>
-        <size>0.471 1</size>
-
-        <zIndex>31</zIndex>         
-      </image>    
+	  
 <!--	  
      <image name="gamelist_line" extra="true">
 		<path>./../_assets/white.png</path>         		
@@ -235,12 +212,12 @@
  		<origin>0.5 0.5</origin>	 
 		<color>ffffff</color>
 		<glowColor>202020</glowColor>		
-		<glowSize>1</glowSize>
-        <fontPath>./../_assets/arcade_r.ttf</fontPath>		 
+		<glowSize>2</glowSize>
+        <fontPath>./../_assets/digital.ttf</fontPath>		 
         <pos>0.873 0.72</pos>
-        <size>0.2 0.3733333333</size>
+        <size>0.18 0.3733333333</size>
 		<alignment>center</alignment>
-        <fontSize>0.022</fontSize>
+        <fontSize>0.02</fontSize>
         <zIndex>800</zIndex>         
       </text>
 
@@ -271,7 +248,46 @@
         <size>0.45 0.41</size>
         <zIndex>700</zIndex>         
       </image>    
--->	  
+-->
+
+    <rating name="md_rating">
+		<pos>0.36 0.865</pos>
+		<size>0.1 0.042</size>
+		<zIndex>2000</zIndex>	
+		<filledPath>./../_assets/franc_f.png</filledPath>	
+		<unfilledPath>./../_assets/franc_u.png</unfilledPath>
+    </rating>
+
+	<datetime name="md_releasedate">
+		<pos>0.2345 0.86</pos>
+		<color>ff7a00bb</color>      
+		<size>0.12 0.020</size>
+		<fontPath>./../_assets/roundedledboard.ttf</fontPath>		 			
+		<fontSize>0.012</fontSize>
+		<alignment>right</alignment>
+		<zIndex>1999</zIndex>
+     </datetime>
+	  
+	<text name="md_developer">
+		<color>06b900bb</color>      
+		<pos>0.05 0.86</pos>
+		<size>0.2 0.020</size>
+		<fontPath>./../_assets/roundedledboard.ttf</fontPath>		 			
+		<fontSize>0.012</fontSize>
+		<alignment>left</alignment>
+		<zIndex>1999</zIndex>
+      </text>
+	  	  
+	<text name="md_genre">
+		<pos>0.05 0.89</pos>
+		<color>06b900bb</color>      
+		<size>0.304 0.020</size>
+		<fontPath>./../_assets/roundedledboard.ttf</fontPath>		 			
+		<fontSize>0.012</fontSize>
+		<alignment>left</alignment>
+		<zIndex>1999</zIndex>
+      </text>
+	  
 	</view> 
    
 
