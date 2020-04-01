@@ -3,20 +3,47 @@
 <theme>
    <formatVersion>7</formatVersion>
 
+<view name="system, basic, detailed, video, grid">
+
+			<image name="screen_effect" extra="true">
+			<size>0.365 0.45</size>
+			</image>	  
+
+	    <video name="tv_effect" extra="true">
+		<size>0.365 0.45</size>
+		</video>
+</view>
+		
 <view name="system">
 
+			<image name="screen_effect" extra="true">
+				<pos>0.5 0.4835</pos>
+			</image>	  
+
+	    <video name="tv_effect" extra="true">
+				<pos>0.5 0.4835</pos>
+		</video>
+		
     <video name="backgroundvideo" extra="true">
 		<pos>0.5 0.4835</pos>
-		<size>0.2 0.2</size>
+		<size>0.365 0.45</size>
     </video>
 
+		<image name="systemInfo_frame" extra="true">
+			<size>0.365 0.09</size>
+		</image>
+
+		<image name="line_down" extra="true">
+			<size>0.365 0.002</size>
+		</image>
+		
 </view>
 
 <view name="detailed">
 
      <image name="md_image">
 		<pos>0.265 0.4835</pos>
-		<size>0.2 0.2</size>      
+		<size>0.365 0.45</size>
       </image>    
 
 </view>
