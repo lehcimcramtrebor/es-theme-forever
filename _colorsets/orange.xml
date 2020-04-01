@@ -6,8 +6,8 @@
 <view name="system">
 
 		<text name="logoText">
-			<color>ff7f00</color>
-			<glowColor>000000</glowColor>
+			<color>ffffff</color>
+			<glowColor>ff7f00</glowColor>
 		</text>
 				
 

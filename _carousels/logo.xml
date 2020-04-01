@@ -3,16 +3,9 @@
 <theme>
    <formatVersion>7</formatVersion>
 
-<view name="system">
 
-		<text name="logoText">
-			<text> ${system.name} </text>
-			<fontPath>./../_assets/label.ttf</fontPath>
-			<fontSize>0.04</fontSize>
-			<glowSize>2</glowSize>
 
-		</text>
-		
-</view>
+  <include subset="Logo" name="Robot Crush">./robot_crush.xml</include>
+
 
 </theme>
