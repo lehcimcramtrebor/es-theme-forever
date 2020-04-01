@@ -12,7 +12,7 @@
 		</image>    
 
 		<image name="video_black" extra="true">
-			<color>ffffff</color>
+			<color>000000</color>
 		</image>
 
 		<image name="retrobat" extra="true">
