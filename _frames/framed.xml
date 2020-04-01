@@ -26,7 +26,6 @@
 		
     <video name="backgroundvideo" extra="true">
 		<pos>0.5 0.4835</pos>
-		<size>0.365 0.45</size>
     </video>
 
 		<image name="systemInfo_frame" extra="true">
@@ -43,7 +42,6 @@
 
      <image name="md_image">
 		<pos>0.265 0.4835</pos>
-		<size>0.365 0.45</size>
       </image>    
 
 </view>
@@ -52,9 +50,10 @@
 
     <video name="md_video">
 		<pos>0.265 0.4835</pos>
-		<size>0.365 0.45</size>
     </video>
 
 </view>
+  <include subset="Ratio Videos" name="Streched Full Screen">./framed_streched.xml</include>
+  <include subset="Ratio Videos" name="Original Ratio">./framed_original.xml</include>
 	
 </theme>

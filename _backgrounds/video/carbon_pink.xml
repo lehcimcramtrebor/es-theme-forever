@@ -1,0 +1,18 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="menu, system, basic, detailed, video, grid">  
+
+	    <video name="background_video" extra="true">
+			<path>./../../_assets/background.mp4</path>
+			<color>fd5da870</color>
+			<size>1 1</size>
+			<origin>0 0</origin>
+			<zIndex>2</zIndex>
+		</video>
+
+</view>
+
+</theme>

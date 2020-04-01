@@ -200,7 +200,15 @@
  <!--		ANIMATED BACKGROUND		-->
 
   		<include subset="Animated Background" name="No">./nope.xml</include>	
- 		<include subset="Animated Background" name="Yes">./_backgrounds/video/carbon.xml</include>	
+ 		<include subset="Animated Background" name="Carbon White">./_backgrounds/video/carbon_white.xml</include>	
+ 		<include subset="Animated Background" name="Carbon Blue">./_backgrounds/video/carbon_blue.xml</include>	
+ 		<include subset="Animated Background" name="Carbon Green">./_backgrounds/video/carbon_green.xml</include>	
+ 		<include subset="Animated Background" name="Carbon Red">./_backgrounds/video/carbon_red.xml</include>	
+ 		<include subset="Animated Background" name="Carbon Pink">./_backgrounds/video/carbon_pink.xml</include>	
+ 		<include subset="Animated Background" name="Carbon Yellow">./_backgrounds/video/carbon_yellow.xml</include>	
+ 		<include subset="Animated Background" name="Carbon Orange">./_backgrounds/video/carbon_orange.xml</include>	
+ 		<include subset="Animated Background" name="Carbon Purple">./_backgrounds/video/carbon_purple.xml</include>	
+ 		<include subset="Animated Background" name="Carbon Salmon">./_backgrounds/video/carbon_salmon.xml</include>	
 
 
 <view name="screen">
