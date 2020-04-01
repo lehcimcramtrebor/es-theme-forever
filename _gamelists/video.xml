@@ -1,11 +1,11 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 
-<theme defaultView="detailed">
+<theme defaultView="video">
 
    <formatVersion>7</formatVersion>
   
-	<view name="detailed">
+	<view name="video">
       
 		<image name="cabinet" extra="true">
 			<pos>0.265 0.45</pos>
@@ -56,13 +56,17 @@
 		 <reflexion>0.03 0</reflexion>         
       </image>   
 	  
-     <image name="md_image">
-		<default>./../_assets/noise.jpg</default>         		
+     <video name="md_video">
+		<default>./../_assets/noise.mp4</default>
+		<effect>none</effect>
+		 <delay>1</delay>
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>			 
  		<origin>0.5 0.5</origin>
 		<color>ffffff</color>
 		<!--Size/Pos by Subset-->
         <zIndex>21</zIndex>         
-      </image>    
+      </video>    
 
      <image name="g_line" extra="true">
 		<path>./../_assets/white.png</path>         		

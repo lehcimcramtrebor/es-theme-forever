@@ -21,6 +21,11 @@
   <include subset="Cabinet" name="Default">./_cabinets/cabinet_default.xml</include>
   <include subset="Cabinet" name="Grey">./_cabinets/cabinet_grey.xml</include>
 
+<!--		CABINET SYSTEM LABEL		-->
+
+  <include subset="Cabinet Label" name="Score Board">./_cabinet_label/scoreboard.xml</include>
+  <include subset="Cabinet Label" name="Digital">./_cabinet_label/digital.xml</include>
+
 <!--		ILLUSTRATIONS		-->
 
   <include subset="Illustration" name="Sonic">./_illustrations/sonic.xml</include>
@@ -288,13 +293,10 @@
 		
 		<text name="system_label" extra="true">
 			<text>${system.fullName}</text>
-			<fontPath>./_assets/arcade_r.ttf</fontPath>
-			<fontSize>0.026</fontSize>
 			<origin>0.5 0.5</origin>
 			<forceUppercase>false</forceUppercase>
 			<size>0.4 0.1</size>
 			<alignment>center</alignment>
-			<glowSize>2</glowSize>
 			<zIndex>900</zIndex>
 		</text>
 		
@@ -365,9 +367,9 @@
     </video>
 
 	  <text name="systemInfo">
-        <pos>0 0.64</pos>
-		<fontPath>./_assets/arcade.ttf</fontPath>
-	    <fontSize>0.027</fontSize>
+        <pos>0 0.65</pos>
+		<fontPath>./_assets/digital.ttf</fontPath>
+	    <fontSize>0.025</fontSize>
         <zIndex>26</zIndex>
 		<color>ffffff</color>
 		<glowColor>000000</glowColor>
@@ -398,6 +400,7 @@
 
   <include subset="Gamelist" name="Basic">./_gamelists/basic.xml</include>
   <include subset="Gamelist" name="Detailed">./_gamelists/detailed.xml</include>
+  <include subset="Gamelist" name="Video">./_gamelists/video.xml</include>
 
 <!--		CUSTOM BACKGROUNDS		-->
 

@@ -7,8 +7,8 @@
 
 		<text name="logoText">
 			<text> ${system.name} </text>
-			<fontPath>./../_assets/robotcrush.ttf</fontPath>
-			<fontSize>0.04</fontSize>
+			<fontPath>./../_assets/bttt.ttf</fontPath>
+			<fontSize>0.032</fontSize>
 			<glowSize>3</glowSize>
 
 		</text>

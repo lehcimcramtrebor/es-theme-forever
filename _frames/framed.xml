@@ -47,5 +47,14 @@
       </image>    
 
 </view>
-	  
+
+<view name="video, grid">
+
+    <video name="md_video">
+		<pos>0.265 0.4835</pos>
+		<size>0.365 0.45</size>
+    </video>
+
+</view>
+	
 </theme>

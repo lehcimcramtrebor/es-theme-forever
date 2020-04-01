@@ -1,0 +1,16 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="menu, system, basic, detailed, video, grid">  
+	
+		<text name="system_label" extra="true">
+			<fontPath>./_assets/digital.ttf</fontPath>
+			<fontSize>0.026</fontSize>
+			<glowSize>2</glowSize>
+		</text>
+
+</view>
+
+</theme>

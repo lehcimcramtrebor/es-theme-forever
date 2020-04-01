@@ -212,11 +212,11 @@
 		<color>ffffff</color>
 		<glowColor>202020</glowColor>		
 		<glowSize>2</glowSize>
-        <fontPath>./../_assets/digital.ttf</fontPath>		 
+        <fontPath>./../_assets/ledsled.ttf</fontPath>		 
         <pos>0.873 0.72</pos>
         <size>0.18 0.3733333333</size>
 		<alignment>center</alignment>
-        <fontSize>0.02</fontSize>
+        <fontSize>0.035</fontSize>
         <zIndex>800</zIndex>         
       </text>
 
