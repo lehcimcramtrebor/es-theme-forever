@@ -3,17 +3,15 @@
 <theme>
    <formatVersion>7</formatVersion>
 
-<include>./logo.xml</include>
-
 <view name="system">
 
       <carousel name="systemcarousel">
         <type>vertical</type>
 		<origin>1 0</origin>
         <pos>1 -0.1</pos>
-		<size>0.27 1.12</size>
+		<size>0.28 1.12</size>
         <logoScale>1</logoScale>
-        <logoSize>0.27 0.25</logoSize>
+        <logoSize>0.26 0.25</logoSize>
         <color>00000000</color>
 		<logoRotation>-30</logoRotation>
 		<logoRotationOrigin>2 0.5</logoRotationOrigin>
@@ -24,5 +22,7 @@
 		</carousel>
 		
 </view>
+
+<include>./logo.xml</include>
 
 </theme>

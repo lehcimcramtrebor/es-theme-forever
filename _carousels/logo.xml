@@ -14,7 +14,6 @@
   <include subset="Logo" name="Banana Island">./bananaisland.xml</include>
   <include subset="Logo" name="Volcanic">./volcanic.xml</include>
   <include subset="Logo" name="Monster Z">./monsterz.xml</include>
-  <include subset="Logo" name="Gun Metal">./gunmetal.xml</include>
   <include subset="Logo" name="test">./test.xml</include>
 
 

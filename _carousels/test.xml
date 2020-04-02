@@ -6,13 +6,11 @@
 <view name="system">
 
 		<text name="logoText">
-			<text>${system.name}</text>
-			<fontPath>./../_assets/gunmetal.ttf</fontPath>
-			<fontSize>0.046</fontSize>
+			<text>${system.fullName}</text>
+			<fontPath>./../_assets/scoreboard.ttf</fontPath>
+			<fontSize>0.044</fontSize>
 			<glowSize>3</glowSize>
-
 		</text>
-		
 </view>
 
 </theme>

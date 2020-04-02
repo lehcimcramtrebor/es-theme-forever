@@ -3,8 +3,6 @@
 <theme>
    <formatVersion>7</formatVersion>
 
-<include>./logo.xml</include>
-
 <view name="system">
 
       <carousel name="systemcarousel">
@@ -13,16 +11,18 @@
         <pos>1 -0.05</pos>
 		<size>0.28 1</size>
         <logoScale>2</logoScale>
-        <logoSize>0.18 0.10</logoSize>
+        <logoSize>0.08 0.25</logoSize>
         <color>00000000</color>
-		<logoRotation>-30</logoRotation>
-		<logoRotationOrigin>-0.25 0.5</logoRotationOrigin>
+		<logoRotation>-35</logoRotation>
+		<logoRotationOrigin>-2 0.5</logoRotationOrigin>
 		<logoAlignment>center</logoAlignment>
-        <maxLogoCount>9</maxLogoCount>
+        <maxLogoCount>3</maxLogoCount>
 		<zIndex>3</zIndex>
 		<defaultTransition>instant</defaultTransition>
 		</carousel>
 		
 </view>
+
+<include>./logo.xml</include>
 
 </theme>

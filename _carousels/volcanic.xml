@@ -6,7 +6,7 @@
 <view name="system">
 
 		<text name="logoText">
-			<text>${system.name}</text>
+			<text>${system.fullName}</text>
 			<fontPath>./../_assets/volcanic.ttf</fontPath>
 			<fontSize>0.021</fontSize>
 			<glowSize>3</glowSize>

@@ -6,7 +6,7 @@
 <view name="system">
 
 		<text name="logoText">
-			<text>${system.name}</text>
+			<text>${system.fullName}</text>
 			<fontPath>./../_assets/squirk.otf</fontPath>
 			<fontSize>0.044</fontSize>
 			<glowSize>3</glowSize>
