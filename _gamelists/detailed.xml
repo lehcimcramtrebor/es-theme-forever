@@ -12,7 +12,7 @@
 		</image>
 		
 		<image name="cabinet_shadow" extra="true">
-			<pos>0.265 0.47</pos>
+			<pos>0.275 0.47</pos>
 		</image>
 		
 			<image name="screen_effect" extra="true">
@@ -250,7 +250,7 @@
 -->
 
     <rating name="md_rating">
-		<pos>0.36 0.865</pos>
+		<pos>0.845 0.9565</pos>
 		<size>0.1 0.042</size>
 		<zIndex>2000</zIndex>	
 		<filledPath>./../_assets/franc_f.png</filledPath>	
@@ -258,7 +258,7 @@
     </rating>
 
 	<datetime name="md_releasedate">
-		<pos>0.225 0.86</pos>
+		<pos>0.33 0.86</pos>
 		<color>ff7a00bb</color>      
 		<size>0.12 0.020</size>
 		<fontPath>./../_assets/roundedledboard.ttf</fontPath>		 			
@@ -269,26 +269,26 @@
 	  
 	<text name="md_developer">
 		<color>06b900bb</color>      
-		<pos>0.05 0.86</pos>
-		<size>0.2 0.020</size>
+		<pos>0.08 0.86</pos>
+		<size>0.28 0.020</size>
 		<fontPath>./../_assets/roundedledboard.ttf</fontPath>		 			
-		<fontSize>0.012</fontSize>
+		<fontSize>0.016</fontSize>
 		<alignment>left</alignment>
 		<zIndex>1999</zIndex>
       </text>
 	  	  
 	<text name="md_genre">
-		<pos>0.05 0.89</pos>
+		<pos>0.08 0.89</pos>
 		<color>06b900bb</color>      
-		<size>0.21 0.020</size>
+		<size>0.28 0.020</size>
 		<fontPath>./../_assets/roundedledboard.ttf</fontPath>		 			
-		<fontSize>0.012</fontSize>
+		<fontSize>0.011</fontSize>
 		<alignment>left</alignment>
 		<zIndex>1999</zIndex>
       </text>
 
       <text name="md_lbl_players">
-		<pos>0.355 0.89</pos>
+		<pos>0.46 0.89</pos>
 		<origin>1 0</origin>
 		<size>0.12 0.020</size>
 		<fontPath>./../_assets/roundedledboard.ttf</fontPath>		 			
@@ -299,7 +299,7 @@
       </text>
 	  
       <text name="md_players">
-		<pos>0.2815 0.89</pos>
+		<pos>0.3865 0.89</pos>
 		<origin>0 0</origin>		
 		<size>0.12 0.020</size>
 		<fontPath>./../_assets/roundedledboard.ttf</fontPath>		 			

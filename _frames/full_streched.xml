@@ -7,7 +7,7 @@
 <view name="system">
 		
     <video name="backgroundvideo" extra="true">
-		<size>0.4 0.485</size>
+		<size>0.345 0.485</size>
     </video>
 
 
@@ -17,7 +17,7 @@
 <view name="detailed">
 
      <image name="md_image">
-		<size>0.4 0.485</size>      
+		<size>0.345 0.485</size>      
       </image>    
 
 </view>
@@ -25,7 +25,7 @@
 <view name="video, grid">
 
     <video name="md_video">
-		<size>0.4 0.485</size>    
+		<size>0.345 0.485</size>    
     </video>
 
 </view>

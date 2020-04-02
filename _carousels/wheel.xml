@@ -10,7 +10,7 @@
         <type>vertical_wheel</type>
 		<origin>1 0</origin>
         <pos>1 -0.1</pos>
-		<size>0.27 1.12</size>
+		<size>0.30 1.12</size>
         <logoScale>2</logoScale>
         <logoSize>0.075 0.25</logoSize>
         <color>00000000</color>

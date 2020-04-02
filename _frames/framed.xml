@@ -6,11 +6,11 @@
 <view name="system, basic, detailed, video, grid">
 
 			<image name="screen_effect" extra="true">
-			<size>0.365 0.45</size>
+			<size>0.315 0.45</size>
 			</image>	  
 
 	    <video name="tv_effect" extra="true">
-		<size>0.365 0.45</size>
+		<size>0.315 0.45</size>
 		</video>
 </view>
 		
@@ -29,11 +29,11 @@
     </video>
 
 		<image name="systemInfo_frame" extra="true">
-			<size>0.365 0.09</size>
+			<size>0.315 0.09</size>
 		</image>
 
 		<image name="line_down" extra="true">
-			<size>0.365 0.002</size>
+			<size>0.315 0.002</size>
 		</image>
 		
 </view>
@@ -53,6 +53,15 @@
     </video>
 
 </view>
+
+<view name="basic">
+
+	  <textlist name="gamelist">
+         <size>0.315 0.45</size>
+      </textlist>	  
+
+</view>
+
   <include subset="Ratio Videos" name="Streched Full Screen">./framed_streched.xml</include>
   <include subset="Ratio Videos" name="Original Ratio">./framed_original.xml</include>
 	
