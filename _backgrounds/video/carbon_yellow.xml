@@ -8,6 +8,7 @@
 	    <video name="background_video" extra="true">
 			<path>./../../_assets/background.mp4</path>
 			<color>efd80770</color>
+			<delay>1</delay>
 			<size>1 1</size>
 			<origin>0 0</origin>
 			<zIndex>2</zIndex>

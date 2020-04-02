@@ -75,8 +75,8 @@
 	  
 	  <textlist name="gamelist">
 		 <origin>0.5 0.5</origin>
-         <pos>0.76 0.297</pos>
-         <size>0.4498 0.45</size>
+         <pos>0.76 0.313</pos>
+         <size>0.4498 0.48</size>
          <selectedColor>000000</selectedColor>
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>000000</secondaryColor>

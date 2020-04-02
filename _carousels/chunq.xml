@@ -6,9 +6,9 @@
 <view name="system">
 
 		<text name="logoText">
-			<text> ${system.name} </text>
-			<fontPath>./../_assets/robotcrush.ttf</fontPath>
-			<fontSize>0.04</fontSize>
+			<text>${system.name}</text>
+			<fontPath>./../_assets/chunq.ttf</fontPath>
+			<fontSize>0.044</fontSize>
 			<glowSize>3</glowSize>
 
 		</text>
