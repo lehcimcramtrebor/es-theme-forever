@@ -7,6 +7,7 @@
 
   <include subset="Logo" name="Robot Crush">./robot_crush.xml</include>
   <include subset="Logo" name="Back To The Time">./bttt.xml</include>
+  <include subset="Logo" name="test">./test.xml</include>
 
 
 </theme>
