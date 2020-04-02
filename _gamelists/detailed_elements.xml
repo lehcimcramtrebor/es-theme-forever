@@ -280,11 +280,33 @@
 	<text name="md_genre">
 		<pos>0.05 0.89</pos>
 		<color>06b900bb</color>      
-		<size>0.304 0.020</size>
+		<size>0.21 0.020</size>
 		<fontPath>./../_assets/roundedledboard.ttf</fontPath>		 			
 		<fontSize>0.012</fontSize>
 		<alignment>left</alignment>
 		<zIndex>1999</zIndex>
+      </text>
+
+      <text name="md_lbl_players">
+		<pos>0.355 0.89</pos>
+		<origin>1 0</origin>
+		<size>0.12 0.020</size>
+		<fontPath>./../_assets/roundedledboard.ttf</fontPath>		 			
+		<fontSize>0.012</fontSize>
+		<alignment>center</alignment>
+		<color>ff7a00bb</color>      
+         <zIndex>1999</zIndex>         
+      </text>
+	  
+      <text name="md_players">
+		<pos>0.2815 0.89</pos>
+		<origin>0 0</origin>		
+		<size>0.12 0.020</size>
+		<fontPath>./../_assets/roundedledboard.ttf</fontPath>		 			
+		<fontSize>0.012</fontSize>
+		<alignment>center</alignment>
+		<color>ff7a00bb</color>      
+         <zIndex>1999</zIndex>         
       </text>
 	  
 	</view> 

@@ -7,8 +7,8 @@
 
 		<text name="logoText">
 			<text>${system.fullName}</text>
-			<fontPath>./../_assets/test.ttf</fontPath>
-			<fontSize>0.035</fontSize>
+			<fontPath>./../_assets/pixel.ttf</fontPath>
+			<fontSize>0.037</fontSize>
 			<glowSize>3</glowSize>
 		</text>
 </view>

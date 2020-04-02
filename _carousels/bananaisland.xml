@@ -8,7 +8,7 @@
 		<text name="logoText">
 			<text>${system.fullName}</text>
 			<fontPath>./../_assets/bananaisland.ttf</fontPath>
-			<fontSize>0.04</fontSize>
+			<fontSize>0.043</fontSize>
 			<glowSize>3</glowSize>
 
 		</text>

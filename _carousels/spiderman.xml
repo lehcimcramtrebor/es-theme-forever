@@ -7,12 +7,10 @@
 
 		<text name="logoText">
 			<text>${system.fullName}</text>
-			<fontPath>./../_assets/patchyrobots.otf</fontPath>
-			<fontSize>0.034</fontSize>
+			<fontPath>./../_assets/spiderman.ttf</fontPath>
+			<fontSize>0.024</fontSize>
 			<glowSize>3</glowSize>
-
 		</text>
-		
 </view>
 
 </theme>

@@ -13,7 +13,9 @@
   <include subset="Logo" name="Monster Z">./monsterz.xml</include>
   <include subset="Logo" name="Clutching Toth">./clutchingtoth.xml</include>
   <include subset="Logo" name="Pixel">./pixel.xml</include>
-  <include subset="Logo" name="test">./test.xml</include>
-
+  <include subset="Logo" name="TMNT">./tmnt.xml</include>
+  <include subset="Logo" name="Mario">./mario.xml</include>
+  <include subset="Logo" name="Hulk">./hulk.xml</include>
+  <include subset="Logo" name="Spiderman">./spiderman.xml</include>
 
 </theme>
