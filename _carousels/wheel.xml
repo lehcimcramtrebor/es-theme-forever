@@ -18,7 +18,7 @@
 		<logoRotationOrigin>4 0.5</logoRotationOrigin>
 		<logoAlignment>center</logoAlignment>
         <maxLogoCount>9</maxLogoCount>
-		<zIndex>3</zIndex>
+		<zIndex>11</zIndex>
 		<defaultTransition>instant</defaultTransition>
 		</carousel>
 		

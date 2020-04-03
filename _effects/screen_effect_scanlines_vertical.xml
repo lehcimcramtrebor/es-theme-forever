@@ -8,7 +8,7 @@
 
 		<view name="system, basic, detailed, video, grid">
 
-			<image name="screen_effect" extra="true">
+			<image name="screen_effect, background_right_effect" extra="true">
 				<path>./../_assets/effect_scanlines_vertical.png</path>
 			</image>
 	

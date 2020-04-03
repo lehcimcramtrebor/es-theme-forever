@@ -26,6 +26,18 @@
    
 <view name="menu, system, basic, detailed, video, grid">  
 
+     <image name="background_v1" extra="true"> 
+		 <colorEnd>ff7f00</colorEnd>
+      </image>		
+
+      <image name="background_v2" extra="true"> 
+		 <color>ff7f00</color>
+      </image>	
+
+     <image name="background_adjust_h1" extra="true">
+		 <colorEnd>ff7f00</colorEnd>
+      </image>
+
      <image name="gamelist_line" extra="true">
 		<color>ff7f00</color>       
       </image>  

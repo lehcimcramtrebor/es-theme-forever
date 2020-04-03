@@ -21,11 +21,22 @@
     
       </text>
 
-		
 
 </view>
    
 <view name="menu, system, basic, detailed, video, grid">  
+
+     <image name="background_v1" extra="true"> 
+		 <colorEnd>bb0b0b</colorEnd>
+      </image>		
+
+      <image name="background_v2" extra="true"> 
+		 <color>bb0b0b</color>
+      </image>	
+
+     <image name="background_adjust_h1" extra="true">
+		 <colorEnd>bb0b0b</colorEnd>
+      </image>
 
      <image name="gamelist_line" extra="true">
 		<color>bb0b0b</color>       

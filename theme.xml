@@ -44,7 +44,7 @@
   <include subset="Illustration" name="Minnie">./_illustrations/minnie.xml</include>
   <include subset="Illustration" name="TMNT">./_illustrations/tmnt.xml</include>
 
-  <include subset="Illustration" name="No Illustration">./nope.xml</include>
+  <include subset="Illustration" name="No Illustration">./_illustrations/no_illustration.xml</include>
 
 <!--		COLORSETS		-->
   <include subset="Colorset" name="Green Apple">./_colorsets/green_apple.xml</include>
@@ -70,6 +70,8 @@
   <include subset="TV FILL" name="Framed">./_frames/framed.xml</include>
 
 <!--		BACKGROUNDS SUBSETS		-->
+
+  <include subset="Background" name="Dynamic Colorset Forever Style">./_backgrounds/forever/forever.xml</include>
 
   <include subset="Background" name="Steel-01">./_backgrounds/steel/01.xml</include>
   <include subset="Background" name="Steel-02">./_backgrounds/steel/02.xml</include>
@@ -278,7 +280,7 @@
 			<origin>0.5 0.5</origin>
 			<size>0.675 1</size>
 			<color>00000050</color>
-			<zIndex>2</zIndex>
+			<zIndex>10</zIndex>
 		</image>
 		
 			<image name="screen_effect" extra="true">

@@ -18,6 +18,12 @@
 
 </view>
 
+<view name="system, detailed, video, grid">
 
+      <image name="background_right" extra="true">
+		 <color>202020</color>	  	  
+      </image>
  
+ </view>
+
 </theme>
