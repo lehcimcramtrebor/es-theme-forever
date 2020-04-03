@@ -61,7 +61,7 @@
  		<origin>0.5 0.5</origin>
 		<color>ffffff</color>
 		<!--Size/Pos by Subset-->
-        <zIndex>21</zIndex>         
+        <zIndex>22</zIndex>         
       </image>    
 
      <image name="g_line" extra="true">

@@ -11,7 +11,7 @@
 			<delay>1</delay>
 			<size>1 1</size>
 			<origin>0 0</origin>
-			<zIndex>2</zIndex>
+			<zIndex>9</zIndex>
 		</video>
 
 </view>

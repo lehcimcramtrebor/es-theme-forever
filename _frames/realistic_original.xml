@@ -6,7 +6,7 @@
 <view name="system">
 
     <video name="backgroundvideo" extra="true">
-		<maxSize>0.315 0.45</maxSize>
+		<maxSize>0.255 0.34</maxSize>
     </video>
 		
 </view>
@@ -14,7 +14,7 @@
 <view name="detailed">
 
      <image name="md_image">
-		<maxSize>0.315 0.45</maxSize>
+		<maxSize>0.255 0.34</maxSize>
       </image>    
 
 </view>
@@ -22,7 +22,7 @@
 <view name="video, grid">
 
     <video name="md_video">
-		<maxSize>0.315 0.45</maxSize>
+		<maxSize>0.255 0.34</maxSize>
     </video>
 
 </view>

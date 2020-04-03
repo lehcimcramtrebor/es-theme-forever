@@ -4,10 +4,10 @@
    <formatVersion>7</formatVersion>
 
 
+  <include subset="Logo" name="Patchy Robots">./patchyrobots.xml</include>
   <include subset="Logo" name="Chunq">./chunq.xml</include>
   <include subset="Logo" name="Back To The Time">./bttt.xml</include>
   <include subset="Logo" name="Squirk">./squirk.xml</include>
-  <include subset="Logo" name="Patchy Robots">./patchyrobots.xml</include>
   <include subset="Logo" name="Wozcot">./wozcot.xml</include>
   <include subset="Logo" name="Banana Island">./bananaisland.xml</include>
   <include subset="Logo" name="Monster Z">./monsterz.xml</include>

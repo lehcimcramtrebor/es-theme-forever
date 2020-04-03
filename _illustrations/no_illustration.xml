@@ -6,6 +6,26 @@
 
   <include subset="Background" name="Dynamic Colorset Forever Style">./forever.xml</include>
 
-   
+
+<view name="system">
+
+		<image name="open" extra="true">
+			<path>./../_assets/open.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.15 0.47</pos>
+			<size>0.36 0.64</size>
+			<zIndex>300</zIndex>
+		</image>
+
+		<image name="open_shadow" extra="true">
+			<path>./../_assets/open.png</path>
+			<color>00000050</color>
+			<origin>0.5 0.5</origin>
+			<pos>0.16 0.49</pos>
+			<size>0.36 0.64</size>
+			<zIndex>299</zIndex>
+		</image>
+		
+</view>   
 
 </theme>

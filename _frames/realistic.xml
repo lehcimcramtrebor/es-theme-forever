@@ -1,0 +1,106 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system, basic, detailed, video, grid">
+
+			<image name="screen_effect" extra="true">
+		<size>0.255 0.34</size>
+			</image>	  
+
+	    <video name="tv_effect" extra="true">
+		<size>0.255 0.34</size>
+		</video>
+
+		<image name="video_black_in" extra="true">
+			<size>0.255 0.34</size>
+		</image>		
+
+		<image name="screen_frame" extra="true">
+			<size>0.263 0.36</size>
+		</image>
+		
+</view>
+		
+<view name="system">
+
+			<image name="screen_effect" extra="true">
+				<pos>0.5 0.4835</pos>
+			</image>	  
+
+	    <video name="tv_effect" extra="true">
+				<pos>0.5 0.4835</pos>
+		</video>
+		
+    <video name="backgroundvideo" extra="true">
+		<pos>0.5 0.4835</pos>
+    </video>
+
+		<image name="systemInfo_frame" extra="true">
+			<visible>false</visible>
+		</image>
+
+		<image name="line_down" extra="true">
+			<visible>false</visible>
+		</image>
+
+		<image name="video_black_in" extra="true">
+		<pos>0.5 0.4835</pos>
+		</image>
+
+	  <text name="systemInfo">
+        <pos>0 0.66</pos>
+      </text> 
+
+		<image name="screen_frame" extra="true">
+		<pos>0.5 0.4835</pos>
+		</image>
+		
+</view>
+
+<view name="detailed">
+
+     <image name="md_image">
+		<pos>0.265 0.4835</pos>
+      </image>    
+
+</view>
+
+<view name="video, grid">
+
+    <video name="md_video">
+		<pos>0.265 0.4835</pos>
+    </video>
+
+		<image name="video_black_in" extra="true">
+		<pos>0.265 0.4835</pos>
+		</image>
+
+		<image name="screen_frame" extra="true">
+		<pos>0.265 0.4835</pos>
+		</image>
+				
+</view>
+
+<view name="basic">
+
+	  <textlist name="gamelist">
+         <fontSize>0.024</fontSize>	  
+		<size>0.255 0.34</size>
+      </textlist>	  
+
+		<image name="video_black_in" extra="true">
+		<pos>0.5 0.4835</pos>
+		</image>		
+		
+		<image name="screen_frame" extra="true">
+		<pos>0.5 0.4835</pos>
+		</image>
+		
+</view>
+
+  <include subset="Ratio Videos" name="Streched Full Screen">./realistic_streched.xml</include>
+  <include subset="Ratio Videos" name="Original Ratio">./realistic_original.xml</include>
+	
+</theme>

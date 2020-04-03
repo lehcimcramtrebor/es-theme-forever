@@ -44,7 +44,7 @@
          <forceUppercase>1</forceUppercase>
          <scrollSound>./_inc/scroll.wav</scrollSound>
 		 <lineSpacing>2.2</lineSpacing>
-		 <zIndex>21</zIndex>
+		 <zIndex>22</zIndex>
       </textlist>	  
 	</view> 
    

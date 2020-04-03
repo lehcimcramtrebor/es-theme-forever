@@ -10,16 +10,16 @@
 
 <!--		CAROUSELS		-->
 
+  <include subset="Carousel" name="Jukebox">./_carousels/jukebox.xml</include>
   <include subset="Carousel" name="Wheel">./_carousels/wheel.xml</include>
   <include subset="Carousel" name="Vertical">./_carousels/vertical.xml</include>
-  <include subset="Carousel" name="Jukebox">./_carousels/jukebox.xml</include>
 
   <include subset="Carousel" name="No Carousel">./_carousels/no_carousel.xml</include>
 
 <!--		CABINETS		-->
 
-  <include subset="Cabinet" name="Default">./_cabinets/cabinet_default.xml</include>
   <include subset="Cabinet" name="Grey">./_cabinets/cabinet_grey.xml</include>
+  <include subset="Cabinet" name="Default">./_cabinets/cabinet_default.xml</include>
 
 <!--		CABINET SYSTEM LABEL		-->
 
@@ -28,12 +28,12 @@
 
 <!--		ILLUSTRATIONS		-->
 
+  <include subset="Illustration" name="Bulma">./_illustrations/bulma.xml</include> 
   <include subset="Illustration" name="Sonic">./_illustrations/sonic.xml</include>
   <include subset="Illustration" name="Mario">./_illustrations/mario.xml</include>
   <include subset="Illustration" name="Luigi">./_illustrations/luigi.xml</include>
   <include subset="Illustration" name="Ryu">./_illustrations/ryu.xml</include>
   <include subset="Illustration" name="Goku">./_illustrations/goku.xml</include>
-  <include subset="Illustration" name="Bulma">./_illustrations/bulma.xml</include> 
   <include subset="Illustration" name="Krillin">./_illustrations/krillin.xml</include> 
   <include subset="Illustration" name="Donald">./_illustrations/donald.xml</include>
   <include subset="Illustration" name="Link">./_illustrations/link.xml</include>
@@ -47,8 +47,8 @@
   <include subset="Illustration" name="No Illustration">./_illustrations/no_illustration.xml</include>
 
 <!--		COLORSETS		-->
-  <include subset="Colorset" name="Green Apple">./_colorsets/green_apple.xml</include>
   <include subset="Colorset" name="Cherry">./_colorsets/cherry.xml</include>
+  <include subset="Colorset" name="Green Apple">./_colorsets/green_apple.xml</include>
   <include subset="Colorset" name="French Blue">./_colorsets/french_blue.xml</include>
   <include subset="Colorset" name="Gold Yellow">./_colorsets/gold_yellow.xml</include>
   <include subset="Colorset" name="Orange">./_colorsets/orange.xml</include>
@@ -64,10 +64,7 @@
   <include subset="TV Frames" name="Plain">./_frames/plain_frames.xml</include>
   <include subset="TV Frames" name="No">./_frames/no.xml</include>
 
-<!--		FORMAT TV		-->
 
-  <include subset="TV FILL" name="Full">./_frames/full.xml</include>
-  <include subset="TV FILL" name="Framed">./_frames/framed.xml</include>
 
 <!--		BACKGROUNDS SUBSETS		-->
 
@@ -188,9 +185,9 @@
 
 <!------VIDEO EFFECTS------>
 
-		<include subset="Video Effect" name="HERTZ">./_effects/tv_effect_hertz.xml</include>	
-
 		<include subset="Video Effect" name="CRT">./_effects/tv_effect_crt.xml</include>
+
+		<include subset="Video Effect" name="HERTZ">./_effects/tv_effect_hertz.xml</include>	
 
 		<include subset="Video Effect" name="FLICKERING">./_effects/tv_effect_flickering.xml</include>		
 
@@ -295,12 +292,27 @@
 		</video>
 
 		<image name="video_black" extra="true">
-			<path>./_assets/white.png</path>
+			<tile>false</tile>
 			<origin>0.5 0.5</origin>
 			<size>0.345‬ 0.485</size>
-			<color>000000</color>
+			<color>ffffff</color>
 			<zIndex>20</zIndex>
 		</image>
+
+		<image name="video_black_in" extra="true">
+			<tile>true</tile>
+			<path>./_assets/white.png</path>
+			<origin>0.5 0.5</origin>
+			<color>000000</color>
+			<zIndex>21</zIndex>
+		</image>				
+
+		<image name="screen_frame" extra="true">
+			<path>./_assets/frame.png</path>
+			<origin>0.5 0.5</origin>
+			<color>ffffff</color>
+			<zIndex>35</zIndex>
+		</image>				
 		
 		<text name="system_label" extra="true">
 			<text>${system.fullName}</text>
@@ -410,10 +422,21 @@
   <include>./_gamelists/detailed_elements.xml</include>
   <include>./_gamelists/video_elements.xml</include>
 
-  <include subset="Gamelist" name="Basic">./_gamelists/basic.xml</include>
-  <include subset="Gamelist" name="Detailed">./_gamelists/detailed.xml</include>
   <include subset="Gamelist" name="Video">./_gamelists/video.xml</include>
+  <include subset="Gamelist" name="Detailed">./_gamelists/detailed.xml</include>
+  <include subset="Gamelist" name="Basic">./_gamelists/basic.xml</include>
 
+<!--		FORMAT TV		-->
+
+  <include subset="TV FILL" name="Realistic Frame">./_frames/realistic.xml</include>
+  <include subset="TV FILL" name="Full">./_frames/full.xml</include>
+
+<!--		DECO Frames	-->
+
+  <include subset="Realistic frame" name="Marvel">./_frames/marvel.xml</include>
+  <include subset="Realistic frame" name="Mortal Kombat">./_frames/mk.xml</include>
+  <include subset="Realistic frame" name="Black">./_frames/black.xml</include>
+  
 <!--		CUSTOM BACKGROUNDS		-->
 
   <include subset="Background" name="Custom Fixed Tile">./_backgrounds/custom/tile.xml</include>

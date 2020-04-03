@@ -12,7 +12,14 @@
 	    <video name="tv_effect" extra="true">
 				<size>0.345 0.48</size>				
 		</video>
-		
+
+		<image name="video_black" extra="true">
+		<color>000000</color>
+		</image>		
+
+		<image name="screen_frame" extra="true">
+			<visible>false</visible>
+		</image>		
 </view>
 
 <view name="system">
