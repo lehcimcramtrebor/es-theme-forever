@@ -8,19 +8,64 @@
       <carousel name="systemcarousel">
         <type>vertical</type>
 		<origin>1 0</origin>
-        <pos>1 -0.1</pos>
-		<size>0.30 1.12</size>
-        <logoScale>1</logoScale>
-        <logoSize>0.26 0.25</logoSize>
+        <pos>1 -0.03</pos>
+		<size>0.31 1</size>
+        <logoScale>2</logoScale>
+        <logoSize>0.13 0.125</logoSize>
         <color>00000000</color>
 		<logoRotation>-30</logoRotation>
 		<logoRotationOrigin>2 0.5</logoRotationOrigin>
 		<logoAlignment>center</logoAlignment>
-        <maxLogoCount>4</maxLogoCount>
+        <maxLogoCount>3</maxLogoCount>
 		<zIndex>11</zIndex>
 		<defaultTransition>instant</defaultTransition>
 		</carousel>
-		
+
+      <image name="wheel" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.845 0.47</pos>
+         <maxSize>0.3 1</maxSize>
+         <zIndex>7</zIndex>  	  
+      </image>
+
+      <image name="wheel_shadow" extra="true">
+		 <color>00000050</color>
+         <origin>0.5 0.5</origin>
+         <pos>0.855 0.49</pos>
+         <maxSize>0.3 1</maxSize>
+         <zIndex>6</zIndex>  	  
+      </image>
+
+      <image name="wheel-1" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.845 0.1375</pos>
+         <maxSize>0.15 1</maxSize>
+         <zIndex>7</zIndex>  	  
+      </image>
+
+      <image name="wheel-1_shadow" extra="true">
+	  	 <color>00000050</color>
+         <origin>0.5 0.5</origin>
+         <pos>0.85 0.1475</pos>
+         <maxSize>0.15 1</maxSize>
+         <zIndex>6</zIndex>  	  
+      </image>
+	  
+      <image name="wheel+1" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.845 0.804</pos>
+         <maxSize>0.15 1</maxSize>
+         <zIndex>7</zIndex>  	  
+      </image>
+
+      <image name="wheel+1_shadow" extra="true">
+	  	 <color>00000050</color>	  
+         <origin>0.5 0.5</origin>
+         <pos>0.85 0.814</pos>
+         <maxSize>0.15 1</maxSize>
+         <zIndex>6</zIndex>  	  
+      </image>
+	  
 </view>
 
 <include>./logo.xml</include>

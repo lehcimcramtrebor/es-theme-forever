@@ -19,6 +19,9 @@
 			<text></text>
 		</text>		
 
+      <image name="wheel, wheel_shadow, wheel-1, wheel-1_shadow, wheel+1, wheel+1_shadow" extra="true">  
+		 <visible>false</visible>
+      </image>
 </view>
 
 </theme>

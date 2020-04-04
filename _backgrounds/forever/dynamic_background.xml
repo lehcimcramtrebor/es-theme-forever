@@ -16,7 +16,7 @@
       <image name="background_v2" extra="true">
          <origin>0 0.5</origin>
          <pos>0 0.47</pos>
-         <size>0.5 0.1</size>
+         <size>1 0.1</size>
          <zIndex>4</zIndex>  	  
 		 <path>./../../_assets/white.png</path>
       </image>
@@ -25,8 +25,8 @@
 		 <color>00000050</color>
          <origin>0 0.5</origin>
          <pos>0 0.49</pos>
-         <size>0.5 0.1</size>
-         <zIndex>2</zIndex>  	  
+         <size>1 0.1</size>
+         <zIndex>3</zIndex>  	  
 		 <path>./../../_assets/white.png</path>
       </image>
 	  
@@ -35,7 +35,7 @@
          <origin>0 0</origin>
          <pos>0 0.42</pos>
          <size>0.5 0.001</size>
-         <zIndex>4</zIndex>  	  
+         <zIndex>5</zIndex>  	  
 		 <path>./../../_assets/white.png</path>
       </image>
 
@@ -44,7 +44,7 @@
          <origin>0 1</origin>
          <pos>0 0.52</pos>
          <size>0.5 0.001</size>
-         <zIndex>4</zIndex>  	  
+         <zIndex>5</zIndex>  	  
 		 <path>./../../_assets/white.png</path>
       </image>
 	  
@@ -55,7 +55,7 @@
          <origin>1 0</origin>
          <pos>1 0</pos>
          <size>0.5 1</size>
-         <zIndex>3</zIndex>  	  
+         <zIndex>2</zIndex>  	  
 		 <path>./../../_assets/white.png</path>
       </image>
 

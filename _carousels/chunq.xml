@@ -8,11 +8,13 @@
 		<text name="logoText">
 			<text>${system.fullName}</text>
 			<fontPath>./../_assets/chunq.ttf</fontPath>
-			<fontSize>0.047</fontSize>
+			<fontSize>0.045</fontSize>
 			<glowSize>3</glowSize>
 
 		</text>
-		
+
+
+	  
 </view>
 
 </theme>

@@ -16,6 +16,12 @@
 
   <include subset="Carousel" name="No Carousel">./_carousels/no_carousel.xml</include>
 
+<!--		LOGOS DECO		-->
+
+  <include subset="Logos Decoration" name="Silver Mame">./_logos_deco/silver_mame.xml</include>
+  <include subset="Logos Decoration" name="Carbon Mame">./_logos_deco/carbon_mame.xml</include>
+
+
 <!--		CABINETS		-->
 
   <include subset="Cabinet" name="Grey">./_cabinets/cabinet_grey.xml</include>
@@ -164,6 +170,7 @@
   <include subset="Background" name="Squares-06">./_backgrounds/squares/06.xml</include>
   <include subset="Background" name="Squares-07">./_backgrounds/squares/07.xml</include>
   <include subset="Background" name="Squares-08">./_backgrounds/squares/08.xml</include>
+
 
 <!------STATIC EFFECTS------>
 
@@ -445,11 +452,6 @@
 
   <include>./_backgrounds/custom/custom.xml</include>
 
-<!--
-  <include subset="Background" name="Custom Fixed Tile">./_backgrounds/custom/tile.xml</include>
-  <include subset="Background" name="Custom Fixed Background">./_backgrounds/custom/background.xml</include>
-  <include subset="Background" name="Custom by System">./_backgrounds/custom/system.xml</include>
--->
 <!--		SPECIFICS SYSTEMS		-->
 
   <include>./_specifics/${system.name}.xml</include>
