@@ -65,6 +65,14 @@
 		<pos>0.265 0.4835</pos>
       </image>    
 
+		<image name="video_black_in" extra="true">
+		<pos>0.265 0.4835</pos>
+		</image>
+		
+		<image name="screen_frame" extra="true">
+		<pos>0.265 0.4835</pos>
+		</image>
+		
 </view>
 
 <view name="video, grid">

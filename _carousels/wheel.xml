@@ -14,7 +14,7 @@
         <logoScale>2</logoScale>
         <logoSize>0.075 0.25</logoSize>
         <color>00000000</color>
-		<logoRotation>-30</logoRotation>
+		<logoRotation>-25</logoRotation>
 		<logoRotationOrigin>4 0.5</logoRotationOrigin>
 		<logoAlignment>center</logoAlignment>
         <maxLogoCount>9</maxLogoCount>

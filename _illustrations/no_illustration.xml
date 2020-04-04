@@ -4,9 +4,6 @@
    <formatVersion>7</formatVersion>
 
 
-  <include subset="Background" name="Dynamic Colorset Forever Style">./forever.xml</include>
-
-
 <view name="system">
 
 		<image name="open" extra="true">

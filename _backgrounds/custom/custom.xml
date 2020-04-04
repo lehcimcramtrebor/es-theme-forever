@@ -1,0 +1,56 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+<view name="menu, system, basic, detailed, video, grid">  
+
+      <image name="background" extra="true">
+		 <tile>true</tile>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>-1</zIndex> 
+		 <path>./../../CUSTOMIZE_YOUR_THEME/backgrounds/tile.png</path>
+		 <path>./../../CUSTOMIZE_YOUR_THEME/backgrounds/tile.jpg</path>
+
+      </image>
+
+      <image name="background2" extra="true">
+		 <tile>false</tile>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>0</zIndex>
+		 <path>./../../CUSTOMIZE_YOUR_THEME/backgrounds/background.png</path>
+		 <path>./../../CUSTOMIZE_YOUR_THEME/backgrounds/background.jpg</path>		 
+
+      </image>
+	  
+
+      <image name="background3" extra="true">
+		 <tile>true</tile>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>1</zIndex> 
+		 <path>./../../CUSTOMIZE_YOUR_THEME/backgrounds/tile-${system.theme}.png</path>
+		 <path>./../../CUSTOMIZE_YOUR_THEME/backgrounds/tile-${system.theme}.jpg</path>		 	 
+      </image>
+	  
+
+
+
+
+      <image name="background_4" extra="true">
+		 <tile>false</tile>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>1</zIndex>
+		 <path>./../../CUSTOMIZE_YOUR_THEME/backgrounds/background-${system.theme}.png</path>
+		 <path>./../../CUSTOMIZE_YOUR_THEME/backgrounds/background-${system.theme}.jpg</path>
+      </image>	  
+</view>
+   
+</theme>

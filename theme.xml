@@ -68,7 +68,9 @@
 
 <!--		BACKGROUNDS SUBSETS		-->
 
-  <include subset="Background" name="Dynamic Colorset Forever Style">./_backgrounds/forever/forever.xml</include>
+  <include subset="Style" name="Dynamic Colorset Forever Style">./_backgrounds/forever/forever.xml</include>
+  <include subset="Style" name="Dynamic Colorset Background">./_backgrounds/forever/dynamic_background.xml</include>
+  <include subset="Style" name="Background">./_backgrounds/forever/nope.xml</include>
 
   <include subset="Background" name="Steel-01">./_backgrounds/steel/01.xml</include>
   <include subset="Background" name="Steel-02">./_backgrounds/steel/02.xml</include>
@@ -335,8 +337,9 @@
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
-         <zIndex>1</zIndex>                 
+         <zIndex>-1</zIndex>                 
       </image>
+
 
 		<image name="frame_bottom" extra="true">
 			<path>./_assets/white.png</path>
@@ -440,10 +443,13 @@
   
 <!--		CUSTOM BACKGROUNDS		-->
 
+  <include>./_backgrounds/custom/custom.xml</include>
+
+<!--
   <include subset="Background" name="Custom Fixed Tile">./_backgrounds/custom/tile.xml</include>
   <include subset="Background" name="Custom Fixed Background">./_backgrounds/custom/background.xml</include>
   <include subset="Background" name="Custom by System">./_backgrounds/custom/system.xml</include>
-
+-->
 <!--		SPECIFICS SYSTEMS		-->
 
   <include>./_specifics/${system.name}.xml</include>
