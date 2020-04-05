@@ -13,4 +13,18 @@
 		
 </view>
 
+<view name="system">  
+
+	  <text name="systemInfo">
+        <pos>0 0.65</pos>
+		<fontPath>./_assets/digital.ttf</fontPath>
+	    <fontSize>0.018</fontSize>
+        <zIndex>26</zIndex>
+		<color>ffffff</color>
+		<glowColor>000000</glowColor>
+		<glowSize>3</glowSize>
+      </text> 
+
+</view>
+	  
 </theme>

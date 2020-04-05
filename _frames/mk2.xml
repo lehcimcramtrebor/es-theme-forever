@@ -7,22 +7,22 @@
 
 		<image name="video_black" extra="true">
 		
-			<path>./../_assets/deco_spiderman.jpg</path>
+			<path>./../_assets/deco_mk2.jpg</path>
 			
 		</image>
 		
 </view>
-		
+
 <view name="system">  
 
 	  <text name="systemInfo">
         <pos>0 0.66</pos>
-		<fontPath>./_assets/spiderman.ttf</fontPath>
-	    <fontSize>0.015</fontSize>
+		<fontPath>./_assets/mk2.ttf</fontPath>
+	    <fontSize>0.025</fontSize>
         <zIndex>26</zIndex>
-		<color>ff0000</color>
-		<glowColor>ffffff</glowColor>
-		<glowSize>1</glowSize>
+		<color>ffff00</color>
+		<glowColor>000000</glowColor>
+		<glowSize>2</glowSize>
       </text> 
 	  
 </view>

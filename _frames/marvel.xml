@@ -13,4 +13,18 @@
 		
 </view>
 
+<view name="system">  
+
+	  <text name="systemInfo">
+        <pos>0 0.655</pos>
+		<fontPath>./_assets/marvel.otf</fontPath>
+	    <fontSize>0.035</fontSize>
+        <zIndex>26</zIndex>
+		<color>ffe336</color>
+		<glowColor>ed000020</glowColor>
+		<glowSize>3</glowSize>
+      </text> 
+	  
+</view>
+
 </theme>

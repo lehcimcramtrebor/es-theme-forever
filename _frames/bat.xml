@@ -13,4 +13,18 @@
 		
 </view>
 
+<view name="system">  
+
+	  <text name="systemInfo">
+        <pos>0 0.66</pos>
+		<fontPath>./_assets/batman.ttf</fontPath>
+	    <fontSize>0.025</fontSize>
+        <zIndex>26</zIndex>
+		<color>ffff00</color>
+		<glowColor>000000</glowColor>
+		<glowSize>2</glowSize>
+      </text> 
+	  
+</view>
+
 </theme>

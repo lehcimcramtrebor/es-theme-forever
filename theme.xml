@@ -449,6 +449,14 @@
 		
 </view>
 
+<view name="basic, detailed, video, grid">
+
+	  	    <text name="logoText, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite">
+				<color>00000000</color>      
+			</text>
+	  
+</view>
+
 
 <!--		GAMELISTS		-->
 
@@ -468,9 +476,12 @@
 <!--		DECO Frames	-->
 
   <include subset="Realistic frame" name="Marvel">./_frames/marvel.xml</include>
-  <include subset="Realistic frame" name="Mortal Kombat">./_frames/mk.xml</include>
+  <include subset="Realistic frame" name="Mortal Kombat II">./_frames/mk2.xml</include>
   <include subset="Realistic frame" name="Batman">./_frames/bat.xml</include>
   <include subset="Realistic frame" name="Spiderman">./_frames/spiderman.xml</include>
+  <include subset="Realistic frame" name="American Speedway">./_frames/speedway.xml</include>
+  <include subset="Realistic frame" name="Defender">./_frames/defender.xml</include>
+  <include subset="Realistic frame" name="Donkey Junior">./_frames/donkeyjr.xml</include>
   <include subset="Realistic frame" name="Black">./_frames/black.xml</include>
   
 <!--		CUSTOM BACKGROUNDS		-->

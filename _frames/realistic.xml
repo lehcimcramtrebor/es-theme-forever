@@ -49,10 +49,6 @@
 		<pos>0.5 0.4835</pos>
 		</image>
 
-	  <text name="systemInfo">
-        <pos>0 0.66</pos>
-      </text> 
-
 		<image name="screen_frame" extra="true">
 		<pos>0.5 0.4835</pos>
 		</image>
