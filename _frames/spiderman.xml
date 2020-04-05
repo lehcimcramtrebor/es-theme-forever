@@ -1,0 +1,16 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="menu, system, basic, detailed, video, grid">  
+
+		<image name="video_black" extra="true">
+		
+			<path>./../_assets/deco_spiderman.jpg</path>
+			
+		</image>
+		
+</view>
+
+</theme>

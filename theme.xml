@@ -470,6 +470,7 @@
   <include subset="Realistic frame" name="Marvel">./_frames/marvel.xml</include>
   <include subset="Realistic frame" name="Mortal Kombat">./_frames/mk.xml</include>
   <include subset="Realistic frame" name="Batman">./_frames/bat.xml</include>
+  <include subset="Realistic frame" name="Spiderman">./_frames/spiderman.xml</include>
   <include subset="Realistic frame" name="Black">./_frames/black.xml</include>
   
 <!--		CUSTOM BACKGROUNDS		-->
