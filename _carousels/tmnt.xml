@@ -8,7 +8,7 @@
 		<text name="logoText">
 			<text>${system.fullName}</text>
 			<fontPath>./../_assets/tmnt.otf</fontPath>
-			<fontSize>0.051</fontSize>
+			<fontSize>0.025</fontSize>
 			<glowSize>3</glowSize>
 		</text>
 </view>

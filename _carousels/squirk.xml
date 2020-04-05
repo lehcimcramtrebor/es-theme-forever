@@ -8,7 +8,7 @@
 		<text name="logoText">
 			<text>${system.fullName}</text>
 			<fontPath>./../_assets/squirk.otf</fontPath>
-			<fontSize>0.049</fontSize>
+			<fontSize>0.035</fontSize>
 			<glowSize>3</glowSize>
 
 		</text>

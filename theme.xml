@@ -18,8 +18,32 @@
 
 <!--		LOGOS DECO		-->
 
-  <include subset="Logos Decoration" name="Silver Mame">./_logos_deco/silver_mame.xml</include>
-  <include subset="Logos Decoration" name="Carbon Mame">./_logos_deco/carbon_mame.xml</include>
+  <include subset="Logos Decoration" name="Silver Mame Blue">./_logos_deco/silver_mame_blue.xml</include>
+  <include subset="Logos Decoration" name="Silver Mame Green">./_logos_deco/silver_mame_green.xml</include>
+  <include subset="Logos Decoration" name="Silver Mame Red">./_logos_deco/silver_mame_red.xml</include>
+  <include subset="Logos Decoration" name="Silver Mame Orange">./_logos_deco/silver_mame_orange.xml</include>
+  <include subset="Logos Decoration" name="Silver Mame Yellow">./_logos_deco/silver_mame_yellow.xml</include>
+  <include subset="Logos Decoration" name="Silver Mame Pink">./_logos_deco/silver_mame_pink.xml</include>
+  <include subset="Logos Decoration" name="Silver Mame Purple">./_logos_deco/silver_mame_purple.xml</include>
+ 
+
+ <include subset="Logos Decoration" name="Carbon Mame Blue">./_logos_deco/carbon_mame_blue.xml</include>
+ <include subset="Logos Decoration" name="Carbon Mame Green">./_logos_deco/carbon_mame_green.xml</include>
+ <include subset="Logos Decoration" name="Carbon Mame Red">./_logos_deco/carbon_mame_red.xml</include>
+ <include subset="Logos Decoration" name="Carbon Mame Orange">./_logos_deco/carbon_mame_orange.xml</include>
+ <include subset="Logos Decoration" name="Carbon Mame Yellow">./_logos_deco/carbon_mame_yellow.xml</include>
+ <include subset="Logos Decoration" name="Carbon Mame Pink">./_logos_deco/carbon_mame_pink.xml</include>
+ <include subset="Logos Decoration" name="Carbon Mame Purple">./_logos_deco/carbon_mame_purple.xml</include>
+
+ <include subset="Logos Decoration" name="Graphite Mame Blue">./_logos_deco/graphite_mame_blue.xml</include>
+ <include subset="Logos Decoration" name="Graphite Mame Green">./_logos_deco/graphite_mame_green.xml</include>
+ <include subset="Logos Decoration" name="Graphite Mame Red">./_logos_deco/graphite_mame_red.xml</include>
+ <include subset="Logos Decoration" name="Graphite Mame Orange">./_logos_deco/graphite_mame_orange.xml</include>
+ <include subset="Logos Decoration" name="Graphite Mame Yellow">./_logos_deco/graphite_mame_yellow.xml</include>
+ <include subset="Logos Decoration" name="Graphite Mame Pink">./_logos_deco/graphite_mame_pink.xml</include>
+ <include subset="Logos Decoration" name="Graphite Mame Purple">./_logos_deco/graphite_mame_purple.xml</include>
+ 
+ <include subset="Logos Decoration" name="No Decoration">./nope.xml</include>
 
 
 <!--		CABINETS		-->

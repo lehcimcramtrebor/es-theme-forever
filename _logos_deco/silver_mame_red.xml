@@ -1,0 +1,14 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+      <image name="wheel, wheel_shadow, wheel-1, wheel-1_shadow, wheel+1, wheel+1_shadow, wheel-2, wheel-2_shadow, wheel+2, wheel+2_shadow" extra="true">  
+		 <path>./../_assets/logo_silver_mame_red.png</path>
+      </image>
+
+</view>
+
+</theme>

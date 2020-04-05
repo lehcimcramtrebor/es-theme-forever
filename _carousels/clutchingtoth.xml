@@ -8,7 +8,7 @@
 		<text name="logoText">
 			<text>${system.fullName}</text>
 			<fontPath>./../_assets/clutchingtoth.ttf</fontPath>
-			<fontSize>0.043</fontSize>
+			<fontSize>0.028</fontSize>
 			<glowSize>3</glowSize>
 		</text>
 </view>

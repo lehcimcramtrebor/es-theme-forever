@@ -12,7 +12,7 @@
         <pos>1 -0.03</pos>
 		<size>0.31 1</size>
         <logoScale>2</logoScale>
-        <logoSize>0.13 0.125</logoSize>
+        <logoSize>0.08 0.13</logoSize>
         <color>00000000</color>
 		<logoRotation>-25</logoRotation>
 		<logoRotationOrigin>4 0.5</logoRotationOrigin>
@@ -25,7 +25,7 @@
       <image name="wheel" extra="true">
          <origin>0.5 0.5</origin>
          <pos>0.845 0.47</pos>
-         <maxSize>0.3 1</maxSize>
+         <maxSize>0.2 1</maxSize>
          <zIndex>7</zIndex>  	  
       </image>
 
@@ -33,7 +33,7 @@
 		 <color>00000050</color>
          <origin>0.5 0.5</origin>
          <pos>0.855 0.49</pos>
-         <maxSize>0.3 1</maxSize>
+         <maxSize>0.2 1</maxSize>
          <zIndex>6</zIndex>  	  
       </image>
 
@@ -41,8 +41,8 @@
 		 <rotationOrigin>0.5 0.5</rotationOrigin>
 		 <rotation>25</rotation>
          <origin>0.5 0.5</origin>
-         <pos>0.8875 0.128</pos>
-         <maxSize>0.15 1</maxSize>
+         <pos>0.871 0.2605</pos>
+         <maxSize>0.1 1</maxSize>
          <zIndex>7</zIndex>  	  
       </image>
 
@@ -51,8 +51,27 @@
 		 <rotationOrigin>0.5 0.5</rotationOrigin>
 		 <rotation>25</rotation>
          <origin>0.5 0.5</origin>
-         <pos>0.8925 0.138</pos>
-         <maxSize>0.15 1</maxSize>
+         <pos>0.876 0.2705</pos>
+         <maxSize>0.1 1</maxSize>
+         <zIndex>6</zIndex>  	  
+      </image>
+
+      <image name="wheel-2" extra="true">
+		 <rotationOrigin>0.5 0.5</rotationOrigin>
+		 <rotation>49</rotation>
+         <origin>0.5 0.5</origin>
+         <pos>0.945 0.0875</pos>
+         <maxSize>0.1 1</maxSize>
+         <zIndex>7</zIndex>  	  
+      </image>
+
+      <image name="wheel-2_shadow" extra="true">
+	  	 <color>00000050</color>
+		 <rotationOrigin>0.5 0.5</rotationOrigin>
+		 <rotation>49</rotation>
+         <origin>0.5 0.5</origin>
+         <pos>0.95 0.0885</pos>
+         <maxSize>0.1 1</maxSize>
          <zIndex>6</zIndex>  	  
       </image>
 	  
@@ -60,8 +79,8 @@
 		 <rotationOrigin>0.5 0.5</rotationOrigin>
 		 <rotation>-25</rotation>
          <origin>0.5 0.5</origin>
-         <pos>0.8875 0.812</pos>
-         <maxSize>0.15 1</maxSize>
+         <pos>0.871 0.68</pos>
+         <maxSize>0.1 1</maxSize>
          <zIndex>7</zIndex>  	  
       </image>
 
@@ -70,11 +89,29 @@
 		 <rotationOrigin>0.5 0.5</rotationOrigin>
 		 <rotation>-25</rotation>
          <origin>0.5 0.5</origin>
-         <pos>0.8925 0.822</pos>
-         <maxSize>0.15 1</maxSize>
+         <pos>0.876 0.69</pos>
+         <maxSize>0.1 1</maxSize>
          <zIndex>6</zIndex>  	  
       </image>
-	  
+
+      <image name="wheel+2" extra="true">
+		 <rotationOrigin>0.5 0.5</rotationOrigin>
+		 <rotation>-49</rotation>
+         <origin>0.5 0.5</origin>
+         <pos>0.945 0.85</pos>
+         <maxSize>0.1 1</maxSize>
+         <zIndex>7</zIndex>  	  
+      </image>
+
+      <image name="wheel+2_shadow" extra="true">
+	  	 <color>00000050</color>	  
+		 <rotationOrigin>0.5 0.5</rotationOrigin>
+		 <rotation>-49</rotation>
+         <origin>0.5 0.5</origin>
+         <pos>0.95 0.86</pos>
+         <maxSize>0.1 1</maxSize>
+         <zIndex>6</zIndex>  	  
+      </image>	  
 </view>
 
 <include>./logo.xml</include>
