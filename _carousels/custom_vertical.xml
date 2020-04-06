@@ -1,0 +1,45 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<include>./logo.xml</include>
+
+<view name="system">
+	  
+      <carousel name="systemcarousel">
+        <type>vertical</type>
+		<origin>1 0</origin>
+        <pos>1 -0.03</pos>
+		<size>0.30 1</size>
+        <logoScale>1</logoScale>
+        <logoSize>0.18984375 0.095</logoSize>
+        <color>00000000</color>
+		<logoRotation>-30</logoRotation>
+		<logoRotationOrigin>2 0.5</logoRotationOrigin>
+		<logoAlignment>center</logoAlignment>
+        <maxLogoCount>3</maxLogoCount>
+		<zIndex>111</zIndex>
+		<defaultTransition>instant</defaultTransition>
+		</carousel>
+
+		<text name="logoText">
+			<text>need ${system.name}.png or .svg</text>
+			<color>ff0000</color>
+			<fontPath>./../_assets/hulk.ttf</fontPath>
+			<fontSize>0.022</fontSize>
+		</text>
+
+      <image name="wheel, wheel_shadow, wheel-1, wheel-1_shadow, wheel+1, wheel+1_shadow, wheel-2, wheel-2_shadow, wheel+2, wheel+2_shadow" extra="true">  
+		 <visible>false</visible>
+      </image>
+	  
+		<image name="logo">
+			<path>./../CUSTOMIZE_YOUR_THEME/logos/${system.theme}.png</path>
+			<path>./../CUSTOMIZE_YOUR_THEME/logos/${system.theme}.svg</path>
+		</image>  
+
+</view>
+
+
+</theme>

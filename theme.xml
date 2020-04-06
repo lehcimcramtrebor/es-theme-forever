@@ -10,9 +10,9 @@
 
 <!--		CAROUSELS		-->
 
-  <include subset="Carousel" name="Jukebox">./_carousels/jukebox.xml</include>
-  <include subset="Carousel" name="Wheel">./_carousels/wheel.xml</include>
-  <include subset="Carousel" name="Vertical">./_carousels/vertical.xml</include>
+  <include subset="Carousel" name="Forever Jukebox">./_carousels/jukebox.xml</include>
+  <include subset="Carousel" name="Forever Wheel">./_carousels/wheel.xml</include>
+  <include subset="Carousel" name="Forever Vertical">./_carousels/vertical.xml</include>
 
   <include subset="Carousel" name="No Carousel">./_carousels/no_carousel.xml</include>
 
@@ -306,7 +306,7 @@
 			<origin>0.5 0.5</origin>
 			<size>0.675 1</size>
 			<color>ffffff</color>
-			<zIndex>36</zIndex>
+			<zIndex>136</zIndex>
 		</image>
 		
 		<image name="cabinet_shadow" extra="true">
@@ -491,8 +491,17 @@
 
   <include>./_backgrounds/custom/custom.xml</include>
 
+
 <!--		SPECIFICS SYSTEMS		-->
 
   <include>./_specifics/${system.name}.xml</include>
+
+
+<!--		CUSTOM Logos	-->
+
+  <include subset="Carousel" name="Custom Logos Wheel">./_carousels/custom_wheel.xml</include>
+  <include subset="Carousel" name="Custom Logos Vertical">./_carousels/custom_vertical.xml</include>
+  <include subset="Carousel" name="Custom Logos Jukebox">./_carousels/custom_jukebox.xml</include>
+
 
 </theme>
