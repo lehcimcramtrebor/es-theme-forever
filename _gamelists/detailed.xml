@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 
 <theme defaultView="detailed">
@@ -28,7 +27,7 @@
 		</image>
 		
 		<text name="system_label" extra="true">
-			<pos>0.76 0.026</pos>
+			<pos>0.74 0.026</pos>
 			<text> ${system.name} </text>
 			<fontPath>./../_assets/label.ttf</fontPath>
 			<fontSize>0.04</fontSize>
@@ -38,7 +37,7 @@
 
 		<text name="system_label_shadow" extra="true">
 			<origin>0.5 0.5</origin>
-			<pos>0.762 0.029</pos>
+			<pos>0.742 0.029</pos>
 			<text> ${system.name} </text>
 			<fontPath>./../_assets/label.ttf</fontPath>
 			<fontSize>0.04</fontSize>
@@ -64,52 +63,41 @@
         <zIndex>22</zIndex>         
       </image>    
 
+
      <image name="g_line" extra="true">
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 1</origin>
 		<color>ffffff</color>
-        <pos>0.76 0.069</pos>
+        <pos>0.74 0.069</pos>
         <size>0.397 0.003</size>
         <zIndex>950</zIndex>         
       </image>  
 	  
 	  <textlist name="gamelist">
 		 <origin>0.5 0.5</origin>
-         <pos>0.76 0.313</pos>
+         <pos>0.74 0.312</pos>
          <size>0.4498 0.48</size>
          <selectedColor>000000</selectedColor>
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>000000</secondaryColor>
-         <fontPath>./../_assets/blackops.ttf</fontPath>
-         <fontSize>0.039</fontSize>
+         <fontPath>./../_assets/luckiestguy.ttf</fontPath>
+         <fontSize>0.035</fontSize>
          <alignment>center</alignment>
 		 <horizontalMargin>0.01</horizontalMargin>
          <forceUppercase>1</forceUppercase>
          <scrollSound>./_inc/scroll.wav</scrollSound>
-		 <lineSpacing>1.7</lineSpacing>
+		 <lineSpacing>1.93</lineSpacing>
 		 <zIndex>300</zIndex>
       </textlist>
-<!--
-     <image name="test_gamelist" extra="true">
-		<color>ff0000</color>	 
-		<path>./../_assets/white.png</path>         		
- 		<origin>0.5 0.5</origin>
-         <pos>0.76 0.299</pos>
-        <size>0.4498 0.46</size>
-        <zIndex>1500</zIndex>         
-      </image>
--->	  
+
      <image name="frame_adjust" extra="true">
 		<color>00000099</color>
 		<colorEnd>00000060</colorEnd>
 		<gradientType>vertical</gradientType>
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0.5</origin>
-<!--
-        <pos>0.76 0.475</pos>
-        <size>0.45 0.90</size>
--->
-        <pos>0.76 0.5</pos>
+
+        <pos>0.74 0.5</pos>
         <size>0.45 1</size>
 
         <zIndex>298</zIndex>         
@@ -120,11 +108,7 @@
  		<origin>1 0.5</origin>
 		<color>00000000</color>
 		<gradientType>horizontal</gradientType>
-<!--
-		<pos>0.76 0.475</pos>
-        <size>0.225 0.90</size>
--->
-		<pos>0.76 0.5</pos>
+		<pos>0.74 0.5</pos>
         <size>0.225 1</size>
 
         <zIndex>297</zIndex>         
@@ -135,11 +119,7 @@
  		<origin>0 0.5</origin>
 		<colorEnd>00000000</colorEnd>
 		<gradientType>horizontal</gradientType>
-<!--
-		<pos>0.76 0.475</pos>
-        <size>0.225 0.90</size>
--->		
-		<pos>0.76 0.5</pos>
+		<pos>0.74 0.5</pos>
         <size>0.225 1</size>
         <zIndex>297</zIndex>         
       </image>   
@@ -151,11 +131,7 @@
 		<tile>true</tile>
 		<path>./../_assets/grid.jpg</path>         		
  		<origin>0.5 0.5</origin>
-<!--
-        <pos>0.76 0.475</pos>
-        <size>0.45 0.90</size>
--->		
-        <pos>0.76 0.5</pos>
+        <pos>0.74 0.5</pos>
         <size>0.45 1</size>
         <zIndex>294</zIndex>         
       </image>
@@ -163,11 +139,7 @@
      <image name="frame_edge" extra="true">
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0.5</origin>
-<!--
-        <pos>0.7601 0.475</pos>
-        <size>0.452 0.903</size>
--->
-        <pos>0.7601 0.5</pos>
+        <pos>0.7401 0.5</pos>
         <size>0.452 1</size>
         <zIndex>280</zIndex>         
       </image>    
@@ -176,7 +148,7 @@
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0.5</origin>
 		<color>000000</color>
-        <pos>0.7601 0.5</pos>
+        <pos>0.7401 0.5</pos>
         <size>0.454 1</size>
         <zIndex>15</zIndex>         
       </image>    
@@ -185,23 +157,14 @@
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0.5</origin>
 		<color>00000050</color>
-        <pos>0.765 0.5</pos>
+        <pos>0.745 0.5</pos>
         <size>0.454 1</size>
         <zIndex>14</zIndex>         
       </image>    
-	  
-<!--	  
-     <image name="gamelist_line" extra="true">
-		<path>./../_assets/white.png</path>         		
- 		<origin>0.5 0.5</origin>
-        <pos>0.76 0.515</pos>
-         <size>0.45 0.003</size>
-        <zIndex>320</zIndex>         
-      </image>  
--->	  
+
      <image name="md_thumbnail">
         <maxSize>0.196875 0.35</maxSize>	 
-        <pos>0.66 0.72</pos>
+        <pos>0.64 0.72</pos>
         <origin>0.5 0.5</origin>
 		<reflexion>0.3 0</reflexion>
         <zIndex>900</zIndex>         
@@ -212,11 +175,11 @@
 		<color>ffffff</color>
 		<glowColor>202020</glowColor>		
 		<glowSize>2</glowSize>
-        <fontPath>./../_assets/ledsled.ttf</fontPath>		 
-        <pos>0.873 0.72</pos>
+        <fontPath>./../_assets/luckiestguy.ttf</fontPath>		 
+        <pos>0.853 0.72</pos>
         <size>0.18 0.3733333333</size>
 		<alignment>center</alignment>
-        <fontSize>0.035</fontSize>
+        <fontSize>0.025</fontSize>
         <zIndex>800</zIndex>         
       </text>
 
@@ -224,7 +187,7 @@
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 1</origin>
 		<color>ffffff</color>
-        <pos>0.76 0.5325</pos>
+        <pos>0.74 0.5325</pos>
         <size>0.397 0.003</size>
         <zIndex>950</zIndex>         
       </image>  
@@ -233,21 +196,10 @@
 		<path>./../_assets/white.png</path>         		
  		<origin>0.5 0</origin>
 		<color>ffffff</color>
-        <pos>0.76 0.907</pos>
+        <pos>0.74 0.907</pos>
         <size>0.397 0.003</size>
         <zIndex>950</zIndex>         
       </image>  
-	  
-<!--
-     <image name="frame_description" extra="true">
-		<path>./../_assets/white.png</path>         		
- 		<origin>0.5 0.5</origin>
-        <pos>0.76 0.72</pos>
-		<color>00000080</color>
-        <size>0.45 0.41</size>
-        <zIndex>700</zIndex>         
-      </image>    
--->
 
     <rating name="md_rating">
 		<pos>0.845 0.9565</pos>

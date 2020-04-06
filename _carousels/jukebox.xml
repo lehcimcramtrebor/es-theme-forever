@@ -21,7 +21,7 @@
 		<logoRotationOrigin>-1.9 0.5</logoRotationOrigin>
 		<logoAlignment>center</logoAlignment>
         <maxLogoCount>3</maxLogoCount>
-		<zIndex>11</zIndex>
+		<zIndex>111</zIndex>
 		<defaultTransition>instant</defaultTransition>
 		</carousel>
 
@@ -29,7 +29,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.845 0.47</pos>
          <maxSize>0.2 1</maxSize>
-         <zIndex>7</zIndex>  	  
+         <zIndex>107</zIndex>  	  
       </image>
 
       <image name="wheel_shadow" extra="true">
@@ -37,7 +37,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.855 0.49</pos>
          <maxSize>0.2 1</maxSize>
-         <zIndex>6</zIndex>  	  
+         <zIndex>106</zIndex>  	  
       </image>
 
       <image name="wheel-1" extra="true">
@@ -46,7 +46,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.763 0.1859</pos>
          <maxSize>0.1 1</maxSize>
-         <zIndex>7</zIndex>  	  
+         <zIndex>107</zIndex>  	  
       </image>
 
       <image name="wheel-1_shadow" extra="true">
@@ -56,7 +56,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.768 0.1959</pos>
          <maxSize>0.1 1</maxSize>
-         <zIndex>6</zIndex>  	  
+         <zIndex>106</zIndex>  	  
       </image>
 	  
       <image name="wheel+1" extra="true">
@@ -65,7 +65,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.762 0.7541</pos>
          <maxSize>0.1 1</maxSize>
-         <zIndex>7</zIndex>  	  
+         <zIndex>107</zIndex>  	  
       </image>
 
       <image name="wheel+1_shadow" extra="true">
@@ -75,7 +75,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.767 0.7641</pos>
          <maxSize>0.1 1</maxSize>
-         <zIndex>6</zIndex>  	  
+         <zIndex>106</zIndex>  	  
       </image>
 	  
 </view>

@@ -3,16 +3,28 @@
 <theme>
    <formatVersion>7</formatVersion>
 
-<view name="menu, system, basic, detailed, video, grid">  
+<view name="system">  
 
-	    <video name="background_video" extra="true">
+	    <video name="staticBackgroundVideo">
 			<path>./../../_assets/background.mp4</path>
 			<color>ff7f0070</color>
-			<delay>1</delay>
 			<size>1 1</size>
 			<origin>0 0</origin>
 			<zIndex>9</zIndex>
 		</video>
+
+</view>
+
+<view name="basic, detailed, video, grid">
+
+     <image name="focus" extra="true">
+		<path>./../../_assets/white.png</path>         		
+ 		<origin>0.5 0.5</origin>
+		<color>00000036</color>
+        <pos>0.5 0.5</pos>
+        <size>1 1</size>
+        <zIndex>9</zIndex>         
+      </image>      
 
 </view>
 

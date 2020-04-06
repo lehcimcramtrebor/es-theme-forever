@@ -18,7 +18,7 @@
 		<logoRotationOrigin>4 0.5</logoRotationOrigin>
 		<logoAlignment>center</logoAlignment>
         <maxLogoCount>9</maxLogoCount>
-		<zIndex>11</zIndex>
+		<zIndex>111</zIndex>
 		<defaultTransition>instant</defaultTransition>
 		</carousel>
 
@@ -26,7 +26,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.845 0.47</pos>
          <maxSize>0.2 1</maxSize>
-         <zIndex>7</zIndex>  	  
+         <zIndex>107</zIndex>  	  
       </image>
 
       <image name="wheel_shadow" extra="true">
@@ -34,7 +34,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.855 0.49</pos>
          <maxSize>0.2 1</maxSize>
-         <zIndex>6</zIndex>  	  
+         <zIndex>106</zIndex>  	  
       </image>
 
       <image name="wheel-1" extra="true">
@@ -43,7 +43,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.871 0.2605</pos>
          <maxSize>0.1 1</maxSize>
-         <zIndex>7</zIndex>  	  
+         <zIndex>107</zIndex>  	  
       </image>
 
       <image name="wheel-1_shadow" extra="true">
@@ -53,7 +53,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.876 0.2705</pos>
          <maxSize>0.1 1</maxSize>
-         <zIndex>6</zIndex>  	  
+         <zIndex>106</zIndex>  	  
       </image>
 
       <image name="wheel-2" extra="true">
@@ -62,7 +62,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.945 0.0875</pos>
          <maxSize>0.1 1</maxSize>
-         <zIndex>7</zIndex>  	  
+         <zIndex>107</zIndex>  	  
       </image>
 
       <image name="wheel-2_shadow" extra="true">
@@ -72,7 +72,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.95 0.0885</pos>
          <maxSize>0.1 1</maxSize>
-         <zIndex>6</zIndex>  	  
+         <zIndex>106</zIndex>  	  
       </image>
 	  
       <image name="wheel+1" extra="true">
@@ -81,7 +81,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.871 0.68</pos>
          <maxSize>0.1 1</maxSize>
-         <zIndex>7</zIndex>  	  
+         <zIndex>107</zIndex>  	  
       </image>
 
       <image name="wheel+1_shadow" extra="true">
@@ -91,7 +91,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.876 0.69</pos>
          <maxSize>0.1 1</maxSize>
-         <zIndex>6</zIndex>  	  
+         <zIndex>106</zIndex>  	  
       </image>
 
       <image name="wheel+2" extra="true">
@@ -100,7 +100,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.945 0.85</pos>
          <maxSize>0.1 1</maxSize>
-         <zIndex>7</zIndex>  	  
+         <zIndex>107</zIndex>  	  
       </image>
 
       <image name="wheel+2_shadow" extra="true">
@@ -110,7 +110,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.95 0.86</pos>
          <maxSize>0.1 1</maxSize>
-         <zIndex>6</zIndex>  	  
+         <zIndex>106</zIndex>  	  
       </image>	  
 </view>
 

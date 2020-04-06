@@ -233,6 +233,9 @@
  <!--		ANIMATED BACKGROUND		-->
 
   		<include subset="Animated Background" name="No">./nope.xml</include>	
+
+ 		<include subset="Animated Background" name="Focus">./_backgrounds/video/focus.xml</include>	
+
  		<include subset="Animated Background" name="Carbon White">./_backgrounds/video/carbon_white.xml</include>	
  		<include subset="Animated Background" name="Carbon Blue">./_backgrounds/video/carbon_blue.xml</include>	
  		<include subset="Animated Background" name="Carbon Green">./_backgrounds/video/carbon_green.xml</include>	

@@ -42,11 +42,11 @@
       </image>  
 	  
      <image name="gamelist_back_h1" extra="true">
-		<colorEnd>ffffff90</colorEnd>
+		<colorEnd>00000090</colorEnd>
       </image>   
 	  
      <image name="gamelist_back_h2" extra="true">
-		<color>ffffff90</color>        
+		<color>00000090</color>        
       </image>  
 	  
     <image name="frame_edge" extra="true">
