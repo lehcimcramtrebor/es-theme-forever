@@ -8,11 +8,11 @@
 
 
 		<image name="cabinet" extra="true">
-			<path>./../_assets/cabinet_grey.png</path>
+			<path>./../_assets/cabinet_starsky.png</path>
 		</image>
 
 		<image name="cabinet_shadow" extra="true">
-			<path>./../_assets/cabinet_grey.png</path>
+			<path>./../_assets/cabinet_starsky.png</path>
 		</image>
 		
 
@@ -21,7 +21,7 @@
 <view name="system, detailed, video, grid">
 
       <image name="background_right" extra="true">
-		 <color>232323</color>	  	  
+		 <color>d43800</color>	  	  
       </image>
  
  </view>

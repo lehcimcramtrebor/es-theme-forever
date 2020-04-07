@@ -57,7 +57,7 @@
 	  
 		<text name="system_label" extra="true">
 			<color>f88e55</color>		
-			<glowColor>f88e5512</glowColor>
+			<glowColor>000000</glowColor>
 
 		</text>
 	

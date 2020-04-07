@@ -10,9 +10,9 @@
 
 <!--		CAROUSELS		-->
 
-  <include subset="Carousel" name="Forever Jukebox">./_carousels/jukebox.xml</include>
-  <include subset="Carousel" name="Forever Wheel">./_carousels/wheel.xml</include>
-  <include subset="Carousel" name="Forever Vertical">./_carousels/vertical.xml</include>
+  <include subset="Carousel" name="Forever Jukebox">./_carousels/forever_jukebox.xml</include>
+  <include subset="Carousel" name="Forever Wheel">./_carousels/forever_wheel.xml</include>
+  <include subset="Carousel" name="Forever Vertical">./_carousels/forever_vertical.xml</include>
 
   <include subset="Carousel" name="No Carousel">./_carousels/no_carousel.xml</include>
 
@@ -49,7 +49,16 @@
 <!--		CABINETS		-->
 
   <include subset="Cabinet" name="Grey">./_cabinets/cabinet_grey.xml</include>
-  <include subset="Cabinet" name="Default">./_cabinets/cabinet_default.xml</include>
+  <include subset="Cabinet" name="Blues Eyes">./_cabinets/cabinet_blue_eyes.xml</include>
+  <include subset="Cabinet" name="Burgundy">./_cabinets/cabinet_burgundy.xml</include>
+  <include subset="Cabinet" name="Fir">./_cabinets/cabinet_fir.xml</include>
+  <include subset="Cabinet" name="Gold">./_cabinets/cabinet_gold.xml</include>
+  <include subset="Cabinet" name="Trinity">./_cabinets/cabinet_trinity.xml</include>
+  <include subset="Cabinet" name="Ocean">./_cabinets/cabinet_ocean.xml</include>
+  <include subset="Cabinet" name="Pink Lady">./_cabinets/cabinet_pink_lady.xml</include>
+  <include subset="Cabinet" name="Prince">./_cabinets/cabinet_prince.xml</include>
+  <include subset="Cabinet" name="Woody">./_cabinets/cabinet_woody.xml</include>
+  <include subset="Cabinet" name="Starsky">./_cabinets/cabinet_starsky.xml</include>
 
 <!--		CABINET SYSTEM LABEL		-->
 
@@ -230,21 +239,11 @@
 
 		<include subset="Video Effect" name="No">./_effects/nope.xml.xml</include>						
 
- <!--		ANIMATED BACKGROUND		-->
+ <!--		FOCUS		-->
 
-  		<include subset="Animated Background" name="No">./nope.xml</include>	
+		<include subset="Focus" name="Yes">./_backgrounds/video/focus.xml</include>	
+  		<include subset="Focus" name="No">./nope.xml</include>	
 
- 		<include subset="Animated Background" name="Focus">./_backgrounds/video/focus.xml</include>	
-
- 		<include subset="Animated Background" name="Carbon White">./_backgrounds/video/carbon_white.xml</include>	
- 		<include subset="Animated Background" name="Carbon Blue">./_backgrounds/video/carbon_blue.xml</include>	
- 		<include subset="Animated Background" name="Carbon Green">./_backgrounds/video/carbon_green.xml</include>	
- 		<include subset="Animated Background" name="Carbon Red">./_backgrounds/video/carbon_red.xml</include>	
- 		<include subset="Animated Background" name="Carbon Pink">./_backgrounds/video/carbon_pink.xml</include>	
- 		<include subset="Animated Background" name="Carbon Yellow">./_backgrounds/video/carbon_yellow.xml</include>	
- 		<include subset="Animated Background" name="Carbon Orange">./_backgrounds/video/carbon_orange.xml</include>	
- 		<include subset="Animated Background" name="Carbon Purple">./_backgrounds/video/carbon_purple.xml</include>	
- 		<include subset="Animated Background" name="Carbon Salmon">./_backgrounds/video/carbon_salmon.xml</include>	
 
 
 <view name="screen">
@@ -502,5 +501,10 @@
   <include subset="Carousel" name="Custom Logos Vertical">./_carousels/custom_vertical.xml</include>
   <include subset="Carousel" name="Custom Logos Jukebox">./_carousels/custom_jukebox.xml</include>
 
+<!--		SIMPLE CAROUSELS	-->
+
+  <include subset="Carousel" name="Simple Jukebox">./_carousels/simple_jukebox.xml</include>
+  <include subset="Carousel" name="Simple Wheel">./_carousels/simple_wheel.xml</include>
+  <include subset="Carousel" name="Simple Vertical">./_carousels/simple_vertical.xml</include>
 
 </theme>

@@ -1,0 +1,38 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+      <image name="wheel-2, wheel-2_shadow, wheel+2, wheel+2_shadow" extra="true">
+	  <visible>false</visible>
+	  </image>
+		
+      <carousel name="systemcarousel">
+        <type>vertical_wheel</type>
+		<origin>1 0</origin>
+        <pos>1 -0.03</pos>
+		<size>0.31 1</size>
+        <logoScale>2</logoScale>
+        <logoSize>0.14 0.0475</logoSize>
+        <color>00000000</color>
+		<logoRotation>-25</logoRotation>
+		<logoRotationOrigin>-0.75 0.5</logoRotationOrigin>
+		<logoAlignment>center</logoAlignment>
+        <maxLogoCount>9</maxLogoCount>
+		<zIndex>111</zIndex>
+		<defaultTransition>instant</defaultTransition>
+		</carousel>
+
+      <image name="wheel, wheel_shadow, wheel-1, wheel-1_shadow, wheel+1, wheel+1_shadow, wheel-2, wheel-2_shadow, wheel+2, wheel+2_shadow" extra="true">  
+		 <visible>false</visible>
+      </image>
+
+	  
+</view>
+
+<include>./logo.xml</include>
+<include subset="Style" name="Dynamic Colorset Background">./white_logos.xml</include>
+
+</theme>
