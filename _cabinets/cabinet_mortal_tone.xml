@@ -1,0 +1,29 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+
+<view name="system, basic, detailed, video, grid">
+
+
+		<image name="cabinet" extra="true">
+			<path>./../_assets/cabinet_mortal_tone.png</path>
+		</image>
+
+		<image name="cabinet_shadow" extra="true">
+			<path>./../_assets/cabinet_mortal_tone.png</path>
+		</image>
+		
+
+</view>
+
+<view name="system, detailed, video, grid">
+
+      <image name="background_right" extra="true">
+		 <color>3b1b00</color>	  	  
+      </image>
+ 
+ </view>
+
+</theme>

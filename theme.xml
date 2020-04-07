@@ -49,7 +49,11 @@
 <!--		CABINETS		-->
 
   <include subset="Cabinet" name="Grey">./_cabinets/cabinet_grey.xml</include>
-  <include subset="Cabinet" name="Blues Eyes">./_cabinets/cabinet_blue_eyes.xml</include>
+  <include subset="Cabinet" name="Blue Eyes">./_cabinets/cabinet_blue_eyes.xml</include>
+  <include subset="Cabinet" name="Spider Blue">./_cabinets/cabinet_spider_blue.xml</include>
+  <include subset="Cabinet" name="Kong Blue">./_cabinets/cabinet_kong_blue.xml</include>
+  <include subset="Cabinet" name="Marvel Red">./_cabinets/cabinet_marvel_red.xml</include>
+  <include subset="Cabinet" name="Mortal Tone">./_cabinets/cabinet_mortal_tone.xml</include>
   <include subset="Cabinet" name="Burgundy">./_cabinets/cabinet_burgundy.xml</include>
   <include subset="Cabinet" name="Fir">./_cabinets/cabinet_fir.xml</include>
   <include subset="Cabinet" name="Gold">./_cabinets/cabinet_gold.xml</include>
@@ -477,13 +481,56 @@
 <!--		DECO Frames	-->
 
   <include subset="Realistic frame" name="Marvel">./_frames/marvel.xml</include>
+
+  <include subset="Realistic frame" name="Marvel + Cabinet">./_frames/marvel.xml</include>
+  <include subset="Realistic frame" name="Marvel + Cabinet">./_cabinets/cabinet_marvel.xml</include>
+
+
+
   <include subset="Realistic frame" name="Mortal Kombat II">./_frames/mk2.xml</include>
-  <include subset="Realistic frame" name="Batman">./_frames/bat.xml</include>
+
+  <include subset="Realistic frame" name="Mortal Kombat II + Cabinet">./_frames/mk2.xml</include>
+  <include subset="Realistic frame" name="Mortal Kombat II + Cabinet">./_cabinets/cabinet_mk2.xml</include>
+
+ 
+
+ <include subset="Realistic frame" name="Batman">./_frames/bat.xml</include>
+
+  <include subset="Realistic frame" name="Batman + Cabinet">./_frames/bat.xml</include>
+  <include subset="Realistic frame" name="Batman + Cabinet">./_cabinets/cabinet_batman.xml</include>
+
+
+
   <include subset="Realistic frame" name="Spiderman">./_frames/spiderman.xml</include>
+
+  <include subset="Realistic frame" name="Spiderman + Cabinet">./_frames/spiderman.xml</include>
+  <include subset="Realistic frame" name="Spiderman + Cabinet">./_cabinets/cabinet_spiderman.xml</include>
+
+
+
   <include subset="Realistic frame" name="American Speedway">./_frames/speedway.xml</include>
+
+  <include subset="Realistic frame" name="American Speedway + Cabinet">./_frames/speedway.xml</include>
+  <include subset="Realistic frame" name="American Speedway + Cabinet">./_cabinets/cabinet_speedway.xml</include>
+
+
+
   <include subset="Realistic frame" name="Defender">./_frames/defender.xml</include>
+
+  <include subset="Realistic frame" name="Defender + Cabinet">./_frames/defender.xml</include>
+  <include subset="Realistic frame" name="Defender + Cabinet">./_cabinets/cabinet_defender.xml</include>
+
+
+
   <include subset="Realistic frame" name="Donkey Junior">./_frames/donkeyjr.xml</include>
+
+  <include subset="Realistic frame" name="Donkey Junior + Cabinet">./_frames/donkeyjr.xml</include>
+  <include subset="Realistic frame" name="Donkey Junior + Cabinet">./_cabinets/cabinet_donkey.xml</include>
+
+
+
   <include subset="Realistic frame" name="Black">./_frames/black.xml</include>
+
   
 <!--		CUSTOM BACKGROUNDS		-->
 
