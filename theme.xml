@@ -86,8 +86,20 @@
   <include subset="Illustration" name="Mickey">./_illustrations/mickey.xml</include>
   <include subset="Illustration" name="Minnie">./_illustrations/minnie.xml</include>
   <include subset="Illustration" name="TMNT">./_illustrations/tmnt.xml</include>
+  <include subset="Illustration" name="Baby Pacman Girl">./_illustrations/babypac.xml</include>
+  <include subset="Illustration" name="Baby Pacman Boy">./_illustrations/babypac2.xml</include>
+  <include subset="Illustration" name="Bomberman">./_illustrations/bomberman.xml</include>
+  <include subset="Illustration" name="Bomb Jack">./_illustrations/bombjack.xml</include>
+  <include subset="Illustration" name="Cliffhanger">./_illustrations/cliffhanger.xml</include>
+  <include subset="Illustration" name="Donkey">./_illustrations/donkey.xml</include>
+  <include subset="Illustration" name="Dr. Mario">./_illustrations/drmario.xml</include>
+  <include subset="Illustration" name="Dragon's Lair">./_illustrations/dragonlair.xml</include>
 
   <include subset="Illustration" name="No Illustration">./_illustrations/no_illustration.xml</include>
+
+
+  <include subset="Illustration" name="TEST">./_illustrations/test.xml</include>
+
 
 <!--		COLORSETS		-->
   <include subset="Colorset" name="Cherry">./_colorsets/cherry.xml</include>

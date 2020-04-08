@@ -9,7 +9,7 @@
 			<path>./../_assets/minnie.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.15 0.65</pos>
-			<size>0.4 0.75</size>
+			<maxSize>1 0.75</maxSize>
 			<zIndex>300</zIndex>
 		</image>
 
@@ -18,7 +18,7 @@
 			<path>./../_assets/minnie.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.16 0.67</pos>
-			<size>0.4 0.75</size>
+			<maxSize>1 0.75</maxSize>
 			<zIndex>299</zIndex>
 		</image>		
 </view>

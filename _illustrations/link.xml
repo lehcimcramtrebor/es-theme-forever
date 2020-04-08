@@ -9,7 +9,7 @@
 			<path>./../_assets/link.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.17 0.653</pos>
-			<size>0.3375 0.6</size>
+			<maxSize>1 0.6</maxSize>
 			<zIndex>300</zIndex>
 		</image>
 
@@ -18,7 +18,7 @@
 			<path>./../_assets/link.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.18 0.673</pos>
-			<size>0.3375 0.6</size>
+			<maxSize>1 0.6</maxSize>
 			<zIndex>299</zIndex>
 		</image>		
 </view>>

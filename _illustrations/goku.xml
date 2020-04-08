@@ -9,7 +9,7 @@
 			<path>./../_assets/goku.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.15 0.51</pos>
-			<size>0.27744376926 0.9</size>
+			<maxSize>1 0.9</maxSize>
 			<zIndex>300</zIndex>
 		</image>
 
@@ -18,7 +18,7 @@
 			<path>./../_assets/goku.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.16 0.53</pos>
-			<size>0.27744376926 0.9</size>
+			<maxSize>1 0.9</maxSize>
 			<zIndex>299</zIndex>
 		</image>		
 </view>

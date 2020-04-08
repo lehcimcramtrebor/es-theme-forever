@@ -16,7 +16,7 @@
 <view name="system">  
 
 	  <text name="systemInfo">
-        <pos>0.111 0.672</pos>
+        <pos>0.075 0.23</pos>
 		<fontPath>./_assets/chapaza.ttf</fontPath>
 	    <fontSize>0.014</fontSize>
         <zIndex>26</zIndex>

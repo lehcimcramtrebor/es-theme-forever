@@ -9,7 +9,7 @@
 			<path>./../_assets/mickey.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.15 0.61</pos>
-			<size>0.367734375 0.75</size>
+			<maxSize>1 0.75</maxSize>
 			<zIndex>300</zIndex>
 		</image>
 
@@ -18,7 +18,7 @@
 			<path>./../_assets/mickey.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.16 0.63</pos>
-			<size>0.367734375 0.75</size>
+			<maxSize>1 0.75</maxSize>
 			<zIndex>4</zIndex>
 		</image>		
 </view>

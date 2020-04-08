@@ -9,7 +9,7 @@
 			<path>./../_assets/yoshi.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.14 0.635</pos>
-			<size>0.27421875 0.65</size>
+			<maxSize>1 0.65</maxSize>
 			<zIndex>300</zIndex>
 		</image>
 
@@ -18,7 +18,7 @@
 			<path>./../_assets/yoshi.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.15 0.655</pos>
-			<size>0.27421875 0.65</size>
+			<maxSize>1 0.65</maxSize>
 			<zIndex>299</zIndex>
 		</image>		
 </view>

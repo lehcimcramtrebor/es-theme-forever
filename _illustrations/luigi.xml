@@ -9,7 +9,7 @@
 			<path>./../_assets/luigi.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.15 0.54</pos>
-			<size>0.54 0.96</size>
+			<maxSize>1 0.96</maxSize>
 			<zIndex>300</zIndex>
 		</image>
 
@@ -18,7 +18,7 @@
 			<path>./../_assets/luigi.svg</path>
 			<origin>0.5 0.56</origin>
 			<pos>0.16 0.6</pos>
-			<size>0.54 0.96</size>
+			<maxSize>1 0.96</maxSize>
 			<zIndex>299</zIndex>
 		</image>		
 </view>

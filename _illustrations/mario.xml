@@ -9,7 +9,7 @@
 			<path>./../_assets/mario.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.16 0.63</pos>
-			<size>0.478125 0.85</size>
+			<maxSize>1 0.85</maxSize>
 			<zIndex>300</zIndex>
 		</image>
 
@@ -18,7 +18,7 @@
 			<path>./../_assets/mario.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.17 0.65</pos>
-			<size>0.478125 0.85</size>
+			<maxSize>1 0.85</maxSize>
 			<zIndex>299</zIndex>
 		</image>		
 </view>

@@ -9,7 +9,7 @@
 			<path>./../_assets/ryu.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.15 0.57</pos>
-			<size>0.3 0.8</size>
+			<maxSize>1 0.8</maxSize>
 			<zIndex>300</zIndex>
 		</image>
 
@@ -18,7 +18,7 @@
 			<path>./../_assets/ryu.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.16 0.59</pos>
-			<size>0.3 0.8</size>
+			<maxSize>1 0.8</maxSize>
 			<zIndex>299</zIndex>
 		</image>		
 </view>

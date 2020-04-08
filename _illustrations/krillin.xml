@@ -9,7 +9,7 @@
 			<path>./../_assets/krillin.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.14 0.53</pos>
-			<size>0.2659221974 0.85</size>
+			<maxSize>1 0.85</maxSize>
 			<zIndex>300</zIndex>
 		</image>
 
@@ -18,7 +18,7 @@
 			<path>./../_assets/krillin.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.15 0.55</pos>
-			<size>0.2659221974 0.85</size>
+			<maxSize>1 0.85</maxSize>
 			<zIndex>299</zIndex>
 		</image>		
 </view>
