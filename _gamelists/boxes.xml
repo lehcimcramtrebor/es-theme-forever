@@ -97,8 +97,8 @@
 
     <imagegrid name="gamegrid">
 		<color>000000</color>
-        <pos>0.5154 0.0698</pos>
-        <size>0.4491 0.647</size>
+        <pos>0.5154 0.0697</pos>
+        <size>0.4491 0.64652</size>
 		<autoLayout>2 2</autoLayout>
 		<margin>0 0</margin>
 		<padding>0 0 0 0</padding>
