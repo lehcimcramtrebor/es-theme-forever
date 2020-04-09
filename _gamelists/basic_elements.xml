@@ -6,7 +6,7 @@
    <formatVersion>7</formatVersion>
   
 	<view name="basic">
-      
+ 	
 		<image name="cabinet" extra="true">
 			<pos>0.5 0.45</pos>
 		</image>

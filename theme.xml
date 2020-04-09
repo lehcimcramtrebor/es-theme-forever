@@ -528,6 +528,7 @@
 	<include>./_gamelists/basic_elements.xml</include>
 	<include>./_gamelists/detailed_elements.xml</include>
 	<include>./_gamelists/video_elements.xml</include>
+	<include>./_gamelists/grid_elements.xml</include>
 
 	<subset name="Gamelist" displayName="${f-gamelist}">
 
