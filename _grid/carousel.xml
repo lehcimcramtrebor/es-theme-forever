@@ -1,0 +1,66 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+   <formatVersion>7</formatVersion>
+  
+	<view name="grid">
+ 
+    <imagegrid name="gamegrid">
+		<color>000000</color>
+        <pos>0.5154 0.0697</pos>
+        <size>0.4498 0.46</size>
+		<autoLayout>1 3</autoLayout>
+		<scrollDirection>vertical</scrollDirection>
+		<centerSelection>true</centerSelection>
+		<scrollLoop>true</scrollLoop>		
+		<margin>0 0</margin>
+		<padding>0.08 0 0.08 0</padding>
+		<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+		<animateSelection>false</animateSelection>
+        <zIndex>300</zIndex>
+		<imageSource>marquee</imageSource>		
+    </imagegrid>
+	
+    <gridtile name="default">
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <backgroundCornerSize>9 9</backgroundCornerSize>
+      <selectionMode>image</selectionMode>
+      <padding>5 5</padding>
+      <imageColor>808080</imageColor>
+      <reflexion>0.25 0.0</reflexion>	  
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundEdgeColor>00000000</backgroundEdgeColor>		
+      <backgroundCenterColor>00000000</backgroundCenterColor>
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+	
+    <text name="gridtile">
+      <color>00000000</color>
+      <backgroundColor>00000000</backgroundColor>
+      <fontSize>0.018</fontSize>
+      <fontPath>./../_assets/luckiestguy.ttf</fontPath>		 	  
+      <alignment>center</alignment>
+      <size>0.8 0.24</size>
+    </text>
+
+    <text name="gridtile_selected">
+      <glowColor>101010</glowColor>
+      <glowSize>2</glowSize>
+    </text>
+
+     <image name="md_thumbnail">
+        <maxSize>0.196875 0.35</maxSize>	 
+        <pos>0.64 0.72</pos>
+        <origin>0.5 0.5</origin>
+		<reflexion>0.3 0</reflexion>
+        <zIndex>900</zIndex>         
+    </image>    
+
+	</view> 
+   
+
+</theme>

@@ -146,7 +146,7 @@
 
 	</subset>
 
-	
+
 <!--		FRAMES TV		-->
 
 	<subset name="Full Screen System Info Frame" displayName="${f-fullScreenSystemInfoFrame}">
@@ -522,344 +522,24 @@
 	  
 </view>
 
+
 <!--		GAMELISTS		-->
 
-	<view name="basic">
- 	
-		<image name="cabinet" extra="true">
-			<pos>0.5 0.45</pos>
-		</image>
-		
-		<image name="cabinet_shadow" extra="true">
-			<pos>0.51 0.47</pos>
-		</image>
-		
-			<image name="screen_effect" extra="true">
-				<pos>0.5 0.4835</pos>
-			</image>	  
+	<include>./_gamelists/basic_elements.xml</include>
+	<include>./_gamelists/detailed_elements.xml</include>
+	<include>./_gamelists/video_elements.xml</include>
+	<include>./_gamelists/grid_elements.xml</include>
 
-	    <video name="tv_effect" extra="true">
-				<pos>0.5 0.4835</pos>
-		</video>
+	<subset name="Gamelist" displayName="${f-gamelist}">
 
-		<image name="video_black" extra="true">
-			<pos>0.5 0.4835</pos>
-		</image>
-		
-		<text name="system_label" extra="true">
-			<pos>0.5 0.095</pos>
-		</text>
-		
-	  <textlist name="gamelist">
-		 <origin>0.5 0.5</origin>
-         <pos>0.5 0.49</pos>
-         <selectedColor>000000</selectedColor>
-         <primaryColor>ffffff</primaryColor>
-         <secondaryColor>ffffff</secondaryColor>
-         <fontPath>./_assets/adventure.otf</fontPath>
-         <fontSize>0.032</fontSize>
-         <alignment>center</alignment>
-		 <horizontalMargin>0.01</horizontalMargin>
-         <forceUppercase>1</forceUppercase>
-         <scrollSound>./_inc/scroll.wav</scrollSound>
-		 <lineSpacing>2.2</lineSpacing>
-		 <zIndex>22</zIndex>
-      </textlist>	  
-	</view>
-
-	<view name="detailed,video, grid">
-      
-		<image name="cabinet" extra="true">
-			<pos>0.265 0.45</pos>
-		</image>
-		
-		<image name="cabinet_shadow" extra="true">
-			<pos>0.275 0.47</pos>
-		</image>
-		
-			<image name="screen_effect" extra="true">
-				<pos>0.265 0.4835</pos>
-			</image>	  
-
-	    <video name="tv_effect" extra="true">
-				<pos>0.265 0.4835</pos>
-		</video>
-
-		<image name="video_black" extra="true">
-			<pos>0.265 0.4835</pos>
-		</image>
-		
-		<text name="system_label" extra="true">
-			<pos>0.74 0.026</pos>
-			<text> ${system.name} </text>
-			<fontPath>./_assets/label.ttf</fontPath>
-			<fontSize>0.04</fontSize>
-			<glowSize>2</glowSize>
-			<glowColor>000000</glowColor>
-		</text>
-
-		<text name="system_label_shadow" extra="true">
-			<origin>0.5 0.5</origin>
-			<pos>0.742 0.029</pos>
-			<text> ${system.name} </text>
-			<fontPath>./_assets/label.ttf</fontPath>
-			<fontSize>0.04</fontSize>
-			<glowSize>2</glowSize>
-			<color>00000025</color>
-			<glowColor>00000025</glowColor>
-			<zIndex>899</zIndex>
-		</text>
-		
-      <image name="md_marquee">
-		 <pos>0.265 0.095</pos>
-         <origin>0.5 0.5</origin>
-         <maxSize>0.2 0.1</maxSize>
-         <zIndex>400</zIndex>
-		 <reflexion>0.03 0</reflexion>         
-      </image>   
-	  
-     <image name="g_line" extra="true">
-		<path>./_assets/white.png</path>         		
- 		<origin>0.5 1</origin>
-		<color>ffffff</color>
-        <pos>0.74 0.069</pos>
-        <size>0.397 0.003</size>
-        <zIndex>950</zIndex>         
-      </image>  
-	  
-     <image name="frame_adjust" extra="true">
-		<color>00000099</color>
-		<colorEnd>00000060</colorEnd>
-		<gradientType>vertical</gradientType>
-		<path>./_assets/white.png</path>         		
- 		<origin>0.5 0.5</origin>
-
-        <pos>0.74 0.5</pos>
-        <size>0.45 1</size>
-
-        <zIndex>298</zIndex>         
-      </image>
-	  
-     <image name="gamelist_back_h1" extra="true">
-		<path>./_assets/white.png</path>         		
- 		<origin>1 0.5</origin>
-		<color>00000000</color>
-		<gradientType>horizontal</gradientType>
-		<pos>0.74 0.5</pos>
-        <size>0.225 1</size>
-
-        <zIndex>297</zIndex>         
-      </image>   
-	  
-     <image name="gamelist_back_h2" extra="true">
-		<path>./_assets/white.png</path>         		
- 		<origin>0 0.5</origin>
-		<colorEnd>00000000</colorEnd>
-		<gradientType>horizontal</gradientType>
-		<pos>0.74 0.5</pos>
-        <size>0.225 1</size>
-        <zIndex>297</zIndex>         
-      </image>   
-
-     <image name="frame_texture" extra="true">
-		<color>ffffff</color>
-		<colorEnd>ffffff25</colorEnd>
-		<gradientType>vertical</gradientType>
-		<tile>true</tile>
-		<path>./_assets/grid.jpg</path>         		
- 		<origin>0.5 0.5</origin>
-        <pos>0.74 0.5</pos>
-        <size>0.45 1</size>
-        <zIndex>294</zIndex>         
-      </image>
-	  
-     <image name="frame_edge" extra="true">
-		<path>./_assets/white.png</path>         		
- 		<origin>0.5 0.5</origin>
-        <pos>0.7401 0.5</pos>
-        <size>0.452 1</size>
-        <zIndex>280</zIndex>         
-      </image>    
-
-     <image name="frame_black" extra="true">
-		<path>./_assets/white.png</path>         		
- 		<origin>0.5 0.5</origin>
-		<color>000000</color>
-        <pos>0.7401 0.5</pos>
-        <size>0.454 1</size>
-        <zIndex>15</zIndex>         
-      </image>    
-
-     <image name="frame_shadow" extra="true">
-		<path>./_assets/white.png</path>         		
- 		<origin>0.5 0.5</origin>
-		<color>00000050</color>
-        <pos>0.745 0.5</pos>
-        <size>0.454 1</size>
-        <zIndex>14</zIndex>         
-      </image>    
-
-     <text name="md_description">
- 		<origin>0.5 0.5</origin>	 
-		<color>ffffff</color>
-		<glowColor>202020</glowColor>		
-		<glowSize>2</glowSize>
-        <fontPath>./_assets/luckiestguy.ttf</fontPath>		 
-        <pos>0.853 0.72</pos>
-        <size>0.18 0.3733333333</size>
-		<alignment>center</alignment>
-        <fontSize>0.025</fontSize>
-        <zIndex>800</zIndex>         
-      </text>
-
-     <image name="d_line_up" extra="true">
-		<path>./_assets/white.png</path>         		
- 		<origin>0.5 1</origin>
-		<color>ffffff</color>
-        <pos>0.74 0.5325</pos>
-        <size>0.397 0.003</size>
-        <zIndex>950</zIndex>         
-      </image>  
-
-     <image name="d_line_down" extra="true">
-		<path>./_assets/white.png</path>         		
- 		<origin>0.5 0</origin>
-		<color>ffffff</color>
-        <pos>0.74 0.907</pos>
-        <size>0.397 0.003</size>
-        <zIndex>950</zIndex>         
-      </image>  
-
-    <rating name="md_rating">
-		<pos>0.845 0.9565</pos>
-		<size>0.1 0.042</size>
-		<zIndex>2000</zIndex>	
-		<filledPath>./_assets/franc_f.png</filledPath>	
-		<unfilledPath>./_assets/franc_u.png</unfilledPath>
-    </rating>
-
-	<datetime name="md_releasedate">
-		<pos>0.33 0.86</pos>
-		<color>ff7a00bb</color>      
-		<size>0.12 0.020</size>
-		<fontPath>./_assets/roundedledboard.ttf</fontPath>		 			
-		<fontSize>0.012</fontSize>
-		<alignment>right</alignment>
-		<zIndex>1999</zIndex>
-     </datetime>
-	  
-	<text name="md_developer">
-		<color>06b900bb</color>      
-		<pos>0.08 0.86</pos>
-		<size>0.28 0.020</size>
-		<fontPath>./_assets/roundedledboard.ttf</fontPath>		 			
-		<fontSize>0.016</fontSize>
-		<alignment>left</alignment>
-		<zIndex>1999</zIndex>
-      </text>
-	  	  
-	<text name="md_genre">
-		<pos>0.08 0.89</pos>
-		<color>06b900bb</color>      
-		<size>0.28 0.020</size>
-		<fontPath>./_assets/roundedledboard.ttf</fontPath>		 			
-		<fontSize>0.011</fontSize>
-		<alignment>left</alignment>
-		<zIndex>1999</zIndex>
-      </text>
-
-      <text name="md_lbl_players">
-		<pos>0.46 0.89</pos>
-		<origin>1 0</origin>
-		<size>0.12 0.020</size>
-		<fontPath>./_assets/roundedledboard.ttf</fontPath>		 			
-		<fontSize>0.012</fontSize>
-		<alignment>center</alignment>
-		<color>ff7a00bb</color>      
-         <zIndex>1999</zIndex>         
-      </text>
-	  
-      <text name="md_players">
-		<pos>0.3865 0.89</pos>
-		<origin>0 0</origin>		
-		<size>0.12 0.020</size>
-		<fontPath>./_assets/roundedledboard.ttf</fontPath>		 			
-		<fontSize>0.012</fontSize>
-		<alignment>center</alignment>
-		<color>ff7a00bb</color>      
-         <zIndex>1999</zIndex>         
-      </text>
-	  
-	</view>
-
-	<view name="detailed, video">
-	
-	  <textlist name="gamelist">
-		 <origin>0.5 0.5</origin>
-         <pos>0.74 0.318</pos>
-         <size>0.4498 0.48</size>
-         <selectedColor>000000</selectedColor>
-         <primaryColor>ffffff</primaryColor>
-         <secondaryColor>000000</secondaryColor>
-         <fontPath>./_assets/luckiestguy.ttf</fontPath>
-         <fontSize>0.035</fontSize>
-         <alignment>center</alignment>
-		 <horizontalMargin>0.01</horizontalMargin>
-         <forceUppercase>1</forceUppercase>
-         <scrollSound>./_inc/scroll.wav</scrollSound>
-		 <lineSpacing>1.93</lineSpacing>
-		 <zIndex>300</zIndex>
-      </textlist>
-
-     <image name="md_thumbnail">
-        <maxSize>0.196875 0.35</maxSize>	 
-        <pos>0.64 0.72</pos>
-        <origin>0.5 0.5</origin>
-		<reflexion>0.3 0</reflexion>
-        <zIndex>900</zIndex>         
-    </image>    
-	  
-	</view>
-
-	<view name="detailed">
-
-     <image name="md_image">
-		<default>./_assets/noise.jpg</default>         		
- 		<origin>0.5 0.5</origin>
-		<color>ffffff</color>
-		<!--Size/Pos by Subset-->
-        <zIndex>22</zIndex>         
-      </image>    
-	  
-	</view>
-
-	<view name="video, grid">
-
-     <video name="md_video">
-		<default>./_assets/noise.mp4</default>
-		<effect>none</effect>
-		 <delay>1</delay>
-         <showSnapshotNoVideo>false</showSnapshotNoVideo>
-         <showSnapshotDelay>true</showSnapshotDelay>			 
- 		<origin>0.5 0.5</origin>
-		<color>ffffff</color>
-		<!--Size/Pos by Subset-->
-        <zIndex>22</zIndex>         
-      </video>    
-
-	</view>
-
-
-<!--		GRID OPTIONS		-->
-
-	<subset name="Grid Style" displayName="${f-gridStyle}">
-
-	<include name="Boxes" displayName="${f-boxes}">./_grid/boxes.xml</include>
-	<include name="Carousel" displayName="${f-carousel}">./_grid/carousel.xml</include>
+	<include name="Video" displayName="${f-video}">./_gamelists/video.xml</include>
+	<include name="Detailed" displayName="${f-detailed}">./_gamelists/detailed.xml</include>
+	<include name="Basic" displayName="${f-basic}">./_gamelists/basic.xml</include>
+	<include name="Boxes" displayName="${f-boxes}">./_gamelists/boxes.xml</include>
 
 	</subset>
 	
-
+	
 <!--		FORMAT TV		-->
 
 	<subset name="Display Overlay" displayName="${f-displayOverlay}">
@@ -958,5 +638,4 @@
 
 	</subset>
 
-  
 </theme>

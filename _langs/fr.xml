@@ -18,11 +18,11 @@
 		<f-screenEffect>effet d'écran de la borne</f-screenEffect>	
 		<f-videoEffect>effet vidéo de la borne</f-videoEffect>	
 		<f-focus>focalisation</f-focus>	
-		<f-gamelist>liste de jeux</f-gamelist>	
 		<f-displayOverlay>affichage de l'overlay de la borne</f-displayOverlay>	
 		<f-logo>police des logos</f-logo>
 		<f-overlay>overlay</f-overlay>
 		<f-ratioVideos>Format des vidéos</f-ratioVideos>	
+		<f-gridStyle>Style de la grille</f-gridStyle>	
 
 		<f-customSounds>ma musique</f-customSounds>
 
@@ -110,7 +110,6 @@
 		<f-stretched>étirées</f-stretched>	
 		<f-original>d'origine</f-original>	
 
-		<f-disclaimer>Les différentes listes de jeux doivent impérativement être sélectionnées par le biais de la section "Liste de jeux", veuillez laisser cette ligne (Style d'affichage) sur "Automatique".</f-disclaimer>	
 	
   </variables>
   
