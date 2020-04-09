@@ -86,5 +86,17 @@
     </menuText> 
 
 </view>
+
+<view name="grid">
+
+    <gridtile name="selected">
+      <backgroundEdgeColor>efd807</backgroundEdgeColor>	
+    </gridtile>
+
+    <text name="gridtile_selected">
+      <color>efd807</color>
+    </text>
 	
+</view>
+		
 </theme>

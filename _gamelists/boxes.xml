@@ -99,14 +99,55 @@
 		<color>000000</color>
         <pos>0.5154 0.0697</pos>
         <size>0.4491 0.64652</size>
-		<autoLayout>2 2</autoLayout>
+		<autoLayout>3 2</autoLayout>
 		<margin>0 0</margin>
 		<padding>0 0 0 0</padding>
 		<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
 		<animateSelection>false</animateSelection>
         <zIndex>300</zIndex>
     </imagegrid>
+
+    <gridtile name="default">
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <backgroundCornerSize>9 9</backgroundCornerSize>
+      <selectionMode>image</selectionMode>
+      <padding>5 5</padding>
+      <imageColor>ffffff</imageColor>
+      <reflexion>0.10 0.0</reflexion>	  
+    </gridtile>
 	
+    <gridtile name="selected">
+      <backgroundCenterColor>FFFFFF50</backgroundCenterColor>
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+	
+    <text name="gridtile">
+      <color>D0D0D0</color>
+      <backgroundColor>00000000</backgroundColor>
+      <fontSize>0.018</fontSize>
+      <fontPath>./../_assets/luckiestguy.ttf</fontPath>		 	  
+      <alignment>center</alignment>
+      <size>0.8 0.24</size>
+    </text>
+
+    <text name="gridtile_selected">
+      <glowColor>101010</glowColor>
+      <glowSize>2</glowSize>
+    </text>
+
+    <ninepatch name="gridtile.background:selected">
+      <animateColor>ffffff00</animateColor>
+      <animateColorTime>350</animateColorTime>
+    </ninepatch>
+<!--
+   <image name="gridtile.marquee">
+      <origin>0.5 0</origin>
+      <pos>0.5 1.01</pos>
+      <color>FFFFFFFF</color>
+      <size>1 0.40</size>
+      <reflexion>0.10 0.0</reflexion>	  	  
+    </image>
+-->		
      <image name="frame_adjust" extra="true">
 		<color>00000099</color>
 		<colorEnd>00000060</colorEnd>
@@ -194,7 +235,7 @@
 		<glowSize>2</glowSize>
         <fontPath>./../_assets/luckiestguy.ttf</fontPath>		 
         <pos>0.742 0.8337</pos>
-        <size>0.36 0.226</size>
+        <size>0.4 0.226</size>
 		<alignment>center</alignment>
         <fontSize>0.025</fontSize>
         <zIndex>800</zIndex>         
