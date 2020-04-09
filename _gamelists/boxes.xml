@@ -97,8 +97,8 @@
 
     <imagegrid name="gamegrid">
 		<color>000000</color>
-        <pos>0.51525 0.0691</pos>
-        <size>0.4495 0.647</size>
+        <pos>0.5154 0.0698</pos>
+        <size>0.4491 0.647</size>
 		<autoLayout>2 2</autoLayout>
 		<margin>0 0</margin>
 		<padding>0 0 0 0</padding>
@@ -193,8 +193,8 @@
 		<glowColor>202020</glowColor>		
 		<glowSize>2</glowSize>
         <fontPath>./../_assets/luckiestguy.ttf</fontPath>		 
-        <pos>0.742 0.833</pos>
-        <size>0.36 0.227</size>
+        <pos>0.742 0.8337</pos>
+        <size>0.36 0.226</size>
 		<alignment>center</alignment>
         <fontSize>0.025</fontSize>
         <zIndex>800</zIndex>         
