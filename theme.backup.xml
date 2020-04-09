@@ -1,0 +1,569 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<!--		MUSIC			-->
+
+  <include subset="Music" name="No">./nope.xml</include>
+  <include subset="Music" name="Custom Sounds">./custom_sound.xml</include>
+
+<!--		CAROUSELS		-->
+
+  <include subset="Carousel" name="Forever Jukebox">./_carousels/forever_jukebox.xml</include>
+  <include subset="Carousel" name="Forever Wheel">./_carousels/forever_wheel.xml</include>
+  <include subset="Carousel" name="Forever Vertical">./_carousels/forever_vertical.xml</include>
+
+  <include subset="Carousel" name="No Carousel">./_carousels/no_carousel.xml</include>
+
+<!--		LOGOS DECO		-->
+
+  <include subset="Logos Decoration" name="Silver Mame Blue">./_logos_deco/silver_mame_blue.xml</include>
+  <include subset="Logos Decoration" name="Silver Mame Green">./_logos_deco/silver_mame_green.xml</include>
+  <include subset="Logos Decoration" name="Silver Mame Red">./_logos_deco/silver_mame_red.xml</include>
+  <include subset="Logos Decoration" name="Silver Mame Orange">./_logos_deco/silver_mame_orange.xml</include>
+  <include subset="Logos Decoration" name="Silver Mame Yellow">./_logos_deco/silver_mame_yellow.xml</include>
+  <include subset="Logos Decoration" name="Silver Mame Pink">./_logos_deco/silver_mame_pink.xml</include>
+  <include subset="Logos Decoration" name="Silver Mame Purple">./_logos_deco/silver_mame_purple.xml</include>
+ 
+
+ <include subset="Logos Decoration" name="Carbon Mame Blue">./_logos_deco/carbon_mame_blue.xml</include>
+ <include subset="Logos Decoration" name="Carbon Mame Green">./_logos_deco/carbon_mame_green.xml</include>
+ <include subset="Logos Decoration" name="Carbon Mame Red">./_logos_deco/carbon_mame_red.xml</include>
+ <include subset="Logos Decoration" name="Carbon Mame Orange">./_logos_deco/carbon_mame_orange.xml</include>
+ <include subset="Logos Decoration" name="Carbon Mame Yellow">./_logos_deco/carbon_mame_yellow.xml</include>
+ <include subset="Logos Decoration" name="Carbon Mame Pink">./_logos_deco/carbon_mame_pink.xml</include>
+ <include subset="Logos Decoration" name="Carbon Mame Purple">./_logos_deco/carbon_mame_purple.xml</include>
+
+ <include subset="Logos Decoration" name="Graphite Mame Blue">./_logos_deco/graphite_mame_blue.xml</include>
+ <include subset="Logos Decoration" name="Graphite Mame Green">./_logos_deco/graphite_mame_green.xml</include>
+ <include subset="Logos Decoration" name="Graphite Mame Red">./_logos_deco/graphite_mame_red.xml</include>
+ <include subset="Logos Decoration" name="Graphite Mame Orange">./_logos_deco/graphite_mame_orange.xml</include>
+ <include subset="Logos Decoration" name="Graphite Mame Yellow">./_logos_deco/graphite_mame_yellow.xml</include>
+ <include subset="Logos Decoration" name="Graphite Mame Pink">./_logos_deco/graphite_mame_pink.xml</include>
+ <include subset="Logos Decoration" name="Graphite Mame Purple">./_logos_deco/graphite_mame_purple.xml</include>
+ 
+ <include subset="Logos Decoration" name="No Decoration">./nope.xml</include>
+
+
+<!--		CABINETS		-->
+
+  <include subset="Cabinet" name="Grey">./_cabinets/cabinet_grey.xml</include>
+  <include subset="Cabinet" name="Blue Eyes">./_cabinets/cabinet_blue_eyes.xml</include>
+  <include subset="Cabinet" name="Spider Blue">./_cabinets/cabinet_spider_blue.xml</include>
+  <include subset="Cabinet" name="Kong Blue">./_cabinets/cabinet_kong_blue.xml</include>
+  <include subset="Cabinet" name="Marvel Red">./_cabinets/cabinet_marvel_red.xml</include>
+  <include subset="Cabinet" name="Mortal Tone">./_cabinets/cabinet_mortal_tone.xml</include>
+  <include subset="Cabinet" name="Burgundy">./_cabinets/cabinet_burgundy.xml</include>
+  <include subset="Cabinet" name="Fir">./_cabinets/cabinet_fir.xml</include>
+  <include subset="Cabinet" name="Gold">./_cabinets/cabinet_gold.xml</include>
+  <include subset="Cabinet" name="Trinity">./_cabinets/cabinet_trinity.xml</include>
+  <include subset="Cabinet" name="Ocean">./_cabinets/cabinet_ocean.xml</include>
+  <include subset="Cabinet" name="Pink Lady">./_cabinets/cabinet_pink_lady.xml</include>
+  <include subset="Cabinet" name="Prince">./_cabinets/cabinet_prince.xml</include>
+  <include subset="Cabinet" name="Woody">./_cabinets/cabinet_woody.xml</include>
+  <include subset="Cabinet" name="Starsky">./_cabinets/cabinet_starsky.xml</include>
+
+<!--		CABINET SYSTEM LABEL		-->
+
+  <include subset="Cabinet Label" name="Score Board">./_cabinet_label/scoreboard.xml</include>
+  <include subset="Cabinet Label" name="Digital">./_cabinet_label/digital.xml</include>
+
+<!--		ILLUSTRATIONS		-->
+
+  <include subset="Illustration" name="Bulma">./_illustrations/bulma.xml</include> 
+  <include subset="Illustration" name="Sonic">./_illustrations/sonic.xml</include>
+  <include subset="Illustration" name="Mario">./_illustrations/mario.xml</include>
+  <include subset="Illustration" name="Luigi">./_illustrations/luigi.xml</include>
+  <include subset="Illustration" name="Ryu">./_illustrations/ryu.xml</include>
+  <include subset="Illustration" name="Goku">./_illustrations/goku.xml</include>
+  <include subset="Illustration" name="Krillin">./_illustrations/krillin.xml</include> 
+  <include subset="Illustration" name="Donald">./_illustrations/donald.xml</include>
+  <include subset="Illustration" name="Link">./_illustrations/link.xml</include>
+  <include subset="Illustration" name="Yoshi">./_illustrations/yoshi.xml</include>
+  <include subset="Illustration" name="Spiderman">./_illustrations/spiderman.xml</include>
+  <include subset="Illustration" name="Hulk">./_illustrations/hulk.xml</include>
+  <include subset="Illustration" name="Mickey">./_illustrations/mickey.xml</include>
+  <include subset="Illustration" name="Minnie">./_illustrations/minnie.xml</include>
+  <include subset="Illustration" name="TMNT">./_illustrations/tmnt.xml</include>
+  <include subset="Illustration" name="Baby Pacman Girl">./_illustrations/babypac.xml</include>
+  <include subset="Illustration" name="Baby Pacman Boy">./_illustrations/babypac2.xml</include>
+  <include subset="Illustration" name="Bomberman">./_illustrations/bomberman.xml</include>
+  <include subset="Illustration" name="Bomb Jack">./_illustrations/bombjack.xml</include>
+  <include subset="Illustration" name="Cliffhanger">./_illustrations/cliffhanger.xml</include>
+  <include subset="Illustration" name="Donkey">./_illustrations/donkey.xml</include>
+  <include subset="Illustration" name="Dr. Mario">./_illustrations/drmario.xml</include>
+  <include subset="Illustration" name="Dragon's Lair">./_illustrations/dragonlair.xml</include>
+
+  <include subset="Illustration" name="No Illustration">./_illustrations/no_illustration.xml</include>
+
+
+  <include subset="Illustration" name="TEST">./_illustrations/test.xml</include>
+
+
+<!--		COLORSETS		-->
+  <include subset="Colorset" name="Cherry">./_colorsets/cherry.xml</include>
+  <include subset="Colorset" name="Green Apple">./_colorsets/green_apple.xml</include>
+  <include subset="Colorset" name="French Blue">./_colorsets/french_blue.xml</include>
+  <include subset="Colorset" name="Gold Yellow">./_colorsets/gold_yellow.xml</include>
+  <include subset="Colorset" name="Orange">./_colorsets/orange.xml</include>
+  <include subset="Colorset" name="Bubble Gum">./_colorsets/bubble_gum.xml</include>
+  <include subset="Colorset" name="Purple">./_colorsets/purple.xml</include>
+  <include subset="Colorset" name="Salmon">./_colorsets/salmon.xml</include>
+  <include subset="Colorset" name="White">./_colorsets/white.xml</include>
+
+
+<!--		FRAMES TV		-->
+
+  <include subset="TV Frames" name="Transparent">./_frames/transparent_frames.xml</include>
+  <include subset="TV Frames" name="Plain">./_frames/plain_frames.xml</include>
+  <include subset="TV Frames" name="No">./_frames/no.xml</include>
+
+
+
+<!--		BACKGROUNDS SUBSETS		-->
+
+  <include subset="Style" name="Dynamic Colorset Forever Style">./_backgrounds/forever/forever.xml</include>
+  <include subset="Style" name="Dynamic Colorset Background">./_backgrounds/forever/dynamic_background.xml</include>
+  <include subset="Style" name="Background">./_backgrounds/forever/nope.xml</include>
+
+  <include subset="Background" name="Steel-01">./_backgrounds/steel/01.xml</include>
+  <include subset="Background" name="Steel-02">./_backgrounds/steel/02.xml</include>
+  <include subset="Background" name="Steel-03">./_backgrounds/steel/03.xml</include>
+  <include subset="Background" name="Steel-04">./_backgrounds/steel/04.xml</include>
+  <include subset="Background" name="Steel-05">./_backgrounds/steel/05.xml</include>
+  <include subset="Background" name="Steel-06">./_backgrounds/steel/06.xml</include>
+  <include subset="Background" name="Steel-07">./_backgrounds/steel/07.xml</include>
+  <include subset="Background" name="Steel-08">./_backgrounds/steel/08.xml</include>
+  <include subset="Background" name="Steel-09">./_backgrounds/steel/09.xml</include>
+  <include subset="Background" name="Steel-10">./_backgrounds/steel/10.xml</include>
+  <include subset="Background" name="Steel-11">./_backgrounds/steel/11.xml</include>
+
+
+
+  <include subset="Background" name="Mosaic Steamless-01">./_backgrounds/mosaic_steamless/01.xml</include>
+  <include subset="Background" name="Mosaic Steamless-02">./_backgrounds/mosaic_steamless/02.xml</include>
+  <include subset="Background" name="Mosaic Steamless-03">./_backgrounds/mosaic_steamless/03.xml</include>
+  <include subset="Background" name="Mosaic Steamless-04">./_backgrounds/mosaic_steamless/04.xml</include>
+  <include subset="Background" name="Mosaic Steamless-05">./_backgrounds/mosaic_steamless/05.xml</include>
+
+
+
+  <include subset="Background" name="Gold Flowers-01">./_backgrounds/gold_flowers/01.xml</include>
+  <include subset="Background" name="Gold Flowers-02">./_backgrounds/gold_flowers/02.xml</include>
+
+
+
+  <include subset="Background" name="Stained Glass-01">./_backgrounds/stained_glass/01.xml</include>
+  <include subset="Background" name="Stained Glass-02">./_backgrounds/stained_glass/02.xml</include>
+  <include subset="Background" name="Stained Glass-03">./_backgrounds/stained_glass/03.xml</include>
+  <include subset="Background" name="Stained Glass-04">./_backgrounds/stained_glass/04.xml</include>
+  <include subset="Background" name="Stained Glass-05">./_backgrounds/stained_glass/05.xml</include>
+  <include subset="Background" name="Stained Glass-06">./_backgrounds/stained_glass/06.xml</include>
+  <include subset="Background" name="Stained Glass-07">./_backgrounds/stained_glass/07.xml</include>
+  <include subset="Background" name="Stained Glass-08">./_backgrounds/stained_glass/08.xml</include>
+
+
+
+  <include subset="Background" name="Starfield-01">./_backgrounds/starfield/01.xml</include>
+  <include subset="Background" name="Starfield-02">./_backgrounds/starfield/02.xml</include>
+  <include subset="Background" name="Starfield-03">./_backgrounds/starfield/03.xml</include>
+  <include subset="Background" name="Starfield-04">./_backgrounds/starfield/04.xml</include>
+  <include subset="Background" name="Starfield-05">./_backgrounds/starfield/05.xml</include>
+
+
+
+  <include subset="Background" name="Butterflies-01">./_backgrounds/butterflies/01.xml</include>
+  <include subset="Background" name="Butterflies-02">./_backgrounds/butterflies/02.xml</include>
+
+
+
+  <include subset="Background" name="Wood-01">./_backgrounds/wood/01.xml</include>
+  <include subset="Background" name="Wood-02">./_backgrounds/wood/02.xml</include>
+
+
+
+  <include subset="Background" name="Stone-01">./_backgrounds/stone/01.xml</include>
+  <include subset="Background" name="Stone-02">./_backgrounds/stone/02.xml</include>
+
+
+
+  <include subset="Background" name="Retro Game-01">./_backgrounds/retrogame/01.xml</include>
+  <include subset="Background" name="Retro Game-02">./_backgrounds/retrogame/02.xml</include>
+  <include subset="Background" name="Retro Game-03">./_backgrounds/retrogame/03.xml</include>
+  <include subset="Background" name="Retro Game-04">./_backgrounds/retrogame/04.xml</include>
+  <include subset="Background" name="Retro Game-05">./_backgrounds/retrogame/05.xml</include>
+  <include subset="Background" name="Retro Game-06">./_backgrounds/retrogame/06.xml</include>
+
+
+
+  <include subset="Background" name="Plain-01">./_backgrounds/plain/01.xml</include>
+  <include subset="Background" name="Plain-02">./_backgrounds/plain/02.xml</include>
+  <include subset="Background" name="Plain-03">./_backgrounds/plain/03.xml</include>
+  <include subset="Background" name="Plain-04">./_backgrounds/plain/04.xml</include>
+  <include subset="Background" name="Plain-05">./_backgrounds/plain/05.xml</include>
+  <include subset="Background" name="Plain-06">./_backgrounds/plain/06.xml</include>
+  <include subset="Background" name="Plain-07">./_backgrounds/plain/07.xml</include>
+  <include subset="Background" name="Plain-08">./_backgrounds/plain/08.xml</include>
+  <include subset="Background" name="Plain-09">./_backgrounds/plain/09.xml</include>
+  <include subset="Background" name="Plain-10">./_backgrounds/plain/10.xml</include>
+  <include subset="Background" name="Plain-11">./_backgrounds/plain/11.xml</include>
+
+
+
+  <include subset="Background" name="Squares-01">./_backgrounds/squares/01.xml</include>
+  <include subset="Background" name="Squares-02">./_backgrounds/squares/02.xml</include>
+  <include subset="Background" name="Squares-03">./_backgrounds/squares/03.xml</include>
+  <include subset="Background" name="Squares-04">./_backgrounds/squares/04.xml</include>
+  <include subset="Background" name="Squares-05">./_backgrounds/squares/05.xml</include>
+  <include subset="Background" name="Squares-06">./_backgrounds/squares/06.xml</include>
+  <include subset="Background" name="Squares-07">./_backgrounds/squares/07.xml</include>
+  <include subset="Background" name="Squares-08">./_backgrounds/squares/08.xml</include>
+
+
+<!------STATIC EFFECTS------>
+
+		<include subset="Screen Effects" name="CRT">./_effects/screen_effect_crt.xml</include>		
+
+		<include subset="Screen Effects" name="Scanlines">./_effects/screen_effect_scanlines.xml</include>
+
+		<include subset="Screen Effects" name="Vertical Scanlines">./_effects/screen_effect_scanlines_vertical.xml</include>
+
+		<include subset="Screen Effects" name="Scanlines Fine">./_effects/screen_effect_scanlines_fine.xml</include>	
+
+		<include subset="Screen Effects" name="Vertical Scanlines Fine">./_effects/screen_effect_scanlines_vertical_fine.xml</include>
+
+		<include subset="Screen Effects" name="Phosphore">./_effects/screen_effect_phosphore.xml</include>
+
+		<include subset="Screen Effects" name="Phosphore +">./_effects/screen_effect_phosphore_+.xml</include>
+
+		<include subset="Screen Effects" name="NO o:(">./nope.xml</include>
+
+
+
+<!------VIDEO EFFECTS------>
+
+		<include subset="Video Effect" name="CRT">./_effects/tv_effect_crt.xml</include>
+
+		<include subset="Video Effect" name="HERTZ">./_effects/tv_effect_hertz.xml</include>	
+
+		<include subset="Video Effect" name="FLICKERING">./_effects/tv_effect_flickering.xml</include>		
+
+		<include subset="Video Effect" name="GLITCH">./_effects/tv_effect_glitch.xml</include>						
+
+		<include subset="Video Effect" name="VHS GLITCH">./_effects/tv_effect_vhs_glitch.xml</include>
+
+		<include subset="Video Effect" name="No">./_effects/nope.xml.xml</include>						
+
+ <!--		FOCUS		-->
+
+		<include subset="Focus" name="Yes">./_backgrounds/video/focus.xml</include>	
+  		<include subset="Focus" name="No">./nope.xml</include>	
+
+
+
+<view name="screen">
+
+    <text name="clock">
+      <fontSize>0.02</fontSize>
+      <pos>0.94 0.945</pos>
+      <size>0.05 0.058</size>
+      <verticalAlignment>center</verticalAlignment>
+    </text>
+    <controllerActivity name="controllerActivity">
+      <pos>0.01 0.012</pos>
+      <size>0.085 0.025</size>
+      <itemSpacing>0.003</itemSpacing>
+      <imagePath>./_assets/gamepad.svg</imagePath>
+      <color>FFFFFF80</color>
+      <activityColor>A0A0FFC0</activityColor>
+      <hotkeyColor>FFA0A0C0</hotkeyColor>
+    </controllerActivity>
+  </view>
+  
+<view name="menu">
+    <menuText name="menutitle">
+      <fontPath>./_assets/adventure.otf</fontPath>
+      <fontSize>0.042</fontSize>
+      <color>1c1632</color>
+    </menuText>
+    <menuText name="menufooter">
+      <fontPath>./_assets/adventure.otf</fontPath>
+      <fontSize>0.024</fontSize>
+      <color>777777FF</color>
+    </menuText>
+    <menuText name="menutext">
+      <fontPath>./_assets/adventure.otf</fontPath>
+      <fontSize>0.03</fontSize>
+      <color>1c1632</color>
+      <separatorColor>b49ead</separatorColor>
+      <selectedColor>FFFFFF</selectedColor>
+      <selectorGradientType>horizontal</selectorGradientType>
+    </menuText>
+	
+    <menuTextSmall name="menutextsmall">
+      <fontPath>./_assets/adventure.otf</fontPath>
+      <fontSize>0.022</fontSize>
+      <color>48387a</color>
+    </menuTextSmall>
+    <menuBackground name="menubg">
+      <color>f8f6f6</color>
+      <cornerSize>32 32</cornerSize>
+    </menuBackground>
+
+
+  </view>
+
+<view name="menu, system, basic, detailed, video, grid">  
+
+		<image name="cabinet" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.675 1</size>
+			<color>ffffff</color>
+			<zIndex>136</zIndex>
+		</image>
+		
+		<image name="cabinet_shadow" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.675 1</size>
+			<color>00000050</color>
+			<zIndex>10</zIndex>
+		</image>
+		
+			<image name="screen_effect" extra="true">
+				<origin>0.5 0.5</origin>
+				<tile>true</tile>
+				<zIndex>35</zIndex>
+			</image>	  
+
+	    <video name="tv_effect" extra="true">
+				<origin>0.5 0.5</origin>
+				<zIndex>34</zIndex>
+		</video>
+
+		<image name="video_black" extra="true">
+			<tile>false</tile>
+			<origin>0.5 0.5</origin>
+			<size>0.345‬ 0.485</size>
+			<color>ffffff</color>
+			<zIndex>20</zIndex>
+		</image>
+
+		<image name="video_black_in" extra="true">
+			<tile>true</tile>
+			<path>./_assets/white.png</path>
+			<origin>0.5 0.5</origin>
+			<color>000000</color>
+			<zIndex>21</zIndex>
+		</image>				
+
+		<image name="screen_frame" extra="true">
+			<path>./_assets/frame.png</path>
+			<origin>0.5 0.5</origin>
+			<color>ffffff</color>
+			<zIndex>35</zIndex>
+		</image>				
+		
+		<text name="system_label" extra="true">
+			<text>${system.fullName}</text>
+			<origin>0.5 0.5</origin>
+			<forceUppercase>false</forceUppercase>
+			<size>0.4 0.1</size>
+			<alignment>center</alignment>
+			<zIndex>900</zIndex>
+		</text>
+		
+      <helpsystem name="help">
+         <fontPath>./_assets/adventure.otf</fontPath>
+         <fontSize>0.03</fontSize>      
+         <pos>0.02 0.96</pos>      
+         <textColor>ffffff</textColor>
+      </helpsystem>	  
+
+      <image name="background" extra="true">
+		 <tile>true</tile>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>-1</zIndex>                 
+      </image>
+
+
+		<image name="frame_bottom" extra="true">
+			<path>./_assets/white.png</path>
+			<origin>0.5 1</origin>
+			<pos>0.5 1</pos>
+			<size>1 0.05</size>
+			<zIndex>997</zIndex>
+		</image> 
+		
+		<image name="line_bottom" extra="true">
+			<path>./_assets/white.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.9521</pos>
+			<size>1 0.002</size>
+			<zIndex>999</zIndex>
+		</image> 
+		
+</view>
+
+<view name="system">
+
+		<image name="cabinet" extra="true">
+			<pos>0.5 0.45</pos>
+		</image>
+		
+		<image name="cabinet_shadow" extra="true">
+			<pos>0.51 0.47</pos>
+		</image>
+
+		<image name="video_black" extra="true">
+			<pos>0.5 0.4835</pos>
+		</image>
+		
+		<text name="system_label" extra="true">
+			<pos>0.5 0.095</pos>
+		</text>
+
+		
+    <video name="backgroundvideo" extra="true">
+		<path>{random}</path>
+		<path>./CUSTOMIZE_YOUR_THEME/videos/${system.theme}.mp4</path>                 		
+		<origin>0.5 0.5</origin>
+		<!--Size/Pos by Subset-->
+		<delay>1</delay>
+		<effect>none</effect>		
+		<default>./_assets/noise.mp4</default>
+		<showSnapshotNoVideo>false</showSnapshotNoVideo>
+		<showSnapshotDelay>false</showSnapshotDelay>
+		<color>ffffff</color>
+		<zIndex>21</zIndex>      
+    </video>
+
+	  <text name="systemInfo">
+        <pos>0 0.65</pos>
+		<fontPath>./_assets/digital.ttf</fontPath>
+	    <fontSize>0.025</fontSize>
+        <zIndex>26</zIndex>
+		<color>ffffff</color>
+		<glowColor>000000</glowColor>
+		<glowSize>3</glowSize>
+      </text> 
+   
+		<image name="systemInfo_frame" extra="true">
+			<path>./_assets/white.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.68</pos>
+			<zIndex>23</zIndex>
+		</image>
+
+		<image name="line_down" extra="true">
+			<path>./_assets/white.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.634</pos>
+			<zIndex>22</zIndex>
+		</image>
+		
+</view>
+
+<view name="basic, detailed, video, grid">
+
+	  	    <text name="logoText, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite">
+				<color>00000000</color>      
+			</text>
+	  
+</view>
+
+
+<!--		GAMELISTS		-->
+
+  <include>./_gamelists/basic_elements.xml</include>
+  <include>./_gamelists/detailed_elements.xml</include>
+  <include>./_gamelists/video_elements.xml</include>
+
+  <include subset="Gamelist" name="Video">./_gamelists/video.xml</include>
+  <include subset="Gamelist" name="Detailed">./_gamelists/detailed.xml</include>
+  <include subset="Gamelist" name="Basic">./_gamelists/basic.xml</include>
+
+<!--		FORMAT TV		-->
+
+  <include subset="TV FILL" name="Realistic Frame">./_frames/realistic.xml</include>
+  <include subset="TV FILL" name="Full">./_frames/full.xml</include>
+
+<!--		DECO Frames	-->
+
+  <include subset="Realistic frame" name="Marvel">./_frames/marvel.xml</include>
+
+  <include subset="Realistic frame" name="Marvel + Cabinet">./_frames/marvel.xml</include>
+  <include subset="Realistic frame" name="Marvel + Cabinet">./_cabinets/cabinet_marvel.xml</include>
+
+
+
+  <include subset="Realistic frame" name="Mortal Kombat II">./_frames/mk2.xml</include>
+
+  <include subset="Realistic frame" name="Mortal Kombat II + Cabinet">./_frames/mk2.xml</include>
+  <include subset="Realistic frame" name="Mortal Kombat II + Cabinet">./_cabinets/cabinet_mk2.xml</include>
+
+ 
+
+ <include subset="Realistic frame" name="Batman">./_frames/bat.xml</include>
+
+  <include subset="Realistic frame" name="Batman + Cabinet">./_frames/bat.xml</include>
+  <include subset="Realistic frame" name="Batman + Cabinet">./_cabinets/cabinet_batman.xml</include>
+
+
+
+  <include subset="Realistic frame" name="Spiderman">./_frames/spiderman.xml</include>
+
+  <include subset="Realistic frame" name="Spiderman + Cabinet">./_frames/spiderman.xml</include>
+  <include subset="Realistic frame" name="Spiderman + Cabinet">./_cabinets/cabinet_spiderman.xml</include>
+
+
+
+  <include subset="Realistic frame" name="American Speedway">./_frames/speedway.xml</include>
+
+  <include subset="Realistic frame" name="American Speedway + Cabinet">./_frames/speedway.xml</include>
+  <include subset="Realistic frame" name="American Speedway + Cabinet">./_cabinets/cabinet_speedway.xml</include>
+
+
+
+  <include subset="Realistic frame" name="Defender">./_frames/defender.xml</include>
+
+  <include subset="Realistic frame" name="Defender + Cabinet">./_frames/defender.xml</include>
+  <include subset="Realistic frame" name="Defender + Cabinet">./_cabinets/cabinet_defender.xml</include>
+
+
+
+  <include subset="Realistic frame" name="Donkey Junior">./_frames/donkeyjr.xml</include>
+
+  <include subset="Realistic frame" name="Donkey Junior + Cabinet">./_frames/donkeyjr.xml</include>
+  <include subset="Realistic frame" name="Donkey Junior + Cabinet">./_cabinets/cabinet_donkey.xml</include>
+
+
+
+  <include subset="Realistic frame" name="Black">./_frames/black.xml</include>
+
+  
+<!--		CUSTOM BACKGROUNDS		-->
+
+  <include>./_backgrounds/custom/custom.xml</include>
+
+
+<!--		SPECIFICS SYSTEMS		-->
+
+  <include>./_specifics/${system.name}.xml</include>
+
+
+<!--		CUSTOM Logos	-->
+
+  <include subset="Carousel" name="Custom Logos Wheel">./_carousels/custom_wheel.xml</include>
+  <include subset="Carousel" name="Custom Logos Vertical">./_carousels/custom_vertical.xml</include>
+  <include subset="Carousel" name="Custom Logos Jukebox">./_carousels/custom_jukebox.xml</include>
+
+<!--		SIMPLE CAROUSELS	-->
+
+  <include subset="Carousel" name="Simple Jukebox">./_carousels/simple_jukebox.xml</include>
+  <include subset="Carousel" name="Simple Wheel">./_carousels/simple_wheel.xml</include>
+  <include subset="Carousel" name="Simple Vertical">./_carousels/simple_vertical.xml</include>
+
+</theme>

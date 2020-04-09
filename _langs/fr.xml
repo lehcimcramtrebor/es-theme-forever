@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+   
+   <formatVersion>7</formatVersion>
+
+	<variables lang="fr">
+  
+		<f-music>musique</f-music>
+		<f-carousel>carrousel</f-carousel>
+		<f-logosDecorations>arrière-plans de logos</f-logosDecorations>	
+		<f-cabinet>borne d'arcade</f-cabinet>	
+		<f-cabinetLabel>label de la borne</f-cabinetLabel>	
+		<f-illustration>personnage</f-illustration>	
+		<f-colorset>couleur du thème</f-colorset>	
+		<f-fullScreenSystemInfoFrame>volet des infos système</f-fullScreenSystemInfoFrame>	
+		<f-backgroundStyle>style du thème</f-backgroundStyle>	
+		<f-screenEffect>effet d'écran de la borne</f-screenEffect>	
+		<f-videoEffect>effet vidéo de la borne</f-videoEffect>	
+		<f-focus>focalisation</f-focus>	
+		<f-gamelist>liste de jeux</f-gamelist>	
+		<f-displayOverlay>affichage de l'overlay de la borne</f-displayOverlay>	
+		<f-logo>police des logos</f-logo>
+		<f-overlay>overlay</f-overlay>
+		<f-ratioVideos>Format des vidéos</f-ratioVideos>	
+
+		<f-customSounds>ma musique</f-customSounds>
+
+		<f-no>non</f-no>	
+		<f-yes>oui</f-yes>
+		
+		<f-cherry>cerise</f-cherry>	
+		<f-greenApple>pomme Verte</f-greenApple>	
+		<f-frenchBlue>bleu cocorico</f-frenchBlue>	
+		<f-goldYellow>jaune or</f-goldYellow>	
+		<f-orange>orange</f-orange>	
+		<f-bubbleGum>malabar</f-bubbleGum>	
+		<f-violet>violette</f-violet>	
+		<f-salmon>saumon</f-salmon>	
+		<f-white>blanc</f-white>	
+		<f-black>noir</f-black>	
+
+		<f-blue>bleu</f-blue>	
+		<f-green>vert</f-green>	
+		<f-red>rouge</f-red>	
+		<f-orange>orange</f-orange>	
+		<f-yellow>jaune</f-yellow>	
+		<f-pink>rose</f-pink>	
+		<f-purple>violet</f-purple>
+		
+		<f-foreverJukebox>juke-box "forever"</f-foreverJukebox>	
+		<f-foreverWheel>roue "forever"</f-foreverWheel>	
+		<f-foreverVertical>liste verticale "forever"</f-foreverVertical>	
+		<f-noCarousel>pas de carrousel</f-noCarousel>	
+		<f-customLogosWheel>roue avec mes logos</f-customLogosWheel>	
+		<f-customLogosVertical>liste verticale avec mes logos</f-customLogosVertical>	
+		<f-customLogosJukebox>juke-box avec mes logos</f-customLogosJukebox>	
+		<f-simpleJukebox>simple juke-box</f-simpleJukebox>	
+		<f-simpleWheel>simple roue</f-simpleWheel>	
+		<f-simpleVertical>simple liste verticale</f-simpleVertical>	
+
+		<f-greyStone>gris pierre</f-greyStone>	
+		<f-blueEyes>yeux bleus</f-blueEyes>	
+		<f-spiderBlue>bleu arraignée</f-spiderBlue>	
+		<f-kongBlue>bleu donkey kong jr.</f-kongBlue>	
+		<f-marvelRed>rouge marvel</f-marvelRed>	
+		<f-mortalTone>ton mortel</f-mortalTone>	
+		<f-burgundy>bordeaux</f-burgundy>	
+		<f-fir>sapin</f-fir>	
+		<f-gold>or</f-gold>	
+		<f-trinity>trinity</f-trinity>	
+		<f-ocean>océan</f-ocean>	
+		<f-pinkLady>dame rose</f-pinkLady>	
+		<f-prince>prince</f-prince>	
+		<f-woody>boisée</f-woody>	
+		<f-clementine>clémentine</f-clementine>	
+
+		<f-scoreBoard>tableau de scores</f-scoreBoard>	
+		<f-digital>numérique</f-digital>	
+
+		<f-noDecoration>pas de décoration</f-noDecoration>	
+
+		<f-transparent>transparent</f-transparent>	
+		<f-plain>opaque</f-plain>	
+
+		<f-dynamicColorsetForeverStyle>style "forever"</f-dynamicColorsetForeverStyle>	
+		<f-dynamicColorsetBackground>arrière-plan + overlay</f-dynamicColorsetBackground>	
+		<f-background>arrière-plan</f-background>	
+		
+		<f-crt>moniteur crt</f-crt>	
+		<f-scanlines>balayage horizontal</f-scanlines>	
+		<f-verticalScanlines>balayage vertical</f-verticalScanlines>	
+		<f-scanlinesFine>balayage horizontal fin</f-scanlinesFine>	
+		<f-verticalScanlinesFine>balayage vertical fin</f-verticalScanlinesFine>	
+		<f-phosphore>phosphore</f-phosphore>	
+		<f-phosphorePlus>phospore pour les dingues</f-phosphorePlus>	
+		<f-hertz>hertz</f-hertz>	
+		<f-flickering>flickering</f-flickering>	
+		<f-glitch>glitch</f-glitch>	
+		<f-vhsGlitch>vhs glitch</f-vhsGlitch>	
+
+		<f-video>vidéo</f-video>	
+		<f-detailed>détaillée</f-detailed>	
+		<f-basic>basique</f-basic>	
+		<f-grid>grille</f-grid>	
+
+		<f-cabinet>borne</f-cabinet>	
+
+		<f-stretched>étirées</f-stretched>	
+		<f-original>d'origine</f-original>	
+
+	
+  </variables>
+  
+</theme>

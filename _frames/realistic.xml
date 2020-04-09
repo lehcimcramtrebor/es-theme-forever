@@ -104,7 +104,11 @@
 		
 </view>
 
-  <include subset="Ratio Videos" name="Streched Full Screen">./realistic_streched.xml</include>
-  <include subset="Ratio Videos" name="Original Ratio">./realistic_original.xml</include>
+	<subset name="Ratio Videos" displayName="${f-ratioVideos}">
+
+	<include name="Streched Full Screen" displayName="${f-stretched}">./realistic_streched.xml</include>
+	<include name="Original Ratio" displayName="${f-original}">./realistic_original.xml</include>
+
+	</subset>
 	
 </theme>

@@ -28,6 +28,6 @@
 </view>
 
 <include>./logo.xml</include>
-<include subset="Style" name="Dynamic Colorset Background">./white_logos.xml</include>
+<include subset="Background Style" name="Dynamic Colorset Background">./white_logos.xml</include>
 
 </theme>
