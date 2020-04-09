@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<theme>
+<theme defaultView="grid">
 
    <formatVersion>7</formatVersion>
-
+   
 	<include>./_langs/no_localized.xml</include>
 	<include>./_langs/fr.xml</include>
 
+	<subset name="Grid Style" displayName="${f-gridStyle}">
+	<include name="Boxes" displayName="${f-boxes}">./nope.xml</include>
+	</subset>
 
 <!--		MUSIC			-->
 
@@ -345,7 +348,6 @@
       <fontSize>0.03</fontSize>
       <color>1c1632</color>
       <separatorColor>b49ead</separatorColor>
-      <selectedColor>FFFFFF</selectedColor>
       <selectorGradientType>horizontal</selectorGradientType>
     </menuText>
 	
@@ -796,18 +798,17 @@
 	
 	  <textlist name="gamelist">
 		 <origin>0.5 0.5</origin>
-         <pos>0.74 0.318</pos>
-         <size>0.4498 0.48</size>
+         <pos>0.74 0.3195</pos>
+         <size>0.4498 0.5</size>
          <selectedColor>000000</selectedColor>
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>000000</secondaryColor>
          <fontPath>./_assets/luckiestguy.ttf</fontPath>
          <fontSize>0.035</fontSize>
          <alignment>center</alignment>
-		 <horizontalMargin>0.01</horizontalMargin>
          <forceUppercase>1</forceUppercase>
          <scrollSound>./_inc/scroll.wav</scrollSound>
-		 <lineSpacing>1.93</lineSpacing>
+		 <lineSpacing>1.955</lineSpacing>
 		 <zIndex>300</zIndex>
       </textlist>
 
@@ -849,13 +850,38 @@
 
 	</view>
 
+	<view name="grid">
 
+    <text name="md_description">		 
+		<pos>0.742 0.8337</pos>
+        <size>0.4 0.226</size>       
+    </text>
+
+     <image name="g_line" extra="true">
+        <pos>0.74 0.069</pos>
+        <size>0.449 0.003</size>       
+      </image>
+
+    <image name="d_line_up" extra="true">
+        <pos>0.74 0.719</pos>
+        <size>0.449 0.003</size>
+     </image>  
+
+    <image name="d_line_down" extra="true">
+        <pos>0.74 0.9465</pos>
+        <size>0.449 0.003</size>
+    </image>
+
+	</view>
+
+	
 <!--		GRID OPTIONS		-->
 
 	<subset name="Grid Style" displayName="${f-gridStyle}">
 
 	<include name="Boxes" displayName="${f-boxes}">./_grid/boxes.xml</include>
 	<include name="Carousel" displayName="${f-carousel}">./_grid/carousel.xml</include>
+	<include name="Cover Flow" displayName="${f-coverFlow}">./_grid/cover_flow.xml</include>
 
 	</subset>
 	

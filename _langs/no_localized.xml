@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+   
+   <formatVersion>7</formatVersion>
+
+	<variables>
+  
+		<f-music>music</f-music>
+		<f-carousel>carousel</f-carousel>
+		<f-logosDecorations>logos decoration</f-logosDecorations>	
+		<f-cabinet>cabinet</f-cabinet>	
+		<f-cabinetLabel>cabinet label</f-cabinetLabel>	
+		<f-illustration>character</f-illustration>	
+		<f-colorset>colorset</f-colorset>	
+		<f-fullScreenSystemInfoFrame>systeminfo frame</f-fullScreenSystemInfoFrame>	
+		<f-backgroundStyle>theme style</f-backgroundStyle>	
+		<f-screenEffect>screen effect</f-screenEffect>	
+		<f-videoEffect>video effect</f-videoEffect>	
+		<f-focus>focus</f-focus>	
+		<f-displayOverlay>display cabinet overlay</f-displayOverlay>	
+		<f-logo>logotext font</f-logo>
+		<f-overlay>overlay</f-overlay>
+		<f-ratioVideos>videos ratio</f-ratioVideos>	
+		<f-gridStyle>gridview style</f-gridStyle>	
+
+		<f-customSounds>custom sounds</f-customSounds>
+
+		<f-no>no</f-no>	
+		<f-yes>yes</f-yes>
+		
+		<f-cherry>cherry</f-cherry>	
+		<f-greenApple>green apple</f-greenApple>	
+		<f-frenchBlue>french blue</f-frenchBlue>	
+		<f-goldYellow>gold yellow</f-goldYellow>	
+		<f-orange>orange</f-orange>	
+		<f-bubbleGum>bubble-gum</f-bubbleGum>	
+		<f-violet>violet</f-violet>	
+		<f-salmon>salmon</f-salmon>	
+		<f-white>white</f-white>	
+		<f-black>black</f-black>	
+
+		<f-blue>blue</f-blue>	
+		<f-green>green</f-green>	
+		<f-red>red</f-red>	
+		<f-orange>orange</f-orange>	
+		<f-yellow>yellow</f-yellow>	
+		<f-pink>pink</f-pink>	
+		<f-purple>purple</f-purple>
+		
+		<f-foreverJukebox>"forever" jukebox</f-foreverJukebox>	
+		<f-foreverWheel>"forever" wheel</f-foreverWheel>	
+		<f-foreverVertical>"forever" vertical</f-foreverVertical>	
+		<f-noCarousel>no carousel</f-noCarousel>	
+		<f-customLogosWheel>custom wheel</f-customLogosWheel>	
+		<f-customLogosVertical>custom vertical</f-customLogosVertical>	
+		<f-customLogosJukebox>custom jukebox</f-customLogosJukebox>	
+		<f-simpleJukebox>simple jukebox</f-simpleJukebox>	
+		<f-simpleWheel>simple wheel</f-simpleWheel>	
+		<f-simpleVertical>simple vertical</f-simpleVertical>	
+
+		<f-greyStone>grey stone</f-greyStone>	
+		<f-blueEyes>blue eyes</f-blueEyes>	
+		<f-spiderBlue>spider blue</f-spiderBlue>	
+		<f-kongBlue>donkey blue</f-kongBlue>	
+		<f-marvelRed>marvel red</f-marvelRed>	
+		<f-mortalTone>mortal tone</f-mortalTone>	
+		<f-burgundy>burgundy</f-burgundy>	
+		<f-fir>fir</f-fir>	
+		<f-gold>gold</f-gold>	
+		<f-trinity>trinity</f-trinity>	
+		<f-ocean>ocean</f-ocean>	
+		<f-pinkLady>pink lady</f-pinkLady>	
+		<f-prince>prince</f-prince>	
+		<f-woody>woody</f-woody>	
+		<f-clementine>clementine</f-clementine>	
+
+		<f-scoreBoard>score board</f-scoreBoard>	
+		<f-digital>digital</f-digital>	
+
+		<f-noDecoration>no decoration</f-noDecoration>	
+
+		<f-transparent>transparent</f-transparent>	
+		<f-plain>plain</f-plain>	
+
+		<f-dynamicColorsetForeverStyle>"forever" style</f-dynamicColorsetForeverStyle>	
+		<f-dynamicColorsetBackground>"forever" background</f-dynamicColorsetBackground>	
+		<f-background>background</f-background>	
+		
+		<f-crt>crt</f-crt>	
+		<f-scanlines>scanlines</f-scanlines>	
+		<f-verticalScanlines>vertical scanlines</f-verticalScanlines>	
+		<f-scanlinesFine>scanlines fine</f-scanlinesFine>	
+		<f-verticalScanlinesFine>vertical scanlines fine</f-verticalScanlinesFine>	
+		<f-phosphore>phosphore</f-phosphore>	
+		<f-phosphorePlus>phospore+</f-phosphorePlus>	
+		<f-hertz>hertz</f-hertz>	
+		<f-flickering>flickering</f-flickering>	
+		<f-glitch>glitch</f-glitch>	
+		<f-vhsGlitch>vhs glitch</f-vhsGlitch>	
+
+		<f-video>video</f-video>	
+		<f-detailed>detailed</f-detailed>	
+		<f-basic>basic</f-basic>	
+		<f-grid>grid</f-grid>	
+		<f-boxes>boxes</f-boxes>	
+		<f-coverFlow>coverflow</f-coverFlow>	
+
+		<f-cabinet>cabinet</f-cabinet>	
+
+		<f-stretched>stretched</f-stretched>	
+		<f-original>original ratio</f-original>	
+
+	
+  </variables>
+  
+</theme>

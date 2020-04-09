@@ -82,6 +82,7 @@
 
     <menuText name="menutext">
       <selectorColor>34c924</selectorColor>
+      <selectedColor>101010</selectedColor>
     </menuText> 
 
 </view>
