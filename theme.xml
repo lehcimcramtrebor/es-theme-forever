@@ -534,6 +534,7 @@
 	<include name="Video" displayName="${f-video}">./_gamelists/video.xml</include>
 	<include name="Detailed" displayName="${f-detailed}">./_gamelists/detailed.xml</include>
 	<include name="Basic" displayName="${f-basic}">./_gamelists/basic.xml</include>
+	<include name="Boxes" displayName="${f-boxes}">./_gamelists/boxes.xml</include>
 
 	</subset>
 	
