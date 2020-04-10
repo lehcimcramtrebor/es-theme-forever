@@ -125,10 +125,15 @@
 	<include name="Donkey">./_illustrations/donkey.xml</include>
 	<include name="Dr. Mario">./_illustrations/drmario.xml</include>
 	<include name="Dragon's Lair">./_illustrations/dragonlair.xml</include>
+	<include name="Akuma">./_illustrations/akuma.xml</include>
+	<include name="Bizon">./_illustrations/bison.xml</include>
+	<include name="Lori">./_illustrations/lori.xml</include>
+	<include name="Wolverine">./_illustrations/wolverine.xml</include>
+	<include name="Yun">./_illustrations/yun.xml</include>
+	<include name="Street Fighter Vs. K.O.F.">./_illustrations/sfvskof.xml</include>
 
 	<include name="No Illustration">./_illustrations/no_illustration.xml</include>
 
-	<include name="TEST">./_illustrations/test.xml</include>
 
 	</subset>
 
