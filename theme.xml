@@ -123,6 +123,7 @@
 	<include name="Bomb Jack">./_illustrations/bombjack.xml</include>
 	<include name="Cliffhanger">./_illustrations/cliffhanger.xml</include>
 	<include name="Donkey">./_illustrations/donkey.xml</include>
+	<include name="Kong">./_illustrations/kong.xml</include>
 	<include name="Dr. Mario">./_illustrations/drmario.xml</include>
 	<include name="Dragon's Lair">./_illustrations/dragonlair.xml</include>
 	<include name="Akuma">./_illustrations/akuma.xml</include>
@@ -133,7 +134,7 @@
 	<include name="Street Fighter Vs. K.O.F.">./_illustrations/sfvskof.xml</include>
 	<include name="Metal Slug">./_illustrations/slug.xml</include>
 
-	<include name="No Illustration">./_illustrations/no_illustration.xml</include>
+	<include name="No Character" displayName="${f-noCharacter}">./_illustrations/no_illustration.xml</include>
 
 
 	</subset>

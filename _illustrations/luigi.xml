@@ -7,19 +7,19 @@
 
 		<image name="art" extra="true">
 			<path>./../_assets/luigi.svg</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.15 0.54</pos>
-			<maxSize>1 0.96</maxSize>
-			<zIndex>300</zIndex>
+			<origin>0 1</origin>
+			<pos>0 0.96</pos>
+			<maxSize>1 0.9</maxSize>
+			<zIndex>3000</zIndex>
 		</image>
 
 		<image name="art_shadow" extra="true">
 			<color>00000050</color>
 			<path>./../_assets/luigi.svg</path>
-			<origin>0.5 0.56</origin>
-			<pos>0.16 0.6</pos>
-			<maxSize>1 0.96</maxSize>
-			<zIndex>299</zIndex>
+			<origin>0 1</origin>
+			<pos>0.01 0.98</pos>
+			<maxSize>1 0.9</maxSize>
+			<zIndex>2999</zIndex>
 		</image>		
 </view>
    

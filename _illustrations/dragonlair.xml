@@ -7,7 +7,7 @@
 
 		<image name="art" extra="true">
 			<path>./../_assets/dragonlair.svg</path>
-			<origin>0.1 1</origin>
+			<origin>0.15 1</origin>
 			<pos>0 0.96</pos>
 			<maxSize>1 1</maxSize>
 			<zIndex>300</zIndex>
@@ -16,7 +16,7 @@
 		<image name="art_shadow" extra="true">
 			<color>00000050</color>
 			<path>./../_assets/dragonlair.svg</path>
-			<origin>0.1 1</origin>
+			<origin>0.15 1</origin>
 			<pos>0 0.98</pos>
 			<maxSize>1 1</maxSize>
 			<zIndex>299</zIndex>

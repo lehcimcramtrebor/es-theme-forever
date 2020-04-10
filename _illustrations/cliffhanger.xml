@@ -9,7 +9,7 @@
 			<path>./../_assets/cliffhanger.svg</path>
 			<origin>0 1</origin>
 			<pos>0 0.95</pos>
-			<maxSize>1 0.65</maxSize>
+			<maxSize>1 0.6</maxSize>
 			<zIndex>3000</zIndex>
 		</image>
 
@@ -18,7 +18,7 @@
 			<path>./../_assets/cliffhanger.svg</path>
 			<origin>0 1</origin>
 			<pos>0.01 0.97</pos>
-			<maxSize>1 0.65</maxSize>
+			<maxSize>1 0.6</maxSize>
 			<zIndex>2999</zIndex>
 		</image>		
 </view>

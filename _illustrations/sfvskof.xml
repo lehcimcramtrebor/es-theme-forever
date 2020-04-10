@@ -9,7 +9,7 @@
 			<path>./../_assets/sfvskof.svg</path>
 			<origin>0.05 1</origin>
 			<pos>0 0.95</pos>
-			<maxSize>1 1.1</maxSize>
+			<maxSize>1 1.05</maxSize>
 			<zIndex>300</zIndex>
 		</image>
 
@@ -18,7 +18,7 @@
 			<path>./../_assets/sfvskof.svg</path>
 			<origin>0.05 1</origin>
 			<pos>0.01 0.97</pos>
-			<maxSize>1 1.1</maxSize>
+			<maxSize>1 1.05</maxSize>
 			<zIndex>299</zIndex>
 		</image>		
 </view>
