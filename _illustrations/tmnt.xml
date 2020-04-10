@@ -7,19 +7,19 @@
 
 		<image name="art" extra="true">
 			<path>./../_assets/tmnt.svg</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.07 0.53</pos>
-			<maxSize>1 1.1</maxSize>
-			<zIndex>300</zIndex>
+			<origin>0 1</origin>
+			<pos>0.02 0.965</pos>
+			<maxSize>1 0.9</maxSize>
+			<zIndex>3000</zIndex>
 		</image>
 
 		<image name="art_shadow" extra="true">
 			<color>00000050</color>
 			<path>./../_assets/tmnt.svg</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.08 0.55</pos>
-			<maxSize>1 1.1</maxSize>
-			<zIndex>299</zIndex>
+			<origin>0 1</origin>
+			<pos>0.03 0.985</pos>
+			<maxSize>1 0.9</maxSize>
+			<zIndex>2999</zIndex>
 		</image>		
 </view>
    

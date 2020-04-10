@@ -131,6 +131,7 @@
 	<include name="Wolverine">./_illustrations/wolverine.xml</include>
 	<include name="Yun">./_illustrations/yun.xml</include>
 	<include name="Street Fighter Vs. K.O.F.">./_illustrations/sfvskof.xml</include>
+	<include name="Metal Slug">./_illustrations/slug.xml</include>
 
 	<include name="No Illustration">./_illustrations/no_illustration.xml</include>
 
