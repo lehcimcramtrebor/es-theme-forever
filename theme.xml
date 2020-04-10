@@ -307,7 +307,7 @@
 
 	<subset name="Focus" displayName="${f-focus}">
 
-		<include subset="Focus" name="Yes" displayName="${f-yes}">>./_backgrounds/video/focus.xml</include>	
+		<include subset="Focus" name="Yes" displayName="${f-yes}">./_backgrounds/video/focus.xml</include>	
   		<include subset="Focus" name="No" displayName="${f-no}">>./nope.xml</include>	
 
 	</subset>
