@@ -72,8 +72,8 @@
 	  
 	<subset name="Ratio Videos" displayName="${f-ratioVideos}">
 
-	<include name="Streched Full Screen" displayName="${f-stretched}">./realistic_streched.xml</include>
-	<include name="Original Ratio" displayName="${f-original}">./realistic_original.xml</include>
+	<include name="Streched Full Screen" displayName="${f-stretched}">./full_streched.xml</include>
+	<include name="Original Ratio" displayName="${f-original}">./full_original.xml</include>
 
 	</subset>
 	
