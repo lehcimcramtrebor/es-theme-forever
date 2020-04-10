@@ -65,6 +65,7 @@
 <view name="basic">
 
 	  <textlist name="gamelist">
+         <pos>0.5 0.49</pos>	  
          <size>0.345 0.45</size>
       </textlist>	  
 

@@ -90,8 +90,9 @@
 <view name="basic">
 
 	  <textlist name="gamelist">
-         <fontSize>0.024</fontSize>	  
-		<size>0.255 0.34</size>
+         <fontSize>0.023</fontSize>
+         <pos>0.5 0.5</pos>		 
+		<size>0.255 0.36</size>
       </textlist>	  
 
 		<image name="video_black_in" extra="true">
