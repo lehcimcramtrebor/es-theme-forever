@@ -18,7 +18,7 @@
 		 <color>ffffff</color>
 		 <colorEnd>252525</colorEnd>
 		 <gradientType>vertical</gradientType>	  
-		 <path>${assetPath}grid2.jpg</path>
+		 <path>${hiderpi}${assetPath}grid2.jpg</path>
       </image>
 
       <image name="background_v1" extra="true">
@@ -28,17 +28,18 @@
          <zIndex>2</zIndex>  	  
 		 <color>00000000</color>
 		 <gradientType>vertical</gradientType>	  
-		 <path>${assetPath}white.png</path>
+		 <path>${hiderpi}${assetPath}white.png</path>
       </image>
 
       <image name="background_v2" extra="true">
-         <origin>0 0</origin>
+		 <tile>${tilerpi}</tile>
+         <origin>${foreverv2originrpi}</origin>
          <pos>0 0.52</pos>
-         <size>0.5 0.45</size>
+         <size>${foreverv2sizerpi}</size>
          <zIndex>2</zIndex>  	  
 		 <colorEnd>00000000</colorEnd>
 		 <gradientType>vertical</gradientType>	  
-		 <path>${assetPath}white.png</path>
+		 <path>${assetPath}${whitegridrpi}</path>
       </image>
 
       <image name="background_v3" extra="true">
@@ -53,11 +54,11 @@
 	  
       <image name="line_v1" extra="true">
 		 <color>000000</color>	  
-         <origin>0.5 0</origin>
+         <origin>0.5 1</origin>
          <pos>0 0.42</pos>
          <size>1 0.001</size>
          <zIndex>5</zIndex>  	  
-		 <path>${assetPath}white.png</path>
+		 <path>${hiderpi}${assetPath}white.png</path>
       </image>
 
       <image name="line_v2" extra="true">
@@ -66,7 +67,7 @@
          <pos>0 0.52</pos>
          <size>1 0.001</size>
          <zIndex>5</zIndex>  	  
-		 <path>${assetPath}white.png</path>
+		 <path>${hiderpi}${assetPath}white.png</path>
       </image>
 	  
       <image name="background_adjust_h1" extra="true">
@@ -76,7 +77,7 @@
          <zIndex>3</zIndex>  	  
 		 <color>00000000</color>
 		 <gradientType>horizontal</gradientType>	  
-		 <path>${assetPath}white.png</path>
+		 <path>${hiderpi}${assetPath}white.png</path>
       </image>
 
       <image name="background_right" extra="true">
@@ -102,7 +103,7 @@
          <pos>0.5 0</pos>
          <size>0.0005 1</size>
          <zIndex>5</zIndex>  	  
-		 <path>${assetPath}white.png</path>
+		 <path>${hiderpi}${assetPath}white.png</path>
       </image>
 	  
 </view>
@@ -122,7 +123,7 @@
 		 <color>ffffff</color>
 		 <colorEnd>252525</colorEnd>
 		 <gradientType>vertical</gradientType>	  
-		 <path>${assetPath}grid2.jpg</path>
+		 <path>${hiderpi}${assetPath}grid2.jpg</path>
       </image>
 
       <image name="background_v1" extra="true">
@@ -132,17 +133,18 @@
          <zIndex>2</zIndex>  	  
 		 <color>00000000</color>
 		 <gradientType>vertical</gradientType>	  
-		 <path>${assetPath}white.png</path>
+		 <path>${hiderpi}${assetPath}white.png</path>
       </image>
 
       <image name="background_v2" extra="true">
-         <origin>0 0</origin>
+		 <tile>${tilerpi}</tile>
+         <origin>${foreverv2originrpi}</origin>
          <pos>0 0.52</pos>
-         <size>1 0.45</size>
+         <size>${foreverv2basicsizerpi}</size>
          <zIndex>2</zIndex>  	  
 		 <colorEnd>00000000</colorEnd>
 		 <gradientType>vertical</gradientType>	  
-		 <path>${assetPath}white.png</path>
+		 <path>${assetPath}${whitegridrpi}</path>
       </image>
 
       <image name="background_v3" extra="true">
@@ -155,11 +157,11 @@
 
       <image name="line_v1" extra="true">
 		 <color>000000</color>	  
-         <origin>0 0</origin>
+         <origin>0 1</origin>
          <pos>0 0.42</pos>
          <size>1 0.001</size>
          <zIndex>4</zIndex>  	  
-		 <path>${assetPath}white.png</path>
+		 <path>${hiderpi}${assetPath}white.png</path>
       </image>
 
       <image name="line_v2" extra="true">
@@ -168,7 +170,7 @@
          <pos>0 0.52</pos>
          <size>1 0.001</size>
          <zIndex>4</zIndex>  	  
-		 <path>${assetPath}white.png</path>
+		 <path>${hiderpi}${assetPath}white.png</path>
       </image>
 
 
@@ -190,7 +192,7 @@
 		 <color>ffffff</color>
 		 <colorEnd>252525</colorEnd>
 		 <gradientType>vertical</gradientType>	  
-		 <path>${assetPath}grid2.jpg</path>
+		 <path>${hiderpi}${assetPath}grid2.jpg</path>
       </image>
 
       <image name="background_v1" extra="true">
@@ -200,17 +202,17 @@
          <zIndex>2</zIndex>  	  
 		 <color>00000000</color>
 		 <gradientType>vertical</gradientType>	  
-		 <path>${assetPath}white.png</path>
+		 <path>${hiderpi}${assetPath}white.png</path>
       </image>
 
       <image name="background_v2" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0.52</pos>
-         <size>0.265 0.45</size>
+		 <tile>${tilerpi}</tile>
+         <origin>${foreverv2originrpi}</origin>         <pos>0 0.52</pos>
+         <size>${foreverv2detailedsizerpi}</size>
          <zIndex>2</zIndex>  	  
 		 <colorEnd>00000000</colorEnd>
 		 <gradientType>vertical</gradientType>	  
-		 <path>${assetPath}white.png</path>
+		 <path>${assetPath}${whitegridrpi}</path>
       </image>
 
       <image name="background_v3" extra="true">
@@ -223,11 +225,11 @@
 
       <image name="line_v1" extra="true">
 		 <color>000000</color>	  
-         <origin>0 0</origin>
+         <origin>0 1</origin>
          <pos>0 0.42</pos>
          <size>0.265 0.001</size>
          <zIndex>4</zIndex>  	  
-		 <path>${assetPath}white.png</path>
+		 <path>${hiderpi}${assetPath}white.png</path>
       </image>
 
       <image name="line_v2" extra="true">
@@ -236,7 +238,7 @@
          <pos>0 0.52</pos>
          <size>0.265 0.001</size>
          <zIndex>4</zIndex>  	  
-		 <path>${assetPath}white.png</path>
+		 <path>${hiderpi}${assetPath}white.png</path>
       </image>
 	  
       <image name="background_adjust_h1" extra="true">
@@ -246,7 +248,7 @@
          <zIndex>3</zIndex>  	  
 		 <color>00000000</color>
 		 <gradientType>horizontal</gradientType>	  
-		 <path>${assetPath}white.png</path>
+		 <path>${hiderpi}${assetPath}white.png</path>
       </image>
 
       <image name="background_right" extra="true">
@@ -269,7 +271,7 @@
       <image name="line_h2" extra="true">
 		 <color>000000</color>	  
          <origin>0 0</origin>
-         <pos>0.735 0</pos>
+         <pos>0.265 0</pos>
          <size>0.0005 1</size>
          <zIndex>5</zIndex>  	  
 		 <path>${assetPath}white.png</path>

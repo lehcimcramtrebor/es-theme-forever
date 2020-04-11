@@ -19,7 +19,15 @@
 		<carouselselectedreflexionrpi>0 0</carouselselectedreflexionrpi>
 		<coverflowreflexion1rpi>0 0</coverflowreflexion1rpi>								
 		<coverflowreflexion2rpi>0 0</coverflowreflexion2rpi>								
-		<coverflowreflexion3rpi>0 0</coverflowreflexion3rpi>			
+		<coverflowreflexion3rpi>0 0</coverflowreflexion3rpi>
+		<menurpi>**</menurpi>
+		<foreverv2sizerpi>0.5 1.2</foreverv2sizerpi>								
+		<foreverv2originrpi>0 0.5</foreverv2originrpi>
+		<foreverv2basicsizerpi>1 1.2</foreverv2basicsizerpi>								
+		<foreverv2detailedsizerpi>0.265 1.2</foreverv2detailedsizerpi>								
+		
+		
+
 	</variables>
 
 </theme>

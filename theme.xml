@@ -33,12 +33,17 @@
 		<coverflowreflexion1rpi>0.25 0</coverflowreflexion1rpi>								
 		<coverflowreflexion2rpi>0.4 0</coverflowreflexion2rpi>								
 		<coverflowreflexion3rpi>0.8 0</coverflowreflexion3rpi>								
+		<menurpi></menurpi>								
+		<foreverv2sizerpi>0.5 0.45</foreverv2sizerpi>								
+		<foreverv2basicsizerpi>1 0.45</foreverv2basicsizerpi>								
+		<foreverv2detailedsizerpi>0.265 0.45</foreverv2detailedsizerpi>								
+		<foreverv2originrpi>0 0</foreverv2originrpi>								
 	</variables>
 
 
 <!--		VARIABLES RPI MODE			-->
 
-	<subset name="RPI LIGHT MODE" displayName="${f-rpi} (beta test)">
+	<subset name="RPI LIGHT MODE" displayName="${f-rpi} **N/A**">
 
 	<include name="On" displayName="${f-on}">./rpi/variables_rpi.xml</include>
 	<include name="Off" displayName="${f-off}">./nope.xml</include>
@@ -329,7 +334,7 @@
 
 <!------STATIC EFFECTS------>
 
-	<subset name="Screen Effect" displayName="${f-screenEffect}">
+	<subset name="Screen Effect" displayName="${menurpi}${f-screenEffect}${menurpi}">
 
 
 	<include name="CRT" displayName="${f-crt}">./_effects/screen_effect_crt.xml</include>		
@@ -346,7 +351,7 @@
 
 <!------VIDEO EFFECTS------>
 
-	<subset name="Video Effect" displayName="${f-videoEffect}">
+	<subset name="Video Effect" displayName="${menurpi}${f-videoEffect}${menurpi}">
 
 	<include name="CRT" displayName="${f-crt}">./_effects/tv_effect_crt.xml</include>
 	<include name="HERTZ" displayName="${f-hertz}">./_effects/tv_effect_hertz.xml</include>	
@@ -360,7 +365,7 @@
 
  <!--		FOCUS		-->
 
-	<subset name="Focus" displayName="${f-focus}">
+	<subset name="Focus" displayName="${menurpi}${f-focus}${menurpi}">
 
 		<include subset="Focus" name="Yes" displayName="${f-yes}">./_backgrounds/video/focus.xml</include>	
   		<include subset="Focus" name="No" displayName="${f-no}">>./nope.xml</include>	
