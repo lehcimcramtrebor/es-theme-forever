@@ -74,10 +74,10 @@
 	</image>    
 -->	
 	  <textlist name="gamelist">
+         <fontSize>0.03</fontSize>	  
          <pos>0.5 0.485</pos>	  
          <size>0.345 0.38</size>
-		 <lineSpacing>1.6</lineSpacing>				 
-		<zIndex>3000</zIndex>
+		 <lineSpacing>2.4</lineSpacing>				 
       </textlist>	  
 
 </view>
