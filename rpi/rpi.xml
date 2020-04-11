@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme defaultView="grid">
+
+   <formatVersion>7</formatVersion>
+   
+
+
+<view name="menu, system, basic, detailed, video, grid">  
+	
+		<image name="focus_video, focus, cabinet_shadow, screen_effect, tv_effect, system_label_shadow, frame_shadow,art_shadow, wheel_shadow wheel-1_shadow, wheel-2_shadow, wheel+1_shadow, wheel+2_shadow" extra="true">
+			<visible>false</visible>
+		</image>	
+
+</view>
+
+</theme>
