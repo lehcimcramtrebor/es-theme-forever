@@ -3,6 +3,12 @@
 <theme defaultView="grid">
 
    <formatVersion>7</formatVersion>
+
+ <!--		LANGS		-->
+ 
+	<include>./_langs/no_localized.xml</include>
+	<include>./_langs/fr.xml</include>
+ 
  
 <!--		VARIABLES		-->
 
@@ -20,10 +26,6 @@
 
 	</subset>
 	
- <!--		LANGS		-->
- 
-	<include>./_langs/no_localized.xml</include>
-	<include>./_langs/fr.xml</include>
 
 
 <!--		JUST FOR UPPER MENU		-->
