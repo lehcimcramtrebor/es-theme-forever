@@ -6,7 +6,7 @@
 <view name="system">
 
 		<image name="art" extra="true">
-			<path>./../_assets/krillin.svg</path>
+			<path>${illustrationPath}krillin.svg</path>
 			<origin>0 1</origin>
 			<pos>0.015 0.96</pos>
 			<maxSize>1 0.85</maxSize>
@@ -15,7 +15,7 @@
 
 		<image name="art_shadow" extra="true">
 			<color>00000050</color>
-			<path>./../_assets/krillin.svg</path>
+			<path>${illustrationPath}krillin.svg</path>
 			<origin>0 1</origin>
 			<pos>0.025 0.98</pos>
 			<maxSize>1 0.85</maxSize>

@@ -3,13 +3,35 @@
 <theme defaultView="grid">
 
    <formatVersion>7</formatVersion>
-   
+ 
+<!--		VARIABLES		-->
+
+	<variables> 
+		<illustrationPath>./_assets/illustrations/</illustrationPath>
+		<cabinetPath>./_assets/cabinets/</cabinetPath>			
+	</variables>
+
+
+<!--		VARIABLES RPI MODE			-->
+
+	<subset name="RPI LIGHT MODE" displayName="${f-rpi} (test)">
+
+	<include name="On" displayName="${f-on}">./rpi/variables_rpi.xml</include>
+
+	</subset>
+	
+ <!--		LANGS		-->
+ 
 	<include>./_langs/no_localized.xml</include>
 	<include>./_langs/fr.xml</include>
 
+
+<!--		JUST FOR UPPER MENU		-->
+
 	<subset name="Grid Style" displayName="${f-gridStyle}">
-	<include name="Boxes" displayName="${f-boxes}">./nope.xml</include>
+		<include name="Boxes" displayName="${f-boxes}">./nope.xml</include>
 	</subset>
+
 
 <!--		MUSIC			-->
 

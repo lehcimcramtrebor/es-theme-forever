@@ -6,7 +6,7 @@
 <view name="system">
 
 		<image name="art" extra="true">
-			<path>./../_assets/kong.svg</path>
+			<path>${illustrationPath}kong.svg</path>
 			<origin>0.05 1</origin>
 			<pos>0 0.96</pos>
 			<maxSize>1 0.9</maxSize>
@@ -15,7 +15,7 @@
 
 		<image name="art_shadow" extra="true">
 			<color>00000050</color>
-			<path>./../_assets/kong.svg</path>
+			<path>${illustrationPath}kong.svg</path>
 			<origin>0.05 1</origin>
 			<pos>0 0.98</pos>
 			<maxSize>1 0.9</maxSize>

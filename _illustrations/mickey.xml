@@ -6,7 +6,7 @@
 <view name="system">
 
 		<image name="art" extra="true">
-			<path>./../_assets/mickey.svg</path>
+			<path>${illustrationPath}mickey.svg</path>
 			<origin>0.05 1</origin>
 			<pos>0 0.965</pos>
 			<maxSize>1 0.8</maxSize>
@@ -15,7 +15,7 @@
 
 		<image name="art_shadow" extra="true">
 			<color>00000050</color>
-			<path>./../_assets/mickey.svg</path>
+			<path>${illustrationPath}mickey.svg</path>
 			<origin>0.05 1</origin>
 			<pos>0.01 0.985</pos>
 			<maxSize>1 0.8</maxSize>

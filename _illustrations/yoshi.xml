@@ -6,7 +6,7 @@
 <view name="system">
 
 		<image name="art" extra="true">
-			<path>./../_assets/yoshi.svg</path>
+			<path>${illustrationPath}yoshi.svg</path>
 			<origin>0 1</origin>
 			<pos>0.03 0.975</pos>
 			<maxSize>1 0.65</maxSize>
@@ -15,7 +15,7 @@
 
 		<image name="art_shadow" extra="true">
 			<color>00000050</color>
-			<path>./../_assets/yoshi.svg</path>
+			<path>${illustrationPath}yoshi.svg</path>
 			<origin>0 1</origin>
 			<pos>0.04 0.995</pos>
 			<maxSize>1 0.65</maxSize>

@@ -6,7 +6,7 @@
 <view name="system">
 
 		<image name="art" extra="true">
-			<path>./../_assets/yun.svg</path>
+			<path>${illustrationPath}yun.svg</path>
 			<origin>0.005 1</origin>
 			<pos>0 0.95</pos>
 			<maxSize>1 0.95</maxSize>
@@ -15,7 +15,7 @@
 
 		<image name="art_shadow" extra="true">
 			<color>00000050</color>
-			<path>./../_assets/yun.svg</path>
+			<path>${illustrationPath}yun.svg</path>
 			<origin>0.005 1</origin>
 			<pos>0.01 0.97</pos>
 			<maxSize>1 0.95</maxSize>

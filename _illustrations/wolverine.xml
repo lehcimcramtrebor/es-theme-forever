@@ -6,7 +6,7 @@
 <view name="system">
 
 		<image name="art" extra="true">
-			<path>./../_assets/wolverine.svg</path>
+			<path>${illustrationPath}wolverine.svg</path>
 			<origin>0.08 1</origin>
 			<pos>0 0.975</pos>
 			<maxSize>1 1</maxSize>
@@ -15,7 +15,7 @@
 
 		<image name="art_shadow" extra="true">
 			<color>00000050</color>
-			<path>./../_assets/wolverine.svg</path>
+			<path>${illustrationPath}wolverine.svg</path>
 			<origin>0.08 1</origin>
 			<pos>0.01 0.995</pos>
 			<maxSize>1 1</maxSize>

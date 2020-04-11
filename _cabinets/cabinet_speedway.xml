@@ -8,11 +8,11 @@
 
 
 		<image name="cabinet" extra="true">
-			<path>./../_assets/cabinet_speedway.png</path>
+			<path>${cabinetPath}cabinet_speedway.png</path>
 		</image>
 
 		<image name="cabinet_shadow" extra="true">
-			<path>./../_assets/cabinet_speedway.png</path>
+			<path>${cabinetPath}cabinet_speedway.png</path>
 		</image>
 		
 
@@ -22,11 +22,11 @@
 
 
 		<image name="cabinet" extra="true">
-			<path>./../_assets/cabinet_speedway_g.png</path>
+			<path>${cabinetPath}cabinet_speedway_g.png</path>
 		</image>
 
 		<image name="cabinet_shadow" extra="true">
-			<path>./../_assets/cabinet_speedway_g.png</path>
+			<path>${cabinetPath}cabinet_speedway_g.png</path>
 		</image>
 		
 

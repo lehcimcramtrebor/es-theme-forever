@@ -8,11 +8,11 @@
 
 
 		<image name="cabinet" extra="true">
-			<path>./../_assets/cabinet_marvel.png</path>
+			<path>${cabinetPath}cabinet_marvel.png</path>
 		</image>
 
 		<image name="cabinet_shadow" extra="true">
-			<path>./../_assets/cabinet_marvel.png</path>
+			<path>${cabinetPath}cabinet_marvel.png</path>
 		</image>
 		
 
@@ -22,11 +22,11 @@
 
 
 		<image name="cabinet" extra="true">
-			<path>./../_assets/cabinet_marvel_g.png</path>
+			<path>${cabinetPath}cabinet_marvel_g.png</path>
 		</image>
 
 		<image name="cabinet_shadow" extra="true">
-			<path>./../_assets/cabinet_marvel_g.png</path>
+			<path>${cabinetPath}cabinet_marvel_g.png</path>
 		</image>
 		
 

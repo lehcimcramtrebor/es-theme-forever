@@ -8,11 +8,11 @@
 
 
 		<image name="cabinet" extra="true">
-			<path>./../_assets/cabinet_blue_eyes.png</path>
+			<path>${cabinetPath}cabinet_blue_eyes.png</path>
 		</image>
 
 		<image name="cabinet_shadow" extra="true">
-			<path>./../_assets/cabinet_blue_eyes.png</path>
+			<path>${cabinetPath}cabinet_blue_eyes.png</path>
 		</image>
 		
 
