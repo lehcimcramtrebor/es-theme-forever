@@ -15,7 +15,7 @@
 
 		<image name="art_shadow" extra="true">
 			<color>00000050</color>
-			<path>${illustrationPath}batman.svg</path>
+			<path>${hiderpi}${illustrationPath}batman.svg</path>
 			<origin>0 1</origin>
 			<pos>0.01 0.98</pos>
 			<maxSize>1 0.9</maxSize>

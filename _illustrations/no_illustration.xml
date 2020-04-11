@@ -15,7 +15,7 @@
 		</image>
 
 		<image name="open_shadow" extra="true">
-			<path>${illustrationPath}open_${full_rpi}.png</path>
+			<path>${hiderpi}${illustrationPath}open_${full_rpi}.png</path>
 			<color>00000050</color>
 			<origin>0.5 0.5</origin>
 			<pos>0.16 0.49</pos>

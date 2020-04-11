@@ -15,7 +15,7 @@
 
 		<image name="art_shadow" extra="true">
 			<color>00000050</color>
-			<path>${illustrationPath}bomberman.svg</path>
+			<path>${hiderpi}${illustrationPath}bomberman.svg</path>
 			<origin>0 1</origin>
 			<pos>0.01 0.985</pos>
 			<maxSize>1 0.9</maxSize>
