@@ -858,7 +858,7 @@
          <alignment>center</alignment>
          <forceUppercase>true</forceUppercase>
          <scrollSound>./_inc/scroll.wav</scrollSound>
-		 <lineSpacing>1.7</lineSpacing>
+		 <lineSpacing>1.78</lineSpacing>
 		 <zIndex>300</zIndex>
       </textlist>
 
