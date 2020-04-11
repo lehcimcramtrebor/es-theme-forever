@@ -603,7 +603,7 @@
          <fontSize>0.032</fontSize>
          <alignment>center</alignment>
 		 <horizontalMargin>0.01</horizontalMargin>
-         <forceUppercase>true</forceUppercase>
+         <forceUppercase>false</forceUppercase>
          <scrollSound>./_inc/scroll.wav</scrollSound>
 		 <zIndex>22</zIndex>
       </textlist>	  
