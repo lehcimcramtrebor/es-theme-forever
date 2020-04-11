@@ -20,7 +20,8 @@
 		<cabinetPath>./_assets/cabinets/</cabinetPath>			
 		<framePath>./_assets/decos/</framePath>			
 		<logodecoPath>./_assets/logos_decos/</logodecoPath>		
-		<full_rpi>full</full_rpi>		
+		<full_rpi>full</full_rpi>
+		<hiderpi></hiderpi>						
 	</variables>
 
 
@@ -29,6 +30,7 @@
 	<subset name="RPI LIGHT MODE" displayName="${f-rpi} (beta test)">
 
 	<include name="On" displayName="${f-on}">./rpi/variables_rpi.xml</include>
+	<include name="Off" displayName="${f-off}">./nope.xml</include>
 
 	</subset>
 	
@@ -1030,13 +1032,6 @@
 	<include name="Simple Jukebox" displayName="${f-simpleJukebox}">./_carousels/simple_jukebox.xml</include>
 	<include name="Simple Wheel" displayName="${f-simpleWheel}">./_carousels/simple_wheel.xml</include>
 	<include name="Simple Vertical" displayName="${f-simpleVertical}">./_carousels/simple_vertical.xml</include>
-
-	</subset>
-
-	<subset name="RPI LIGHT MODE" displayName="${f-rpi} (test)">
-
-	<include name="On" displayName="${f-on}">./rpi/rpi.xml</include>
-	<include name="Off" displayName="${f-off}">./nope.xml</include>
 
 	</subset>
 

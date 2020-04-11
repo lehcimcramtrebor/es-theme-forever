@@ -5,10 +5,13 @@
 
 <view name="system">
 
-      <image name="wheel, wheel_shadow, wheel-1, wheel-1_shadow, wheel+1, wheel+1_shadow, wheel-2, wheel-2_shadow, wheel+2, wheel+2_shadow" extra="true">  
+      <image name="wheel, wheel-1, wheel+1, wheel-2, wheel+2" extra="true">  
 		 <path>${logodecoPath}logo_graphite_mame_green.png</path>
       </image>
 
+      <image name="wheel_shadow, wheel-1_shadow, wheel+1_shadow, wheel-2_shadow, wheel+2_shadow" extra="true">  
+		 <path>${hiderpi}${logodecoPath}logo_graphite_mame_green.png</path>
+      </image>
 </view>
 
 </theme>

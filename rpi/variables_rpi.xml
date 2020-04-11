@@ -8,7 +8,8 @@
 		<cabinetPath>./_assets/cabinets_rpi/</cabinetPath>
 		<framePath>./_assets/decos_rpi/</framePath>			
 		<logodecoPath>./_assets/logos_decos_rpi/</logodecoPath>
-		<full_rpi>rpi</full_rpi>		
+		<full_rpi>rpi</full_rpi>
+		<hiderpi>hiderpi</hiderpi>				
 	</variables>
 
 </theme>

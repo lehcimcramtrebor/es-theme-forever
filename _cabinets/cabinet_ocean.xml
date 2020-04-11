@@ -12,7 +12,7 @@
 		</image>
 
 		<image name="cabinet_shadow" extra="true">
-			<path>${cabinetPath}cabinet_ocean.png</path>
+			<path>${hiderpi}${cabinetPath}cabinet_ocean.png</path>
 		</image>
 		
 

@@ -12,7 +12,7 @@
 		</image>
 
 		<image name="cabinet_shadow" extra="true">
-			<path>${cabinetPath}cabinet_batman.png</path>
+			<path>${hiderpi}${cabinetPath}cabinet_batman.png</path>
 		</image>
 		
 
@@ -26,7 +26,7 @@
 		</image>
 
 		<image name="cabinet_shadow" extra="true">
-			<path>${cabinetPath}cabinet_batman_g.png</path>
+			<path>${hiderpi}${cabinetPath}cabinet_batman_g.png</path>
 		</image>
 		
 
