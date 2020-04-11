@@ -23,6 +23,16 @@
 		<full_rpi>full</full_rpi>
 		<hiderpi></hiderpi>						
 		<visiblerpi>true</visiblerpi>						
+		<whitegridrpi>white.png</whitegridrpi>
+		<tilerpi>false</tilerpi>						
+		<faderpi></faderpi>						
+		<marqueereflexionrpi>0.03 0</marqueereflexionrpi>						
+		<thumbnailreflexionrpi>0.3 0</thumbnailreflexionrpi>						
+		<carouseldefaultreflexionrpi>0.1 0</carouseldefaultreflexionrpi>						
+		<carouselselectedreflexionrpi>0.25 0</carouselselectedreflexionrpi>								
+		<coverflowreflexion1rpi>0.25 0</coverflowreflexion1rpi>								
+		<coverflowreflexion2rpi>0.4 0</coverflowreflexion2rpi>								
+		<coverflowreflexion3rpi>0.8 0</coverflowreflexion3rpi>								
 	</variables>
 
 
@@ -661,7 +671,7 @@
          <origin>0.5 0.5</origin>
          <maxSize>0.2 0.1</maxSize>
          <zIndex>400</zIndex>
-		 <reflexion>0.03 0</reflexion>         
+		 <reflexion>${marqueereflexionrpi}</reflexion>         
       </image>   
 	  
      <image name="g_line" extra="true">
@@ -677,7 +687,7 @@
 		<color>00000099</color>
 		<colorEnd>00000060</colorEnd>
 		<gradientType>vertical</gradientType>
-		<path>${assetPath}white.png</path>         		
+		<path>${hiderpi}${assetPath}white.png</path>         		
  		<origin>0.5 0.5</origin>
 
         <pos>0.74 0.5</pos>
@@ -687,7 +697,7 @@
       </image>
 	  
      <image name="gamelist_back_h1" extra="true">
-		<path>${assetPath}white.png</path>         		
+		<path>${hiderpi}${assetPath}white.png</path>         		
  		<origin>1 0.5</origin>
 		<color>00000000</color>
 		<gradientType>horizontal</gradientType>
@@ -698,7 +708,7 @@
       </image>   
 	  
      <image name="gamelist_back_h2" extra="true">
-		<path>${assetPath}white.png</path>         		
+		<path>${hiderpi}${assetPath}white.png</path>         		
  		<origin>0 0.5</origin>
 		<colorEnd>00000000</colorEnd>
 		<gradientType>horizontal</gradientType>
@@ -712,7 +722,7 @@
 		<colorEnd>ffffff25</colorEnd>
 		<gradientType>vertical</gradientType>
 		<tile>true</tile>
-		<path>${assetPath}grid.jpg</path>         		
+		<path>${hiderpi}${assetPath}grid.jpg</path>         		
  		<origin>0.5 0.5</origin>
         <pos>0.74 0.5</pos>
         <size>0.45 1</size>
@@ -720,7 +730,8 @@
       </image>
 	  
      <image name="frame_edge" extra="true">
-		<path>${assetPath}white.png</path>         		
+		<path>${assetPath}${whitegridrpi}</path>
+		<tile>${tilerpi}</tile>
  		<origin>0.5 0.5</origin>
         <pos>0.7401 0.5</pos>
         <size>0.452 1</size>
@@ -728,7 +739,7 @@
       </image>    
 
      <image name="frame_black" extra="true">
-		<path>${assetPath}white.png</path>         		
+		<path>${hiderpi}${assetPath}white.png</path>         		
  		<origin>0.5 0.5</origin>
 		<color>000000</color>
         <pos>0.7401 0.5</pos>
@@ -737,7 +748,7 @@
       </image>    
 
      <image name="frame_shadow" extra="true">
-		<path>${assetPath}white.png</path>         		
+		<path>${hiderpi}${assetPath}white.png</path>         		
  		<origin>0.5 0.5</origin>
 		<color>00000050</color>
         <pos>0.745 0.5</pos>
@@ -869,7 +880,7 @@
         <maxSize>0.196875 0.35</maxSize>	 
         <pos>0.64 0.72</pos>
         <origin>0.5 0.5</origin>
-		<reflexion>0.3 0</reflexion>
+		<reflexion>${thumbnailreflexionrpi}</reflexion>
         <zIndex>900</zIndex>         
     </image>    
 	  

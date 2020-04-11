@@ -29,14 +29,14 @@
       <selectionMode>image</selectionMode>
       <padding>5 5</padding>
       <imageColor>505050</imageColor>
-      <reflexion>0.1 0.0</reflexion>	  
+      <reflexion>${carouseldefaultreflexionrpi}</reflexion>	  
     </gridtile>
 	
     <gridtile name="selected">
       <backgroundEdgeColor>00000000</backgroundEdgeColor>		
       <backgroundCenterColor>00000000</backgroundCenterColor>
       <imageColor>FFFFFFFF</imageColor>
-	  <reflexion>0.25 0.0</reflexion>	  
+	  <reflexion>${carouselselectedreflexionrpi}</reflexion>	  
     </gridtile>
 	
     <text name="gridtile">
@@ -58,7 +58,7 @@
         <maxSize>0.196875 0.5</maxSize>	 
         <pos>0.85 0.38</pos>
         <origin>0.5 0.5</origin>
-		<reflexion>0.3 0</reflexion>
+		<reflexion>${thumbnailreflexionrpi}</reflexion>
         <zIndex>900</zIndex>         
     </image>    
 

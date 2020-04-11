@@ -52,7 +52,7 @@
       </image>  
 	  
     <image name="frame_edge" extra="true">
-		<color>efd807</color>     
+		<color>efd807${faderpi}</color>     
       </image> 
 	  
 		<text name="system_label" extra="true">

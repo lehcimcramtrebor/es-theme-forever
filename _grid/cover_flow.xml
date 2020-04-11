@@ -28,14 +28,14 @@
       <selectionMode>image</selectionMode>
       <padding>5 5</padding>
       <imageColor>606060</imageColor>
-      <reflexion>0.25 0.0</reflexion>	  
+      <reflexion>${coverflowreflexion1rpi}</reflexion>	  
     </gridtile>
 	
     <gridtile name="selected">
       <backgroundEdgeColor>00000000</backgroundEdgeColor>		
       <backgroundCenterColor>00000000</backgroundCenterColor>
       <imageColor>FFFFFFFF</imageColor>
-      <reflexion>0.4 0.0</reflexion>	  	  
+      <reflexion>${coverflowreflexion2rpi}</reflexion>	  	  
     </gridtile>
 	
     <text name="gridtile">
@@ -69,7 +69,7 @@
       <pos>0.5 1.05</pos>
       <color>FFFFFFFF</color>
       <size>1 0.4</size>
-      <reflexion>0.8 0.0</reflexion>	  
+      <reflexion>${coverflowreflexion3rpi}</reflexion>	  
     </image>
 	
 	</view> 

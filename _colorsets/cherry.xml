@@ -51,7 +51,7 @@
       </image>  
 	  
     <image name="frame_edge" extra="true">
-		<color>bb0b0b</color>     
+		<color>bb0b0b${faderpi}</color>     
       </image> 
 	  
 	  

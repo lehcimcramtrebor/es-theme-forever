@@ -42,15 +42,15 @@
       </image>  
 	  
      <image name="gamelist_back_h1" extra="true">
-		<colorEnd>000000</colorEnd>
+		<colorEnd>00000075</colorEnd>
       </image>   
 	  
      <image name="gamelist_back_h2" extra="true">
-		<color>000000</color>        
+		<color>00000075</color>        
       </image>  
 	  
     <image name="frame_edge" extra="true">
-		<color>ffffff</color>     
+		<color>ffffff${faderpi}</color>     
       </image> 
 	  
 		<text name="system_label" extra="true">

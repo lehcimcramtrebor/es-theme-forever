@@ -10,7 +10,16 @@
 		<logodecoPath>./_assets/logos_decos_rpi/</logodecoPath>
 		<full_rpi>rpi</full_rpi>
 		<hiderpi>hiderpi</hiderpi>				
-		<visiblerpi>false</visiblerpi>				
+		<visiblerpi>false</visiblerpi>
+		<whitegridrpi>grid.jpg</whitegridrpi>
+		<tilerpi>true</tilerpi>	
+		<faderpi>50</faderpi>
+		<marqueereflexionrpi>0 0</marqueereflexionrpi>
+		<thumbnailreflexionrpi>0 0</thumbnailreflexionrpi>
+		<carouselselectedreflexionrpi>0 0</carouselselectedreflexionrpi>
+		<coverflowreflexion1rpi>0 0</coverflowreflexion1rpi>								
+		<coverflowreflexion2rpi>0 0</coverflowreflexion2rpi>								
+		<coverflowreflexion3rpi>0 0</coverflowreflexion3rpi>			
 	</variables>
 
 </theme>
