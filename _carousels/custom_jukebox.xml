@@ -26,7 +26,7 @@
 		<text name="logoText">
 			<text>need ${system.name}.png or .svg</text>
 			<color>ff0000</color>
-			<fontPath>./../_assets/hulk.ttf</fontPath>
+			<fontPath>${policePath}hulk.ttf</fontPath>
 			<fontSize>0.022</fontSize>
 		</text>
 

@@ -7,7 +7,7 @@
 
 		<image name="video_black" extra="true">
 		
-			<path>./../_assets/deco_speedway.jpg</path>
+			<path>${framePath}deco_speedway.jpg</path>
 			
 		</image>
 		
@@ -17,7 +17,7 @@
 
 	  <text name="systemInfo">
         <pos>0.075 0.23</pos>
-		<fontPath>./_assets/chapaza.ttf</fontPath>
+		<fontPath>${policePath}chapaza.ttf</fontPath>
 	    <fontSize>0.014</fontSize>
         <zIndex>26</zIndex>
 		<color>ffffff</color>

@@ -7,7 +7,7 @@
 
 		<text name="logoText">
 			<text>${system.fullName}</text>
-			<fontPath>./../_assets/spiderman.ttf</fontPath>
+			<fontPath>${policePath}spiderman.ttf</fontPath>
 			<fontSize>0.018</fontSize>
 			<glowSize>3</glowSize>
 		</text>

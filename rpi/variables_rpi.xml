@@ -5,7 +5,10 @@
    <formatVersion>7</formatVersion>
    
 	<variables> 
-		<cabinetPath>./_assets/cabinets_rpi/</cabinetPath>	
+		<cabinetPath>./_assets/cabinets_rpi/</cabinetPath>
+		<framePath>./_assets/decos_rpi/</framePath>			
+		<logodecoPath>./_assets/logos_decos_rpi/</logodecoPath>
+		<full_rpi>rpi</full_rpi>		
 	</variables>
 
 </theme>

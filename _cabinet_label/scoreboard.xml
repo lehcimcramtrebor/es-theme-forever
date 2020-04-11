@@ -6,7 +6,7 @@
 <view name="menu, system, basic, detailed, video, grid">  
 	
 		<text name="system_label" extra="true">
-			<fontPath>./_assets/scoreboard.ttf</fontPath>
+			<fontPath>${policePath}scoreboard.ttf</fontPath>
 			<fontSize>0.04</fontSize>
 			<glowSize>1</glowSize>
 		</text>

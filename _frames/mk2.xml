@@ -7,7 +7,7 @@
 
 		<image name="video_black" extra="true">
 		
-			<path>./../_assets/deco_mk2.jpg</path>
+			<path>${framePath}deco_mk2.jpg</path>
 			
 		</image>
 		
@@ -17,7 +17,7 @@
 
 	  <text name="systemInfo">
         <pos>0 0.66</pos>
-		<fontPath>./_assets/mk2.ttf</fontPath>
+		<fontPath>${policePath}mk2.ttf</fontPath>
 	    <fontSize>0.025</fontSize>
         <zIndex>26</zIndex>
 		<color>ffff00</color>

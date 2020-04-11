@@ -9,7 +9,7 @@
 		<view name="system, basic, detailed, video, grid">
 
     <video name="tv_effect" extra="true">
-      <path>./../_assets/effect_crt.mp4</path>
+      <path>${effectPath}effect_crt.mp4</path>
       <color>A0A0A010</color>
     </video>
 	

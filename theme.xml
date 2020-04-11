@@ -12,15 +12,21 @@
  
 <!--		VARIABLES		-->
 
-	<variables> 
+	<variables>
+		<assetPath>./_assets/</assetPath>	
+		<effectPath>./_assets/effects/</effectPath>	
+		<policePath>./_assets/fonts/</policePath>
 		<illustrationPath>./_assets/illustrations/</illustrationPath>
 		<cabinetPath>./_assets/cabinets/</cabinetPath>			
+		<framePath>./_assets/decos/</framePath>			
+		<logodecoPath>./_assets/logos_decos/</logodecoPath>		
+		<full_rpi>full</full_rpi>		
 	</variables>
 
 
 <!--		VARIABLES RPI MODE			-->
 
-	<subset name="RPI LIGHT MODE" displayName="${f-rpi} (test)">
+	<subset name="RPI LIGHT MODE" displayName="${f-rpi} (beta test)">
 
 	<include name="On" displayName="${f-on}">./rpi/variables_rpi.xml</include>
 
@@ -361,7 +367,7 @@
       <pos>0.01 0.012</pos>
       <size>0.085 0.025</size>
       <itemSpacing>0.003</itemSpacing>
-      <imagePath>./_assets/gamepad.svg</imagePath>
+      <imagePath>${assetPath}gamepad.svg</imagePath>
       <color>FFFFFF80</color>
       <activityColor>A0A0FFC0</activityColor>
       <hotkeyColor>FFA0A0C0</hotkeyColor>
@@ -370,17 +376,17 @@
   
 <view name="menu">
     <menuText name="menutitle">
-      <fontPath>./_assets/adventure.otf</fontPath>
+      <fontPath>${policePath}adventure.otf</fontPath>
       <fontSize>0.042</fontSize>
       <color>1c1632</color>
     </menuText>
     <menuText name="menufooter">
-      <fontPath>./_assets/adventure.otf</fontPath>
+      <fontPath>${policePath}adventure.otf</fontPath>
       <fontSize>0.024</fontSize>
       <color>777777FF</color>
     </menuText>
     <menuText name="menutext">
-      <fontPath>./_assets/adventure.otf</fontPath>
+      <fontPath>${policePath}adventure.otf</fontPath>
       <fontSize>0.03</fontSize>
       <color>1c1632</color>
       <separatorColor>b49ead</separatorColor>
@@ -388,7 +394,7 @@
     </menuText>
 	
     <menuTextSmall name="menutextsmall">
-      <fontPath>./_assets/adventure.otf</fontPath>
+      <fontPath>${policePath}adventure.otf</fontPath>
       <fontSize>0.022</fontSize>
       <color>48387a</color>
     </menuTextSmall>
@@ -437,14 +443,14 @@
 
 		<image name="video_black_in" extra="true">
 			<tile>true</tile>
-			<path>./_assets/white.png</path>
+			<path>${assetPath}white.png</path>
 			<origin>0.5 0.5</origin>
 			<color>000000</color>
 			<zIndex>21</zIndex>
 		</image>				
 
 		<image name="screen_frame" extra="true">
-			<path>./_assets/frame.png</path>
+			<path>${assetPath}frame.png</path>
 			<origin>0.5 0.5</origin>
 			<color>ffffff</color>
 			<zIndex>35</zIndex>
@@ -460,7 +466,7 @@
 		</text>
 		
       <helpsystem name="help">
-         <fontPath>./_assets/adventure.otf</fontPath>
+         <fontPath>${policePath}adventure.otf</fontPath>
          <fontSize>0.03</fontSize>      
          <pos>0.02 0.96</pos>      
          <textColor>ffffff</textColor>
@@ -476,7 +482,7 @@
 
 
 		<image name="frame_bottom" extra="true">
-			<path>./_assets/white.png</path>
+			<path>${assetPath}white.png</path>
 			<origin>0.5 1</origin>
 			<pos>0.5 1</pos>
 			<size>1 0.05</size>
@@ -484,7 +490,7 @@
 		</image> 
 		
 		<image name="line_bottom" extra="true">
-			<path>./_assets/white.png</path>
+			<path>${assetPath}white.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.9521</pos>
 			<size>1 0.002</size>
@@ -519,7 +525,7 @@
 		<!--Size/Pos by Subset-->
 		<delay>1</delay>
 		<effect>none</effect>		
-		<default>./_assets/noise.mp4</default>
+		<default>${assetPath}noise.mp4</default>
 		<showSnapshotNoVideo>false</showSnapshotNoVideo>
 		<showSnapshotDelay>false</showSnapshotDelay>
 		<color>ffffff</color>
@@ -528,7 +534,7 @@
 
 	  <text name="systemInfo">
         <pos>0 0.65</pos>
-		<fontPath>./_assets/digital.ttf</fontPath>
+		<fontPath>${policePath}digital.ttf</fontPath>
 	    <fontSize>0.025</fontSize>
         <zIndex>26</zIndex>
 		<color>ffffff</color>
@@ -537,14 +543,14 @@
       </text> 
    
 		<image name="systemInfo_frame" extra="true">
-			<path>./_assets/white.png</path>
+			<path>${assetPath}white.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.68</pos>
 			<zIndex>23</zIndex>
 		</image>
 
 		<image name="line_down" extra="true">
-			<path>./_assets/white.png</path>
+			<path>${assetPath}white.png</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.634</pos>
 			<zIndex>22</zIndex>
@@ -593,7 +599,7 @@
          <selectedColor>000000</selectedColor>
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>ffffff</secondaryColor>
-         <fontPath>./_assets/adventure.otf</fontPath>
+         <fontPath>${policePath}adventure.otf</fontPath>
          <fontSize>0.032</fontSize>
          <alignment>center</alignment>
 		 <horizontalMargin>0.01</horizontalMargin>
@@ -629,7 +635,7 @@
 		<text name="system_label" extra="true">
 			<pos>0.74 0.026</pos>
 			<text> ${system.name} </text>
-			<fontPath>./_assets/label.ttf</fontPath>
+			<fontPath>${policePath}label.ttf</fontPath>
 			<fontSize>0.04</fontSize>
 			<glowSize>2</glowSize>
 			<glowColor>000000</glowColor>
@@ -639,7 +645,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.742 0.029</pos>
 			<text> ${system.name} </text>
-			<fontPath>./_assets/label.ttf</fontPath>
+			<fontPath>${policePath}label.ttf</fontPath>
 			<fontSize>0.04</fontSize>
 			<glowSize>2</glowSize>
 			<color>00000025</color>
@@ -656,7 +662,7 @@
       </image>   
 	  
      <image name="g_line" extra="true">
-		<path>./_assets/white.png</path>         		
+		<path>${assetPath}white.png</path>         		
  		<origin>0.5 1</origin>
 		<color>ffffff</color>
         <pos>0.74 0.069</pos>
@@ -668,7 +674,7 @@
 		<color>00000099</color>
 		<colorEnd>00000060</colorEnd>
 		<gradientType>vertical</gradientType>
-		<path>./_assets/white.png</path>         		
+		<path>${assetPath}white.png</path>         		
  		<origin>0.5 0.5</origin>
 
         <pos>0.74 0.5</pos>
@@ -678,7 +684,7 @@
       </image>
 	  
      <image name="gamelist_back_h1" extra="true">
-		<path>./_assets/white.png</path>         		
+		<path>${assetPath}white.png</path>         		
  		<origin>1 0.5</origin>
 		<color>00000000</color>
 		<gradientType>horizontal</gradientType>
@@ -689,7 +695,7 @@
       </image>   
 	  
      <image name="gamelist_back_h2" extra="true">
-		<path>./_assets/white.png</path>         		
+		<path>${assetPath}white.png</path>         		
  		<origin>0 0.5</origin>
 		<colorEnd>00000000</colorEnd>
 		<gradientType>horizontal</gradientType>
@@ -703,7 +709,7 @@
 		<colorEnd>ffffff25</colorEnd>
 		<gradientType>vertical</gradientType>
 		<tile>true</tile>
-		<path>./_assets/grid.jpg</path>         		
+		<path>${assetPath}grid.jpg</path>         		
  		<origin>0.5 0.5</origin>
         <pos>0.74 0.5</pos>
         <size>0.45 1</size>
@@ -711,7 +717,7 @@
       </image>
 	  
      <image name="frame_edge" extra="true">
-		<path>./_assets/white.png</path>         		
+		<path>${assetPath}white.png</path>         		
  		<origin>0.5 0.5</origin>
         <pos>0.7401 0.5</pos>
         <size>0.452 1</size>
@@ -719,7 +725,7 @@
       </image>    
 
      <image name="frame_black" extra="true">
-		<path>./_assets/white.png</path>         		
+		<path>${assetPath}white.png</path>         		
  		<origin>0.5 0.5</origin>
 		<color>000000</color>
         <pos>0.7401 0.5</pos>
@@ -728,7 +734,7 @@
       </image>    
 
      <image name="frame_shadow" extra="true">
-		<path>./_assets/white.png</path>         		
+		<path>${assetPath}white.png</path>         		
  		<origin>0.5 0.5</origin>
 		<color>00000050</color>
         <pos>0.745 0.5</pos>
@@ -741,7 +747,7 @@
 		<color>ffffff</color>
 		<glowColor>202020</glowColor>		
 		<glowSize>2</glowSize>
-        <fontPath>./_assets/luckiestguy.ttf</fontPath>		 
+        <fontPath>${policePath}luckiestguy.ttf</fontPath>		 
         <pos>0.853 0.72</pos>
         <size>0.18 0.3733333333</size>
 		<alignment>center</alignment>
@@ -750,7 +756,7 @@
       </text>
 
      <image name="d_line_up" extra="true">
-		<path>./_assets/white.png</path>         		
+		<path>${assetPath}white.png</path>         		
  		<origin>0.5 1</origin>
 		<color>ffffff</color>
         <pos>0.74 0.5325</pos>
@@ -759,7 +765,7 @@
       </image>  
 
      <image name="d_line_down" extra="true">
-		<path>./_assets/white.png</path>         		
+		<path>${assetPath}white.png</path>         		
  		<origin>0.5 0</origin>
 		<color>ffffff</color>
         <pos>0.74 0.907</pos>
@@ -771,15 +777,15 @@
 		<pos>0.845 0.9565</pos>
 		<size>0.1 0.042</size>
 		<zIndex>2000</zIndex>	
-		<filledPath>./_assets/franc_f.png</filledPath>	
-		<unfilledPath>./_assets/franc_u.png</unfilledPath>
+		<filledPath>${assetPath}franc_f.png</filledPath>	
+		<unfilledPath>${assetPath}franc_u.png</unfilledPath>
     </rating>
 
 	<datetime name="md_releasedate">
 		<pos>0.33 0.86</pos>
 		<color>ff7a00bb</color>      
 		<size>0.12 0.020</size>
-		<fontPath>./_assets/roundedledboard.ttf</fontPath>		 			
+		<fontPath>${policePath}roundedledboard.ttf</fontPath>		 			
 		<fontSize>0.012</fontSize>
 		<alignment>right</alignment>
 		<zIndex>1999</zIndex>
@@ -789,7 +795,7 @@
 		<color>06b900bb</color>      
 		<pos>0.08 0.86</pos>
 		<size>0.28 0.020</size>
-		<fontPath>./_assets/roundedledboard.ttf</fontPath>		 			
+		<fontPath>${policePath}roundedledboard.ttf</fontPath>		 			
 		<fontSize>0.016</fontSize>
 		<alignment>left</alignment>
 		<zIndex>1999</zIndex>
@@ -799,7 +805,7 @@
 		<pos>0.08 0.89</pos>
 		<color>06b900bb</color>      
 		<size>0.28 0.020</size>
-		<fontPath>./_assets/roundedledboard.ttf</fontPath>		 			
+		<fontPath>${policePath}roundedledboard.ttf</fontPath>		 			
 		<fontSize>0.011</fontSize>
 		<alignment>left</alignment>
 		<zIndex>1999</zIndex>
@@ -809,7 +815,7 @@
 		<pos>0.46 0.89</pos>
 		<origin>1 0</origin>
 		<size>0.12 0.020</size>
-		<fontPath>./_assets/roundedledboard.ttf</fontPath>		 			
+		<fontPath>${policePath}roundedledboard.ttf</fontPath>		 			
 		<fontSize>0.012</fontSize>
 		<alignment>center</alignment>
 		<color>ff7a00bb</color>      
@@ -820,7 +826,7 @@
 		<pos>0.3865 0.89</pos>
 		<origin>0 0</origin>		
 		<size>0.12 0.020</size>
-		<fontPath>./_assets/roundedledboard.ttf</fontPath>		 			
+		<fontPath>${policePath}roundedledboard.ttf</fontPath>		 			
 		<fontSize>0.012</fontSize>
 		<alignment>center</alignment>
 		<color>ff7a00bb</color>      
@@ -830,20 +836,29 @@
 	</view>
 
 	<view name="detailed, video">
-	
+<!--
+	<image name="test_gamelist" extra="true">
+		<path>${assetPath}white.png</path>
+		 <origin>0.5 0.5</origin>
+         <pos>0.74 0.2995</pos>
+         <size>0.4498 0.458</size>	
+		 <zIndex>3000</zIndex>
+		 <color>ff0000</color>
+	</image>
+-->	
 	  <textlist name="gamelist">
 		 <origin>0.5 0.5</origin>
-         <pos>0.74 0.3225</pos>
-         <size>0.4498 0.5</size>
+         <pos>0.74 0.2995</pos>
+         <size>0.4498 0.458</size>	
          <selectedColor>000000</selectedColor>
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>000000</secondaryColor>
-         <fontPath>./_assets/luckiestguy.ttf</fontPath>
+         <fontPath>${policePath}luckiestguy.ttf</fontPath>
          <fontSize>0.035</fontSize>
          <alignment>center</alignment>
          <forceUppercase>1</forceUppercase>
          <scrollSound>./_inc/scroll.wav</scrollSound>
-		 <lineSpacing>1.955</lineSpacing>
+		 <lineSpacing>2.005</lineSpacing>
 		 <zIndex>300</zIndex>
       </textlist>
 
@@ -860,7 +875,7 @@
 	<view name="detailed">
 
      <image name="md_image">
-		<default>./_assets/noise.jpg</default>         		
+		<default>${assetPath}noise.jpg</default>         		
  		<origin>0.5 0.5</origin>
 		<color>ffffff</color>
 		<!--Size/Pos by Subset-->
@@ -872,7 +887,7 @@
 	<view name="video, grid">
 
      <video name="md_video">
-		<default>./_assets/noise.mp4</default>
+		<default>${assetPath}noise.mp4</default>
 		<effect>none</effect>
 		 <delay>1</delay>
          <showSnapshotNoVideo>false</showSnapshotNoVideo>

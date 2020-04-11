@@ -7,7 +7,7 @@
 
 		<image name="video_black" extra="true">
 		
-			<path>./../_assets/deco_defender.jpg</path>
+			<path>${framePath}deco_defender.jpg</path>
 			
 		</image>
 		
@@ -17,7 +17,7 @@
 
 	  <text name="systemInfo">
         <pos>0 0.65</pos>
-		<fontPath>./_assets/arcade.ttf</fontPath>
+		<fontPath>${policePath}arcade.ttf</fontPath>
 	    <fontSize>0.018</fontSize>
         <zIndex>26</zIndex>
 		<color>ffffff</color>

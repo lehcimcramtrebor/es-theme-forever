@@ -9,7 +9,7 @@
 		 <color>ffffff</color>
 		 <colorEnd>252525</colorEnd>
 		 <gradientType>vertical</gradientType>	  
-		 <path>./../../_assets/stained_glass/02.jpg</path>
+		 <path>${assetPath}stained_glass/02.jpg</path>
       </image>
 	  
 </view>

@@ -18,7 +18,7 @@
          <pos>0 0.47</pos>
          <size>1 0.1</size>
          <zIndex>4</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="background_v2_shadow" extra="true">
@@ -27,7 +27,7 @@
          <pos>0 0.49</pos>
          <size>1 0.1</size>
          <zIndex>3</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 	  
       <image name="line_v1" extra="true">
@@ -36,7 +36,7 @@
          <pos>0 0.42</pos>
          <size>0.5 0.001</size>
          <zIndex>5</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="line_v2" extra="true">
@@ -45,7 +45,7 @@
          <pos>0 0.52</pos>
          <size>0.5 0.001</size>
          <zIndex>5</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 	  
 
@@ -56,7 +56,7 @@
          <pos>1 0</pos>
          <size>0.5 1</size>
          <zIndex>2</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="background_right_effect" extra="true">
@@ -73,7 +73,7 @@
          <pos>0.5 0</pos>
          <size>0.0005 1</size>
          <zIndex>5</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 	  
 </view>
@@ -89,7 +89,7 @@
          <pos>0 0.47</pos>
          <size>1 0.1</size>
          <zIndex>3</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="background_v2_shadow" extra="true">
@@ -98,7 +98,7 @@
          <pos>0 0.49</pos>
          <size>1 0.1</size>
          <zIndex>2</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 	  
       <image name="line_v1" extra="true">
@@ -107,7 +107,7 @@
          <pos>0 0.42</pos>
          <size>1 0.001</size>
          <zIndex>3</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="line_v2" extra="true">
@@ -116,7 +116,7 @@
          <pos>0 0.52</pos>
          <size>1 0.001</size>
          <zIndex>4</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
 
@@ -134,7 +134,7 @@
          <pos>0 0.47</pos>
          <size>0.265 0.1</size>
          <zIndex>4</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="background_v2_shadow" extra="true">
@@ -143,7 +143,7 @@
          <pos>0 0.49</pos>
          <size>0.265 0.1</size>
          <zIndex>2</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 	  
       <image name="line_v1" extra="true">
@@ -152,7 +152,7 @@
          <pos>0 0.42</pos>
          <size>0.265 0.001</size>
          <zIndex>4</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="line_v2" extra="true">
@@ -161,7 +161,7 @@
          <pos>0 0.52</pos>
          <size>0.265 0.001</size>
          <zIndex>4</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="background_right" extra="true">
@@ -170,7 +170,7 @@
          <pos>1 0</pos>
          <size>0.735 1</size>
          <zIndex>3</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="background_right_effect" extra="true">
@@ -187,7 +187,7 @@
          <pos>0.735 0</pos>
          <size>0.0005 1</size>
          <zIndex>5</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 	  
 </view>

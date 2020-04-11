@@ -9,7 +9,7 @@
 		 <color>ffffff</color>
 		 <colorEnd>505050</colorEnd>
 		 <gradientType>vertical</gradientType>	  
-		 <path>./../../_assets/wood/01.jpg</path>
+		 <path>${assetPath}wood/01.jpg</path>
       </image>
 	  
 </view>

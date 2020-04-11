@@ -7,7 +7,7 @@
 
 		<image name="video_black" extra="true">
 		
-			<path>./../_assets/deco_marvel.jpg</path>
+			<path>${framePath}deco_marvel.jpg</path>
 			
 		</image>
 		
@@ -17,7 +17,7 @@
 
 	  <text name="systemInfo">
         <pos>0 0.655</pos>
-		<fontPath>./_assets/marvel.otf</fontPath>
+		<fontPath>${policePath}marvel.otf</fontPath>
 	    <fontSize>0.035</fontSize>
         <zIndex>26</zIndex>
 		<color>ffe336</color>

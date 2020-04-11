@@ -7,7 +7,7 @@
 
 		<image name="video_black" extra="true">
 		
-			<path>./../_assets/deco_spiderman.jpg</path>
+			<path>${framePath}deco_spiderman.jpg</path>
 			
 		</image>
 		
@@ -17,7 +17,7 @@
 
 	  <text name="systemInfo">
         <pos>0 0.66</pos>
-		<fontPath>./_assets/spiderman.ttf</fontPath>
+		<fontPath>${policePath}spiderman.ttf</fontPath>
 	    <fontSize>0.015</fontSize>
         <zIndex>26</zIndex>
 		<color>ff0000</color>

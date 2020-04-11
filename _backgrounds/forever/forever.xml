@@ -18,7 +18,7 @@
 		 <color>ffffff</color>
 		 <colorEnd>252525</colorEnd>
 		 <gradientType>vertical</gradientType>	  
-		 <path>./../../_assets/grid2.jpg</path>
+		 <path>${assetPath}grid2.jpg</path>
       </image>
 
       <image name="background_v1" extra="true">
@@ -28,7 +28,7 @@
          <zIndex>2</zIndex>  	  
 		 <color>00000000</color>
 		 <gradientType>vertical</gradientType>	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="background_v2" extra="true">
@@ -38,7 +38,7 @@
          <zIndex>2</zIndex>  	  
 		 <colorEnd>00000000</colorEnd>
 		 <gradientType>vertical</gradientType>	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="background_v3" extra="true">
@@ -46,7 +46,7 @@
          <pos>0.5 0.47</pos>
          <size>1 0.1</size>
          <zIndex>4</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
 
@@ -57,7 +57,7 @@
          <pos>0 0.42</pos>
          <size>1 0.001</size>
          <zIndex>5</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="line_v2" extra="true">
@@ -66,7 +66,7 @@
          <pos>0 0.52</pos>
          <size>1 0.001</size>
          <zIndex>5</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 	  
       <image name="background_adjust_h1" extra="true">
@@ -76,7 +76,7 @@
          <zIndex>3</zIndex>  	  
 		 <color>00000000</color>
 		 <gradientType>horizontal</gradientType>	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="background_right" extra="true">
@@ -85,7 +85,7 @@
          <pos>1 0</pos>
          <size>0.5 1</size>
          <zIndex>3</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="background_right_effect" extra="true">
@@ -102,7 +102,7 @@
          <pos>0.5 0</pos>
          <size>0.0005 1</size>
          <zIndex>5</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 	  
 </view>
@@ -122,7 +122,7 @@
 		 <color>ffffff</color>
 		 <colorEnd>252525</colorEnd>
 		 <gradientType>vertical</gradientType>	  
-		 <path>./../../_assets/grid2.jpg</path>
+		 <path>${assetPath}grid2.jpg</path>
       </image>
 
       <image name="background_v1" extra="true">
@@ -132,7 +132,7 @@
          <zIndex>2</zIndex>  	  
 		 <color>00000000</color>
 		 <gradientType>vertical</gradientType>	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="background_v2" extra="true">
@@ -142,7 +142,7 @@
          <zIndex>2</zIndex>  	  
 		 <colorEnd>00000000</colorEnd>
 		 <gradientType>vertical</gradientType>	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="background_v3" extra="true">
@@ -150,7 +150,7 @@
          <pos>0 0.47</pos>
          <size>1 0.1</size>
          <zIndex>3</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="line_v1" extra="true">
@@ -159,7 +159,7 @@
          <pos>0 0.42</pos>
          <size>1 0.001</size>
          <zIndex>4</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="line_v2" extra="true">
@@ -168,7 +168,7 @@
          <pos>0 0.52</pos>
          <size>1 0.001</size>
          <zIndex>4</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
 
@@ -190,7 +190,7 @@
 		 <color>ffffff</color>
 		 <colorEnd>252525</colorEnd>
 		 <gradientType>vertical</gradientType>	  
-		 <path>./../../_assets/grid2.jpg</path>
+		 <path>${assetPath}grid2.jpg</path>
       </image>
 
       <image name="background_v1" extra="true">
@@ -200,7 +200,7 @@
          <zIndex>2</zIndex>  	  
 		 <color>00000000</color>
 		 <gradientType>vertical</gradientType>	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="background_v2" extra="true">
@@ -210,7 +210,7 @@
          <zIndex>2</zIndex>  	  
 		 <colorEnd>00000000</colorEnd>
 		 <gradientType>vertical</gradientType>	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="background_v3" extra="true">
@@ -218,7 +218,7 @@
          <pos>0 0.47</pos>
          <size>0.265 0.1</size>
          <zIndex>4</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="line_v1" extra="true">
@@ -227,7 +227,7 @@
          <pos>0 0.42</pos>
          <size>0.265 0.001</size>
          <zIndex>4</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="line_v2" extra="true">
@@ -236,7 +236,7 @@
          <pos>0 0.52</pos>
          <size>0.265 0.001</size>
          <zIndex>4</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 	  
       <image name="background_adjust_h1" extra="true">
@@ -246,7 +246,7 @@
          <zIndex>3</zIndex>  	  
 		 <color>00000000</color>
 		 <gradientType>horizontal</gradientType>	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="background_right" extra="true">
@@ -255,7 +255,7 @@
          <pos>1 0</pos>
          <size>0.735 1</size>
          <zIndex>3</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 
       <image name="background_right_effect" extra="true">
@@ -272,7 +272,7 @@
          <pos>0.735 0</pos>
          <size>0.0005 1</size>
          <zIndex>5</zIndex>  	  
-		 <path>./../../_assets/white.png</path>
+		 <path>${assetPath}white.png</path>
       </image>
 	  
 </view>

@@ -6,7 +6,7 @@
 <view name="system">
 
       <image name="wheel, wheel_shadow, wheel-1, wheel-1_shadow, wheel+1, wheel+1_shadow, wheel-2, wheel-2_shadow, wheel+2, wheel+2_shadow" extra="true">  
-		 <path>./../_assets/logo_carbon_mame_red.png</path>
+		 <path>${logodecoPath}logo_carbon_mame_red.png</path>
       </image>
 
 </view>

@@ -7,7 +7,7 @@
 
 		<image name="video_black" extra="true">
 		
-			<path>./../_assets/deco_bat.jpg</path>
+			<path>${framePath}deco_bat.jpg</path>
 			
 		</image>
 		
@@ -17,7 +17,7 @@
 
 	  <text name="systemInfo">
         <pos>0 0.66</pos>
-		<fontPath>./_assets/batman.ttf</fontPath>
+		<fontPath>${policePath}batman.ttf</fontPath>
 	    <fontSize>0.025</fontSize>
         <zIndex>26</zIndex>
 		<color>ffff00</color>

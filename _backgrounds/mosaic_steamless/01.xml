@@ -9,7 +9,7 @@
 		 <color>ffffff</color>
 		 <colorEnd>252525</colorEnd>
 		 <gradientType>vertical</gradientType>	  
-		 <path>./../../_assets/mosaic_steamless/01.jpg</path>
+		 <path>${assetPath}mosaic_steamless/01.jpg</path>
       </image>
 	  
 </view>

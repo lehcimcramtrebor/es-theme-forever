@@ -9,7 +9,7 @@
 		<view name="system, basic, detailed, video, grid">
 
     <video name="tv_effect" extra="true">
-      <path>./../_assets/effect_flickering.mp4</path>
+      <path>${effectPath}effect_flickering.mp4</path>
       <color>ffffff50</color>
     </video>
 	

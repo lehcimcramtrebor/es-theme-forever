@@ -9,7 +9,7 @@
 		<view name="system, basic, detailed, video, grid">
 
 			<image name="screen_effect, background_right_effect" extra="true">
-				<path>./../_assets/effect_phosphore_+.png</path>
+				<path>${effectPath}effect_phosphore_+.png</path>
 			</image>
 	
 		</view>

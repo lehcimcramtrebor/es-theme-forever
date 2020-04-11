@@ -6,7 +6,7 @@
 <view name="system">  
 
 	    <video name="focus_video" extra="true">
-			<path>./../../_assets/black.mp4</path>
+			<path>${assetPath}black.mp4</path>
 			<color>ffffff99</color>
 			<delay>1</delay>
 			<size>1 1</size>
@@ -20,7 +20,7 @@
 <view name="basic, detailed, video, grid">
 
      <image name="focus" extra="true">
-		<path>./../../_assets/white.png</path>         		
+		<path>${assetPath}white.png</path>         		
  		<origin>0.5 0.5</origin>
 		<color>00000099</color>
         <pos>0.5 0.5</pos>

@@ -7,7 +7,7 @@
 
 		<text name="logoText">
 			<text>${system.fullName}</text>
-			<fontPath>./../_assets/wozcot.otf</fontPath>
+			<fontPath>${policePath}wozcot.otf</fontPath>
 			<fontSize>0.032</fontSize>
 			<glowSize>3</glowSize>
 

@@ -5,7 +5,7 @@
 
    <formatVersion>7</formatVersion>
   
-	<view name="detailed">
+	<view name="detailed, video, grid">
 	
 		<image name="md_thumbnail">
         <visible>false</visible>         
@@ -16,7 +16,7 @@
 		</image>
 
 		<image name="retrobat" extra="true">
-		<path>./../_assets/retrobat.png</path>
+		<path>${assetPath}retrobat.png</path>
 		<color>ffffff</color>
 		<pos>0.265 0.095</pos>
         <origin>0.5 0.5</origin>

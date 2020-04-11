@@ -42,7 +42,7 @@
       <color>D0D0D0</color>
       <backgroundColor>00000000</backgroundColor>
       <fontSize>0.018</fontSize>
-      <fontPath>./../_assets/luckiestguy.ttf</fontPath>		 	  
+      <fontPath>${policePath}luckiestguy.ttf</fontPath>		 	  
       <alignment>center</alignment>
       <size>0.8 0.24</size>
     </text>

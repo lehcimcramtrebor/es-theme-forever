@@ -6,7 +6,7 @@
 <view name="menu, system, basic, detailed, video, grid">  
 	
 		<text name="system_label" extra="true">
-			<fontPath>./_assets/digital.ttf</fontPath>
+			<fontPath>${policePath}digital.ttf</fontPath>
 			<fontSize>0.026</fontSize>
 			<glowSize>1</glowSize>
 		</text>
