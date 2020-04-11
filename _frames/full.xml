@@ -63,10 +63,21 @@
 </view>
 
 <view name="basic">
-
+<!--
+	<image name="test_gamelist" extra="true">
+		<path>${assetPath}white.png</path>
+		<origin>0.5 0.5</origin>
+         <pos>0.5 0.485</pos>	  
+         <size>0.345 0.38</size>
+		<zIndex>2999</zIndex>
+		<color>ff0000</color>
+	</image>    
+-->	
 	  <textlist name="gamelist">
-         <pos>0.5 0.49</pos>	  
-         <size>0.345 0.45</size>
+         <pos>0.5 0.485</pos>	  
+         <size>0.345 0.38</size>
+		 <lineSpacing>1.6</lineSpacing>				 
+		<zIndex>3000</zIndex>
       </textlist>	  
 
 </view>
