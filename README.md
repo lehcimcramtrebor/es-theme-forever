@@ -2,7 +2,7 @@
 
 Simple 16/9 theme will never need systems updates for Batocera 5.25+ and Retrobat.
 
-Notes:
+**Notes:**
 
 This theme use no system dedicated artworks, no dedicated graphics logos. This will make this theme will be functionnal
 on future Batocera or Retrobat vesrsions.
@@ -16,7 +16,7 @@ At first installation, defaults options made Light Raspberry Mode is On.
 You can desactivate for better graphics if you have a powerfull machine.
 
 
-#Options:
+**Options:**
 
 Gamelist view style:
 
@@ -28,7 +28,7 @@ Gridview style:
 Choose between boxes, carousel and coverflow views.
 
 
-Music:
+**Music:**
 
 Choose "yes" to play theme music.
 
@@ -38,7 +38,7 @@ By default, Batocera musics are pre-installed for Retrobat users, you can delete
 
 You can customize your theme music with your ".ogg" or ".mp3 files, in jukebox mode or by system.
 
-Examples: 	
+**Examples:** 	
 
 Put your normal music collection in CUSTOMIZE_YOUR_THEME/music (ladygaga.mp3 etc..)
 and this will play in jukebox mode all your songs.
@@ -50,19 +50,19 @@ You can use ladygaga.mp3 or .ogg and as same time megadrive.ogg or .mp3,
 this will play ladygaga for all systems except megadrive (will play megadrive song).
 
 
-Logotext fonts:
+**Logotext fonts:**
 
 Chose between many fonts to display systems in wheels.
 
 
-Logo Decorations:
+**Logo Decorations:**
 
 For now in Emulationstation, it's not possible to use Logotext and Logo image in same time,
 so i have made fix backgrounds logo. System logos will move on this background.
 You can choose style and color, or desactive.
 
 
-Carousel:
+**Carousel:**
 
 Choose Jukebox, Vertical or Wheel in 3 modes.
 
@@ -77,32 +77,32 @@ To customize your logos, put files named by system theme in ".png" or ".svg" for
 CUSTOMIZE_YOUR_THEME/logos ( 3do.svg, gx4000.png, atari2600.svg etc.. ) and choose CUSTOM jukebox, vertical or wheel.
 
 
-Cabinet:
+**Cabinet:**
 
 Choose different colors for arcade cabinet.
 
 
-Cabinet label:
+**Cabinet label:**
 
 Choose text font style for cabinet marquee. ( display system name ).
 
 
-Character:
+**Character:**
 
 Choose vectorial character illustration, display at left of screen. 
 
 
-Colorset:
+**Colorset:**
 
 Choose general theme colors, will affect logos text, menus and differents parts of your theme.
 
 
-Background:
+**Background:**
 
 Choose 50+ tileables backgrounds.
 
 
-Theme style:
+**Theme style:**
 
 Choose between 3 modes:
 
@@ -113,46 +113,46 @@ Choose between 3 modes:
 	-"Forever background" is a mix. display "Forever" layers and backgrounds.
 
 
-Screen Effect:
+**Screen Effect:**
 
 Choose multiple CRT's or TV's static effects to display on arcade cabinet screen.
 In "Forever" theme styles, this will affect right frame on screen.
 
 
-Video Effects:
+**Video Effects:**
 
 Choose multiple video effects to display on arcade cabinet screen.
 
 
-Focus:
+**Focus:**
 
 Bright down background to focus on first plan by fading.
 
 
-Display Cabinet Overlay:
+**Display Cabinet Overlay:**
 
 Display arcade cabined themed screen overlay or not (display in full screen).
 
 							
-Overlay:
+**Overlay:**
 
 Choose style of your overlay. You can select overlay + cabinet, this will overwrite cabinet choice 
 to display themed cabinet ( examples: mortal Kombat II, Marvel etc..)
 
 
-Video ratio:
+**Video ratio:**
 
 In all views, choose between original video ratio or stretched.
 For example, a vertical arcade game in streched mode will display in 4/3 full screen, in oringinal mode
 it will display at original vertical format in middle of screen.
 
 
-System info frame:
+**System info frame:**
 
 When overlay display is off, choose between back transparent, plain or invisible frame in back of systeminfo.
 
 
-Raspberry light mode:
+**Raspberry light mode:**
 
 Choose to have a lighest theme, this will remove all shadows, simplify "Forever" style layers,
 use 1080P cabinet and others assets unstead of 4K.
@@ -162,4 +162,4 @@ Tested on Raspberry Pi 3B+, litte less smooth than carbon theme but useful.
 When this mode is active, not working options are marqued like this: **Option**.
 
 
-By Lechim.
+* *By Lechim.* *
