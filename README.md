@@ -18,7 +18,7 @@ You can desactivate for better graphics if you have a powerfull machine.
 
 **Options:**
 
-Gamelist view style:
+**Gamelist view style:**
 
 Basic, detailed, video and grid views are functionnal.
 
