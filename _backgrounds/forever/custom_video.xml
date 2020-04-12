@@ -1,0 +1,56 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+<view name="system">  
+
+		<image name="background2, background3, background4" extra="true">
+			<visible>true</visible>
+		</image>
+
+		<image name="background" extra="true">
+			<visible>false</visible>
+		</image>
+
+	<image name="video_black" extra="true">
+		<zIndex>300</zIndex>
+	</image>
+		
+		<video name="staticBackgroundVideo">
+			<path>./../../CUSTOMIZE_YOUR_THEME/___full_screen_videos_background___/background.mp4</path>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<color>ffffff</color>
+		</video>
+	
+	    <video name="custom_video" extra="true">
+			<path>./../../CUSTOMIZE_YOUR_THEME/___full_screen_videos_background___/${system.name}.mp4</path>
+			<effect>none</effect>		
+			<color>ffffff</color>
+			<delay>1</delay>
+			<size>1 1</size>
+			<origin>0 0</origin>
+			<zIndex>30</zIndex>
+		</video>	  
+	  
+</view>
+
+<view name="basic">  
+
+      <image name="background, background2, background3, background4" extra="true">
+		 <visible>true</visible>
+      </image>
+	  
+</view>
+
+<view name="detailed, video, grid">  
+
+      <image name="background, background2, background3, background4" extra="true">
+		 <visible>true</visible>
+      </image>
+
+</view>
+   
+</theme>

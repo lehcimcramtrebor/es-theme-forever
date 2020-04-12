@@ -221,17 +221,6 @@ V1.0
 
 	</subset>
 
-	
-<!--		FRAMES TV		-->
-
-	<subset name="Full Screen System Info Frame" displayName="${f-fullScreenSystemInfoFrame}">
-
-	<include name="Transparent" displayName="${f-transparent}">./_frames/transparent_frames.xml</include>
-	<include name="Plain" displayName="${f-plain}">./_frames/plain_frames.xml</include>
-	<include name="No" displayName="${f-no}">./_frames/no.xml</include>
-
-	</subset>
-
 
 <!--		BACKGROUNDS STYLES		-->
 
@@ -240,6 +229,7 @@ V1.0
 	<include name="Dynamic Colorset Forever Style" displayName="${f-dynamicColorsetForeverStyle}">./_backgrounds/forever/forever.xml</include>
 	<include name="Dynamic Colorset Background" displayName="${f-dynamicColorsetBackground}">./_backgrounds/forever/dynamic_background.xml</include>
 	<include name="Background" displayName="${f-background}">./_backgrounds/forever/nope.xml</include>
+	<include name="Custom Full Screen Videos" displayName="${f-customFullVideo}">./_backgrounds/forever/custom_video.xml</include>
 
 	</subset>
 
@@ -455,26 +445,26 @@ V1.0
 		<origin>0.5 0.5</origin>
 		<size>0.675 1</size>
 		<color>00000050</color>
-		<zIndex>10</zIndex>
+		<zIndex>126</zIndex>
 	</image>
 		
 	<image name="screen_effect" extra="true">
 		<origin>0.5 0.5</origin>
 		<tile>true</tile>
-		<zIndex>35</zIndex>
+		<zIndex>135</zIndex>
 	</image>	  
 
 	<video name="tv_effect" extra="true">
 		<origin>0.5 0.5</origin>
-		<zIndex>34</zIndex>
+		<zIndex>134</zIndex>
 	</video>
 
-	<image name="video_black" extra="true">
+	<image name="cabinet_overlay" extra="true">
 		<tile>false</tile>
 		<origin>0.5 0.5</origin>
 		<size>0.345‬ 0.485</size>
 		<color>ffffff</color>
-		<zIndex>20</zIndex>
+		<zIndex>120</zIndex>
 	</image>
 
 	<image name="video_black_in" extra="true">
@@ -482,14 +472,14 @@ V1.0
 		<path>${assetPath}white.png</path>
 		<origin>0.5 0.5</origin>
 		<color>000000</color>
-		<zIndex>21</zIndex>
+		<zIndex>121</zIndex>
 	</image>				
 
 	<image name="screen_frame" extra="true">
 		<path>${assetPath}frame.png</path>
 		<origin>0.5 0.5</origin>
 		<color>ffffff</color>
-		<zIndex>35</zIndex>
+		<zIndex>135</zIndex>
 	</image>				
 		
 	<text name="system_label" extra="true">
@@ -544,7 +534,7 @@ V1.0
 		<pos>0.51 0.47</pos>
 	</image>
 
-	<image name="video_black" extra="true">
+	<image name="cabinet_overlay" extra="true">
 		<pos>0.5 0.4835</pos>
 	</image>
 		
@@ -564,14 +554,14 @@ V1.0
 		<showSnapshotNoVideo>false</showSnapshotNoVideo>
 		<showSnapshotDelay>false</showSnapshotDelay>
 		<color>ffffff</color>
-		<zIndex>21</zIndex>      
+		<zIndex>121</zIndex>      
     </video>
 
 	<text name="systemInfo">
         <pos>0 0.65</pos>
 		<fontPath>${policePath}digital.ttf</fontPath>
 	    <fontSize>0.025</fontSize>
-        <zIndex>26</zIndex>
+        <zIndex>126</zIndex>
 		<color>ffffff</color>
 		<glowColor>000000</glowColor>
 		<glowSize>3</glowSize>
@@ -621,7 +611,7 @@ V1.0
 		<pos>0.5 0.4835</pos>
 	</video>
 
-	<image name="video_black" extra="true">
+	<image name="cabinet_overlay" extra="true">
 		<pos>0.5 0.4835</pos>
 	</image>
 		
@@ -640,7 +630,7 @@ V1.0
 		<horizontalMargin>0.01</horizontalMargin>
         <forceUppercase>false</forceUppercase>
         <scrollSound>./_inc/scroll.wav</scrollSound>
-		<zIndex>22</zIndex>
+		<zIndex>122</zIndex>
     </textlist>	  
 
 </view>
@@ -663,7 +653,7 @@ V1.0
 		<pos>0.265 0.4835</pos>
 	</video>
 
-	<image name="video_black" extra="true">
+	<image name="cabinet_overlay" extra="true">
 		<pos>0.265 0.4835</pos>
 	</image>
 		
@@ -913,7 +903,7 @@ V1.0
  		<origin>0.5 0.5</origin>
 		<color>ffffff</color>
 		<!--Size/Pos by Subset-->
-        <zIndex>22</zIndex>         
+        <zIndex>122</zIndex>         
     </image>    
 	  
 </view>
@@ -929,7 +919,7 @@ V1.0
  		<origin>0.5 0.5</origin>
 		<color>ffffff</color>
 		<!--Size/Pos by Subset-->
-        <zIndex>22</zIndex>         
+        <zIndex>122</zIndex>         
      </video>    
 
 </view>
@@ -970,14 +960,9 @@ V1.0
 	</subset>
 	
 
-<!--		FORMAT TV		-->
+<!--		CABINET SCREEN OVERLAYS		-->
 
-	<subset name="Display Overlay" displayName="${f-displayOverlay}">
-
-	<include name="Yes" displayName="${f-yes}">./_frames/realistic.xml</include>
-	<include name="No" displayName="${f-no}">./_frames/full.xml</include>
-
-	</subset>
+	<include>./_frames/realistic.xml</include>
 
 
 <!--		DECO Frames	-->

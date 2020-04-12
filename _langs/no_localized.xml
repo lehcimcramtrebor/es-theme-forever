@@ -89,6 +89,7 @@
 		<f-dynamicColorsetForeverStyle>"forever" style</f-dynamicColorsetForeverStyle>	
 		<f-dynamicColorsetBackground>"forever" background</f-dynamicColorsetBackground>	
 		<f-background>background</f-background>	
+		<f-customFullVideo>custom full screen video</f-customFullVideo>	
 		
 		<f-crt>crt</f-crt>	
 		<f-scanlines>scanlines</f-scanlines>	

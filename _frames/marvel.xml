@@ -5,7 +5,7 @@
 
 <view name="menu, system, basic, detailed, video, grid">  
 
-		<image name="video_black" extra="true">
+		<image name="cabinet_overlay" extra="true">
 		
 			<path>${framePath}deco_marvel.jpg</path>
 			
@@ -19,7 +19,7 @@
         <pos>0 0.655</pos>
 		<fontPath>${policePath}marvel.otf</fontPath>
 	    <fontSize>0.035</fontSize>
-        <zIndex>26</zIndex>
+        <zIndex>126</zIndex>
 		<color>ffe336</color>
 		<glowColor>ed000020</glowColor>
 		<glowSize>3</glowSize>

@@ -5,7 +5,7 @@
 
 <view name="menu, system, basic, detailed, video, grid">  
 
-		<image name="video_black" extra="true">
+		<image name="cabinet_overlay" extra="true">
 		
 			<path>${framePath}deco_bat.jpg</path>
 			
@@ -19,7 +19,7 @@
         <pos>0 0.66</pos>
 		<fontPath>${policePath}batman.ttf</fontPath>
 	    <fontSize>0.025</fontSize>
-        <zIndex>26</zIndex>
+        <zIndex>126</zIndex>
 		<color>ffff00</color>
 		<glowColor>000000</glowColor>
 		<glowSize>2</glowSize>

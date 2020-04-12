@@ -5,7 +5,7 @@
 
 <view name="menu, system, basic, detailed, video, grid">  
 
-		<image name="video_black" extra="true">
+		<image name="cabinet_overlay" extra="true">
 		
 			<path>${framePath}deco_speedway.jpg</path>
 			
@@ -19,7 +19,7 @@
         <pos>0.075 0.23</pos>
 		<fontPath>${policePath}chapaza.ttf</fontPath>
 	    <fontSize>0.014</fontSize>
-        <zIndex>26</zIndex>
+        <zIndex>126</zIndex>
 		<color>ffffff</color>
 		<glowColor>ffffff10</glowColor>
 		<glowSize>0</glowSize>

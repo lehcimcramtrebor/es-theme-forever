@@ -89,6 +89,7 @@
 		<f-dynamicColorsetForeverStyle>style "forever"</f-dynamicColorsetForeverStyle>	
 		<f-dynamicColorsetBackground>arrière-plan + overlay</f-dynamicColorsetBackground>	
 		<f-background>arrière-plan</f-background>	
+		<f-customFullVideo>mes vidéos en fond d'écran</f-customFullVideo>	
 		
 		<f-crt>moniteur crt</f-crt>	
 		<f-scanlines>balayage horizontal</f-scanlines>	

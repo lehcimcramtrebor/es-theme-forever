@@ -5,7 +5,7 @@
 
 <view name="menu, system, basic, detailed, video, grid">  
 
-		<image name="video_black" extra="true">
+		<image name="cabinet_overlay" extra="true">
 		
 			<path>${framePath}deco_defender.jpg</path>
 			
@@ -19,7 +19,7 @@
         <pos>0 0.65</pos>
 		<fontPath>${policePath}arcade.ttf</fontPath>
 	    <fontSize>0.018</fontSize>
-        <zIndex>26</zIndex>
+        <zIndex>126</zIndex>
 		<color>ffffff</color>
 		<glowColor>000055</glowColor>
 		<glowSize>2</glowSize>
