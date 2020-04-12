@@ -23,7 +23,7 @@ Gamelist view style:
 Basic, detailed, video and grid views are functionnal.
 
 
-Gridview style:
+**Gridview style:**
 
 Choose between boxes, carousel and coverflow views.
 
