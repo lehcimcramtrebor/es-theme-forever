@@ -5,7 +5,7 @@ Simple 16/9 theme will never need systems updates for Batocera 5.25+ and Retroba
 **Notes:**
 
 This theme use no system dedicated artworks, no dedicated graphics logos. This will make this theme will be functionnal
-on future Batocera or Retrobat vesrsions.
+on future Batocera or Retrobat versions and with all your collections.
 
 Characters illustrations are in .svg (vectors), backgrounds are tileables, logos are in text. This make this theme  always
 display at maximum quality in your screen resolution (4K UHD 2160P include).
