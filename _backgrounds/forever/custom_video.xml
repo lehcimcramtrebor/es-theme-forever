@@ -5,6 +5,10 @@
    
 <view name="system">  
 
+      <image name="wheel, wheel_shadow, wheel-1, wheel-1_shadow, wheel+1, wheel+1_shadow, wheel-2, wheel-2_shadow, wheel+2, wheel+2_shadow" extra="true">  
+		 <visible>false</visible>
+      </image>
+	  
 		<image name="background2, background3, background4" extra="true">
 			<visible>true</visible>
 		</image>

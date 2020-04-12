@@ -105,7 +105,7 @@ Choose 50+ tileables backgrounds.
 
 **Theme style:**
 
-Choose between 4 modes:
+Choose between 5 modes:
 
 	-"Background" will display background in full screen.
 
@@ -114,6 +114,12 @@ Choose between 4 modes:
 	-"Forever background" is a mix. display "Forever" layers and backgrounds.
 
 	-"Custom Full Screen Videos" will display your videos in background, see *CUSTOMIZE_YOUR_THEME/* Read_Me files.
+
+	-"Video Background" will display multiple videos in background.
+	
+	
+Because specificity of static videos from emulationstation, video backgrounds mode make ledo deco are turned off,
+but this will work fine with custom logos.
 	
 	
 **Screen Effect:**

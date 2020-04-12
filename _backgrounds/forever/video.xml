@@ -1,0 +1,49 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+	<subset name="Video Background Choice" displayName="${f-vbackground}">
+
+	<include name="Outrun Grid">./backgrounds_video/01.xml</include>
+	<include name="Outrun Grid 2">./backgrounds_video/02.xml</include>
+
+	</subset>
+	
+<view name="system">  
+
+      <image name="wheel, wheel_shadow, wheel-1, wheel-1_shadow, wheel+1, wheel+1_shadow, wheel-2, wheel-2_shadow, wheel+2, wheel+2_shadow" extra="true">  
+		 <visible>false</visible>
+      </image>
+	  
+		<image name="background2, background3, background4" extra="true">
+			<visible>true</visible>
+		</image>
+
+		<image name="background" extra="true">
+			<visible>false</visible>
+		</image>
+
+	<image name="video_black" extra="true">
+		<zIndex>300</zIndex>
+	</image>
+		
+</view>
+
+<view name="basic">  
+
+      <image name="background, background2, background3, background4" extra="true">
+		 <visible>true</visible>
+      </image>
+	  
+</view>
+
+<view name="detailed, video, grid">  
+
+      <image name="background, background2, background3, background4" extra="true">
+		 <visible>true</visible>
+      </image>
+
+</view>
+   
+</theme>

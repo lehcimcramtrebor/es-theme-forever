@@ -1,0 +1,18 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+<view name="system">  
+
+		<video name="staticBackgroundVideo">
+			<path>${assetPath}videos/outrun_grid2.mp4</path>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<color>ffffff</color>
+		</video>
+	
+</view>
+
+</theme>

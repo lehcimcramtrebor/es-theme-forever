@@ -24,6 +24,7 @@
 		<f-ratioVideos>Format des vidéos</f-ratioVideos>	
 		<f-gridStyle>Style de la grille</f-gridStyle>	
 		<f-rpi>Mode léger Raspberry</f-rpi>	
+		<f-videoBackground>mode video</f-videoBackground>	
 
 		<f-customSounds>ma musique</f-customSounds>
 
@@ -116,6 +117,7 @@
 		<f-original>d'origine</f-original>	
 
 		<f-noCharacter>pas de personnage</f-noCharacter>	
+		<f-vbackground>choix de l'arrière-plan video</f-vbackground>	
 
 	
   </variables>
