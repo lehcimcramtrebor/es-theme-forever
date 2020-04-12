@@ -52,7 +52,7 @@ this will play ladygaga for all systems except megadrive (will play megadrive so
 
 **Logotext fonts:**
 
-Chose between many fonts to display systems in wheels.
+Choose between many fonts to display systems in wheels.
 
 
 **Logo Decorations:**
