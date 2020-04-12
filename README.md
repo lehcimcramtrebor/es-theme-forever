@@ -11,6 +11,7 @@ Characters illustrations are in .svg (vectors), backgrounds are tileables, logos
 display at maximum quality in your screen resolution (4K UHD 2160P include).
 
 A customization system is include to easily use your logos, backgrounds, musics and videos.
+Readme files are in each folder in *CUSTOMIZE_YOUR_THEME/*.
 
 At first installation, defaults options made Light Raspberry Mode is On.
 You can desactivate for better graphics if you have a powerfull machine.

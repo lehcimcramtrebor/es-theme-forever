@@ -24,6 +24,7 @@
          <zIndex>0</zIndex>
 		 <path>./../../CUSTOMIZE_YOUR_THEME/backgrounds/background.png</path>
 		 <path>./../../CUSTOMIZE_YOUR_THEME/backgrounds/background.jpg</path>		 
+		 <path>./../../CUSTOMIZE_YOUR_THEME/backgrounds/background.svg</path>		 
 
       </image>
 	  
@@ -50,6 +51,7 @@
          <zIndex>1</zIndex>
 		 <path>./../../CUSTOMIZE_YOUR_THEME/backgrounds/background-${system.theme}.png</path>
 		 <path>./../../CUSTOMIZE_YOUR_THEME/backgrounds/background-${system.theme}.jpg</path>
+		 <path>./../../CUSTOMIZE_YOUR_THEME/backgrounds/background-${system.theme}.svg</path>
       </image>	  
 </view>
    

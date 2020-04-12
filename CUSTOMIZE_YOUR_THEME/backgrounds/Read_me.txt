@@ -6,9 +6,9 @@ Place here all of yours 16/9 background system or images tiles named by theme:
 	to display custom full screen backgrounds:
 
 
-		- "background.png" (or ".jpg") for general background.
+		- "background.png" (or ".jpg" or ".svg") for general background.
 
-		- "background-megadrive.png" (or ".jpg") for themed backgrounds.
+		- "background-megadrive.png" (or ".jpg" or ".svg") for themed backgrounds.
 
 
 	to display tileable backgrounds:
@@ -24,13 +24,13 @@ Place here all of yours 16/9 background system or images tiles named by theme:
 	YOU CAN PUT: 
 
 
-		- "background.jpg" (or ".png") for general full screen backgrounds.
+		- "background.jpg" (or ".png" or ".svg") for general full screen backgrounds.
 
 		- "tile.jpg" ".png" (or ".png") for general tileable backgrounds.
 
 
 
-		- "background-megadrive.jpg" (or ".png"), "background-snes.jpg" (or ".png") for full screen themed backgrounds.
+		- "background-megadrive.jpg" (or ".png" or ".svg"), "background-snes.jpg" (or ".png" or ".svg") for full screen themed backgrounds.
 
 
 		- "tile-snes.jpg" (or ".png"), "tile-megadrive.jpg" (or ".png") for tileable themed backgrounds.
@@ -46,7 +46,7 @@ Place here all of yours 16/9 background system or images tiles named by theme:
 -------	YOU CAN'T PUT THIS: --------------------------------------------------------------
 
 
-		- "background.png" "and a tile.png" (or ".jpg") in same time for the general.
+		- "background.png" "and a tile.png" (or ".jpg" or ".svg"(background)) in same time for the general.
 
 		- "background-megadrive.png" and a "tile-megadrive.png" (or ".jpg") in same time for one system.
 
@@ -54,3 +54,5 @@ Place here all of yours 16/9 background system or images tiles named by theme:
 	This will be illogical and will no functionnal.
 
 -------------------------------------------------------------------------------------
+
+.SVG FILES ONLY WORK FOR FULL SCREEN BACKGROUNDS.
