@@ -32,21 +32,21 @@ Choose between boxes, carousel and coverflow views.
 
 Choose "yes" to play theme music.
 
-Theme music is in _ _CUSTOMIZE_YOUR_THEME/music._ _
+Theme music is in *CUSTOMIZE_YOUR_THEME/music.* 
 
 By default, Batocera musics are pre-installed for Retrobat users, you can delete them.
 
-You can customize your theme music with your ".ogg" or ".mp3 files, in jukebox mode or by system.
+You can customize your theme music with your *".ogg" or ".mp3"* files, in jukebox mode or by system.
 
 **Examples:** 	
 
-Put your normal music collection in CUSTOMIZE_YOUR_THEME/music (ladygaga.mp3 etc..)
+Put your normal music collection in *CUSTOMIZE_YOUR_THEME/music* (*ladygaga.mp3* etc..)
 and this will play in jukebox mode all your songs.
 
-Put files named by system theme ( megadrive.mp3, snes.ogg, nes.ogg, mastersystem.mp3 etc..)
+Put files named by system theme ( *megadrive.mp3, snes.ogg, nes.ogg, mastersystem.mp3* etc..)
 and this will play songs by system.
 
-You can use ladygaga.mp3 or .ogg and as same time megadrive.ogg or .mp3,
+You can use *ladygaga.mp3 or .ogg* and as same time *megadrive.ogg or .mp3*,
 this will play ladygaga for all systems except megadrive (will play megadrive song).
 
 
@@ -73,8 +73,8 @@ logo decorations.
 
 "Custom" jukebox, vertical or wheel display your custom logos.
 
-To customize your logos, put files named by system theme in ".png" or ".svg" format in 
-CUSTOMIZE_YOUR_THEME/logos ( 3do.svg, gx4000.png, atari2600.svg etc.. ) and choose CUSTOM jukebox, vertical or wheel.
+To customize your logos, put files named by system theme in *".png" or ".svg"* format in 
+*CUSTOMIZE_YOUR_THEME/logos* ( 3do.svg, gx4000.png, atari2600.svg etc.. ) and choose CUSTOM jukebox, vertical or wheel.
 
 
 **Cabinet:**
@@ -159,7 +159,7 @@ use 1080P cabinet and others assets unstead of 4K.
 
 Tested on Raspberry Pi 3B+, litte less smooth than carbon theme but useful.
 
-When this mode is active, not working options are marqued like this: **Option**.
+When this mode is active, not working options are marqued with *.
 
 
-* *By Lechim.* *
+*By Lechcim*
