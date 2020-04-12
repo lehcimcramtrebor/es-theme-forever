@@ -143,7 +143,7 @@ to display themed cabinet ( examples: mortal Kombat II, Marvel etc..)
 **Video ratio:**
 
 In all views, choose between original video ratio or stretched.
-For example, a vertical arcade game in streched mode will display in 4/3 full screen, in oringinal mode
+For example, a vertical arcade game in streched mode will display in 4/3 full screen, in original mode
 it will display at original vertical format in middle of screen.
 
 
