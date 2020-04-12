@@ -105,7 +105,7 @@ Choose 50+ tileables backgrounds.
 
 **Theme style:**
 
-Choose between 3 modes:
+Choose between 4 modes:
 
 	-"Background" will display background in full screen.
 
@@ -113,7 +113,9 @@ Choose between 3 modes:
 
 	-"Forever background" is a mix. display "Forever" layers and backgrounds.
 
-
+	-"Custom Full Screen Videos" will display your videos in background, see *CUSTOMIZE_YOUR_THEME/* Read_Me files.
+	
+	
 **Screen Effect:**
 
 Choose multiple CRT's or TV's static effects to display on arcade cabinet screen.
@@ -130,11 +132,6 @@ Choose multiple video effects to display on arcade cabinet screen.
 Bright down background to focus on first plan by fading.
 
 
-**Display Cabinet Overlay:**
-
-Display arcade cabined themed screen overlay or not (display in full screen).
-
-							
 **Overlay:**
 
 Choose style of your overlay. You can select overlay + cabinet, this will overwrite cabinet choice 
@@ -146,11 +143,6 @@ to display themed cabinet ( examples: mortal Kombat II, Marvel etc..)
 In all views, choose between original video ratio or stretched.
 For example, a vertical arcade game in streched mode will display in 4/3 full screen, in original mode
 it will display at original vertical format in middle of screen.
-
-
-**System info frame:**
-
-When overlay display is off, choose between back transparent, plain or invisible frame in back of systeminfo.
 
 
 **Raspberry light mode:**
