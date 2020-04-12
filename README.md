@@ -32,7 +32,7 @@ Choose between boxes, carousel and coverflow views.
 
 Choose "yes" to play theme music.
 
-Theme music is in CUSTOMIZE_YOUR_THEME/music.
+Theme music is in _ _CUSTOMIZE_YOUR_THEME/music._ _
 
 By default, Batocera musics are pre-installed for Retrobat users, you can delete them.
 
