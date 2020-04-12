@@ -1,3 +1,13 @@
+<!--
+
+Forever, 16/9 Emulationstation Theme for Retrobat/Batocera 5.25 +
+
+By Lehcim.
+
+V1.0
+
+-->
+
 <?xml version="1.0" encoding="UTF-8"?>
 
 <theme defaultView="grid">
@@ -13,31 +23,33 @@
 <!--		VARIABLES		-->
 
 	<variables>
-		<assetPath>./_assets/</assetPath>	
-		<effectPath>./_assets/effects/</effectPath>	
-		<policePath>./_assets/fonts/</policePath>
-		<illustrationPath>./_assets/illustrations/</illustrationPath>
-		<cabinetPath>./_assets/cabinets/</cabinetPath>			
-		<framePath>./_assets/decos/</framePath>			
-		<logodecoPath>./_assets/logos_decos/</logodecoPath>		
-		<full_rpi>full</full_rpi>
-		<hiderpi></hiderpi>						
-		<visiblerpi>true</visiblerpi>						
-		<whitegridrpi>white.png</whitegridrpi>
-		<tilerpi>false</tilerpi>						
-		<faderpi></faderpi>						
-		<marqueereflexionrpi>0.03 0</marqueereflexionrpi>						
-		<thumbnailreflexionrpi>0.3 0</thumbnailreflexionrpi>						
-		<carouseldefaultreflexionrpi>0.1 0</carouseldefaultreflexionrpi>						
-		<carouselselectedreflexionrpi>0.25 0</carouselselectedreflexionrpi>								
-		<coverflowreflexion1rpi>0.25 0</coverflowreflexion1rpi>								
-		<coverflowreflexion2rpi>0.4 0</coverflowreflexion2rpi>								
-		<coverflowreflexion3rpi>0.8 0</coverflowreflexion3rpi>								
-		<menurpi></menurpi>								
-		<foreverv2sizerpi>0.5 0.45</foreverv2sizerpi>								
-		<foreverv2basicsizerpi>1 0.45</foreverv2basicsizerpi>								
-		<foreverv2detailedsizerpi>0.265 0.45</foreverv2detailedsizerpi>								
-		<foreverv2originrpi>0 0</foreverv2originrpi>								
+
+	<assetPath>./_assets/</assetPath>	
+	<effectPath>./_assets/effects/</effectPath>	
+	<policePath>./_assets/fonts/</policePath>
+	<illustrationPath>./_assets/illustrations/</illustrationPath>
+	<cabinetPath>./_assets/cabinets/</cabinetPath>			
+	<framePath>./_assets/decos/</framePath>			
+	<logodecoPath>./_assets/logos_decos/</logodecoPath>		
+	<full_rpi>full</full_rpi>
+	<hiderpi></hiderpi>						
+	<visiblerpi>true</visiblerpi>						
+	<whitegridrpi>white.png</whitegridrpi>
+	<tilerpi>false</tilerpi>						
+	<faderpi></faderpi>						
+	<marqueereflexionrpi>0.03 0</marqueereflexionrpi>						
+	<thumbnailreflexionrpi>0.3 0</thumbnailreflexionrpi>						
+	<carouseldefaultreflexionrpi>0.1 0</carouseldefaultreflexionrpi>						
+	<carouselselectedreflexionrpi>0.25 0</carouselselectedreflexionrpi>								
+	<coverflowreflexion1rpi>0.25 0</coverflowreflexion1rpi>								
+	<coverflowreflexion2rpi>0.4 0</coverflowreflexion2rpi>								
+	<coverflowreflexion3rpi>0.8 0</coverflowreflexion3rpi>								
+	<menurpi></menurpi>								
+	<foreverv2sizerpi>0.5 0.45</foreverv2sizerpi>								
+	<foreverv2basicsizerpi>1 0.45</foreverv2basicsizerpi>								
+	<foreverv2detailedsizerpi>0.265 0.45</foreverv2detailedsizerpi>								
+	<foreverv2originrpi>0 0</foreverv2originrpi>								
+
 	</variables>
 
 
@@ -55,7 +67,7 @@
 <!--		JUST FOR UPPER MENU		-->
 
 	<subset name="Grid Style" displayName="${f-gridStyle}">
-		<include name="Boxes" displayName="${f-boxes}">./nope.xml</include>
+	<include name="Boxes" displayName="${f-boxes}">./nope.xml</include>
 	</subset>
 
 
@@ -376,164 +388,169 @@
 <view name="screen">
 
     <text name="clock">
-      <fontSize>0.02</fontSize>
-      <pos>0.94 0.945</pos>
-      <size>0.05 0.058</size>
-      <verticalAlignment>center</verticalAlignment>
-    </text>
+
+		<fontSize>0.02</fontSize>
+		<pos>0.94 0.945</pos>
+		<size>0.05 0.058</size>
+		<verticalAlignment>center</verticalAlignment>
+		</text>
+
     <controllerActivity name="controllerActivity">
-      <pos>0.01 0.012</pos>
-      <size>0.085 0.025</size>
-      <itemSpacing>0.003</itemSpacing>
-      <imagePath>${assetPath}gamepad.svg</imagePath>
-      <color>FFFFFF80</color>
-      <activityColor>A0A0FFC0</activityColor>
-      <hotkeyColor>FFA0A0C0</hotkeyColor>
+		<pos>0.01 0.012</pos>
+		<size>0.085 0.025</size>
+		<itemSpacing>0.003</itemSpacing>
+		<imagePath>${assetPath}gamepad.svg</imagePath>
+		<color>FFFFFF80</color>
+		<activityColor>A0A0FFC0</activityColor>
+		<hotkeyColor>FFA0A0C0</hotkeyColor>
     </controllerActivity>
-  </view>
+
+</view>
   
 <view name="menu">
+
     <menuText name="menutitle">
-      <fontPath>${policePath}adventure.otf</fontPath>
-      <fontSize>0.042</fontSize>
-      <color>1c1632</color>
+		<fontPath>${policePath}adventure.otf</fontPath>
+		<fontSize>0.042</fontSize>
+		<color>1c1632</color>
     </menuText>
+
     <menuText name="menufooter">
-      <fontPath>${policePath}adventure.otf</fontPath>
-      <fontSize>0.024</fontSize>
-      <color>777777FF</color>
+		<fontPath>${policePath}adventure.otf</fontPath>
+		<fontSize>0.024</fontSize>
+		<color>777777FF</color>
     </menuText>
+
     <menuText name="menutext">
-      <fontPath>${policePath}adventure.otf</fontPath>
-      <fontSize>0.03</fontSize>
-      <color>1c1632</color>
-      <separatorColor>b49ead</separatorColor>
-      <selectorGradientType>horizontal</selectorGradientType>
+		<fontPath>${policePath}adventure.otf</fontPath>
+		<fontSize>0.03</fontSize>
+		<color>1c1632</color>
+		<separatorColor>b49ead</separatorColor>
+		<selectorGradientType>horizontal</selectorGradientType>
     </menuText>
 	
     <menuTextSmall name="menutextsmall">
-      <fontPath>${policePath}adventure.otf</fontPath>
-      <fontSize>0.022</fontSize>
-      <color>48387a</color>
-    </menuTextSmall>
-    <menuBackground name="menubg">
-      <color>f8f6f6</color>
-      <cornerSize>32 32</cornerSize>
-    </menuBackground>
+		<fontPath>${policePath}adventure.otf</fontPath>
+		<fontSize>0.022</fontSize>
+		<color>48387a</color>
+		</menuTextSmall>
 
+    <menuBackground name="menubg">
+		<color>f8f6f6</color>
+		<cornerSize>32 32</cornerSize>
+    </menuBackground>
 
   </view>
 
 <view name="menu, system, basic, detailed, video, grid">  
 
-		<image name="cabinet" extra="true">
-			<origin>0.5 0.5</origin>
-			<size>0.675 1</size>
-			<color>ffffff</color>
-			<zIndex>136</zIndex>
-		</image>
+	<image name="cabinet" extra="true">
+		<origin>0.5 0.5</origin>
+		<size>0.675 1</size>
+		<color>ffffff</color>
+		<zIndex>136</zIndex>
+	</image>
 		
-		<image name="cabinet_shadow" extra="true">
-			<origin>0.5 0.5</origin>
-			<size>0.675 1</size>
-			<color>00000050</color>
-			<zIndex>10</zIndex>
-		</image>
+	<image name="cabinet_shadow" extra="true">
+		<origin>0.5 0.5</origin>
+		<size>0.675 1</size>
+		<color>00000050</color>
+		<zIndex>10</zIndex>
+	</image>
 		
-			<image name="screen_effect" extra="true">
-				<origin>0.5 0.5</origin>
-				<tile>true</tile>
-				<zIndex>35</zIndex>
-			</image>	  
+	<image name="screen_effect" extra="true">
+		<origin>0.5 0.5</origin>
+		<tile>true</tile>
+		<zIndex>35</zIndex>
+	</image>	  
 
-	    <video name="tv_effect" extra="true">
-				<origin>0.5 0.5</origin>
-				<zIndex>34</zIndex>
-		</video>
+	<video name="tv_effect" extra="true">
+		<origin>0.5 0.5</origin>
+		<zIndex>34</zIndex>
+	</video>
 
-		<image name="video_black" extra="true">
-			<tile>false</tile>
-			<origin>0.5 0.5</origin>
-			<size>0.345‬ 0.485</size>
-			<color>ffffff</color>
-			<zIndex>20</zIndex>
-		</image>
+	<image name="video_black" extra="true">
+		<tile>false</tile>
+		<origin>0.5 0.5</origin>
+		<size>0.345‬ 0.485</size>
+		<color>ffffff</color>
+		<zIndex>20</zIndex>
+	</image>
 
-		<image name="video_black_in" extra="true">
-			<tile>true</tile>
-			<path>${assetPath}white.png</path>
-			<origin>0.5 0.5</origin>
-			<color>000000</color>
-			<zIndex>21</zIndex>
-		</image>				
+	<image name="video_black_in" extra="true">
+		<tile>true</tile>
+		<path>${assetPath}white.png</path>
+		<origin>0.5 0.5</origin>
+		<color>000000</color>
+		<zIndex>21</zIndex>
+	</image>				
 
-		<image name="screen_frame" extra="true">
-			<path>${assetPath}frame.png</path>
-			<origin>0.5 0.5</origin>
-			<color>ffffff</color>
-			<zIndex>35</zIndex>
-		</image>				
+	<image name="screen_frame" extra="true">
+		<path>${assetPath}frame.png</path>
+		<origin>0.5 0.5</origin>
+		<color>ffffff</color>
+		<zIndex>35</zIndex>
+	</image>				
 		
-		<text name="system_label" extra="true">
-			<text>${system.fullName}</text>
-			<origin>0.5 0.5</origin>
-			<forceUppercase>false</forceUppercase>
-			<size>0.4 0.1</size>
-			<alignment>center</alignment>
-			<zIndex>900</zIndex>
-		</text>
+	<text name="system_label" extra="true">
+		<text>${system.fullName}</text>
+		<origin>0.5 0.5</origin>
+		<forceUppercase>false</forceUppercase>
+		<size>0.4 0.1</size>
+		<alignment>center</alignment>
+		<zIndex>900</zIndex>
+	</text>
 		
-      <helpsystem name="help">
-         <fontPath>${policePath}adventure.otf</fontPath>
-         <fontSize>0.03</fontSize>      
-         <pos>0.02 0.96</pos>      
-         <textColor>ffffff</textColor>
-      </helpsystem>	  
+    <helpsystem name="help">
+		<fontPath>${policePath}adventure.otf</fontPath>
+		<fontSize>0.03</fontSize>      
+		<pos>0.02 0.96</pos>      
+		<textColor>ffffff</textColor>
+    </helpsystem>	  
 
-      <image name="background" extra="true">
-		 <tile>true</tile>
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>-1</zIndex>                 
-      </image>
+    <image name="background" extra="true">
+		<tile>true</tile>
+		<origin>0 0</origin>
+		<pos>0 0</pos>
+		<size>1 1</size>
+		<zIndex>-1</zIndex>                 
+    </image>
 
-
-		<image name="frame_bottom" extra="true">
-			<path>${assetPath}white.png</path>
-			<origin>0.5 1</origin>
-			<pos>0.5 1</pos>
-			<size>1 0.05</size>
-			<zIndex>997</zIndex>
-		</image> 
+	<image name="frame_bottom" extra="true">
+		<path>${assetPath}white.png</path>
+		<origin>0.5 1</origin>
+		<pos>0.5 1</pos>
+		<size>1 0.05</size>
+		<zIndex>997</zIndex>
+	</image> 
 		
-		<image name="line_bottom" extra="true">
-			<path>${assetPath}white.png</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.9521</pos>
-			<size>1 0.002</size>
-			<zIndex>999</zIndex>
-		</image> 
+	<image name="line_bottom" extra="true">
+		<path>${assetPath}white.png</path>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.9521</pos>
+		<size>1 0.002</size>
+		<zIndex>999</zIndex>
+	</image> 
 		
 </view>
 
 <view name="system">
 
-		<image name="cabinet" extra="true">
-			<pos>0.5 0.45</pos>
-		</image>
+	<image name="cabinet" extra="true">
+		<pos>0.5 0.45</pos>
+	</image>
 		
-		<image name="cabinet_shadow" extra="true">
-			<pos>0.51 0.47</pos>
-		</image>
+	<image name="cabinet_shadow" extra="true">
+		<pos>0.51 0.47</pos>
+	</image>
 
-		<image name="video_black" extra="true">
-			<pos>0.5 0.4835</pos>
-		</image>
+	<image name="video_black" extra="true">
+		<pos>0.5 0.4835</pos>
+	</image>
 		
-		<text name="system_label" extra="true">
-			<pos>0.5 0.095</pos>
-		</text>
+	<text name="system_label" extra="true">
+		<pos>0.5 0.095</pos>
+	</text>
 
 		
     <video name="backgroundvideo" extra="true">
@@ -550,7 +567,7 @@
 		<zIndex>21</zIndex>      
     </video>
 
-	  <text name="systemInfo">
+	<text name="systemInfo">
         <pos>0 0.65</pos>
 		<fontPath>${policePath}digital.ttf</fontPath>
 	    <fontSize>0.025</fontSize>
@@ -558,161 +575,159 @@
 		<color>ffffff</color>
 		<glowColor>000000</glowColor>
 		<glowSize>3</glowSize>
-      </text> 
+    </text> 
    
-		<image name="systemInfo_frame" extra="true">
-			<path>${assetPath}white.png</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.68</pos>
-			<zIndex>23</zIndex>
-		</image>
+	<image name="systemInfo_frame" extra="true">
+		<path>${assetPath}white.png</path>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.68</pos>
+		<zIndex>23</zIndex>
+	</image>
 
-		<image name="line_down" extra="true">
-			<path>${assetPath}white.png</path>
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.634</pos>
-			<zIndex>22</zIndex>
-		</image>
+	<image name="line_down" extra="true">
+		<path>${assetPath}white.png</path>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.634</pos>
+		<zIndex>22</zIndex>
+	</image>
 		
 </view>
 
 <view name="basic, detailed, video, grid">
 
-	  	    <text name="logoText, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite">
-				<color>00000000</color>      
-			</text>
+    <text name="logoText, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite">
+		<color>00000000</color>      
+	</text>
 	  
 </view>
 
 <!--		GAMELISTS		-->
 
-	<view name="basic">
+<view name="basic">
  	
-		<image name="cabinet" extra="true">
-			<pos>0.5 0.45</pos>
-		</image>
+	<image name="cabinet" extra="true">
+		<pos>0.5 0.45</pos>
+	</image>
 		
-		<image name="cabinet_shadow" extra="true">
-			<pos>0.51 0.47</pos>
-		</image>
+	<image name="cabinet_shadow" extra="true">
+		<pos>0.51 0.47</pos>
+	</image>
 		
-			<image name="screen_effect" extra="true">
-				<pos>0.5 0.4835</pos>
-			</image>	  
-
-	    <video name="tv_effect" extra="true">
-				<pos>0.5 0.4835</pos>
-		</video>
-
-		<image name="video_black" extra="true">
+		<image name="screen_effect" extra="true">
 			<pos>0.5 0.4835</pos>
-		</image>
-		
-		<text name="system_label" extra="true">
-			<pos>0.5 0.095</pos>
-		</text>
-		
-	  <textlist name="gamelist">
-		 <origin>0.5 0.5</origin>
-         <selectedColor>000000</selectedColor>
-         <primaryColor>ffffff</primaryColor>
-         <secondaryColor>ffffff</secondaryColor>
-         <fontPath>${policePath}adventure.otf</fontPath>
-         <fontSize>0.032</fontSize>
-         <alignment>center</alignment>
-		 <horizontalMargin>0.01</horizontalMargin>
-         <forceUppercase>false</forceUppercase>
-         <scrollSound>./_inc/scroll.wav</scrollSound>
-		 <zIndex>22</zIndex>
-      </textlist>	  
-	</view>
+		</image>	  
 
-	<view name="detailed,video, grid">
+    <video name="tv_effect" extra="true">
+		<pos>0.5 0.4835</pos>
+	</video>
+
+	<image name="video_black" extra="true">
+		<pos>0.5 0.4835</pos>
+	</image>
+		
+	<text name="system_label" extra="true">
+		<pos>0.5 0.095</pos>
+	</text>
+		
+	<textlist name="gamelist">
+		<origin>0.5 0.5</origin>
+        <selectedColor>000000</selectedColor>
+		<primaryColor>ffffff</primaryColor>
+        <secondaryColor>ffffff</secondaryColor>
+        <fontPath>${policePath}adventure.otf</fontPath>
+        <fontSize>0.032</fontSize>
+        <alignment>center</alignment>
+		<horizontalMargin>0.01</horizontalMargin>
+        <forceUppercase>false</forceUppercase>
+        <scrollSound>./_inc/scroll.wav</scrollSound>
+		<zIndex>22</zIndex>
+    </textlist>	  
+
+</view>
+
+<view name="detailed,video, grid">
       
-		<image name="cabinet" extra="true">
-			<pos>0.265 0.45</pos>
-		</image>
+	<image name="cabinet" extra="true">
+		<pos>0.265 0.45</pos>
+	</image>
 		
-		<image name="cabinet_shadow" extra="true">
-			<pos>0.275 0.47</pos>
-		</image>
+	<image name="cabinet_shadow" extra="true">
+		<pos>0.275 0.47</pos>
+	</image>
 		
-			<image name="screen_effect" extra="true">
-				<pos>0.265 0.4835</pos>
-			</image>	  
+	<image name="screen_effect" extra="true">
+		<pos>0.265 0.4835</pos>
+	</image>	  
 
-	    <video name="tv_effect" extra="true">
-				<pos>0.265 0.4835</pos>
-		</video>
+    <video name="tv_effect" extra="true">
+		<pos>0.265 0.4835</pos>
+	</video>
 
-		<image name="video_black" extra="true">
-			<pos>0.265 0.4835</pos>
-		</image>
+	<image name="video_black" extra="true">
+		<pos>0.265 0.4835</pos>
+	</image>
 		
-		<text name="system_label" extra="true">
-			<pos>0.74 0.026</pos>
-			<text> ${system.name} </text>
-			<fontPath>${policePath}label.ttf</fontPath>
-			<fontSize>0.04</fontSize>
-			<glowSize>2</glowSize>
-			<glowColor>000000</glowColor>
-		</text>
+	<text name="system_label" extra="true">
+		<pos>0.74 0.026</pos>
+		<text> ${system.name} </text>
+		<fontPath>${policePath}label.ttf</fontPath>
+		<fontSize>0.04</fontSize>
+		<glowSize>2</glowSize>
+		<glowColor>000000</glowColor>
+	</text>
 
-		<text name="system_label_shadow" extra="true">
-			<visible>${visiblerpi}</visible>
-			<origin>0.5 0.5</origin>
-			<pos>0.742 0.029</pos>
-			<text> ${system.name} </text>
-			<fontPath>${policePath}label.ttf</fontPath>
-			<fontSize>0.04</fontSize>
-			<glowSize>2</glowSize>
-			<color>00000025</color>
-			<glowColor>00000025</glowColor>
-			<zIndex>899</zIndex>
-		</text>
+	<text name="system_label_shadow" extra="true">
+		<visible>${visiblerpi}</visible>
+		<origin>0.5 0.5</origin>
+		<pos>0.742 0.029</pos>
+		<text> ${system.name} </text>
+		<fontPath>${policePath}label.ttf</fontPath>
+		<fontSize>0.04</fontSize>
+		<glowSize>2</glowSize>
+		<color>00000025</color>
+		<glowColor>00000025</glowColor>
+		<zIndex>899</zIndex>
+	</text>
 		
-      <image name="md_marquee">
-		 <pos>0.265 0.095</pos>
-         <origin>0.5 0.5</origin>
-         <maxSize>0.2 0.1</maxSize>
-         <zIndex>400</zIndex>
-		 <reflexion>${marqueereflexionrpi}</reflexion>         
-      </image>   
+    <image name="md_marquee">
+		<pos>0.265 0.095</pos>
+        <origin>0.5 0.5</origin>
+		<maxSize>0.2 0.1</maxSize>
+        <zIndex>400</zIndex>
+		<reflexion>${marqueereflexionrpi}</reflexion>         
+    </image>   
 	  
-     <image name="g_line" extra="true">
+    <image name="g_line" extra="true">
 		<path>${assetPath}white.png</path>         		
  		<origin>0.5 1</origin>
 		<color>ffffff</color>
         <pos>0.74 0.069</pos>
         <size>0.397 0.003</size>
         <zIndex>950</zIndex>         
-      </image>  
+    </image>  
 	  
-     <image name="frame_adjust" extra="true">
+    <image name="frame_adjust" extra="true">
 		<color>00000099</color>
 		<colorEnd>00000060</colorEnd>
 		<gradientType>vertical</gradientType>
 		<path>${hiderpi}${assetPath}white.png</path>         		
  		<origin>0.5 0.5</origin>
-
         <pos>0.74 0.5</pos>
         <size>0.45 1</size>
-
         <zIndex>298</zIndex>         
-      </image>
+    </image>
 	  
-     <image name="gamelist_back_h1" extra="true">
+    <image name="gamelist_back_h1" extra="true">
 		<path>${hiderpi}${assetPath}white.png</path>         		
  		<origin>1 0.5</origin>
 		<color>00000000</color>
 		<gradientType>horizontal</gradientType>
 		<pos>0.74 0.5</pos>
         <size>0.225 1</size>
-
-        <zIndex>297</zIndex>         
-      </image>   
+		<zIndex>297</zIndex>         
+     </image>   
 	  
-     <image name="gamelist_back_h2" extra="true">
+    <image name="gamelist_back_h2" extra="true">
 		<path>${hiderpi}${assetPath}white.png</path>         		
  		<origin>0 0.5</origin>
 		<colorEnd>00000000</colorEnd>
@@ -720,9 +735,9 @@
 		<pos>0.74 0.5</pos>
         <size>0.225 1</size>
         <zIndex>297</zIndex>         
-      </image>   
+    </image>   
 
-     <image name="frame_texture" extra="true">
+    <image name="frame_texture" extra="true">
 		<color>ffffff</color>
 		<colorEnd>ffffff25</colorEnd>
 		<gradientType>vertical</gradientType>
@@ -732,36 +747,36 @@
         <pos>0.74 0.5</pos>
         <size>0.45 1</size>
         <zIndex>294</zIndex>         
-      </image>
+     </image>
 	  
-     <image name="frame_edge" extra="true">
+    <image name="frame_edge" extra="true">
 		<path>${assetPath}${whitegridrpi}</path>
 		<tile>${tilerpi}</tile>
  		<origin>0.5 0.5</origin>
         <pos>0.7401 0.5</pos>
         <size>0.452 1</size>
         <zIndex>280</zIndex>         
-      </image>    
+     </image>    
 
-     <image name="frame_black" extra="true">
+    <image name="frame_black" extra="true">
 		<path>${hiderpi}${assetPath}white.png</path>         		
  		<origin>0.5 0.5</origin>
 		<color>000000</color>
         <pos>0.7401 0.5</pos>
         <size>0.454 1</size>
         <zIndex>15</zIndex>         
-      </image>    
+    </image>    
 
-     <image name="frame_shadow" extra="true">
+    <image name="frame_shadow" extra="true">
 		<path>${hiderpi}${assetPath}white.png</path>         		
  		<origin>0.5 0.5</origin>
 		<color>00000050</color>
         <pos>0.745 0.5</pos>
         <size>0.454 1</size>
         <zIndex>14</zIndex>         
-      </image>    
+    </image>    
 
-     <text name="md_description">
+    <text name="md_description">
  		<origin>0.5 0.5</origin>	 
 		<color>ffffff</color>
 		<glowColor>202020</glowColor>		
@@ -772,25 +787,25 @@
 		<alignment>center</alignment>
         <fontSize>0.025</fontSize>
         <zIndex>800</zIndex>         
-      </text>
+    </text>
 
-     <image name="d_line_up" extra="true">
+    <image name="d_line_up" extra="true">
 		<path>${assetPath}white.png</path>         		
  		<origin>0.5 1</origin>
 		<color>ffffff</color>
         <pos>0.74 0.5325</pos>
         <size>0.397 0.003</size>
         <zIndex>950</zIndex>         
-      </image>  
+    </image>  
 
-     <image name="d_line_down" extra="true">
+    <image name="d_line_down" extra="true">
 		<path>${assetPath}white.png</path>         		
  		<origin>0.5 0</origin>
 		<color>ffffff</color>
         <pos>0.74 0.907</pos>
         <size>0.397 0.003</size>
         <zIndex>950</zIndex>         
-      </image>  
+    </image>  
 
     <rating name="md_rating">
 		<pos>0.845 0.9565</pos>
@@ -828,9 +843,9 @@
 		<fontSize>0.011</fontSize>
 		<alignment>left</alignment>
 		<zIndex>1999</zIndex>
-      </text>
+     </text>
 
-      <text name="md_lbl_players">
+     <text name="md_lbl_players">
 		<pos>0.46 0.89</pos>
 		<origin>1 0</origin>
 		<size>0.12 0.020</size>
@@ -839,9 +854,9 @@
 		<alignment>center</alignment>
 		<color>ff7a00bb</color>      
          <zIndex>1999</zIndex>         
-      </text>
+    </text>
 	  
-      <text name="md_players">
+    <text name="md_players">
 		<pos>0.3865 0.89</pos>
 		<origin>0 0</origin>		
 		<size>0.12 0.020</size>
@@ -850,38 +865,38 @@
 		<alignment>center</alignment>
 		<color>ff7a00bb</color>      
          <zIndex>1999</zIndex>         
-      </text>
+    </text>
 	  
-	</view>
+</view>
 
-	<view name="detailed, video">
+<view name="detailed, video">
 <!--
 	<image name="test_gamelist" extra="true">
 		<path>${assetPath}white.png</path>
-		 <origin>0.5 0.5</origin>
-         <pos>0.74 0.2995</pos>
-         <size>0.4498 0.43</size>	
-		 <zIndex>3000</zIndex>
-		 <color>ff0000</color>
+		<origin>0.5 0.5</origin>
+        <pos>0.74 0.2995</pos>
+        <size>0.4498 0.43</size>	
+		<zIndex>3000</zIndex>
+		<color>ff0000</color>
 	</image>
 -->	
-	  <textlist name="gamelist">
-		 <origin>0.5 0.5</origin>
-         <pos>0.74 0.2995</pos>
-         <size>0.4498 0.43</size>	
-         <selectedColor>000000</selectedColor>
-         <primaryColor>ffffff</primaryColor>
-         <secondaryColor>000000</secondaryColor>
-         <fontPath>${policePath}luckiestguy.ttf</fontPath>
-         <fontSize>0.035</fontSize>
-         <alignment>center</alignment>
-         <forceUppercase>true</forceUppercase>
-         <scrollSound>./_inc/scroll.wav</scrollSound>
-		 <lineSpacing>1.78</lineSpacing>
-		 <zIndex>300</zIndex>
-      </textlist>
+	<textlist name="gamelist">
+		<origin>0.5 0.5</origin>
+		<pos>0.74 0.2995</pos>
+        <size>0.4498 0.43</size>	
+        <selectedColor>000000</selectedColor>
+        <primaryColor>ffffff</primaryColor>
+        <secondaryColor>000000</secondaryColor>
+        <fontPath>${policePath}luckiestguy.ttf</fontPath>
+        <fontSize>0.035</fontSize>
+        <alignment>center</alignment>
+        <forceUppercase>true</forceUppercase>
+        <scrollSound>./_inc/scroll.wav</scrollSound>
+		<lineSpacing>1.78</lineSpacing>
+		<zIndex>300</zIndex>
+    </textlist>
 
-     <image name="md_thumbnail">
+    <image name="md_thumbnail">
         <maxSize>0.196875 0.35</maxSize>	 
         <pos>0.64 0.72</pos>
         <origin>0.5 0.5</origin>
@@ -889,59 +904,59 @@
         <zIndex>900</zIndex>         
     </image>    
 	  
-	</view>
+</view>
 
-	<view name="detailed">
+<view name="detailed">
 
-     <image name="md_image">
+    <image name="md_image">
 		<default>${assetPath}noise.jpg</default>         		
  		<origin>0.5 0.5</origin>
 		<color>ffffff</color>
 		<!--Size/Pos by Subset-->
         <zIndex>22</zIndex>         
-      </image>    
+    </image>    
 	  
-	</view>
+</view>
 
-	<view name="video, grid">
+<view name="video, grid">
 
-     <video name="md_video">
+    <video name="md_video">
 		<default>${assetPath}noise.mp4</default>
 		<effect>none</effect>
-		 <delay>1</delay>
-         <showSnapshotNoVideo>false</showSnapshotNoVideo>
-         <showSnapshotDelay>true</showSnapshotDelay>			 
+		<delay>1</delay>
+        <showSnapshotNoVideo>false</showSnapshotNoVideo>
+        <showSnapshotDelay>true</showSnapshotDelay>			 
  		<origin>0.5 0.5</origin>
 		<color>ffffff</color>
 		<!--Size/Pos by Subset-->
         <zIndex>22</zIndex>         
-      </video>    
+     </video>    
 
-	</view>
+</view>
 
-	<view name="grid">
+<view name="grid">
 
     <text name="md_description">		 
 		<pos>0.742 0.8337</pos>
         <size>0.4 0.226</size>       
     </text>
 
-     <image name="g_line" extra="true">
+    <image name="g_line" extra="true">
         <pos>0.74 0.069</pos>
         <size>0.449 0.003</size>       
-      </image>
+    </image>
 
     <image name="d_line_up" extra="true">
         <pos>0.74 0.719</pos>
         <size>0.449 0.003</size>
-     </image>  
+    </image>  
 
     <image name="d_line_down" extra="true">
         <pos>0.74 0.9465</pos>
         <size>0.449 0.003</size>
     </image>
 
-	</view>
+</view>
 
 	
 <!--		GRID OPTIONS		-->
@@ -1025,12 +1040,12 @@
   
 <!--		CUSTOM BACKGROUNDS		-->
 
-  <include>./_backgrounds/custom/custom.xml</include>
+	<include>./_backgrounds/custom/custom.xml</include>
 
 
 <!--		SPECIFICS SYSTEMS		-->
 
-  <include>./_specifics/${system.name}.xml</include>
+	<include>./_specifics/${system.name}.xml</include>
 
 
 <!--		CUSTOM Logos	-->
