@@ -3,6 +3,12 @@
 <theme>
    <formatVersion>7</formatVersion>
 
+	<variables>
+
+	<logodeco>carbon</logodeco>	
+								
+	</variables>
+	
 <view name="system">
 
       <image name="wheel, wheel-1, wheel+1, wheel-2, wheel+2" extra="true">  

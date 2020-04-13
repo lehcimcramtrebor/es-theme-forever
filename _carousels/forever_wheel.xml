@@ -3,7 +3,6 @@
 <theme>
    <formatVersion>7</formatVersion>
 
-
 <view name="system">
 
       <carousel name="systemcarousel">

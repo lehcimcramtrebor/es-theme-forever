@@ -229,8 +229,6 @@ V1.0
 	<include name="Dynamic Colorset Forever Style" displayName="${f-dynamicColorsetForeverStyle}">./_backgrounds/forever/forever.xml</include>
 	<include name="Dynamic Colorset Background" displayName="${f-dynamicColorsetBackground}">./_backgrounds/forever/dynamic_background.xml</include>
 	<include name="Background" displayName="${f-background}">./_backgrounds/forever/nope.xml</include>
-	<include name="Video Background" displayName="${f-videoBackground}">./_backgrounds/forever/video.xml</include>
-	<include name="Custom Full Screen Videos" displayName="${f-customFullVideo}">./_backgrounds/forever/custom_video.xml</include>
 
 	</subset>
 
@@ -1054,5 +1052,12 @@ V1.0
 
 	</subset>
 
+<!--		BACKGROUNDS VIDEO		-->
+	<subset name="Background Style" displayName="${f-backgroundStyle}">
+
+	<include name="Video Background" displayName="${f-videoBackground}">./_backgrounds/forever/video.xml</include>
+	<include name="Custom Full Screen Videos" displayName="${f-customFullVideo}">./_backgrounds/forever/custom_video.xml</include>
+
+	</subset>
 	
 </theme>

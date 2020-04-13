@@ -4,7 +4,7 @@
    <formatVersion>7</formatVersion>
 
 <view name="system">
-
+	
       <image name="wheel-2, wheel-2_shadow, wheel+2, wheel+2_shadow" extra="true">
 	  <visible>false</visible>
 	  </image>
