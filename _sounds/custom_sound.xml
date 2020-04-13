@@ -1,0 +1,23 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+<!--		CUSTOM MUSICS, SEE CUSTOMIZE_YOUR_THEME FOLDER			-->
+
+		<sound name="directory">		
+		<path>./../CUSTOMIZE_YOUR_THEME/music/</path>		
+		</sound>
+
+		<sound name="bgsound">		
+		<path>./../CUSTOMIZE_YOUR_THEME/music/${system.theme}.mp3</path>
+		<path>./../CUSTOMIZE_YOUR_THEME/music/${system.theme}.ogg</path>				
+		</sound>
+		
+<!-------------------------------------------------------------------->
+
+   </view> 
+
+</theme>

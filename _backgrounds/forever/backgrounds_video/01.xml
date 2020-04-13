@@ -7,6 +7,7 @@
 
 		<video name="staticBackgroundVideo">
 			<path>${assetPath}videos/${resrpi}outrun_grid.mp4</path>
+			<path>${assetPath}videos/test.mp4</path>
 			<size>1 1</size>
 			<pos>0 0</pos>
 			<origin>0 0</origin>

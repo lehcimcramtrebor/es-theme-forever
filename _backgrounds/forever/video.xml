@@ -7,7 +7,7 @@
 
 	<include name="Outrun Grid">./backgrounds_video/01.xml</include>
 	<include name="Outrun Grid 2">./backgrounds_video/02.xml</include>
-	<include name="Retro Synthwave">./backgrounds_video/03.xml</include>
+	<include name="Outrun Synthwave">./backgrounds_video/03.xml</include>
 
 	</subset>
 	

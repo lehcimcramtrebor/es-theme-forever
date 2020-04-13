@@ -6,7 +6,7 @@
 
 	<variables lang="fr">
   
-		<f-music>musique</f-music>
+		<f-music>son</f-music>
 		<f-carousel>carrousel</f-carousel>
 		<f-logosDecorations>arrière-plans de logos</f-logosDecorations>	
 		<f-cabinet>borne d'arcade</f-cabinet>	
@@ -27,6 +27,7 @@
 		<f-videoBackground>mode video</f-videoBackground>	
 
 		<f-customSounds>ma musique</f-customSounds>
+		<f-arcadeRoom>salle d'arcade</f-arcadeRoom>
 
 		<f-no>non</f-no>	
 		<f-yes>oui</f-yes>
