@@ -25,6 +25,7 @@
 		<foreverv2originrpi>0 0.5</foreverv2originrpi>
 		<foreverv2basicsizerpi>1 1.2</foreverv2basicsizerpi>								
 		<foreverv2detailedsizerpi>0.265 1.2</foreverv2detailedsizerpi>								
+		<resrpi>rpi_</resrpi>								
 		
 		
 
