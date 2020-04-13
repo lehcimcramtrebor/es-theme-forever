@@ -22,7 +22,11 @@
 		</image>
 
 		<image name="background" extra="true">
-			<visible>false</visible>
+			<tile>false</tile>
+			<visible>true</visible>
+			<path>${assetPath}white.png</path>	
+			<color>101010</color>
+			<colorEnd>101010</colorEnd>
 		</image>
 
 	<image name="video_black" extra="true">
