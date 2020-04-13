@@ -3,7 +3,12 @@
 <theme>
    <formatVersion>7</formatVersion>
 
+	<variables>
 
+	<videotype>framed_</videotype>									
+
+	</variables>
+	
 <view name="system">
 
       <carousel name="systemcarousel">

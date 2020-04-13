@@ -6,7 +6,7 @@
 <view name="system">  
 
 		<video name="staticBackgroundVideo">
-			<path>${assetPath}videos/${resrpi}outrun_grid.mp4</path>
+			<path>${assetPath}videos/${resrpi}${videotype}outrun_grid.mp4</path>
 			<path>${assetPath}videos/test.mp4</path>
 			<size>1 1</size>
 			<pos>0 0</pos>

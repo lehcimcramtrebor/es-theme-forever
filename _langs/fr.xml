@@ -24,7 +24,7 @@
 		<f-ratioVideos>Format des vidéos</f-ratioVideos>	
 		<f-gridStyle>Style de la grille</f-gridStyle>	
 		<f-rpi>Mode léger Raspberry</f-rpi>	
-		<f-videoBackground>mode video</f-videoBackground>	
+		<f-videoBackground>arrière-plan video</f-videoBackground>	
 
 		<f-customSounds>ma musique</f-customSounds>
 		<f-arcadeRoom>salle d'arcade</f-arcadeRoom>

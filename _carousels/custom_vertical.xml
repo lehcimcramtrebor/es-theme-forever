@@ -5,6 +5,12 @@
 
 <include>./logo.xml</include>
 
+	<variables>
+
+	<videotype>framed_</videotype>									
+
+	</variables>
+	
 <view name="system">
 	  
       <carousel name="systemcarousel">
