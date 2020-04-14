@@ -1,0 +1,65 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+	
+<view name="system">  
+ 
+
+		<video name="staticBackgroundVideo">
+			<path>${assetPath}videos/${resrpi}${videotype}outrun_grid.mp4</path>
+			<path>${assetPath}videos/test.mp4</path>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+		</video>
+
+		<text name="logoText">
+			<glowSize>4</glowSize>
+			<glowColor>00000050</glowColor>
+		</text>	
+	
+	
+		<image name="background, background2, background3, background4" extra="true">
+			<visible>false</visible>
+		</image>
+		
+      <image name="wheel, wheel-1, wheel+1, wheel-2, wheel+2" extra="true">  
+		 <path>${logodecoPath}logo_${logodeco}_empty.png</path>
+		 <zIndex>200</zIndex>  	  
+      </image>
+
+      <image name="wheel_shadow, wheel-1_shadow, wheel+1_shadow, wheel-2_shadow, wheel+2_shadow" extra="true">  
+		 <path>${hiderpi}${logodecoPath}logo_${logodeco}_empty.png</path>
+		 <visible>false</visible>
+		 <zIndex>200</zIndex>  	  
+
+      </image>
+	  
+	<image name="video_black" extra="true">
+		<zIndex>300</zIndex>
+	</image>
+
+</view>
+
+<view name="basic, detailed, video, grid">  
+
+	    <video name="outrun_video" extra="true">
+			<path>${assetPath}videos/${resrpi}outrun_grid.mp4</path>
+			<effect>none</effect>		
+			<color>ffffff</color>
+			<delay>0</delay>
+			<size>1 1</size>
+			<origin>0 0</origin>
+			<zIndex>1</zIndex>
+		</video>	  
+
+		
+		<image name="focus, background, background2, background3, background4" extra="true">
+			<visible>false</visible>
+		</image>
+
+</view>
+
+   
+</theme>

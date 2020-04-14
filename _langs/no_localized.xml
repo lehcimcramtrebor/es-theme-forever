@@ -92,6 +92,8 @@
 		<f-dynamicColorsetBackground>"forever" background</f-dynamicColorsetBackground>	
 		<f-background>background</f-background>	
 		<f-customFullVideo>custom full screen video</f-customFullVideo>	
+		<f-dynamicColorsetOutrunGrid>Outrun + Overlay</f-dynamicColorsetOutrunGrid>	
+		<f-customOverlayVideo>custom videos + Overlay</f-customOverlayVideo>	
 		
 		<f-crt>crt</f-crt>	
 		<f-scanlines>scanlines</f-scanlines>	
