@@ -93,7 +93,7 @@
 			<path>${assetPath}videos/${resrpi}outrun_grid.mp4</path>
 			<path>${assetPath}videos/test.mp4</path>			<effect>none</effect>		
 			<color>ffffff</color>
-			<delay>0.3</delay>
+			<delay>0</delay>
 			<size>1 1</size>
 			<origin>0 0</origin>
 			<zIndex>1</zIndex>
@@ -148,7 +148,7 @@
 			<path>${assetPath}videos/${resrpi}outrun_grid.mp4</path>
 			<path>${assetPath}videos/test.mp4</path>			<effect>none</effect>		
 			<color>ffffff</color>
-			<delay>0.3</delay>
+			<delay>0</delay>
 			<size>1 1</size>
 			<origin>0 0</origin>
 			<zIndex>1</zIndex>
