@@ -16,7 +16,7 @@ Characters illustrations are in .svg (vectors), backgrounds are tileables, logos
 display at maximum quality in your screen resolution (4K UHD 2160P include).
 
 A customization system is include to easily use your logos, backgrounds, musics and videos.
-Readme files are in each folder in *CUSTOMIZE_YOUR_THEME/*.
+Readme files are in each folder in *CUSTOMIZE/*.
 
 At first installation, defaults options made Light Raspberry Mode is On.
 You can desactivate for better graphics if you have a powerfull machine.
@@ -38,7 +38,7 @@ Choose between boxes, carousel and coverflow views.
 
 Choose "yes" to play theme music.
 
-Theme music is in *CUSTOMIZE_YOUR_THEME/music.* 
+Theme music is in *CUSTOMIZE/music.* 
 
 By default, Batocera musics are pre-installed for Retrobat users, you can delete them.
 
@@ -46,7 +46,7 @@ You can customize your theme music with your *".ogg" or ".mp3"* files, in jukebo
 
 **Examples:** 	
 
-Put your normal music collection in *CUSTOMIZE_YOUR_THEME/music* (*ladygaga.mp3* etc..)
+Put your normal music collection in *CUSTOMIZE/music* (*ladygaga.mp3* etc..)
 and this will play in jukebox mode all your songs.
 
 Put files named by system theme ( *megadrive.mp3, snes.ogg, nes.ogg, mastersystem.mp3* etc..)
@@ -80,7 +80,7 @@ logo decorations.
 "Custom" jukebox, vertical or wheel display your custom logos.
 
 To customize your logos, put files named by system theme in *".png" or ".svg"* format in 
-*CUSTOMIZE_YOUR_THEME/logos* ( 3do.svg, gx4000.png, atari2600.svg etc.. ) and choose CUSTOM jukebox, vertical or wheel.
+*CUSTOMIZE/logos* ( 3do.svg, gx4000.png, atari2600.svg etc.. ) and choose CUSTOM jukebox, vertical or wheel.
 
 
 **Cabinet:**
@@ -118,9 +118,9 @@ Choose between 5 modes:
 
 	-"Forever background" is a mix. display "Forever" layers and backgrounds.
 
-	-"Custom Full Screen Videos" will display your full screen background videos in systemview , see *CUSTOMIZE_YOUR_THEME/* Read_Me files.
+	-"Custom Full Screen Videos" will display your full screen background videos in systemview , see *CUSTOMIZE/* Read_Me files.
 
-	-"Custom Videos + Overlay" will display your full screen background videos in systemview  with "Forever layers", see *CUSTOMIZE_YOUR_THEME/* Read_Me files.
+	-"Custom Videos + Overlay" will display your full screen background videos in systemview  with "Forever layers", see *CUSTOMIZE/* Read_Me files.
 
 	-"Outrun Grid" will display outrun grid video in background ( full screen ).
 	
@@ -169,5 +169,8 @@ Tested on Raspberry Pi 3B+, litte less smooth than carbon theme but useful.
 
 When this mode is active, not working options are marqued with *.
 
+
+More customization is possible, like cabinet, screen frame or illustrations by system.. see *CUSTOMIZE/* folder
+and each Read_me file.
 
 *By Lechcim*

@@ -166,12 +166,15 @@ V1.0
 
 	<include name="Bulma">./_illustrations/bulma.xml</include> 
 	<include name="Sonic">./_illustrations/sonic.xml</include>
+	<include name="Tails">./_illustrations/tails.xml</include>
 	<include name="Mario-01">./_illustrations/mario.xml</include>
 	<include name="Mario-02">./_illustrations/mario2.xml</include>
 	<include name="Mario-03">./_illustrations/mario3.xml</include>
 	<include name="Luigi">./_illustrations/luigi.xml</include>
+	<include name="Captain America">./_illustrations/captainamerica.xml</include>
 	<include name="Ryu">./_illustrations/ryu.xml</include>
 	<include name="Goku">./_illustrations/goku.xml</include>
+	<include name="Trunks">./_illustrations/trunks.xml</include>
 	<include name="Krillin">./_illustrations/krillin.xml</include> 
 	<include name="Donald">./_illustrations/donald.xml</include>
 	<include name="Link">./_illustrations/link.xml</include>
@@ -180,6 +183,7 @@ V1.0
 	<include name="Hulk">./_illustrations/hulk.xml</include>
 	<include name="Mickey">./_illustrations/mickey.xml</include>
 	<include name="Minnie">./_illustrations/minnie.xml</include>
+	<include name="Sailor">./_illustrations/sailor.xml</include>
 	<include name="TMNT">./_illustrations/tmnt.xml</include>
 	<include name="Batman">./_illustrations/batman.xml</include>
 	<include name="Superman">./_illustrations/superman.xml</include>
@@ -200,6 +204,7 @@ V1.0
 	<include name="Yun">./_illustrations/yun.xml</include>
 	<include name="Street Fighter Vs. K.O.F.">./_illustrations/sfvskof.xml</include>
 	<include name="Metal Slug">./_illustrations/slug.xml</include>
+	<include name="Ghostbusters">./_illustrations/sos.xml</include>
 
 	<include name="No Character" displayName="${f-noCharacter}">./_illustrations/no_illustration.xml</include>
 
@@ -550,7 +555,7 @@ V1.0
 		
     <video name="backgroundvideo" extra="true">
 		<path>{random}</path>
-		<path>./CUSTOMIZE_YOUR_THEME/videos/${system.theme}.mp4</path>                 		
+		<path>./CUSTOMIZE/videos/${system.theme}.mp4</path>                 		
 		<origin>0.5 0.5</origin>
 		<!--Size/Pos by Subset-->
 		<delay>1</delay>
@@ -979,56 +984,56 @@ V1.0
 
 	<subset name="Overlay" displayName="${f-overlay}">
 
-	<include name="Marvel" displayName="Marvel">./_frames/marvel.xml</include>
+	<include name="Marvel" displayName="Marvel">./_overlays/overlay_marvel.xml</include>
 
-	<include name="Marvel + cabinet" displayName="Marvel + ${f-cabinet}">./_frames/marvel.xml</include>
+	<include name="Marvel + cabinet" displayName="Marvel + ${f-cabinet}">./_overlays/overlay_marvel.xml</include>
 	<include name="Marvel + cabinet" displayName="Marvel + ${f-cabinet}">./_cabinets/cabinet_marvel.xml</include>
 
 
 
-	<include name="Mortal Kombat II" displayName="Mortal Kombat II">./_frames/mk2.xml</include>
+	<include name="Mortal Kombat II" displayName="Mortal Kombat II">./_overlays/overlay_mk2.xml</include>
 
-	<include name="Mortal Kombat II + cabinet" displayName="Mortal Kombat II + ${f-cabinet}">./_frames/mk2.xml</include>
+	<include name="Mortal Kombat II + cabinet" displayName="Mortal Kombat II + ${f-cabinet}">./_overlays/overlay_mk2.xml</include>
 	<include name="Mortal Kombat II + cabinet" displayName="Mortal Kombat II + ${f-cabinet}">./_cabinets/cabinet_mk2.xml</include>
 
  
 
-	<include name="Batman" displayName="Batman">./_frames/bat.xml</include>
+	<include name="Batman" displayName="Batman">./_overlays/overlay_bat.xml</include>
 
-	<include name="Batman + cabinet" displayName="Batman + ${f-cabinet}">./_frames/bat.xml</include>
+	<include name="Batman + cabinet" displayName="Batman + ${f-cabinet}">./_overlays/overlay_batman.xml</include>
 	<include name="Batman + cabinet" displayName="Batman + ${f-cabinet}">./_cabinets/cabinet_batman.xml</include>
 
 
 
-	<include name="Spiderman" displayName="Spiderman">./_frames/spiderman.xml</include>
+	<include name="Spiderman" displayName="Spiderman">./_overlays/overlay_spiderman.xml</include>
 
-	<include name="Spiderman + cabinet" displayName="Spiderman + ${f-cabinet}">./_frames/spiderman.xml</include>
+	<include name="Spiderman + cabinet" displayName="Spiderman + ${f-cabinet}">./_overlays/overlay_spiderman.xml</include>
 	<include name="Spiderman + cabinet" displayName="Spiderman + ${f-cabinet}">./_cabinets/cabinet_spiderman.xml</include>
 
 
 
-	<include name="American Speedway" displayName="American Speedway">./_frames/speedway.xml</include>
+	<include name="American Speedway" displayName="American Speedway">./_overlays/speedway.xml</include>
 
-	<include name="American Speedway + cabinet" displayName="American Speedway + ${f-cabinet}">./_frames/speedway.xml</include>
+	<include name="American Speedway + cabinet" displayName="American Speedway + ${f-cabinet}">./_overlays/overlay_speedway.xml</include>
 	<include name="American Speedway + cabinet" displayName="American Speedway + ${f-cabinet}">./_cabinets/cabinet_speedway.xml</include>
 
 
 
-	<include name="Defender" displayName="Defender">./_frames/defender.xml</include>
+	<include name="Defender" displayName="Defender">./_overlays/overlay_defender.xml</include>
 
-	<include name="Defender + cabinet" displayName="Defender + ${f-cabinet}">./_frames/defender.xml</include>
+	<include name="Defender + cabinet" displayName="Defender + ${f-cabinet}">./_overlays/overlay_defender.xml</include>
 	<include name="Defender + cabinet" displayName="Defender + ${f-cabinet}">./_cabinets/cabinet_defender.xml</include>
 
 
 
-	<include name="Donkey Junior" displayName="Donkey Junior">./_frames/donkeyjr.xml</include>
+	<include name="Donkey Junior" displayName="Donkey Junior">./_overlays/overlay_donkeyjr.xml</include>
 
-	<include name="Donkey Junior + cabinet" displayName="Donkey Junior + ${f-cabinet}">./_frames/donkeyjr.xml</include>
-	<include name="Donkey Junior + cabinet" displayName="Donkey Junior + ${f-cabinet}">./_cabinets/cabinet_donkey.xml</include>
+	<include name="Donkey Junior + cabinet" displayName="Donkey Junior + ${f-cabinet}">./_overlays/overlay_donkeyjr.xml</include>
+	<include name="Donkey Junior + cabinet" displayName="Donkey Junior + ${f-cabinet}">./_cabinets/cabinet_donkeyjr.xml</include>
 
 
 
-	<include name="Black" displayName="${f-black}">./_frames/black.xml</include>
+	<include name="Black" displayName="${f-black}">./_overlays/overlay_black.xml</include>
 
 	</subset>
 
@@ -1036,11 +1041,6 @@ V1.0
 <!--		CUSTOM BACKGROUNDS		-->
 
 	<include>./_backgrounds/custom/custom.xml</include>
-
-
-<!--		SPECIFICS SYSTEMS		-->
-
-	<include>./_specifics/${system.name}.xml</include>
 
 
 <!--		CUSTOM Logos	-->
@@ -1052,6 +1052,7 @@ V1.0
 	<include name="Custom Logos Jukebox" displayName="${f-customLogosJukebox}">./_carousels/custom_jukebox.xml</include>
 
 	</subset>
+
 	
 <!--		SIMPLE CAROUSELS	-->
 
@@ -1063,6 +1064,7 @@ V1.0
 
 	</subset>
 
+
 <!--		BACKGROUNDS VIDEO		-->
 	<subset name="Background Style" displayName="${f-backgroundStyle}">
 
@@ -1072,5 +1074,17 @@ V1.0
 	<include name="Custom Overlay Videos" displayName="${f-customOverlayVideo}">./_backgrounds/forever/custom_overlay_video.xml</include>
 
 	</subset>
+
+<!--		SPECIFICS SYSTEMS		-->
+
+	<include>./_specifics/${system.name}.xml</include>
+
+<!--		SPECIFICS SYSTEM CUSTOMIZATION		-->
+
+	<include>./CUSTOMIZE/illustrations/${system.name}.xml</include>
+	<include>./CUSTOMIZE/cabinets/${system.name}.xml</include>
+	<include>./CUSTOMIZE/overlays/${system.name}.xml</include>
+
+
 	
 </theme>

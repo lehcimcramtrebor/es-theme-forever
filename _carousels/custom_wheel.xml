@@ -41,8 +41,8 @@
       </image>
 	  
 		<image name="logo">
-			<path>./../CUSTOMIZE_YOUR_THEME/logos/${system.theme}.png</path>
-			<path>./../CUSTOMIZE_YOUR_THEME/logos/${system.theme}.svg</path>
+			<path>./../CUSTOMIZE/logos/${system.theme}.png</path>
+			<path>./../CUSTOMIZE/logos/${system.theme}.svg</path>
 		</image>  
 </view>
 

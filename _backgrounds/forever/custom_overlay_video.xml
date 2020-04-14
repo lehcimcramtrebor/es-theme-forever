@@ -18,8 +18,8 @@
 		</image>
 	  
 	    <video name="outrun_video" extra="true">
-			<path>./../../CUSTOMIZE_YOUR_THEME/___full_screen_videos_background___/background.mp4</path>		
-			<path>./../../CUSTOMIZE_YOUR_THEME/___full_screen_videos_background___/${system.name}.mp4</path>
+			<path>./../../CUSTOMIZE/full_screen_videos_background/background.mp4</path>		
+			<path>./../../CUSTOMIZE/full_screen_videos_background/${system.name}.mp4</path>
 			<effect>none</effect>		
 			<color>ffffff</color>
 			<delay>0.3</delay>
