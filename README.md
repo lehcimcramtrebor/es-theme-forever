@@ -2,6 +2,11 @@
 
 Simple 16/9 theme will never need systems updates for Batocera 5.25+ and Retrobat.
 
+**Credits:**
+
+Outrun Grid graphics and videos from Royalty Free Tube *http://royaltyfreetube.com/*
+
+
 **Notes:**
 
 This theme use no system dedicated artworks, no dedicated graphics logos. This will make this theme will be functionnal
@@ -113,9 +118,13 @@ Choose between 5 modes:
 
 	-"Forever background" is a mix. display "Forever" layers and backgrounds.
 
-	-"Custom Full Screen Videos" will display your videos in background, see *CUSTOMIZE_YOUR_THEME/* Read_Me files.
+	-"Custom Full Screen Videos" will display your full screen background videos in systemview , see *CUSTOMIZE_YOUR_THEME/* Read_Me files.
 
-	-"Video Background" will display multiple videos in background.
+	-"Custom Videos + Overlay" will display your full screen background videos in systemview  with "Forever layers", see *CUSTOMIZE_YOUR_THEME/* Read_Me files.
+
+	-"Outrun Grid" will display outrun grid video in background ( full screen ).
+	
+	-"Outrun Grid + Overlay" will display outrun grid video in background like "Forever background".	
 	
 	
 Because specificity of static videos from emulationstation, video backgrounds mode make ledo deco are turned off,
