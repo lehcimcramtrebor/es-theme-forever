@@ -7,10 +7,10 @@
 
 		<image name="art, art_shadow" extra="true">
 		
-			<path>${illustrationPath}test.svg</path>
-			<maxSize>1 0.9</maxSize>
-			<pos>0.01 0.97</pos>
-			
+			<path>${illustrationPath}browser.svg</path>
+			<maxSize>1 0.75</maxSize>
+			<pos>0 0.985</pos>
+
 			
 		</image>
 		

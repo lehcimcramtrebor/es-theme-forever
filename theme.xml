@@ -171,6 +171,7 @@ V1.0
 	<include name="Mario-02">./_illustrations/mario2.xml</include>
 	<include name="Mario-03">./_illustrations/mario3.xml</include>
 	<include name="Luigi">./_illustrations/luigi.xml</include>
+	<include name="Browser">./_illustrations/browser.xml</include>
 	<include name="Captain America">./_illustrations/captainamerica.xml</include>
 	<include name="Ryu">./_illustrations/ryu.xml</include>
 	<include name="Goku">./_illustrations/goku.xml</include>
@@ -205,13 +206,15 @@ V1.0
 	<include name="Street Fighter Vs. K.O.F.">./_illustrations/sfvskof.xml</include>
 	<include name="Metal Slug">./_illustrations/slug.xml</include>
 	<include name="Ghostbusters">./_illustrations/sos.xml</include>
+	
+	<include name="Open Logo">./_illustrations/open.xml</include>
 
-	<include name="No Character" displayName="${f-noCharacter}">./_illustrations/no_illustration.xml</include>
+	<include name="No Character" displayName="${f-noCharacter}">./nope.xml</include>
 
 
 	</subset>
 
-
+	
 <!--		COLORSETS		-->
 
 	<subset name="Colorset" displayName="${f-colorset}">
@@ -440,6 +443,15 @@ V1.0
 
 <view name="menu, system, basic, detailed, video, grid">  
 
+<!--	LINEAR SMOOTH ELEMENTS		-->
+
+	<image name="background, cabinet, art" extra="true">
+		<linearSmooth>true</linearSmooth>
+	</image>
+	
+<!-- ------------------------------	-->
+
+
 	<image name="cabinet" extra="true">
 		<origin>0.5 0.5</origin>
 		<size>0.675 1</size>
@@ -499,7 +511,7 @@ V1.0
 		
     <helpsystem name="help">
 		<fontPath>${policePath}adventure.otf</fontPath>
-		<fontSize>0.03</fontSize>      
+		<fontSize>0.03</fontSize>
 		<pos>0.02 0.96</pos>      
 		<textColor>ffffff</textColor>
     </helpsystem>	  
@@ -552,7 +564,6 @@ V1.0
 		<pos>0.5 0.095</pos>
 	</text>
 
-		
     <video name="backgroundvideo" extra="true">
 		<path>{random}</path>
 		<path>./CUSTOMIZE/videos/${system.theme}.mp4</path>                 		

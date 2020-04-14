@@ -26,6 +26,7 @@
 		<f-rpi>Raspberry Light Mode</f-rpi>	
 		<f-videoBackground>video background</f-videoBackground>	
 
+
 		<f-customSounds>custom sounds</f-customSounds>
 		<f-arcadeRoom>arcade room</f-arcadeRoom>
 
@@ -119,7 +120,7 @@
 		<f-stretched>stretched</f-stretched>	
 		<f-original>original ratio</f-original>	
 
-		<f-noCharacter>no character</f-noCharacter>	
+		<f-noCharacter>without illustration</f-noCharacter>	
 		<f-vbackground>video background choice</f-vbackground>	
 
 	

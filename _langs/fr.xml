@@ -26,6 +26,7 @@
 		<f-rpi>Mode léger Raspberry</f-rpi>	
 		<f-videoBackground>arrière-plan video</f-videoBackground>	
 
+		
 		<f-customSounds>ma musique</f-customSounds>
 		<f-arcadeRoom>salle d'arcade</f-arcadeRoom>
 
@@ -119,7 +120,7 @@
 		<f-stretched>étirées</f-stretched>	
 		<f-original>d'origine</f-original>	
 
-		<f-noCharacter>pas de personnage</f-noCharacter>	
+		<f-noCharacter>sans illustration</f-noCharacter>	
 		<f-vbackground>choix de l'arrière-plan video</f-vbackground>	
 
 	
