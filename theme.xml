@@ -50,6 +50,7 @@ V1.0
 	<foreverv2detailedsizerpi>0.265 0.45</foreverv2detailedsizerpi>								
 	<foreverv2originrpi>0 0</foreverv2originrpi>								
 	<resrpi>full_</resrpi>								
+	
 
 	</variables>
 
@@ -445,7 +446,7 @@ V1.0
 
 <!--	LINEAR SMOOTH ELEMENTS		-->
 
-	<image name="background, cabinet, art" extra="true">
+	<image name="background, cabinet, art, cabinet_marquee, marquee_label_back" extra="true">
 		<linearSmooth>true</linearSmooth>
 	</image>
 	
@@ -611,6 +612,9 @@ V1.0
 	</text>
 	  
 </view>
+
+
+
 
 <!--		GAMELISTS		-->
 
@@ -974,6 +978,7 @@ V1.0
 
 </view>
 
+
 	
 <!--		GRID OPTIONS		-->
 
@@ -1063,6 +1068,23 @@ V1.0
 	<include name="Custom Logos Jukebox" displayName="${f-customLogosJukebox}">./_carousels/custom_jukebox.xml</include>
 
 	</subset>
+
+
+<!--		CUSTOM THEMED MARQUEE		-->
+
+<view name="system, detailed, video, grid">
+
+
+
+	<image name="marquee_label_back" extra="true">
+		<path>${assetPath}${customonly}${themedcabinetonly}label.png</path>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.0945</pos>
+		<size>0.3859375 0.1319444444</size>
+		<zIndex>2490</zIndex>
+	</image>	
+	
+</view>
 
 	
 <!--		SIMPLE CAROUSELS	-->

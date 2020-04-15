@@ -3,6 +3,11 @@
 <theme>
    <formatVersion>7</formatVersion>
 
+	<variables>
+
+	<themedcabinetonly>themed</themedcabinetonly>									
+
+	</variables>
 
 <view name="system, basic">
 
@@ -14,7 +19,6 @@
 		<image name="cabinet_shadow" extra="true">
 			<path>${hiderpi}${cabinetPath}cabinet_batman.png</path>
 		</image>
-		
 
 </view>
 
@@ -37,6 +41,10 @@
       <image name="background_right" extra="true">
 		 <color>0a0b0a</color>	  	  
       </image>
+
+		<image name="marquee_back" extra="true">
+			<color>070910</color>
+		</image>			
  
  </view>
 

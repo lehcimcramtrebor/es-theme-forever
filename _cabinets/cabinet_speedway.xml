@@ -3,7 +3,12 @@
 <theme>
    <formatVersion>7</formatVersion>
 
+	<variables>
 
+	<themedcabinetonly>themed</themedcabinetonly>									
+
+	</variables>
+	
 <view name="system, basic">
 
 
@@ -37,6 +42,10 @@
       <image name="background_right" extra="true">
 		 <color>030303</color>	  	  
       </image>
+
+		<image name="marquee_back" extra="true">
+			<color>000000</color>
+		</image>			
  
  </view>
 

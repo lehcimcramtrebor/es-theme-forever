@@ -8,6 +8,7 @@
 	<variables>
 
 	<videotype>framed_</videotype>									
+	<customonly>custom</customonly>									
 
 	</variables>
 	
@@ -36,6 +37,10 @@
 			<fontSize>0.022</fontSize>
 		</text>
 
+	<text name="system_label" extra="true">
+		<visible>false</visible>
+	</text>
+	
       <image name="wheel, wheel_shadow, wheel-1, wheel-1_shadow, wheel+1, wheel+1_shadow, wheel-2, wheel-2_shadow, wheel+2, wheel+2_shadow" extra="true">  
 		 <visible>false</visible>
       </image>
@@ -43,7 +48,19 @@
 		<image name="logo">
 			<path>./../CUSTOMIZE/logos/${system.theme}.png</path>
 			<path>./../CUSTOMIZE/logos/${system.theme}.svg</path>
-		</image>  
+		</image>
+
+		<image name="cabinet_marquee" extra="true">
+		
+			<path>./../CUSTOMIZE/logos/${system.theme}.png</path>
+			<path>./../CUSTOMIZE/logos/${system.theme}.svg</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.0947</pos>
+			<maxSize>0.3 0.075</maxSize>
+			<zIndex>2491</zIndex>
+		
+		</image>
+				
 </view>
 
 </theme>

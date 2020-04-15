@@ -3,7 +3,12 @@
 <theme>
    <formatVersion>7</formatVersion>
 
+	<variables>
 
+	<themedcabinetdonly></themedcabinetdonly>									
+
+	</variables>
+	
 <view name="system, basic, detailed, video, grid">
 
 
