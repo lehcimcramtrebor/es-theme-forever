@@ -1074,14 +1074,12 @@ V1.0
 
 <view name="system, detailed, video, grid">
 
-
-
 	<image name="marquee_label_back" extra="true">
 		<path>${assetPath}${customonly}${themedcabinetonly}label.png</path>
 		<origin>0.5 0.5</origin>
-		<pos>0.5 0.0945</pos>
+		<pos>0.5 0.0947</pos>
 		<size>0.3859375 0.1319444444</size>
-		<zIndex>2490</zIndex>
+		<zIndex>2489</zIndex>
 	</image>	
 	
 </view>

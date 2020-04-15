@@ -56,10 +56,11 @@
 			<path>./../CUSTOMIZE/logos/${system.theme}.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.0947</pos>
-			<maxSize>0.3 0.075</maxSize>
+			<maxSize>0.2 0.07</maxSize>
 			<zIndex>2491</zIndex>
 		
 		</image>
+
 		
 </view>
 
