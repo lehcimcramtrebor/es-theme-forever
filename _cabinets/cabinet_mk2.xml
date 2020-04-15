@@ -8,9 +8,8 @@
 	<themedcabinetonly>themed</themedcabinetonly>									
 
 	</variables>
-	
-<view name="system, basic">
 
+<view name="system, basic,  detailed, video, grid">
 
 		<image name="cabinet" extra="true">
 			<path>${cabinetPath}cabinet_mk2.png</path>
@@ -19,28 +18,10 @@
 		<image name="cabinet_shadow" extra="true">
 			<path>${hiderpi}${cabinetPath}cabinet_mk2.png</path>
 		</image>
-		
-
-</view>
-
-<view name="detailed, video, grid">
-
-
-		<image name="cabinet" extra="true">
-			<path>${cabinetPath}cabinet_mk2_g.png</path>
-		</image>
-
-		<image name="cabinet_shadow" extra="true">
-			<path>${hiderpi}${cabinetPath}cabinet_mk2_g.png</path>
-		</image>
-		
-
-</view>
-
-<view name="system, basic,  detailed, video, grid">
-      <image name="background_right" extra="true">
+		 
+		<image name="background_right" extra="true">
 		 <color>000000</color>	  	  
-      </image>
+		</image>
 
 		<image name="marquee_back" extra="true">
 			<color>38291b</color>
@@ -52,7 +33,7 @@
 		<text name="system_label" extra="true">
 		<pos>0.5 0.885</pos>
 		<zIndex>137</zIndex>
-		<fontSize>0.03</fontSize>
+		<fontSize>${themedCabinetFontSize}</fontSize>
 		</text>
  </view>
  

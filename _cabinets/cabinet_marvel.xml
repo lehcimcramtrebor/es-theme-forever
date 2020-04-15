@@ -9,9 +9,8 @@
 	<themedcabinetonly>themed</themedcabinetonly>									
 
 	</variables>
-	
-<view name="system, basic">
 
+<view name="system, basic,  detailed, video, grid">
 
 		<image name="cabinet" extra="true">
 			<path>${cabinetPath}cabinet_marvel.png</path>
@@ -21,24 +20,6 @@
 			<path>${hiderpi}${cabinetPath}cabinet_marvel.png</path>
 		</image>
 		
-
-</view>
-
-<view name="detailed, video, grid">
-
-
-		<image name="cabinet" extra="true">
-			<path>${cabinetPath}cabinet_marvel_g.png</path>
-		</image>
-
-		<image name="cabinet_shadow" extra="true">
-			<path>${hiderpi}${cabinetPath}cabinet_marvel_g.png</path>
-		</image>
-		
-
-</view>
-
-<view name="system, basic,  detailed, video, grid">
       <image name="background_right" extra="true">
 		 <color>a30401</color>	  	  
       </image>
@@ -54,7 +35,7 @@
 		<text name="system_label" extra="true">
 		<pos>0.5 0.885</pos>
 		<zIndex>137</zIndex>
-		<fontSize>0.03</fontSize>
+		<fontSize>${themedCabinetFontSize}</fontSize>
 		</text>
  </view>
  

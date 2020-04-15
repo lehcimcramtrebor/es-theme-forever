@@ -3,11 +3,17 @@
 <theme>
    <formatVersion>7</formatVersion>
 
+	<variables>
+
+	<themedCabinetFontSize>0.02</themedCabinetFontSize>	
+								
+	</variables>
+	
 <view name="menu, system, basic, detailed, video, grid">  
 	
 		<text name="system_label" extra="true">
 			<fontPath>${policePath}digital.ttf</fontPath>
-			<fontSize>0.026</fontSize>
+			<fontSize>0.024</fontSize>
 			<glowSize>1</glowSize>
 		</text>
 

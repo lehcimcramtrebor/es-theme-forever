@@ -54,7 +54,7 @@
 		<visible>false</visible>
 	</text>
 	
-</view>
+
 
 		<image name="cabinet_marquee" extra="true">
 		
@@ -66,5 +66,7 @@
 			<zIndex>2500</zIndex>
 		
 		</image>
+		
+</view>
 		
 </theme>

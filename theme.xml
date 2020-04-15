@@ -1070,10 +1070,10 @@ V1.0
 
 <!--		CUSTOM MARQUEE		-->
 
-<view name="system, basic, detailed, video, grid">
+<view name="system, basic">
 
 	<image name="marquee_label_back" extra="true">
-		<path>${assetPath}${customonly}label.png</path>
+		<path>${assetPath}${resrpi}${customonly}label.png</path>
 		<origin>0.5 0.5</origin>
 		<pos>0.5 0.0947</pos>
 		<size>0.3859375 0.1319444444</size>
@@ -1081,7 +1081,27 @@ V1.0
 	</image>	
 
 	<image name="marquee_back" extra="true">
-		<path>${assetPath}${customonly}marquee.png</path>
+		<path>${assetPath}${resrpi}${customonly}marquee.png</path>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.0947</pos>
+		<size>0.3859375 0.1319444444</size>
+		<zIndex>398</zIndex>
+	</image>	
+		
+</view>
+
+<view name="detailed, video, grid">
+
+	<image name="marquee_label_back" extra="true">
+		<path>${assetPath}${resrpi}customlabel.png</path>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.0947</pos>
+		<size>0.3859375 0.1319444444</size>
+		<zIndex>399</zIndex>
+	</image>	
+
+	<image name="marquee_back" extra="true">
+		<path>${assetPath}${resrpi}custommarquee.png</path>
 		<origin>0.5 0.5</origin>
 		<pos>0.5 0.0947</pos>
 		<size>0.3859375 0.1319444444</size>
