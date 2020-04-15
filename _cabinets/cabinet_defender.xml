@@ -37,8 +37,7 @@
 
 </view>
 
-<view name="system, detailed, video, grid">
-
+<view name="system, basic,  detailed, video, grid">
       <image name="background_right" extra="true">
 		 <color>020908</color>	  	  
       </image>

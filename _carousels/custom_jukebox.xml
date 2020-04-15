@@ -36,10 +36,6 @@
 			<fontPath>${policePath}hulk.ttf</fontPath>
 			<fontSize>0.022</fontSize>
 		</text>
-
-	<text name="system_label" extra="true">
-		<visible>false</visible>
-	</text>
 	
       <image name="wheel, wheel_shadow, wheel-1, wheel-1_shadow, wheel+1, wheel+1_shadow, wheel-2, wheel-2_shadow, wheel+2, wheel+2_shadow" extra="true">  
 		 <visible>false</visible>
@@ -50,18 +46,25 @@
 			<path>./../CUSTOMIZE/logos/${system.theme}.svg</path>
 		</image>  
 
+
+		
+</view>
+
+<view name="system, basic">
+
+	<text name="system_label" extra="true">
+		<visible>false</visible>
+	</text>
+
 		<image name="cabinet_marquee" extra="true">
 		
 			<path>./../CUSTOMIZE/logos/${system.theme}.png</path>
 			<path>./../CUSTOMIZE/logos/${system.theme}.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.0947</pos>
-			<maxSize>0.2 0.07</maxSize>
-			<zIndex>2491</zIndex>
-		
-		</image>
-
-		
+			<maxSize>0.2 0.05</maxSize>
+			<zIndex>2500</zIndex>		
+		</image>	
 </view>
 
 

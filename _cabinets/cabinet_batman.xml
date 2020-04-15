@@ -36,14 +36,13 @@
 
 </view>
 
-<view name="system, detailed, video, grid">
-
+<view name="system, basic,  detailed, video, grid">
       <image name="background_right" extra="true">
 		 <color>0a0b0a</color>	  	  
       </image>
 
 		<image name="marquee_back" extra="true">
-			<color>070910</color>
+			<color>1e2220</color>
 		</image>			
  
  </view>

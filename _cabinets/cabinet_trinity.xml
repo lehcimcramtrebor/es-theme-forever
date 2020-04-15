@@ -18,12 +18,15 @@
 
 </view>
 
-<view name="system, detailed, video, grid">
-
+<view name="system, basic,  detailed, video, grid">
       <image name="background_right" extra="true">
 		 <color>0d0d0d</color>	  	  
       </image>
- 
+
+		<image name="marquee_back" extra="true">
+			<color>161616</color>
+		</image>			
+       
  </view>
 
 </theme>

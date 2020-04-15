@@ -146,7 +146,7 @@ V1.0
 	<include name="Pink Lady" displayName="${f-pinkLady}">./_cabinets/cabinet_pink_lady.xml</include>
 	<include name="Prince" displayName="${f-prince}">./_cabinets/cabinet_prince.xml</include>
 	<include name="Woody" displayName="${f-woody}">./_cabinets/cabinet_woody.xml</include>
-	<include name="Clementine" displayName="${f-clementine}">./_cabinets/cabinet_starsky.xml</include>
+	<include name="Clementine" displayName="${f-clementine}">./_cabinets/cabinet_clementine.xml</include>
 
 	</subset>
 
@@ -602,7 +602,7 @@ V1.0
 		<pos>0.5 0.634</pos>
 		<zIndex>22</zIndex>
 	</image>
-		
+
 </view>
 
 <view name="basic, detailed, video, grid">
@@ -612,8 +612,6 @@ V1.0
 	</text>
 	  
 </view>
-
-
 
 
 <!--		GAMELISTS		-->
@@ -707,7 +705,7 @@ V1.0
     <image name="md_marquee">
 		<pos>0.265 0.095</pos>
         <origin>0.5 0.5</origin>
-		<maxSize>0.2 0.1</maxSize>
+		<maxSize>0.2 0.05</maxSize>
         <zIndex>400</zIndex>
 		<reflexion>${marqueereflexionrpi}</reflexion>         
     </image>   
@@ -1014,7 +1012,7 @@ V1.0
 
  
 
-	<include name="Batman" displayName="Batman">./_overlays/overlay_bat.xml</include>
+	<include name="Batman" displayName="Batman">./_overlays/overlay_batman.xml</include>
 
 	<include name="Batman + cabinet" displayName="Batman + ${f-cabinet}">./_overlays/overlay_batman.xml</include>
 	<include name="Batman + cabinet" displayName="Batman + ${f-cabinet}">./_cabinets/cabinet_batman.xml</include>
@@ -1070,18 +1068,42 @@ V1.0
 	</subset>
 
 
-<!--		CUSTOM THEMED MARQUEE		-->
+<!--		CUSTOM MARQUEE		-->
 
-<view name="system, detailed, video, grid">
+<view name="system, basic, detailed, video, grid">
 
 	<image name="marquee_label_back" extra="true">
-		<path>${assetPath}${customonly}${themedcabinetonly}label.png</path>
+		<path>${assetPath}${customonly}label.png</path>
 		<origin>0.5 0.5</origin>
 		<pos>0.5 0.0947</pos>
 		<size>0.3859375 0.1319444444</size>
-		<zIndex>2489</zIndex>
+		<zIndex>399</zIndex>
 	</image>	
-	
+
+	<image name="marquee_back" extra="true">
+		<path>${assetPath}${customonly}marquee.png</path>
+		<origin>0.5 0.5</origin>
+		<pos>0.5 0.0947</pos>
+		<size>0.3859375 0.1319444444</size>
+		<zIndex>398</zIndex>
+	</image>	
+		
+</view>
+
+<view name="system, basic">
+
+	<image name="marquee_label_back, marquee_back " extra="true">
+		<pos>0.5 0.0947</pos>
+	</image>	
+
+</view>
+
+<view name="detailed, video, grid">
+
+	<image name="marquee_label_back, marquee_back " extra="true">
+		<pos>0.265 0.0947</pos>
+	</image>	
+
 </view>
 
 	
