@@ -17,14 +17,15 @@
 			<colorEnd>101010</colorEnd>
 		</image>
 	  
-	    <video name="outrun_video" extra="true">
+	    <video name="custom_video" extra="true">
 			<path>./../../CUSTOMIZE/full_screen_videos_background/background.mp4</path>		
 			<path>./../../CUSTOMIZE/full_screen_videos_background/${system.name}.mp4</path>
 			<effect>none</effect>		
 			<color>ffffff</color>
 			<delay>0.3</delay>
 			<size>1 1</size>
-			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<origin>0.35 0</origin>
 			<zIndex>1</zIndex>
 		</video>	  
 

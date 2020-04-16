@@ -6,7 +6,11 @@
 <view name="system">  
 
       <image name="background, background2, background3, background4" extra="true">
-			<path>${assetPath}outrun.jpg</path>
+			<path>${assetPath}${resrpi}outrun.jpg</path>
+			<tile>false</tile>
+			<origin>0 0</origin>			
+			<size>1 1</size>
+			<pos>0 0</pos>
 			<zIndex>0</zIndex>			
       </image>
 	  
@@ -15,8 +19,9 @@
 			<path>${assetPath}videos/test.mp4</path>			<effect>none</effect>		
 			<color>ffffff</color>
 			<delay>0.3</delay>
-			<size>1 1</size>
 			<origin>0 0</origin>
+			<size>1 1</size>
+			<pos>0 0</pos>
 			<zIndex>1</zIndex>
 		</video>	  
 
@@ -91,10 +96,12 @@
 
 	    <video name="outrun_video" extra="true">
 			<path>${assetPath}videos/${resrpi}outrun_grid.mp4</path>
-			<path>${assetPath}videos/test.mp4</path>			<effect>none</effect>		
+			<path>${assetPath}videos/test.mp4</path>
+			<effect>none</effect>		
 			<color>ffffff</color>
 			<delay>0</delay>
 			<size>1 1</size>
+			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<zIndex>1</zIndex>
 		</video>	  
@@ -151,6 +158,7 @@
 			<delay>0</delay>
 			<size>1 1</size>
 			<origin>0 0</origin>
+			<pos>0 0</pos>
 			<zIndex>1</zIndex>
 		</video>	  
 		
