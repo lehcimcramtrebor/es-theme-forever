@@ -24,7 +24,15 @@
 		
 
 </view>
-   
+
+<view name="detailed, video, grid">  
+
+	<text name="system_label" extra="true">
+		<color>f88e55</color>
+	</text>
+
+</view>
+      
 <view name="menu, system, basic, detailed, video, grid">  
 
      <image name="background_v1" extra="true"> 

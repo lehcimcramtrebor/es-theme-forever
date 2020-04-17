@@ -24,6 +24,14 @@
 		
 
 </view>
+
+<view name="detailed, video, grid">  
+
+	<text name="system_label" extra="true">
+		<color>318ce7</color>
+	</text>
+
+</view>
    
 <view name="menu, system, basic, detailed, video, grid">  
 

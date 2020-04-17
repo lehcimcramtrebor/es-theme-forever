@@ -69,7 +69,9 @@ V1.0
 <!--		JUST FOR UPPER MENU		-->
 
 	<subset name="Grid Style" displayName="${f-gridStyle}">
+	
 	<include name="Boxes" displayName="${f-boxes}">./nope.xml</include>
+
 	</subset>
 
 
@@ -82,11 +84,14 @@ V1.0
 	<include name="Custom" displayName="${f-customSounds}">./custom_sound.xml</include>
 
 	</subset>
-<!--		JUST FOR STAR OPTIONS	-->
+<!--		JUST FOR START OPTIONS	-->
+
 	<subset name="Carousel" displayName="${f-carousel}">
 
 	<include name="Custom Logos Wheel" displayName="${f-customLogosWheel}">./nope.xml</include>
-
+	<include name="Custom Logos Vertical" displayName="${f-customLogosVertical}">./nope.xml</include>
+	<include name="Custom Logos Jukebox" displayName="${f-customLogosJukebox}">./nope.xml</include>
+	
 	</subset>
 	
 <!--		CAROUSELS		-->
@@ -459,7 +464,7 @@ V1.0
 
 <!--	LINEAR SMOOTH ELEMENTS		-->
 
-	<image name="background, cabinet, art, cabinet_marquee, marquee_label_back" extra="true">
+	<image name="background, cabinet, art, cabinet_marquee, marquee_label_back, wheel, wheel-1, wheel-2, wheel+1, wheel+2, gamelist_logo" extra="true">
 		<linearSmooth>true</linearSmooth>
 	</image>
 	
