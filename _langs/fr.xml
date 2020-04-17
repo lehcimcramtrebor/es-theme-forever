@@ -28,7 +28,8 @@
 		<f-customMarquee>logos (custom) sur la borne</f-customMarquee>	
 
 		
-		<f-customSounds>ma musique</f-customSounds>
+		<f-customSounds>mes musiques par système</f-customSounds>
+		<f-customJukebox>mon juke-box</f-customJukebox>
 		<f-arcadeRoom>salle d'arcade</f-arcadeRoom>
 
 		<f-no>non</f-no>	

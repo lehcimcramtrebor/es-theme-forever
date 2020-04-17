@@ -28,7 +28,8 @@
 		<f-customMarquee>custom logos on marquee</f-customMarquee>	
 
 
-		<f-customSounds>custom sounds</f-customSounds>
+		<f-customSounds>by system custom songs</f-customSounds>
+		<f-customJukebox>custom jukebox</f-customJukebox>
 		<f-arcadeRoom>arcade room</f-arcadeRoom>
 
 		<f-no>no</f-no>	

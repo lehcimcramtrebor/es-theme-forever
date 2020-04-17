@@ -81,7 +81,9 @@ V1.0
 
 	<include name="No" displayName="${f-no}">./nope.xml</include>
 	<include name="Arcade Room" displayName="${f-arcadeRoom}">./_sounds/arcade_room.xml</include>
-	<include name="Custom" displayName="${f-customSounds}">./custom_sound.xml</include>
+	<include name="Custom" displayName="${f-customSounds}">./_sounds/custom_sound.xml</include>
+	<include name="Custom Jukebox" displayName="${f-customJukebox}">./CUSTOMIZE/music/jukebox/play.xml</include>	
+	<include name="Lehcim Collection">./${assetPath}lehcim_collection/play.xml</include>
 
 	</subset>
 <!--		JUST FOR START OPTIONS	-->

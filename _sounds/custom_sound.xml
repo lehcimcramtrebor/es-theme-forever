@@ -7,10 +7,6 @@
 
 <!--		CUSTOM MUSICS, SEE CUSTOMIZE_YOUR_THEME FOLDER			-->
 
-		<sound name="directory">		
-		<path>./../CUSTOMIZE/music/</path>		
-		</sound>
-
 		<sound name="bgsound">		
 		<path>./../CUSTOMIZE/music/${system.theme}.mp3</path>
 		<path>./../CUSTOMIZE/music/${system.theme}.ogg</path>				

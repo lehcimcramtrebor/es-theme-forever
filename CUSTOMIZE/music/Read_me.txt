@@ -5,7 +5,9 @@
 - Mode jukebox:
 
 
-	To play random musics, place here yours ".mp3" or ".ogg" files.
+	To play random musics, place here yours ".mp3" or ".ogg" files in jukebox folder.
+	Select "Custom jukebox" in theme configuration menu.
+	Don't forget to uncheck "Display songs title" in emulationstation audio settings.
 
 
 
@@ -17,14 +19,8 @@
 
 	"megadrive.ogg" or "megadrive.mp3" or "snes.ogg" or "snes.mp3" etc..
 
-
-
-
-
-
-	Now select " Custom Sounds " in theme configuration.
-
-
+	Select "Custom By system" in theme configuration menu.
+	Don't forget to check "Display songs title" in emulationstation audio settings.
 
 
 	Don't forget to adjust song parameters in emulationstation menu.
