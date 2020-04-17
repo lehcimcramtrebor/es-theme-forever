@@ -30,7 +30,7 @@
 		
  </view>
 
-<view name="system">
+<view name="system, basic">
 			
 		<text name="system_label" extra="true">
 		<pos>0.5 0.885</pos>

@@ -20,7 +20,7 @@
 		</image>
 		 
 		<image name="background_right" extra="true">
-		 <color>000000</color>	  	  
+		 <color>000013</color>	  	  
 		</image>
 
 		<image name="marquee_back" extra="true">
@@ -28,7 +28,7 @@
 		</image>		 
  </view>
 
-<view name="system">	
+<view name="system, basic">
 
 		<text name="system_label" extra="true">
 		<pos>0.5 0.885</pos>

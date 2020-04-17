@@ -20,11 +20,12 @@
 		<f-focus>focus</f-focus>	
 		<f-displayOverlay>display cabinet overlay</f-displayOverlay>	
 		<f-logo>logotext font</f-logo>
-		<f-overlay>overlay</f-overlay>
+		<f-overlay>overlays + themed cabinets</f-overlay>
 		<f-ratioVideos>videos ratio</f-ratioVideos>	
 		<f-gridStyle>gridview style</f-gridStyle>	
 		<f-rpi>Raspberry Light Mode</f-rpi>	
 		<f-videoBackground>video background</f-videoBackground>	
+		<f-customMarquee>custom logos on marquee</f-customMarquee>	
 
 
 		<f-customSounds>custom sounds</f-customSounds>

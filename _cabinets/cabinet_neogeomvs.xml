@@ -9,25 +9,24 @@
 
 	</variables>
 
-<view name="system, basic, detailed, video, grid">
+<view name="system, basic,  detailed, video, grid">
 
 		<image name="cabinet" extra="true">
-			<path>${cabinetPath}cabinet_spiderman.png</path>
+			<path>${cabinetPath}cabinet_neogeomvs.png</path>
 		</image>
 
 		<image name="cabinet_shadow" extra="true">
-			<path>${hiderpi}${cabinetPath}cabinet_spiderman.png</path>
+			<path>${hiderpi}${cabinetPath}cabinet_neogeomvs.png</path>
 		</image>
 		
-
       <image name="background_right" extra="true">
-		 <color>00072a</color>	  	  
+		 <color>680000</color>	  	  
       </image>
- 
-		<image name="marquee_back" extra="true">
-			<color>001069</color>
-		</image>			
 
+		<image name="marquee_back" extra="true">
+			<color>1e2220</color>
+		</image>			
+ 
  </view>
 
 <view name="system, basic">

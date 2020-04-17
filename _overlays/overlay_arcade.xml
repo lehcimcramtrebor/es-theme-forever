@@ -7,7 +7,7 @@
 
 		<image name="cabinet_overlay" extra="true">
 		
-			<path>${framePath}deco_black.jpg</path>
+			<path>${framePath}deco_arcade.jpg</path>
 			
 		</image>
 		
@@ -16,15 +16,15 @@
 <view name="system">  
 
 	  <text name="systemInfo">
-        <pos>0 0.66</pos>
-		<fontPath>${policePath}mk2.ttf</fontPath>
-	    <fontSize>0.025</fontSize>
+        <pos>0 0.65</pos>
+		<fontPath>${policePath}digital.ttf</fontPath>
+	    <fontSize>0.018</fontSize>
         <zIndex>126</zIndex>
-		<color>ffff00</color>
+		<color>ffffff</color>
 		<glowColor>000000</glowColor>
-		<glowSize>2</glowSize>
+		<glowSize>3</glowSize>
       </text> 
-	  
-</view>
 
+</view>
+	  
 </theme>

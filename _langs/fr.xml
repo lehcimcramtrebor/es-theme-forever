@@ -20,11 +20,12 @@
 		<f-focus>focalisation</f-focus>	
 		<f-displayOverlay>affichage de l'overlay de la borne</f-displayOverlay>	
 		<f-logo>police des logos</f-logo>
-		<f-overlay>overlay</f-overlay>
+		<f-overlay>overlays + bornes spéciales</f-overlay>
 		<f-ratioVideos>Format des vidéos</f-ratioVideos>	
 		<f-gridStyle>Style de la grille</f-gridStyle>	
 		<f-rpi>Mode léger Raspberry</f-rpi>	
 		<f-videoBackground>arrière-plan video</f-videoBackground>	
+		<f-customMarquee>logos (custom) sur la borne</f-customMarquee>	
 
 		
 		<f-customSounds>ma musique</f-customSounds>
