@@ -29,4 +29,12 @@
   
  </view>
 
+<view name="system, basic">
+
+		<text name="system_label" extra="true">
+		<color>ffffff</color>      
+		</text>
+		
+ </view>
+ 
 </theme>

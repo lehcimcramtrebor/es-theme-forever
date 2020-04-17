@@ -54,13 +54,7 @@
     <image name="frame_edge" extra="true">
 		<color>318ce7${faderpi}</color>     
       </image> 
-	  
-		<text name="system_label" extra="true">
-			<color>318ce7</color>		
-			<glowColor>000000</glowColor>
-
-		</text>
-		
+	
 		<image name="frame_bottom" extra="true">
 			<color>000000</color>
 		</image> 

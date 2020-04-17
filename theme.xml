@@ -843,7 +843,7 @@ V1.0
 
 	<datetime name="md_releasedate">
 		<pos>0.33 0.86</pos>
-		<color>ff7a00bb</color>      
+		<color>ffffff</color>      
 		<size>0.12 0.020</size>
 		<fontPath>${policePath}roundedledboard.ttf</fontPath>		 			
 		<fontSize>0.012</fontSize>
@@ -852,7 +852,7 @@ V1.0
      </datetime>
 	  
 	<text name="md_developer">
-		<color>06b900bb</color>      
+		<color>ffffff</color>      
 		<pos>0.08 0.86</pos>
 		<size>0.28 0.020</size>
 		<fontPath>${policePath}roundedledboard.ttf</fontPath>		 			
@@ -863,7 +863,7 @@ V1.0
 	  	  
 	<text name="md_genre">
 		<pos>0.08 0.89</pos>
-		<color>06b900bb</color>      
+		<color>ffffff</color>      
 		<size>0.28 0.020</size>
 		<fontPath>${policePath}roundedledboard.ttf</fontPath>		 			
 		<fontSize>0.011</fontSize>
@@ -878,7 +878,7 @@ V1.0
 		<fontPath>${policePath}roundedledboard.ttf</fontPath>		 			
 		<fontSize>0.012</fontSize>
 		<alignment>center</alignment>
-		<color>ff7a00bb</color>      
+		<color>ffffff</color>      
          <zIndex>1999</zIndex>         
     </text>
 	  
@@ -889,7 +889,7 @@ V1.0
 		<fontPath>${policePath}roundedledboard.ttf</fontPath>		 			
 		<fontSize>0.012</fontSize>
 		<alignment>center</alignment>
-		<color>ff7a00bb</color>      
+		<color>ffffff</color>      
          <zIndex>1999</zIndex>         
     </text>
 	  

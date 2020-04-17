@@ -34,8 +34,39 @@
 		<text name="system_label" extra="true">
 		<pos>0.5 0.885</pos>
 		<zIndex>137</zIndex>
+		<color>018afc</color>      
 		<fontSize>${themedCabinetFontSize}</fontSize>
 		</text>
  </view>
+
+<view name="detailed, video, grid">  
+
+	<datetime name="md_releasedate">
+		<color>ff0102</color>
+		<pos>0.33 0.87</pos>
+		
+     </datetime>
+	  
+	<text name="md_developer">
+		<color>018afc</color>      
+		<pos>0.08 0.87</pos>
+      </text>
+	  	  
+	<text name="md_genre">
+		<pos>0.08 0.90</pos>
+		<color>ffffff</color>      
+     </text>
+
+     <text name="md_lbl_players">
+		<pos>0.46 0.90</pos>
+		<color>ffffff</color>      
+    </text>
+	  
+    <text name="md_players">
+		<pos>0.3865 0.90</pos>
+		<color>ffffff</color>      
+    </text>
+	
+</view>
  
 </theme>

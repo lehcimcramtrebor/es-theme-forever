@@ -28,5 +28,13 @@
 		</image>			
  
  </view>
+
+<view name="system, basic">
+
+		<text name="system_label" extra="true">
+		<color>ffe507</color>      
+		</text>
+		
+ </view>
  
 </theme>

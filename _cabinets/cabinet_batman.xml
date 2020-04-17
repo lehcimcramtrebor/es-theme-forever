@@ -35,7 +35,33 @@
 		<pos>0.5 0.885</pos>
 		<zIndex>137</zIndex>
 		<fontSize>${themedCabinetFontSize}</fontSize>
+		<color>09b5d0</color>      
 		</text>
+		
  </view>
+
+<view name="detailed, video, grid">  
+
+	<datetime name="md_releasedate">
+		<color>09b5d0</color>      
+     </datetime>
+	  
+	<text name="md_developer">
+		<color>09b5d0</color>      
+      </text>
+	  	  
+	<text name="md_genre">
+		<color>ffffff</color>      
+     </text>
+
+     <text name="md_lbl_players">
+		<color>ffffff</color>      
+    </text>
+	  
+    <text name="md_players">
+		<color>ffffff</color>      
+    </text>
+	
+</view>
  
 </theme>

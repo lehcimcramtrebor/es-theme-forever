@@ -33,10 +33,36 @@
 <view name="system, basic">
 			
 		<text name="system_label" extra="true">
-		<pos>0.5 0.885</pos>
-		<zIndex>137</zIndex>
-		<fontSize>${themedCabinetFontSize}</fontSize>
+			<color>fff71f</color>		
+			<glowColor>000000</glowColor>
+			<pos>0.5 0.885</pos>
+			<zIndex>137</zIndex>
+			<fontSize>${themedCabinetFontSize}</fontSize>
 		</text>
  </view>
+ 
+<view name="detailed, video, grid">  
+
+	<datetime name="md_releasedate">
+		<color>fff71f</color>      
+     </datetime>
+	  
+	<text name="md_developer">
+		<color>fff71f</color>      
+      </text>
+	  	  
+	<text name="md_genre">
+		<color>ffffff</color>      
+     </text>
+
+     <text name="md_lbl_players">
+		<color>ffffff</color>      
+    </text>
+	  
+    <text name="md_players">
+		<color>ffffff</color>      
+    </text>
+	
+</view>
  
 </theme>
