@@ -1,0 +1,30 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="menu, system, basic, detailed, video, grid">  
+
+		<image name="cabinet_overlay" extra="true">
+		
+			<path>${framePath}deco_pacman.jpg</path>
+			
+		</image>
+		
+</view>
+
+<view name="system">  
+
+	  <text name="systemInfo">
+        <pos>0 0.65</pos>
+		<fontPath>${policePath}arcade.ttf</fontPath>
+	    <fontSize>0.018</fontSize>
+        <zIndex>126</zIndex>
+		<color>eeda1c</color>
+		<glowColor>000000</glowColor>
+		<glowSize>2</glowSize>
+      </text> 
+	  
+</view>
+
+</theme>

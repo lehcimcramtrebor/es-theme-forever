@@ -1,0 +1,72 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+	<variables>
+
+	<themedcabinetonly>themed</themedcabinetonly>									
+
+	</variables>
+
+<view name="system, basic,  detailed, video, grid">
+
+		<image name="cabinet" extra="true">
+			<path>${cabinetPath}cabinet_pacman.png</path>
+		</image>
+
+		<image name="cabinet_shadow" extra="true">
+			<path>${hiderpi}${cabinetPath}cabinet_pacman.png</path>
+		</image>
+		
+      <image name="background_right" extra="true">
+		 <color>221f20</color>	  	  
+      </image>
+
+		<image name="marquee_back" extra="true">
+			<color>1e2220</color>
+		</image>			
+ 
+ </view>
+
+<view name="system, basic">
+
+		<text name="system_label" extra="true">
+		<pos>0.5 0.865</pos>
+		<zIndex>137</zIndex>
+		<fontSize>${themedCabinetFontSize}</fontSize>
+		<color>154fac</color>      
+		</text>
+		
+ </view>
+
+<view name="detailed, video, grid">  
+
+	<datetime name="md_releasedate">
+		<color>154fac</color> 
+		<pos>0.33 0.855</pos>		
+     </datetime>
+	  
+	<text name="md_developer">
+		<color>154fac</color>
+		<pos>0.08 0.853</pos>		
+      </text>
+	  	  
+	<text name="md_genre">
+		<color>ffffff</color>
+		<pos>0.08 0.885</pos>
+     </text>
+
+     <text name="md_lbl_players">
+		<color>ffffff</color>
+		<pos>0.46 0.885</pos>		
+    </text>
+	  
+    <text name="md_players">
+		<color>ffffff</color>
+		<pos>0.3865 0.885</pos>		
+    </text>
+	
+</view>
+ 
+</theme>
