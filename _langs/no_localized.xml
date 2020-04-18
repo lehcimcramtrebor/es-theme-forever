@@ -26,7 +26,9 @@
 		<f-rpi>Raspberry Light Mode</f-rpi>	
 		<f-videoBackground>video background</f-videoBackground>	
 		<f-customMarquee>custom logos on marquee</f-customMarquee>	
+		<f-gamelistMarquee>cabinet game's marquees</f-gamelistMarquee>	
 
+		<f-justWheel>logos only</f-justWheel>	
 
 		<f-customSounds>by system custom songs</f-customSounds>
 		<f-customJukebox>custom jukebox</f-customJukebox>

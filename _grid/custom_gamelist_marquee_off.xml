@@ -1,0 +1,25 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+   <formatVersion>7</formatVersion>
+  
+	<view name="detailed, video, grid">
+ 
+ 	<image name="marquee_label_back" extra="true">
+		<visible>false</visible>
+	</image>	
+
+	<image name="marquee_back" extra="true">
+		<visible>false</visible>
+	</image>	
+
+    <image name="md_marquee">
+		<visible>false</visible>  
+    </image>    
+
+	</view> 
+   
+
+</theme>

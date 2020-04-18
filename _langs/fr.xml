@@ -26,7 +26,10 @@
 		<f-rpi>Mode léger Raspberry</f-rpi>	
 		<f-videoBackground>arrière-plan video</f-videoBackground>	
 		<f-customMarquee>logos (custom) sur la borne</f-customMarquee>	
+		<f-gamelistMarquee>logos de jeux sur la borne</f-gamelistMarquee>	
 
+
+		<f-justWheel>uniquement les logos</f-justWheel>	
 		
 		<f-customSounds>mes musiques par système</f-customSounds>
 		<f-customJukebox>mon juke-box</f-customJukebox>

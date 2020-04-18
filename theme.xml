@@ -37,7 +37,7 @@ V1.0
 	<whitegridrpi>white.png</whitegridrpi>
 	<tilerpi>false</tilerpi>						
 	<faderpi></faderpi>						
-	<marqueereflexionrpi>0.03 0</marqueereflexionrpi>						
+	<marqueereflexionrpi>0.15 0</marqueereflexionrpi>						
 	<thumbnailreflexionrpi>0.3 0</thumbnailreflexionrpi>						
 	<carouseldefaultreflexionrpi>0.1 0</carouseldefaultreflexionrpi>						
 	<carouselselectedreflexionrpi>0.25 0</carouselselectedreflexionrpi>								
@@ -1133,7 +1133,11 @@ V1.0
 		<size>0.3859375 0.1319444444</size>
 		<zIndex>398</zIndex>
 	</image>	
-		
+
+    <image name="md_marquee">
+		<reflexion>0 0</reflexion>         
+    </image>    
+	
 </view>
 
 <view name="system, basic">
@@ -1183,6 +1187,18 @@ V1.0
 
 
 	</subset>
+
+<!--		CUSTOM GAMELIST WHEELS AND BACK WHEELS ON MARQUEE ON/OFF		-->
+
+	<subset name="Gamelist Marquees" displayName="${f-gamelistMarquee}">
+
+	<include name="yes" displayName="${f-yes}">./nope.xml</include>
+	<include name="just wheel" displayName="${f-justWheel}">./_grid/custom_gamelist_marquee_just_wheel.xml</include>	
+	<include name="No" displayName="${f-no}">./_grid/custom_gamelist_marquee_off.xml</include>	
+
+
+	</subset>
+	
 	
 <!--		SPECIFICS SYSTEMS		-->
 
