@@ -24,7 +24,7 @@
       </image>
 
 		<image name="marquee_back" extra="true">
-			<color>1e2220</color>
+			<color>fbfbfb</color>
 		</image>			
  
  </view>
