@@ -1184,6 +1184,7 @@ V1.0
 
 	<include name="No" displayName="${f-no}">./_carousels/custom_marquee_off.xml</include>	
 	<include name="yes" displayName="${f-yes}">./nope.xml</include>
+	<include name="just logos" displayName="${f-justLabel}">./_carousels/custom_marquee_just_wheel.xml</include>	
 
 
 	</subset>
@@ -1193,8 +1194,8 @@ V1.0
 	<subset name="Gamelist Marquees" displayName="${f-gamelistMarquee}">
 
 	<include name="yes" displayName="${f-yes}">./nope.xml</include>
-	<include name="just wheel" displayName="${f-justWheel}">./_grid/custom_gamelist_marquee_just_wheel.xml</include>	
 	<include name="No" displayName="${f-no}">./_grid/custom_gamelist_marquee_off.xml</include>	
+	<include name="just wheel" displayName="${f-justWheel}">./_grid/custom_gamelist_marquee_just_wheel.xml</include>	
 
 
 	</subset>

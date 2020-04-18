@@ -1,0 +1,32 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system, basic">
+
+	<text name="system_label" extra="true">
+		<visible>false</visible>
+	</text>
+
+		<image name="cabinet_marquee" extra="true">
+			<visible>true</visible>
+			<reflexion>0.25 0</reflexion>
+		</image>
+
+	<image name="marquee_label_back, marquee_back " extra="true">
+			<visible>false</visible>
+	</image>	
+
+</view>
+
+<view name="detailed, video, grid">
+
+	<image name="marquee_label_back, marquee_back " extra="true">
+			<visible>true</visible>
+	</image>	
+	
+</view>
+
+
+</theme>

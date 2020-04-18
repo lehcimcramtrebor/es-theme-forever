@@ -29,6 +29,7 @@
 		<f-gamelistMarquee>cabinet game's marquees</f-gamelistMarquee>	
 
 		<f-justWheel>wheels only</f-justWheel>	
+		<f-justLabel>logos only</f-justLabel>	
 
 		<f-customSounds>by system custom songs</f-customSounds>
 		<f-customJukebox>custom jukebox</f-customJukebox>
