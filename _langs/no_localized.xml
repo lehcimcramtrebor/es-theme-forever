@@ -66,7 +66,8 @@
 		<f-noCarousel>no carousel</f-noCarousel>	
 		<f-customLogosWheel>custom wheel</f-customLogosWheel>	
 		<f-customLogosVertical>custom vertical</f-customLogosVertical>	
-		<f-customLogosJukebox>custom jukebox</f-customLogosJukebox>	
+		<f-customLogosJukebox>custom jukebox</f-customLogosJukebox>
+		<f-customLogosHyperspinWheel>custom arcade wheel</f-customLogosHyperspinWheel>			
 		<f-simpleJukebox>simple jukebox</f-simpleJukebox>	
 		<f-simpleWheel>simple wheel</f-simpleWheel>	
 		<f-simpleVertical>simple vertical</f-simpleVertical>	

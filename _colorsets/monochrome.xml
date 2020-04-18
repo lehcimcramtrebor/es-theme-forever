@@ -45,7 +45,9 @@
       </image>		
 
       <image name="background_v2" extra="true"> 
-		 <color>000000</color>
+		 <color>bbc0c9</color>
+		 <colorEnd>9ca1a9</colorEnd>
+		 <gradientType>vertical</gradientType>
       </image>	
 
      <image name="background_adjust_h1" extra="true">

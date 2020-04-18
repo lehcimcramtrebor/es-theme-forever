@@ -1,0 +1,113 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<include>./logo.xml</include>
+
+	<variables>
+
+	<videotype>framed_</videotype>									
+	<customonly>custom</customonly>									
+
+	</variables>
+	
+<view name="system">
+
+      <carousel name="systemcarousel">
+        <type>vertical_wheel</type>
+		<origin>1 0</origin>
+        <pos>1 -0.03</pos>
+		<size>0.3 1</size>
+        <logoScale>2.5</logoScale>
+        <logoSize>0.0759375 0.038</logoSize>
+        <color>00000000</color>
+		<logoRotation>-4.5</logoRotation>
+		<logoRotationOrigin>8 0.5</logoRotationOrigin>
+		<logoAlignment>center</logoAlignment>
+        <maxLogoCount>24</maxLogoCount>
+		<zIndex>111</zIndex>
+		<defaultTransition>instant</defaultTransition>
+		</carousel>
+
+		
+		<text name="logoText">
+			<text>need ${system.name}.png or .svg</text>
+			<color>ff0000</color>
+			<fontPath>${policePath}hulk.ttf</fontPath>
+			<fontSize>0.022</fontSize>
+		</text>
+
+      <image name="wheel, wheel_shadow, wheel-1, wheel-1_shadow, wheel+1, wheel+1_shadow, wheel-2, wheel-2_shadow, wheel+2, wheel+2_shadow" extra="true">  
+		 <visible>false</visible>
+      </image>
+	  
+		<image name="logo">
+			<path>./../CUSTOMIZE/logos/${system.theme}.png</path>
+			<path>./../CUSTOMIZE/logos/${system.theme}.svg</path>
+		</image>
+
+				
+</view>
+
+<view name="system, basic">
+
+	<text name="system_label" extra="true">
+		<visible>false</visible>
+	</text>
+
+		<image name="cabinet_marquee" extra="true">
+		
+			<path>./../CUSTOMIZE/logos/${system.theme}.png</path>
+			<path>./../CUSTOMIZE/logos/${system.theme}.svg</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.0947</pos>
+			<maxSize>0.2 0.05</maxSize>
+			<zIndex>2500</zIndex>
+		
+		</image>
+		
+</view>
+
+<view name="detailed,video, grid">
+
+	<text name="system_label, system_label_shadow" extra="true">
+		<visible>false</visible>
+	</text>
+
+    <image name="g_line" extra="true">
+		<visible>false</visible>      
+    </image>  
+	
+		<image name="gamelist_logo" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0.74 0.0325</pos>
+			<maxSize>0.45 0.05</maxSize>
+			<zIndex>2000</zIndex>
+			<path>./../CUSTOMIZE/logos/${system.theme}.png</path>
+			<path>./../CUSTOMIZE/logos/${system.theme}.svg</path>
+		</image>
+		
+		<image name="gamelist_logo_back" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0.74 0.0325</pos>
+			<size>0.45 0.065</size>
+			<color>b5b9c3</color>
+			<colorEnd>999ea6</colorEnd>
+			<gradientType>vertical</gradientType>			
+			<zIndex>1999</zIndex>
+			<path>${assetPath}white.png</path>
+		</image>
+
+		<image name="gamelist_logo_back_edge" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0.74 0.0325</pos>
+			<size>0.45 0.075</size>
+			<color>00000050</color>
+			<zIndex>1998</zIndex>
+			<path>${assetPath}white.png</path>
+		</image>		
+		
+</view>
+
+</theme>
