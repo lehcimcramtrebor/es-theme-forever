@@ -2,7 +2,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
    <formatVersion>7</formatVersion>
-  
+
+	<variables>
+
+	<transparentColor>ff7f0040</transparentColor>	
+							
+	</variables> 
+	  
 <view name="system">
 
 		<text name="logoText">
@@ -59,7 +65,7 @@
       </image>  
 	  
     <image name="frame_edge" extra="true">
-		<color>ff7f00${faderpi}</color>     
+		<color>ff7f00</color>     
       </image> 
 
 		<image name="frame_bottom" extra="true">

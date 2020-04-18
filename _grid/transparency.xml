@@ -1,0 +1,42 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+   <formatVersion>7</formatVersion>
+ 
+<view name="detailed, video, grid">
+	  
+    <image name="frame_edge" extra="true">
+		<path>${assetPath}grid.jpg</path>
+		<color>${transparentColor}</color>
+		<tile>true</tile>
+ 		<origin>0.5 0.5</origin>
+        <pos>0.7401 0.5</pos>
+        <size>0.452 1</size>
+        <zIndex>280</zIndex>         
+     </image>
+	 
+    <image name="l_line" extra="true">
+		<path>${assetPath}white.png</path>
+		<color>000000</color>
+ 		<origin>1 0.5</origin>
+        <pos>0.5145 0.5</pos>
+        <size>0.0008 1</size>
+        <zIndex>281</zIndex>         
+     </image> 
+	 
+    <image name="r_line" extra="true">
+		<path>${assetPath}white.png</path>
+		<color>000000</color>
+ 		<origin>0 0.5</origin>
+        <pos>0.9653 0.5</pos>
+        <size>0.0008 1</size>
+        <zIndex>281</zIndex>         
+     </image>    
+
+
+	</view> 
+   
+
+</theme>

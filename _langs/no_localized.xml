@@ -27,6 +27,7 @@
 		<f-videoBackground>video background</f-videoBackground>	
 		<f-customMarquee>custom logos on marquee</f-customMarquee>	
 		<f-gamelistMarquee>cabinet game's marquees</f-gamelistMarquee>	
+		<f-gamelistTransparent>transparency on gamelists</f-gamelistTransparent>	
 
 		<f-justWheel>wheels only</f-justWheel>	
 		<f-justLabel>logos only</f-justLabel>	

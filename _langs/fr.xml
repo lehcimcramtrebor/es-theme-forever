@@ -27,6 +27,7 @@
 		<f-videoBackground>arrière-plan video</f-videoBackground>	
 		<f-customMarquee>logos (custom) sur la borne</f-customMarquee>	
 		<f-gamelistMarquee>logos de jeux sur la borne</f-gamelistMarquee>	
+		<f-gamelistTransparent>transparence des gamelists</f-gamelistTransparent>	
 
 
 		<f-justWheel>uniquement les logos</f-justWheel>	

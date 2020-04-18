@@ -739,75 +739,7 @@ V1.0
         <zIndex>950</zIndex>         
     </image>  
 	  
-    <image name="frame_adjust" extra="true">
-		<color>00000099</color>
-		<colorEnd>00000060</colorEnd>
-		<gradientType>vertical</gradientType>
-		<path>${hiderpi}${assetPath}white.png</path>         		
- 		<origin>0.5 0.5</origin>
-        <pos>0.74 0.5</pos>
-        <size>0.45 1</size>
-        <zIndex>298</zIndex>         
-    </image>
-	  
-    <image name="gamelist_back_h1" extra="true">
-		<path>${hiderpi}${assetPath}white.png</path>         		
- 		<origin>1 0.5</origin>
-		<color>00000000</color>
-		<gradientType>horizontal</gradientType>
-		<pos>0.74 0.5</pos>
-        <size>0.225 1</size>
-		<zIndex>297</zIndex>         
-     </image>   
-	  
-    <image name="gamelist_back_h2" extra="true">
-		<path>${hiderpi}${assetPath}white.png</path>         		
- 		<origin>0 0.5</origin>
-		<colorEnd>00000000</colorEnd>
-		<gradientType>horizontal</gradientType>
-		<pos>0.74 0.5</pos>
-        <size>0.225 1</size>
-        <zIndex>297</zIndex>         
-    </image>   
 
-    <image name="frame_texture" extra="true">
-		<color>ffffff</color>
-		<colorEnd>ffffff25</colorEnd>
-		<gradientType>vertical</gradientType>
-		<tile>true</tile>
-		<path>${hiderpi}${assetPath}grid.jpg</path>         		
- 		<origin>0.5 0.5</origin>
-        <pos>0.74 0.5</pos>
-        <size>0.45 1</size>
-        <zIndex>294</zIndex>         
-     </image>
-	  
-    <image name="frame_edge" extra="true">
-		<path>${assetPath}${whitegridrpi}</path>
-		<tile>${tilerpi}</tile>
- 		<origin>0.5 0.5</origin>
-        <pos>0.7401 0.5</pos>
-        <size>0.452 1</size>
-        <zIndex>280</zIndex>         
-     </image>    
-
-    <image name="frame_black" extra="true">
-		<path>${hiderpi}${assetPath}white.png</path>         		
- 		<origin>0.5 0.5</origin>
-		<color>000000</color>
-        <pos>0.7401 0.5</pos>
-        <size>0.454 1</size>
-        <zIndex>15</zIndex>         
-    </image>    
-
-    <image name="frame_shadow" extra="true">
-		<path>${hiderpi}${assetPath}white.png</path>         		
- 		<origin>0.5 0.5</origin>
-		<color>00000050</color>
-        <pos>0.745 0.5</pos>
-        <size>0.454 1</size>
-        <zIndex>14</zIndex>         
-    </image>    
 
     <text name="md_description">
  		<origin>0.5 0.5</origin>	 
@@ -1156,6 +1088,15 @@ V1.0
 
 </view>
 
+<!--		GAMELIST TRANSPARENCY		-->
+
+	<subset name="Gamelist Transparency" displayName="${f-gamelistTransparent}">
+
+	<include name="No" displayName="${f-no}">./_grid/plain.xml</include>	
+	<include name="yes" displayName="${f-yes}">./_grid/transparency.xml</include>
+
+
+	</subset>
 	
 <!--		SIMPLE CAROUSELS	-->
 
@@ -1200,7 +1141,7 @@ V1.0
 
 	</subset>
 	
-	
+		
 <!--		SPECIFICS SYSTEMS		-->
 
 	<include>./_specifics/${system.name}.xml</include>
