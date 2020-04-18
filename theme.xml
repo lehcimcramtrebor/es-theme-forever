@@ -1092,8 +1092,8 @@ V1.0
 
 	<subset name="Gamelist Transparency" displayName="${f-gamelistTransparent}">
 
-	<include name="No" displayName="${f-no}">./_grid/plain.xml</include>	
 	<include name="yes" displayName="${f-yes}">./_grid/transparency.xml</include>
+	<include name="No" displayName="${f-no}">./_grid/plain.xml</include>	
 
 
 	</subset>
