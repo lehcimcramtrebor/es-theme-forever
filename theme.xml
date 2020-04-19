@@ -1004,6 +1004,12 @@ V1.0
 
 	<include name="Qbert" displayName="Pacman">./_overlays/overlay_qbert.xml</include>
 
+
+	<include name="Robotron + cabinet" displayName="Robotron + ${f-cabinet}">./_overlays/overlay_robotron.xml</include>
+	<include name="Robotron + cabinet" displayName="Robotron + ${f-cabinet}">./_cabinets/cabinet_robotron.xml</include>
+
+	<include name="Robotron" displayName="Robotron">./_overlays/overlay_robotron.xml</include>
+
 	
 	<include name="Black + NEO GEO MVS" displayName="${f-black} + ${f-cabinet} NEO GEO MVS">./_overlays/overlay_neogeomvs.xml</include>
 	<include name="Black + NEO GEO MVS" displayName="${f-black} + ${f-cabinet} NEO GEO MVS">./_cabinets/cabinet_neogeomvs.xml</include>

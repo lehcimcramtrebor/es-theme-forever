@@ -1,0 +1,87 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+	<variables>
+
+	<themedcabinetonly>themed</themedcabinetonly>									
+
+	</variables>
+
+<view name="system, basic,  detailed, video, grid">
+
+		<image name="cabinet" extra="true">
+			<path>${cabinetPath}cabinet_robotron.png</path>
+		</image>
+
+		<image name="cabinet_shadow" extra="true">
+			<path>${hiderpi}${cabinetPath}cabinet_robotron.png</path>
+		</image>
+		
+      <image name="background_right" extra="true">
+		 <color>161630</color>	  	  
+      </image>
+
+		<image name="marquee_back" extra="true">
+			<color>f9f9f9</color>
+		</image>			
+ 
+ </view>
+
+<view name="system, basic">
+
+		<text name="system_label" extra="true">
+		<pos>0.485 0.935</pos>
+		<zIndex>137</zIndex>
+		<fontSize>0.022</fontSize>
+		<color>fae500</color> 
+		<glowColor>000000</glowColor>
+		</text>
+		
+ </view>
+
+<view name="detailed, video, grid">  
+
+	<image name="back_infos" extra="true">
+		<path>${assetPath}white.png</path>
+		<origin>0.5 0.5</origin>
+		<color>00000090</color>
+		<size>0.391 0.074</size>
+		<pos>0.265 0.884</pos>
+		<zIndex>1990</zIndex>
+	</image>				
+	
+	<datetime name="md_releasedate">
+		<color>fc7e01</color>
+		<glowColor>000000</glowColor>
+		<pos>0.33 0.855</pos>		
+     </datetime>
+	  
+	<text name="md_developer">
+		<color>fc7e01</color>
+		<glowColor>000000</glowColor>
+		<pos>0.08 0.853</pos>		
+      </text>
+	  	  
+	<text name="md_genre">
+		<color>ffffff</color>
+		<glowColor>000000</glowColor>
+		<pos>0.08 0.885</pos>
+     </text>
+
+     <text name="md_lbl_players">
+		<color>ffffff</color>
+		<glowColor>000000</glowColor>
+		<pos>0.46 0.885</pos>		
+    </text>
+	  
+    <text name="md_players">
+		<color>ffffff</color>
+		<glowColor>000000</glowColor>
+		<pos>0.3865 0.885</pos>		
+    </text>
+	
+</view>
+ 
+</theme>
