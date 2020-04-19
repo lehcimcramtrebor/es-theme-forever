@@ -996,8 +996,14 @@ V1.0
 	<include name="Pacman + cabinet" displayName="Pacman + ${f-cabinet}">./_overlays/overlay_pacman.xml</include>
 	<include name="Pacman + cabinet" displayName="Pacman + ${f-cabinet}">./_cabinets/cabinet_pacman.xml</include>
 
-	<include name="Donkey Junior" displayName="Donkey Junior">./_overlays/overlay_pacman.xml</include>
+	<include name="Pacman" displayName="Pacman">./_overlays/overlay_pacman.xml</include>
 	
+
+	<include name="Qbert + cabinet" displayName="Qbert + ${f-cabinet}">./_overlays/overlay_qbert.xml</include>
+	<include name="Qbert + cabinet" displayName="Qbert + ${f-cabinet}">./_cabinets/cabinet_qbert.xml</include>
+
+	<include name="Qbert" displayName="Pacman">./_overlays/overlay_qbert.xml</include>
+
 	
 	<include name="Black + NEO GEO MVS" displayName="${f-black} + ${f-cabinet} NEO GEO MVS">./_overlays/overlay_neogeomvs.xml</include>
 	<include name="Black + NEO GEO MVS" displayName="${f-black} + ${f-cabinet} NEO GEO MVS">./_cabinets/cabinet_neogeomvs.xml</include>
