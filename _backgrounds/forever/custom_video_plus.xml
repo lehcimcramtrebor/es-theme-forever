@@ -1,0 +1,138 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+<view name="system">  
+
+      <image name="wheel, wheel-1, wheel+1, wheel-2, wheel+2" extra="true">  
+		 <path>${logodecoPath}logo_${logodeco}_empty.png</path>
+		 <zIndex>200</zIndex>  	  
+      </image>
+
+      <image name="wheel_shadow, wheel-1_shadow, wheel+1_shadow, wheel-2_shadow, wheel+2_shadow" extra="true">  
+		 <path>${hiderpi}${logodecoPath}logo_${logodeco}_empty.png</path>
+		 <visible>false</visible>
+		 <zIndex>200</zIndex>  	  
+
+      </image>
+	  
+		<image name="background2, background3, background4" extra="true">
+			<visible>true</visible>
+		</image>
+
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<visible>true</visible>
+			<path>${assetPath}white.png</path>	
+			<color>101010</color>
+			<colorEnd>101010</colorEnd>
+		</image>
+
+	<image name="video_black" extra="true">
+		<zIndex>300</zIndex>
+	</image>
+		
+
+	    <video name="custom_video" extra="true">
+			<path>./../../CUSTOMIZE/full_screen_videos_background/background.mp4</path>		
+			<path>./../../CUSTOMIZE/full_screen_videos_background/${system.name}.mp4</path>
+			<effect>none</effect>		
+			<color>ffffff</color>
+			<delay>1</delay>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<zIndex>1</zIndex>
+		</video>	  
+
+      <image name="background_v2" extra="true">
+         <origin>0 0.5</origin>
+         <pos>0 0.47</pos>
+         <size>1 0.1</size>
+         <zIndex>4</zIndex>  	  
+		 <path>${assetPath}white.png</path>
+      </image>
+
+      <image name="background_v2_shadow" extra="true">
+		 <color>00000050</color>
+         <origin>0 0.5</origin>
+         <pos>0 0.49</pos>
+         <size>1 0.1</size>
+         <zIndex>3</zIndex>  	  
+		 <path>${hiderpi}${assetPath}white.png</path>
+      </image>
+	  
+      <image name="line_v1" extra="true">
+		 <color>000000</color>	  
+         <origin>0 1</origin>
+         <pos>0 0.42</pos>
+         <size>0.5 0.001</size>
+         <zIndex>5</zIndex>  	  
+		 <path>${hiderpi}${assetPath}white.png</path>
+      </image>
+
+      <image name="line_v2" extra="true">
+		 <color>000000</color>	  
+         <origin>0 1</origin>
+         <pos>0 0.52</pos>
+         <size>0.5 0.001</size>
+         <zIndex>5</zIndex>  	  
+		 <path>${hiderpi}${assetPath}white.png</path>
+      </image>
+	  
+</view>
+
+<view name="basic">  
+
+      <image name="background, background2, background3, background4" extra="true">
+		 <visible>true</visible>
+      </image>
+
+      <image name="background_v2" extra="true">
+         <origin>0 0.5</origin>
+         <pos>0 0.47</pos>
+         <size>1 0.1</size>
+         <zIndex>3</zIndex>  	  
+		 <path>${assetPath}white.png</path>
+      </image>
+
+      <image name="background_v2_shadow" extra="true">
+		 <color>00000050</color>
+         <origin>0 0.5</origin>
+         <pos>0 0.49</pos>
+         <size>1 0.1</size>
+         <zIndex>2</zIndex>  	  
+		 <path>${hiderpi}${assetPath}white.png</path>
+      </image>
+	  
+      <image name="line_v1" extra="true">
+		 <color>000000</color>	  
+         <origin>0 1</origin>
+         <pos>0 0.42</pos>
+         <size>1 0.001</size>
+         <zIndex>3</zIndex>  	  
+		 <path>${hiderpi}${assetPath}white.png</path>
+      </image>
+
+      <image name="line_v2" extra="true">
+		 <color>000000</color>	  
+         <origin>0 1</origin>
+         <pos>0 0.52</pos>
+         <size>1 0.001</size>
+         <zIndex>4</zIndex>  	  
+		 <path>${hiderpi}${assetPath}white.png</path>
+      </image>
+
+	  
+</view>
+
+<view name="detailed, video, grid">  
+
+      <image name="background, background2, background3, background4" extra="true">
+		 <visible>true</visible>
+      </image>
+
+</view>
+   
+</theme>

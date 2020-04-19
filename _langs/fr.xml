@@ -103,6 +103,7 @@
 		<f-customFullVideo>mes vidéos en fond d'écran</f-customFullVideo>	
 		<f-dynamicColorsetOutrunGrid>Outrun + Overlay</f-dynamicColorsetOutrunGrid>	
 		<f-customOverlayVideo>Mes vidéos + Overlay</f-customOverlayVideo>	
+		<f-customFullVideoPlus>mes vidéos + bande en fond d'écran</f-customFullVideoPlus>	
 		
 		<f-crt>moniteur crt</f-crt>	
 		<f-scanlines>balayage horizontal</f-scanlines>	
