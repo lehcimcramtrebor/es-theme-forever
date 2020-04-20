@@ -18,8 +18,10 @@
 		</image>
 	  
 	    <video name="custom_video" extra="true">
-			<path>./../../CUSTOMIZE/full_screen_videos_background/background.mp4</path>		
-			<path>./../../CUSTOMIZE/full_screen_videos_background/${system.name}.mp4</path>
+			<path>./../../CUSTOMIZE/full_screen_videos_background/full.mp4</path>		
+			<path>./../../CUSTOMIZE/full_screen_videos_background/system.mp4</path>		
+			<path>./../../CUSTOMIZE/full_screen_videos_background/both-${system.name}.mp4</path>			
+			<path>./../../CUSTOMIZE/full_screen_videos_background/system-${system.name}.mp4</path>
 			<effect>none</effect>		
 			<color>ffffff</color>
 			<delay>0.3</delay>
@@ -94,6 +96,24 @@
 		 <path>${hiderpi}${assetPath}white.png</path>
       </image>
 	  
+</view>
+
+<view name="basic, detailed, video, grid">  
+
+	    <video name="custom_video" extra="true">
+			<path>./../../CUSTOMIZE/full_screen_videos_background/full.mp4</path>		
+			<path>./../../CUSTOMIZE/full_screen_videos_background/gamelist.mp4</path>		
+			<path>./../../CUSTOMIZE/full_screen_videos_background/both-${system.name}.mp4</path>	
+			<path>./../../CUSTOMIZE/full_screen_videos_background/gamelist-${system.name}.mp4</path>						
+			<effect>none</effect>		
+			<color>ffffff</color>
+			<delay>0</delay>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<zIndex>1</zIndex>
+		</video>	  
+
 </view>
 
 <view name="basic">  
