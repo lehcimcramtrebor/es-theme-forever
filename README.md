@@ -23,7 +23,7 @@ https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=3XYZVYNEUQAS6&curr
 
 **Notes:**
 
-This theme use no system dedicated artworks, no dedicated graphics logos for . This will make this theme will be functionnal
+This theme use no system dedicated artworks, no dedicated graphics logos for "forever" carousels. This will make this theme will be functionnal
 on future Batocera or Retrobat versions and with all your collections.
 
 Characters illustrations are in .svg (vectors), backgrounds are tileables, logos are in text. This make this theme  always
