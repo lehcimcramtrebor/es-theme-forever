@@ -1,4 +1,4 @@
-# es-theme-forever
+# es-theme-forever version 1.0
 
 16/9 theme for Batocera 5.25+ and Retrobat.
 
@@ -13,7 +13,7 @@ Outrun Grid graphics and videos from Royalty Free Tube *http://royaltyfreetube.c
 Some artworks use for cabinet creation from *http://vectorlib.free.fr/*
 
 Vectorials illustrations from google search with sometimes no liscence information, if you are the creator of one of these and you want to delete illustration
-in this free money theme, contact me at *lehcimcramtrebor.ztriw@gmail.com*
+in this theme, contact me at *lehcimcramtrebor.ztriw@gmail.com*
 
 
 Theme creation needs a lot of hours in front of screen, click here if you want to offer me glasses !
