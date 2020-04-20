@@ -214,7 +214,7 @@ and each Read_me file.
 
 *By Lechcim*
 
-![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-forever/_assets/_screenshots/01.jpg)
+![0](https://github.com/lehcimcramtrebor/es-theme-forever/raw/master/_assets/_screenshots/01.jpg)
 ![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-forever/_assets/_screenshots/02.jpg)
 ![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-forever/_assets/_screenshots/03.jpg)
 ![0](https://raw.githubusercontent.com/lehcimcramtrebor/es-theme-forever/_assets/_screenshots/04.jpg)
