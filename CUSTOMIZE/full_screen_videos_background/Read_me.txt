@@ -16,8 +16,8 @@ You can display a full screen video background for systemview, gamelist view, bo
 	-Put a file named "gamelist.mp4", this will display your loop video in full screen behind the cabinet in gamelist view for all systems.
 
 
-	-Put ".mp4" files named by theme preceded by "full-", "system-" or "gamelist-" ( examples: "full-megadrive.mp4", "system-snes.mp4" or "gamelist-nes" etc..),
-	this will display video for each system separately for both views ("full-"), systemview ("system-") or gamelist view ("gamelist-").
+	-Put ".mp4" files named by theme preceded by "both-", "system-" or "gamelist-" ( examples: "full-megadrive.mp4", "system-snes.mp4" or "gamelist-nes" etc..),
+	this will display video for each system separately for both views ("both-"), systemview ("system-") or gamelist view ("gamelist-").
 
 
 
@@ -39,4 +39,6 @@ For example if you put in same time these 4 files:
 Test by yourself..
 
 
-If you put at same time "full.mp4", "system.mp4" and "gamelist.mp4", but "full.mp4" will be overwrited by the others. Idem for specifics systems videos.
+If you put at same time "full.mp4", "system.mp4" and "gamelist.mp4", but "full.mp4" will be overwrited by the others.
+
+Idem for specifics systems videos with "both-megadrive", "system-megadrive"" and "gamelist-megadrive".
