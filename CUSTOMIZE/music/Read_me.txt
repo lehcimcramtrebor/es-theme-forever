@@ -25,5 +25,5 @@
 
 	Don't forget to adjust song parameters in emulationstation menu.
 
-	I have put Batocera Musics in this folder for Retrobat Users, you can delete them.
+	I have put Batocera Musics in "jukebox" folder for Retrobat Users, you can delete them.
 

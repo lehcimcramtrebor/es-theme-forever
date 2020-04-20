@@ -1,21 +1,38 @@
 # es-theme-forever
 
-Simple 16/9 theme will never need systems updates for Batocera 5.25+ and Retrobat.
+16/9 theme for Batocera 5.25+ and Retrobat.
+
+*https://batocera.org/*
+*https://www.retrobat.ovh/index.html*
 
 **Credits:**
 
 Outrun Grid graphics and videos from Royalty Free Tube *http://royaltyfreetube.com/*
+Some artworks use for cabinet creation from *http://vectorlib.free.fr/*
+Vectorials iilustrations from google search with sometimes no liscence information, if you are the creator of one of these and you want to delete illustration
+in this free money theme, contact me at *lehcimcramtrebor.ztriw@gmail.com*
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_donations" />
+<input type="hidden" name="business" value="3XYZVYNEUQAS6" />
+<input type="hidden" name="currency_code" value="EUR" />
+<input type="image" src="https://www.paypalobjects.com/en_US/FR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_FR/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
 
 
 **Notes:**
 
-This theme use no system dedicated artworks, no dedicated graphics logos. This will make this theme will be functionnal
+This theme use no system dedicated artworks, no dedicated graphics logos for . This will make this theme will be functionnal
 on future Batocera or Retrobat versions and with all your collections.
 
 Characters illustrations are in .svg (vectors), backgrounds are tileables, logos are in text. This make this theme  always
 display at maximum quality in your screen resolution (4K UHD 2160P include).
 
 A customization system is include to easily use your logos, backgrounds, musics and videos.
+Custom logos from Carbon Theme by Fabrice Caruso are preinstalled. (*https://github.com/fabricecaruso/es-theme-carbon*)
+
 Readme files are in each folder in *CUSTOMIZE/*.
 
 At first installation, defaults options made Light Raspberry Mode is On.
@@ -34,26 +51,28 @@ Basic, detailed, video and grid views are functionnal.
 Choose between boxes, carousel and coverflow views.
 
 
-**Music:**
+**Sounds:**
 
-Choose "yes" to play theme music.
+Choose "Arcade Room" to play arcade room ambiance sound.
+Choose "By system custom sounds" to play a different custom song in each system.
+Choose "Custom Jukebox" to play your random music collection.
+Choose "Lehcim Collection" to play selected musics from Retro'arts Theme. *(https://github.com/lehcimcramtrebor/es-theme-retroarts)*
 
 Theme music is in *CUSTOMIZE/music.* 
 
-By default, Batocera musics are pre-installed for Retrobat users, you can delete them.
+By default, Batocera musics are pre-installed for Retrobat users in "*CUSTOMIZE/music/jukebox/*", you can delete them and put yours.
 
-You can customize your theme music with your *".ogg" or ".mp3"* files, in jukebox mode or by system.
+You can customize your theme music with your *".ogg" or ".mp3"* files, in "CUSTOMIZE/music/jukebox/" for jukebox mode or in "*CUSTOMIZE/music/*" for by system.
 
-**Examples:** 	
+See Read_Me.txt in "*CUSTOMIZE/music/*"
 
-Put your normal music collection in *CUSTOMIZE/music* (*ladygaga.mp3* etc..)
-and this will play in jukebox mode all your songs.
+	**Examples:** 	
 
-Put files named by system theme ( *megadrive.mp3, snes.ogg, nes.ogg, mastersystem.mp3* etc..)
-and this will play songs by system.
+	Put your normal music collection in "*CUSTOMIZE/music/jukebox/*" (*ladygaga.mp3* etc..)
+	and this will play in jukebox mode all your songs if  you select "Custom Jukebox" in theme configuration menu.
 
-You can use *ladygaga.mp3 or .ogg* and as same time *megadrive.ogg or .mp3*,
-this will play ladygaga for all systems except megadrive (will play megadrive song).
+	Put files named by system theme ( *megadrive.mp3, snes.ogg, nes.ogg, mastersystem.mp3* etc..)
+	and this will play songs by system if you select "By system custom sounds" in theme configuration menu.
 
 
 **Logotext fonts:**
@@ -70,7 +89,7 @@ You can choose style and color, or desactive.
 
 **Carousel:**
 
-Choose Jukebox, Vertical or Wheel in 3 modes.
+Choose Jukebox, Vertical or Wheel in 3 modes or Arcade custom wheel.
 
 "Forever" jukebox, vertical or wheel display systems in text format needed for use with
 logo decorations.
@@ -79,8 +98,12 @@ logo decorations.
 
 "Custom" jukebox, vertical or wheel display your custom logos.
 
+"Arcade custom wheel" display your custom logos in a arcade style wheel. (with much logos on screen).
+
 To customize your logos, put files named by system theme in *".png" or ".svg"* format in 
 *CUSTOMIZE/logos* ( 3do.svg, gx4000.png, atari2600.svg etc.. ) and choose CUSTOM jukebox, vertical or wheel.
+
+Carbon theme's logos are preinstalled. You can change all of these.
 
 
 **Cabinet:**
@@ -110,7 +133,7 @@ Choose 50+ tileables backgrounds.
 
 **Theme style:**
 
-Choose between 5 modes:
+Choose between 8 styles:
 
 	-"Background" will display background in full screen.
 
@@ -118,17 +141,15 @@ Choose between 5 modes:
 
 	-"Forever background" is a mix. display "Forever" layers and backgrounds.
 
-	-"Custom Full Screen Videos" will display your full screen background videos in systemview , see *CUSTOMIZE/* Read_Me files.
+	-"Custom Full Screen Videos" will display your full screen background videos in systemview and gamelist view , see *CUSTOMIZE/full_screen_videos_background/* Read_Me file.
 
-	-"Custom Videos + Overlay" will display your full screen background videos in systemview  with "Forever layers", see *CUSTOMIZE/* Read_Me files.
+	-"Custom Videos + Overlay" will display your full screen background videos in systemview and gamelist view  with "Forever layers", see *CUSTOMIZE/full_screen_videos_background/* Read_Me file.
+
+	-"Custom Full Screen Videos + Strip" will display your full screen background videos in systemview and gamelist view with color strip , see *CUSTOMIZE/full_screen_videos_background/* Read_Me file.
 
 	-"Outrun Grid" will display outrun grid video in background ( full screen ).
 	
-	-"Outrun Grid + Overlay" will display outrun grid video in background like "Forever background".	
-	
-	
-Because specificity of static videos from emulationstation, video backgrounds mode make ledo deco are turned off,
-but this will work fine with custom logos.
+	-"Outrun + Overlay" will display outrun grid video in background like "Forever background".	
 	
 	
 **Screen Effect:**
@@ -147,10 +168,10 @@ Choose multiple video effects to display on arcade cabinet screen.
 Bright down background to focus on first plan by fading.
 
 
-**Overlay:**
+**Overlay + Themed Cabinets:**
 
 Choose style of your overlay. You can select overlay + cabinet, this will overwrite cabinet choice 
-to display themed cabinet ( examples: mortal Kombat II, Marvel etc..)
+to display themed cabinet ( examples: mortal Kombat II, Marvel, Pacman etc..)
 
 
 **Video ratio:**
@@ -158,6 +179,25 @@ to display themed cabinet ( examples: mortal Kombat II, Marvel etc..)
 In all views, choose between original video ratio or stretched.
 For example, a vertical arcade game in streched mode will display in 4/3 full screen, in original mode
 it will display at original vertical format in middle of screen.
+
+
+**Transparency on Gamelist**
+
+Choose plain or transparent layer behind gamelist.
+
+
+**Custom logos on marquee**
+
+Choose "No" to not display custom logo on cabinet marquee. this will display default text system label.
+
+Choose "Yes" to display custom logos on cabinet marquee, with background layer (usefull with themed cabinets).
+
+Choose "Logos only" to display just logos (usefull with simple color cabinets).
+
+
+**Cabinet game's marquees**
+
+Identical to "Custom logos on marquees" but for game's marquee in gamelist views.
 
 
 **Raspberry light mode:**
