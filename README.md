@@ -12,14 +12,8 @@ Some artworks use for cabinet creation from *http://vectorlib.free.fr/*
 Vectorials iilustrations from google search with sometimes no liscence information, if you are the creator of one of these and you want to delete illustration
 in this free money theme, contact me at *lehcimcramtrebor.ztriw@gmail.com*
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_donations" />
-<input type="hidden" name="business" value="3XYZVYNEUQAS6" />
-<input type="hidden" name="currency_code" value="EUR" />
-<input type="image" src="https://www.paypalobjects.com/en_US/FR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_FR/i/scr/pixel.gif" width="1" height="1" />
-</form>
-
+Theme creation needs a lot of hours in front of screen, click here if you want to offer me glasses !
+https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=3XYZVYNEUQAS6&currency_code=EUR&source=url
 
 
 **Notes:**
