@@ -28,6 +28,7 @@
 		<f-customMarquee>custom logos on marquee</f-customMarquee>	
 		<f-gamelistMarquee>cabinet game's marquees</f-gamelistMarquee>	
 		<f-gamelistTransparent>transparency on gamelists</f-gamelistTransparent>	
+		<f-gamelistCustomLogos>gamelist custom logos always on</f-gamelistCustomLogos>	
 
 		<f-justWheel>wheels only</f-justWheel>	
 		<f-justLabel>logos only</f-justLabel>	

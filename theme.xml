@@ -1178,7 +1178,19 @@ V1.0
 
 	</subset>
 	
-		
+
+<!--		CUSTOM LOGOS ON GAMELIST WITH FOREVER CAROUSELS		-->
+
+	<subset name="Gamelist Permanent Custom Logos" displayName="${f-gamelistCustomLogos}">
+
+
+	<include name="yes" displayName="${f-yes}">./_grid/custom_logos_gamelist.xml</include>
+	<include name="No" displayName="${f-no}">./nope.xml</include>	
+
+
+	</subset>
+
+	
 <!--		SPECIFICS SYSTEMS		-->
 
 	<include>./_specifics/${system.name}.xml</include>
