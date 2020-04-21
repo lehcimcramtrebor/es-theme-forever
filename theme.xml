@@ -10,7 +10,7 @@ V1.0
 
 <?xml version="1.0" encoding="UTF-8"?>
 
-<theme defaultView="grid">
+<theme defaultView="video">
 
    <formatVersion>7</formatVersion>
 
@@ -86,16 +86,20 @@ V1.0
 	<include name="Lehcim Collection">./${assetPath}lehcim_collection/play.xml</include>
 
 	</subset>
+
+
 <!--		JUST FOR START OPTIONS	-->
 
 	<subset name="Carousel" displayName="${f-carousel}">
 
+	<include name="Custom Logos Hyperspin Wheel" displayName="${f-customLogosHyperspinWheel}">./nope.xml</include>
 	<include name="Custom Logos Wheel" displayName="${f-customLogosWheel}">./nope.xml</include>
 	<include name="Custom Logos Vertical" displayName="${f-customLogosVertical}">./nope.xml</include>
 	<include name="Custom Logos Jukebox" displayName="${f-customLogosJukebox}">./nope.xml</include>
 	
 	</subset>
 	
+
 <!--		CAROUSELS		-->
 
 	<subset name="Carousel" displayName="${f-carousel}">
@@ -107,6 +111,7 @@ V1.0
 
 	</subset>
 	
+
 <!--		LOGOS DECO		-->
 
 	<subset name="Logos Decoration" displayName="${f-logosDecorations}">
@@ -145,9 +150,7 @@ V1.0
 
 	<subset name="Cabinet" displayName="${f-cabinet}">
 
-	<include name="Grey Stone" displayName="${f-greyStone}">./_cabinets/cabinet_grey.xml</include>
-	<include name="Blue Eyes" displayName="${f-blueEyes}">./_cabinets/cabinet_blue_eyes.xml</include>
-	<include name="Spider Blue" displayName="${f-spiderBlue}">./_cabinets/cabinet_spider_blue.xml</include>
+
 	<include name="Kong Blue" displayName="${f-kongBlue}">./_cabinets/cabinet_kong_blue.xml</include>
 	<include name="Marvel Red" displayName="${f-marvelRed}">./_cabinets/cabinet_marvel_red.xml</include>
 	<include name="Mortal Tone" displayName="${f-mortalTone}">./_cabinets/cabinet_mortal_tone.xml</include>
@@ -160,7 +163,11 @@ V1.0
 	<include name="Prince" displayName="${f-prince}">./_cabinets/cabinet_prince.xml</include>
 	<include name="Woody" displayName="${f-woody}">./_cabinets/cabinet_woody.xml</include>
 	<include name="Clementine" displayName="${f-clementine}">./_cabinets/cabinet_clementine.xml</include>
-
+	<include name="Grey Stone" displayName="${f-greyStone}">./_cabinets/cabinet_grey.xml</include>
+	<include name="Blue Eyes" displayName="${f-blueEyes}">./_cabinets/cabinet_blue_eyes.xml</include>
+	<include name="Spider Blue" displayName="${f-spiderBlue}">./_cabinets/cabinet_spider_blue.xml</include>
+	
+	
 	</subset>
 
 
@@ -178,52 +185,52 @@ V1.0
 
 	<subset name="Illustration" displayName="${f-illustration}">
 
-	<include name="Bulma">./_illustrations/bulma.xml</include> 
-	<include name="Sonic">./_illustrations/sonic.xml</include>
-	<include name="Tails">./_illustrations/tails.xml</include>
+
+	<include name="Kong">./_illustrations/kong.xml</include>
+	<include name="Link">./_illustrations/link.xml</include>
+	<include name="Lori">./_illustrations/lori.xml</include>
+	<include name="Luigi">./_illustrations/luigi.xml</include>
 	<include name="Mario-01">./_illustrations/mario.xml</include>
 	<include name="Mario-02">./_illustrations/mario2.xml</include>
 	<include name="Mario-03">./_illustrations/mario3.xml</include>
-	<include name="Luigi">./_illustrations/luigi.xml</include>
-	<include name="Browser">./_illustrations/browser.xml</include>
-	<include name="Captain America">./_illustrations/captainamerica.xml</include>
-	<include name="Ryu">./_illustrations/ryu.xml</include>
-	<include name="Goku">./_illustrations/goku.xml</include>
-	<include name="Trunks">./_illustrations/trunks.xml</include>
-	<include name="Krillin">./_illustrations/krillin.xml</include> 
-	<include name="Donald">./_illustrations/donald.xml</include>
-	<include name="Link">./_illustrations/link.xml</include>
-	<include name="Yoshi">./_illustrations/yoshi.xml</include>
-	<include name="Spiderman">./_illustrations/spiderman.xml</include>
-	<include name="Hulk">./_illustrations/hulk.xml</include>
+	<include name="Metal Slug">./_illustrations/slug.xml</include>
 	<include name="Mickey">./_illustrations/mickey.xml</include>
 	<include name="Minnie">./_illustrations/minnie.xml</include>
-	<include name="Sailor">./_illustrations/sailor.xml</include>
-	<include name="TMNT">./_illustrations/tmnt.xml</include>
-	<include name="Batman">./_illustrations/batman.xml</include>
-	<include name="Superman">./_illustrations/superman.xml</include>
-	<include name="Q-Bert">./_illustrations/qbert.xml</include>
-	<include name="Baby Pacman Girl">./_illustrations/babypac.xml</include>
-	<include name="Baby Pacman Boy">./_illustrations/babypac2.xml</include>
-	<include name="Bomberman">./_illustrations/bomberman.xml</include>
-	<include name="Bomb Jack">./_illustrations/bombjack.xml</include>
-	<include name="Cliffhanger">./_illustrations/cliffhanger.xml</include>
-	<include name="Donkey">./_illustrations/donkey.xml</include>
-	<include name="Kong">./_illustrations/kong.xml</include>
-	<include name="Dr. Mario">./_illustrations/drmario.xml</include>
-	<include name="Dragon's Lair">./_illustrations/dragonlair.xml</include>
-	<include name="Akuma">./_illustrations/akuma.xml</include>
-	<include name="Bizon">./_illustrations/bison.xml</include>
-	<include name="Lori">./_illustrations/lori.xml</include>
-	<include name="Wolverine">./_illustrations/wolverine.xml</include>
-	<include name="Yun">./_illustrations/yun.xml</include>
-	<include name="Street Fighter Vs. K.O.F.">./_illustrations/sfvskof.xml</include>
-	<include name="Metal Slug">./_illustrations/slug.xml</include>
-	<include name="Ghostbusters">./_illustrations/sos.xml</include>
-	
 	<include name="Open Logo">./_illustrations/open.xml</include>
-
+	<include name="Q-Bert">./_illustrations/qbert.xml</include>
+	<include name="Ryu">./_illustrations/ryu.xml</include>
+	<include name="Sailor">./_illustrations/sailor.xml</include>
+	<include name="Sonic">./_illustrations/sonic.xml</include>
+	<include name="Spiderman">./_illustrations/spiderman.xml</include>
+	<include name="Street Fighter Vs. K.O.F.">./_illustrations/sfvskof.xml</include>
+	<include name="Superman">./_illustrations/superman.xml</include>
+	<include name="Tails">./_illustrations/tails.xml</include>
+	<include name="TMNT">./_illustrations/tmnt.xml</include>
+	<include name="Trunks">./_illustrations/trunks.xml</include>
+	<include name="Wolverine">./_illustrations/wolverine.xml</include>
+	<include name="Yoshi">./_illustrations/yoshi.xml</include>
+	<include name="Yun">./_illustrations/yun.xml</include>
+	
 	<include name="No Character" displayName="${f-noCharacter}">./nope.xml</include>
+
+	<include name="Akuma">./_illustrations/akuma.xml</include>
+	<include name="Baby Pacman Boy">./_illustrations/babypac2.xml</include>
+	<include name="Baby Pacman Girl">./_illustrations/babypac.xml</include>
+	<include name="Batman">./_illustrations/batman.xml</include>
+	<include name="Bizon">./_illustrations/bison.xml</include>
+	<include name="Bomb Jack">./_illustrations/bombjack.xml</include>
+	<include name="Bomberman">./_illustrations/bomberman.xml</include>
+	<include name="Browser">./_illustrations/browser.xml</include>
+	<include name="Bulma">./_illustrations/bulma.xml</include> 
+	<include name="Cliffhanger">./_illustrations/cliffhanger.xml</include>	<include name="Captain America">./_illustrations/captainamerica.xml</include>
+	<include name="Dragon's Lair">./_illustrations/dragonlair.xml</include>
+	<include name="Dr. Mario">./_illustrations/drmario.xml</include>
+	<include name="Donald">./_illustrations/donald.xml</include>
+	<include name="Donkey">./_illustrations/donkey.xml</include>
+	<include name="Ghostbusters">./_illustrations/sos.xml</include>
+	<include name="Goku">./_illustrations/goku.xml</include>
+	<include name="Hulk">./_illustrations/hulk.xml</include>
+	<include name="Krillin">./_illustrations/krillin.xml</include> 
 
 
 	</subset>
@@ -233,33 +240,30 @@ V1.0
 
 	<subset name="Colorset" displayName="${f-colorset}">
 
-	<include name="Cherry" displayName="${f-cherry}">./_colorsets/cherry.xml</include>
-	<include name="Green Apple" displayName="${f-greenApple}">./_colorsets/green_apple.xml</include>
-	<include name="French Blue" displayName="${f-frenchBlue}">./_colorsets/french_blue.xml</include>
+
 	<include name="Gold Yellow" displayName="${f-goldYellow}">./_colorsets/gold_yellow.xml</include>
 	<include name="Orange" displayName="${f-orange}">./_colorsets/orange.xml</include>
 	<include name="Bubble Gum" displayName="${f-bubbleGum}">./_colorsets/bubble_gum.xml</include>
 	<include name="Violet" displayName="${f-violet}">./_colorsets/purple.xml</include>
 	<include name="Salmon" displayName="${f-salmon}">./_colorsets/salmon.xml</include>
 	<include name="Monochrome" displayName="Monochrome">./_colorsets/monochrome.xml</include>
+	<include name="Cherry" displayName="${f-cherry}">./_colorsets/cherry.xml</include>
+	<include name="Green Apple" displayName="${f-greenApple}">./_colorsets/green_apple.xml</include>
+	<include name="French Blue" displayName="${f-frenchBlue}">./_colorsets/french_blue.xml</include>
+
 
 	</subset>
 
-<!--		JUST FOR START OPTIONS		-->
-	<subset name="Background Style" displayName="${f-backgroundStyle}">
-
-	<include name="Outrun Grid">./_backgrounds/forever/nope.xml</include>
-
-	</subset>
-	
-	
+		
 <!--		BACKGROUNDS STYLES		-->
 
 	<subset name="Background Style" displayName="${f-backgroundStyle}">
 
-	<include name="Dynamic Colorset Forever Style" displayName="${f-dynamicColorsetForeverStyle}">./_backgrounds/forever/forever.xml</include>
+
 	<include name="Dynamic Colorset Background" displayName="${f-dynamicColorsetBackground}">./_backgrounds/forever/dynamic_background.xml</include>
+	<include name="Dynamic Colorset Forever Style" displayName="${f-dynamicColorsetForeverStyle}">./_backgrounds/forever/forever.xml</include>
 	<include name="Background" displayName="${f-background}">./_backgrounds/forever/nope.xml</include>
+
 
 	</subset>
 
@@ -267,6 +271,36 @@ V1.0
 <!--		BACKGROUNDS SUBSETS		-->
 
 	<subset name="Background" displayName="${f-background}">
+
+
+	<include name="Retro Game-06">./_backgrounds/retrogame/06.xml</include>
+
+
+
+	<include name="Plain-01">./_backgrounds/plain/01.xml</include>
+	<include name="Plain-02">./_backgrounds/plain/02.xml</include>
+	<include name="Plain-03">./_backgrounds/plain/03.xml</include>
+	<include name="Plain-04">./_backgrounds/plain/04.xml</include>
+	<include name="Plain-05">./_backgrounds/plain/05.xml</include>
+	<include name="Plain-06">./_backgrounds/plain/06.xml</include>
+	<include name="Plain-07">./_backgrounds/plain/07.xml</include>
+	<include name="Plain-08">./_backgrounds/plain/08.xml</include>
+	<include name="Plain-09">./_backgrounds/plain/09.xml</include>
+	<include name="Plain-10">./_backgrounds/plain/10.xml</include>
+	<include name="Plain-11">./_backgrounds/plain/11.xml</include>
+
+
+
+	<include name="Squares-01">./_backgrounds/squares/01.xml</include>
+	<include name="Squares-02">./_backgrounds/squares/02.xml</include>
+	<include name="Squares-03">./_backgrounds/squares/03.xml</include>
+	<include name="Squares-04">./_backgrounds/squares/04.xml</include>
+	<include name="Squares-05">./_backgrounds/squares/05.xml</include>
+	<include name="Squares-06">./_backgrounds/squares/06.xml</include>
+	<include name="Squares-07">./_backgrounds/squares/07.xml</include>
+	<include name="Squares-08">./_backgrounds/squares/08.xml</include>
+
+
 
 	<include name="Steel-01">./_backgrounds/steel/01.xml</include>
 	<include name="Steel-02">./_backgrounds/steel/02.xml</include>
@@ -334,32 +368,7 @@ V1.0
 	<include name="Retro Game-03">./_backgrounds/retrogame/03.xml</include>
 	<include name="Retro Game-04">./_backgrounds/retrogame/04.xml</include>
 	<include name="Retro Game-05">./_backgrounds/retrogame/05.xml</include>
-	<include name="Retro Game-06">./_backgrounds/retrogame/06.xml</include>
 
-
-
-	<include name="Plain-01">./_backgrounds/plain/01.xml</include>
-	<include name="Plain-02">./_backgrounds/plain/02.xml</include>
-	<include name="Plain-03">./_backgrounds/plain/03.xml</include>
-	<include name="Plain-04">./_backgrounds/plain/04.xml</include>
-	<include name="Plain-05">./_backgrounds/plain/05.xml</include>
-	<include name="Plain-06">./_backgrounds/plain/06.xml</include>
-	<include name="Plain-07">./_backgrounds/plain/07.xml</include>
-	<include name="Plain-08">./_backgrounds/plain/08.xml</include>
-	<include name="Plain-09">./_backgrounds/plain/09.xml</include>
-	<include name="Plain-10">./_backgrounds/plain/10.xml</include>
-	<include name="Plain-11">./_backgrounds/plain/11.xml</include>
-
-
-
-	<include name="Squares-01">./_backgrounds/squares/01.xml</include>
-	<include name="Squares-02">./_backgrounds/squares/02.xml</include>
-	<include name="Squares-03">./_backgrounds/squares/03.xml</include>
-	<include name="Squares-04">./_backgrounds/squares/04.xml</include>
-	<include name="Squares-05">./_backgrounds/squares/05.xml</include>
-	<include name="Squares-06">./_backgrounds/squares/06.xml</include>
-	<include name="Squares-07">./_backgrounds/squares/07.xml</include>
-	<include name="Squares-08">./_backgrounds/squares/08.xml</include>
 	
 	</subset>
 
@@ -934,9 +943,11 @@ V1.0
 
 	<subset name="Grid Style" displayName="${f-gridStyle}">
 
+
 	<include name="Boxes" displayName="${f-boxes}">./_grid/boxes.xml</include>
 	<include name="Carousel" displayName="${f-carousel}">./_grid/carousel.xml</include>
 	<include name="Cover Flow" displayName="${f-coverFlow}">./_grid/cover_flow.xml</include>
+
 
 	</subset>
 	
@@ -949,6 +960,12 @@ V1.0
 <!--		DECO Frames	-->
 
 	<subset name="Overlay" displayName="${f-overlay}">
+
+
+	<include name="Donkey Junior + cabinet" displayName="Donkey Junior + ${f-cabinet}">./_overlays/overlay_donkeyjr.xml</include>
+	<include name="Donkey Junior + cabinet" displayName="Donkey Junior + ${f-cabinet}">./_cabinets/cabinet_donkeyjr.xml</include>
+
+	<include name="Donkey Junior" displayName="Donkey Junior">./_overlays/overlay_donkeyjr.xml</include>
 
 
 	<include name="Marvel + cabinet" displayName="Marvel + ${f-cabinet}">./_overlays/overlay_marvel.xml</include>
@@ -987,11 +1004,6 @@ V1.0
 	<include name="Defender" displayName="Defender">./_overlays/overlay_defender.xml</include>
 
 
-	<include name="Donkey Junior + cabinet" displayName="Donkey Junior + ${f-cabinet}">./_overlays/overlay_donkeyjr.xml</include>
-	<include name="Donkey Junior + cabinet" displayName="Donkey Junior + ${f-cabinet}">./_cabinets/cabinet_donkeyjr.xml</include>
-
-	<include name="Donkey Junior" displayName="Donkey Junior">./_overlays/overlay_donkeyjr.xml</include>
-
 
 	<include name="Pacman + cabinet" displayName="Pacman + ${f-cabinet}">./_overlays/overlay_pacman.xml</include>
 	<include name="Pacman + cabinet" displayName="Pacman + ${f-cabinet}">./_cabinets/cabinet_pacman.xml</include>
@@ -1019,6 +1031,7 @@ V1.0
 	<include name="Black" displayName="${f-black}">./_overlays/overlay_black.xml</include>
 	<include name="Arcade" displayName="Arcade">./_overlays/overlay_arcade.xml</include>
 
+
 	</subset>
 
   
@@ -1031,10 +1044,12 @@ V1.0
 
 	<subset name="Carousel" displayName="${f-carousel}">
 
+
+	<include name="Custom Logos Hyperspin Wheel" displayName="${f-customLogosHyperspinWheel}">./_carousels/custom_hyperspin_wheel.xml</include>
 	<include name="Custom Logos Wheel" displayName="${f-customLogosWheel}">./_carousels/custom_wheel.xml</include>
 	<include name="Custom Logos Vertical" displayName="${f-customLogosVertical}">./_carousels/custom_vertical.xml</include>
 	<include name="Custom Logos Jukebox" displayName="${f-customLogosJukebox}">./_carousels/custom_jukebox.xml</include>
-	<include name="Custom Logos Hyperspin Wheel" displayName="${f-customLogosHyperspinWheel}">./_carousels/custom_hyperspin_wheel.xml</include>
+
 
 	</subset>
 
@@ -1105,6 +1120,7 @@ V1.0
 
 	<subset name="Gamelist Transparency" displayName="${f-gamelistTransparent}">
 
+
 	<include name="yes" displayName="${f-yes}">./_grid/transparency.xml</include>
 	<include name="No" displayName="${f-no}">./_grid/plain.xml</include>	
 
@@ -1115,15 +1131,19 @@ V1.0
 
 	<subset name="Carousel" displayName="${f-carousel}">
 
+
 	<include name="Simple Jukebox" displayName="${f-simpleJukebox}">./_carousels/simple_jukebox.xml</include>
 	<include name="Simple Wheel" displayName="${f-simpleWheel}">./_carousels/simple_wheel.xml</include>
 	<include name="Simple Vertical" displayName="${f-simpleVertical}">./_carousels/simple_vertical.xml</include>
+
 
 	</subset>
 
 
 <!--		BACKGROUNDS VIDEO		-->
+
 	<subset name="Background Style" displayName="${f-backgroundStyle}">
+
 
 	<include name="Outrun Grid">./_backgrounds/forever/outrun.xml</include>
 	<include name="Dynamic Colorset Outrun Grid" displayName="${f-dynamicColorsetOutrunGrid}">./_backgrounds/forever/forever_outrun.xml</include>	
@@ -1131,11 +1151,13 @@ V1.0
 	<include name="Custom Full Screen Videos + Frame" displayName="${f-customFullVideoPlus}">./_backgrounds/forever/custom_video_plus.xml</include>
 	<include name="Custom Overlay Videos" displayName="${f-customOverlayVideo}">./_backgrounds/forever/custom_overlay_video.xml</include>
 
+
 	</subset>
 
 <!--		CUSTOM MARQUEES ON/OFF		-->
 
 	<subset name="Custom Marquees" displayName="${f-customMarquee}">
+
 
 	<include name="No" displayName="${f-no}">./_carousels/custom_marquee_off.xml</include>	
 	<include name="yes" displayName="${f-yes}">./nope.xml</include>
@@ -1147,6 +1169,7 @@ V1.0
 <!--		CUSTOM GAMELIST WHEELS AND BACK WHEELS ON MARQUEE ON/OFF		-->
 
 	<subset name="Gamelist Marquees" displayName="${f-gamelistMarquee}">
+
 
 	<include name="yes" displayName="${f-yes}">./nope.xml</include>
 	<include name="No" displayName="${f-no}">./_grid/custom_gamelist_marquee_off.xml</include>	
