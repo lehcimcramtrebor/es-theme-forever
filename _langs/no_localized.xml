@@ -106,6 +106,7 @@
 		<f-dynamicColorsetOutrunGrid>Outrun + Overlay</f-dynamicColorsetOutrunGrid>	
 		<f-customOverlayVideo>custom videos + Overlay</f-customOverlayVideo>	
 		<f-customFullVideoPlus>custom full screen video + strip</f-customFullVideoPlus>	
+		<f-backgroundStrip>background + strip</f-backgroundStrip>	
 		
 		<f-crt>crt</f-crt>	
 		<f-scanlines>scanlines</f-scanlines>	

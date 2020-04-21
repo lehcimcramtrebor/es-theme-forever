@@ -228,8 +228,9 @@ V1.0
 
 
 	<include name="Dynamic Colorset Background" displayName="${f-dynamicColorsetBackground}">./_backgrounds/forever/dynamic_background.xml</include>
-	<include name="Dynamic Colorset Forever Style" displayName="${f-dynamicColorsetForeverStyle}">./_backgrounds/forever/forever.xml</include>
+	<include name="Background + Strip" displayName="${f-backgroundStrip}">./_backgrounds/forever/background_strip.xml</include>
 	<include name="Background" displayName="${f-background}">./_backgrounds/forever/nope.xml</include>
+	<include name="Dynamic Colorset Forever Style" displayName="${f-dynamicColorsetForeverStyle}">./_backgrounds/forever/forever.xml</include>
 
 
 	</subset>
@@ -1121,9 +1122,9 @@ V1.0
 
 	<include name="Outrun Grid">./_backgrounds/forever/outrun.xml</include>
 	<include name="Dynamic Colorset Outrun Grid" displayName="${f-dynamicColorsetOutrunGrid}">./_backgrounds/forever/forever_outrun.xml</include>	
-	<include name="Custom Full Screen Videos" displayName="${f-customFullVideo}">./_backgrounds/forever/custom_video.xml</include>
-	<include name="Custom Full Screen Videos + Frame" displayName="${f-customFullVideoPlus}">./_backgrounds/forever/custom_video_plus.xml</include>
 	<include name="Custom Overlay Videos" displayName="${f-customOverlayVideo}">./_backgrounds/forever/custom_overlay_video.xml</include>
+	<include name="Custom Full Screen Videos + Frame" displayName="${f-customFullVideoPlus}">./_backgrounds/forever/custom_video_plus.xml</include>
+	<include name="Custom Full Screen Videos" displayName="${f-customFullVideo}">./_backgrounds/forever/custom_video.xml</include>
 
 
 	</subset>
