@@ -3,12 +3,11 @@
 <theme>
    <formatVersion>7</formatVersion>
 
-<include>./logo.xml</include>
-
 	<variables>
 
 	<videotype>framed_</videotype>									
 	<customonly>custom</customonly>									
+	<hideCustomLogo>nope</hideCustomLogo>									
 
 	</variables>
 	

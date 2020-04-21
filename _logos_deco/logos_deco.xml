@@ -1,0 +1,39 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+	<subset name="Logos Decoration" displayName="${f-logosDecorations}">
+
+	<include name="Silver Mame Blue" displayName="Silver MAME ${f-blue}">./silver_mame_blue.xml</include>
+	<include name="Silver Mame Green" displayName="Silver MAME ${f-green}">./silver_mame_green.xml</include>
+	<include name="Silver Mame Red" displayName="Silver MAME ${f-red}">./silver_mame_red.xml</include>
+	<include name="Silver Mame Orange" displayName="Silver MAME ${f-orange}">./silver_mame_orange.xml</include>
+	<include name="Silver Mame Yellow" displayName="Silver MAME ${f-yellow}">./silver_mame_yellow.xml</include>
+	<include name="Silver Mame Pink" displayName="Silver MAME ${f-pink}">./silver_mame_pink.xml</include>
+	<include name="Silver Mame Purple" displayName="Silver MAME ${f-purple}">./silver_mame_purple.xml</include>
+ 
+
+	<include name="Carbon Mame Blue" displayName="Carbon MAME ${f-blue}">./carbon_mame_blue.xml</include>
+	<include name="Carbon Mame Green" displayName="Carbon MAME ${f-green}">./carbon_mame_green.xml</include>
+	<include name="Carbon Mame Red" displayName="Carbon MAME ${f-red}">./carbon_mame_red.xml</include>
+	<include name="Carbon Mame Orange" displayName="Carbon MAME ${f-orange}">./carbon_mame_orange.xml</include>
+	<include name="Carbon Mame Yellow" displayName="Carbon MAME ${f-yellow}">./carbon_mame_yellow.xml</include>
+	<include name="Carbon Mame Pink" displayName="Carbon MAME ${f-pink}">./carbon_mame_pink.xml</include>
+	<include name="Carbon Mame Purple" displayName="Carbon MAME ${f-purple}">./carbon_mame_purple.xml</include>
+
+	<include name="Graphite Mame Blue" displayName="Graphite MAME ${f-blue}">./graphite_mame_blue.xml</include>
+	<include name="Graphite Mame Green" displayName="Graphite MAME ${f-green}">./graphite_mame_green.xml</include>
+	<include name="Graphite Mame Red" displayName="Graphite MAME ${f-red}">./graphite_mame_red.xml</include>
+	<include name="Graphite Mame Orange" displayName="Graphite MAME ${f-orange}">./graphite_mame_orange.xml</include>
+	<include name="Graphite Mame Yellow" displayName="Graphite MAME ${f-yellow}">./graphite_mame_yellow.xml</include>
+	<include name="Graphite Mame Pink" displayName="Graphite MAME ${f-pink}">./graphite_mame_pink.xml</include>
+	<include name="Graphite Mame Purple" displayName="Graphite MAME ${f-purple}">./graphite_mame_purple.xml</include>
+ 
+ 	<include name="No Decoration" displayName="${f-noDecoration}">./nope.xml</include>
+
+	</subset>
+
+
+
+</theme>

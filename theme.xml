@@ -50,6 +50,7 @@ V1.0
 	<foreverv2detailedsizerpi>0.265 0.45</foreverv2detailedsizerpi>								
 	<foreverv2originrpi>0 0</foreverv2originrpi>								
 	<resrpi>full_</resrpi>								
+	<hideCustomLogo>_logos_deco</hideCustomLogo>						
 	
 
 	</variables>
@@ -111,40 +112,6 @@ V1.0
 
 	</subset>
 	
-
-<!--		LOGOS DECO		-->
-
-	<subset name="Logos Decoration" displayName="${f-logosDecorations}">
-
-	<include name="Silver Mame Blue" displayName="Silver MAME ${f-blue}">./_logos_deco/silver_mame_blue.xml</include>
-	<include name="Silver Mame Green" displayName="Silver MAME ${f-green}">./_logos_deco/silver_mame_green.xml</include>
-	<include name="Silver Mame Red" displayName="Silver MAME ${f-red}">./_logos_deco/silver_mame_red.xml</include>
-	<include name="Silver Mame Orange" displayName="Silver MAME ${f-orange}">./_logos_deco/silver_mame_orange.xml</include>
-	<include name="Silver Mame Yellow" displayName="Silver MAME ${f-yellow}">./_logos_deco/silver_mame_yellow.xml</include>
-	<include name="Silver Mame Pink" displayName="Silver MAME ${f-pink}">./_logos_deco/silver_mame_pink.xml</include>
-	<include name="Silver Mame Purple" displayName="Silver MAME ${f-purple}">./_logos_deco/silver_mame_purple.xml</include>
- 
-
-	<include name="Carbon Mame Blue" displayName="Carbon MAME ${f-blue}">./_logos_deco/carbon_mame_blue.xml</include>
-	<include name="Carbon Mame Green" displayName="Carbon MAME ${f-green}">./_logos_deco/carbon_mame_green.xml</include>
-	<include name="Carbon Mame Red" displayName="Carbon MAME ${f-red}">./_logos_deco/carbon_mame_red.xml</include>
-	<include name="Carbon Mame Orange" displayName="Carbon MAME ${f-orange}">./_logos_deco/carbon_mame_orange.xml</include>
-	<include name="Carbon Mame Yellow" displayName="Carbon MAME ${f-yellow}">./_logos_deco/carbon_mame_yellow.xml</include>
-	<include name="Carbon Mame Pink" displayName="Carbon MAME ${f-pink}">./_logos_deco/carbon_mame_pink.xml</include>
-	<include name="Carbon Mame Purple" displayName="Carbon MAME ${f-purple}">./_logos_deco/carbon_mame_purple.xml</include>
-
-	<include name="Graphite Mame Blue" displayName="Graphite MAME ${f-blue}">./_logos_deco/graphite_mame_blue.xml</include>
-	<include name="Graphite Mame Green" displayName="Graphite MAME ${f-green}">./_logos_deco/graphite_mame_green.xml</include>
-	<include name="Graphite Mame Red" displayName="Graphite MAME ${f-red}">./_logos_deco/graphite_mame_red.xml</include>
-	<include name="Graphite Mame Orange" displayName="Graphite MAME ${f-orange}">./_logos_deco/graphite_mame_orange.xml</include>
-	<include name="Graphite Mame Yellow" displayName="Graphite MAME ${f-yellow}">./_logos_deco/graphite_mame_yellow.xml</include>
-	<include name="Graphite Mame Pink" displayName="Graphite MAME ${f-pink}">./_logos_deco/graphite_mame_pink.xml</include>
-	<include name="Graphite Mame Purple" displayName="Graphite MAME ${f-purple}">./_logos_deco/graphite_mame_purple.xml</include>
- 
- 	<include name="No Decoration" displayName="${f-noDecoration}">./nope.xml</include>
-
-	</subset>
-
 
 <!--		CABINETS		-->
 
@@ -1050,6 +1017,8 @@ V1.0
 	<include name="Custom Logos Vertical" displayName="${f-customLogosVertical}">./_carousels/custom_vertical.xml</include>
 	<include name="Custom Logos Jukebox" displayName="${f-customLogosJukebox}">./_carousels/custom_jukebox.xml</include>
 
+	<include name="Custom Carousel" displayName="${f-customCarousel}">./CUSTOMIZE/custom_carousel/my_carousel.xml</include>
+
 
 	</subset>
 
@@ -1140,6 +1109,11 @@ V1.0
 	</subset>
 
 
+<!--		LOGOS DECO		-->
+
+	<include>./${hideCustomLogo}/logos_deco.xml</include>
+
+	
 <!--		BACKGROUNDS VIDEO		-->
 
 	<subset name="Background Style" displayName="${f-backgroundStyle}">
@@ -1190,7 +1164,7 @@ V1.0
 
 	</subset>
 
-	
+
 <!--		SPECIFICS SYSTEMS		-->
 
 	<include>./_specifics/${system.name}.xml</include>

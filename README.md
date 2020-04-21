@@ -199,6 +199,11 @@ Choose "Logos only" to display just logos (usefull with simple color cabinets).
 Identical to "Custom logos on marquees" but for game's marquee in gamelist views.
 
 
+**Custom logos always on gamelist**
+
+Choose yes to display custom logos in upper scrren before gamelist when you use Logo text wheels.
+
+
 **Raspberry light mode:**
 
 Choose to have a lighest theme, this will remove all shadows, simplify "Forever" style layers,

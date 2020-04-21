@@ -6,6 +6,7 @@
 	<variables>
 
 	<videotype>framed_</videotype>									
+	<hideCustomLogo>nope</hideCustomLogo>									
 
 	</variables>
 	

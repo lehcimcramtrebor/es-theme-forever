@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../../_carousels/custom_hyperspin_wheel.xml</include>
+<view name="system">
+<carousel name="systemcarousel">
+
+
+<!-- YOU CAN CHANGE VALUES UNDER , DON'T TOUCH ANYTHING BEFORE THIS -->
+
+		<!-- --------Type of carousel-------- -->
+		
+				<type>vertical_wheel</type>
+				
+		<!-- --------Origin of carousel frame-------- -->
+		
+				<origin>1 0</origin>
+				
+		<!-- --------Position of carousel frame-------- -->
+		
+				<pos>1 -0.03</pos>
+
+		<!-- --------Size of carousel frame-------- -->
+
+				<size>1 1</size>
+
+		<!-- --------Selected logo zoom factor-------- -->
+
+				<logoScale>2.5</logoScale>
+
+		<!-- --------Non selected logo size-------- -->
+
+				<logoSize>0.0759375 0.038</logoSize>
+
+		<!-- --------Color of carousel frame-------- -->
+
+				<color>00000000</color>
+				
+		<!-- --------Space between logos-------- -->
+
+			<logoRotation>-4.5</logoRotation>
+
+		<!-- --------Origin of wheel's circle center-------- -->
+
+			<logoRotationOrigin>8 0.5</logoRotationOrigin>
+
+		<!-- --------Logo alignment on carousel frame-------- -->
+
+			<logoAlignment>right</logoAlignment>
+
+		<!-- --------Max simultaneous logos on screen-------- -->
+
+			<maxLogoCount>24</maxLogoCount>
+
+		<!--ZINDEX MUST BE UNCHANGED TO ALL THEME PROPERLY WORK-->
+
+
+<!-- YOU CAN CHANGE VALUES ABOVE THIS , DON'T TOUCH ANYTHING AFTER THIS -->
+</carousel>
+</view>
+</theme>

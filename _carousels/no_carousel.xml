@@ -3,6 +3,12 @@
 <theme>
    <formatVersion>7</formatVersion>
 
+	<variables>
+							
+	<hideCustomLogo>nope</hideCustomLogo>									
+
+	</variables>
+	
 <view name="system">
 
       <carousel name="systemcarousel">
