@@ -29,6 +29,7 @@ V1.0
 	<policePath>./_assets/fonts/</policePath>
 	<illustrationPath>./_assets/illustrations/</illustrationPath>
 	<cabinetPath>./_assets/cabinets/</cabinetPath>			
+	<wallpaperPath>./_assets/wallpapers/</wallpaperPath>			
 	<framePath>./_assets/decos/</framePath>			
 	<logodecoPath>./_assets/logos_decos/</logodecoPath>		
 	<full_rpi>full</full_rpi>
@@ -241,106 +242,113 @@ V1.0
 	</subset>
 
 
-<!--		BACKGROUNDS SUBSETS		-->
+<!--		TILES BACKGROUNDS SUBSETS		-->
 
 	<subset name="Background" displayName="${f-background}">
 
 
-	<include name="Retro Game-06">./_backgrounds/retrogame/06.xml</include>
+	<include name="(Default)Tile-Retro Game-06">./_backgrounds/retrogame/06.xml</include>
+
+	<include name="Full-Techology Circles Blue">./_backgrounds/wallpapers/technology_circles_blue.xml</include>
+	<include name="Full-Techology Circles Green">./_backgrounds/wallpapers/technology_circles_green.xml</include>
+	<include name="Full-Techology Circles Orange">./_backgrounds/wallpapers/technology_circles_orange.xml</include>
+	<include name="Full-Techology Circles Pink">./_backgrounds/wallpapers/technology_circles_pink.xml</include>
+	<include name="Full-Techology Circles Purple">./_backgrounds/wallpapers/technology_circles_purple.xml</include>
+
+	<include name="Full-Outrun Landscape">./_backgrounds/wallpapers/outrun_landscape.xml</include>
+	<include name="Full-Outrun Valley">./_backgrounds/wallpapers/outrun_valley.xml</include>
+
+	<include name="Tile-Plain-01">./_backgrounds/plain/01.xml</include>
+	<include name="Tile-Plain-02">./_backgrounds/plain/02.xml</include>
+	<include name="Tile-Plain-03">./_backgrounds/plain/03.xml</include>
+	<include name="Tile-Plain-04">./_backgrounds/plain/04.xml</include>
+	<include name="Tile-Plain-05">./_backgrounds/plain/05.xml</include>
+	<include name="Tile-Plain-06">./_backgrounds/plain/06.xml</include>
+	<include name="Tile-Plain-07">./_backgrounds/plain/07.xml</include>
+	<include name="Tile-Plain-08">./_backgrounds/plain/08.xml</include>
+	<include name="Tile-Plain-09">./_backgrounds/plain/09.xml</include>
+	<include name="Tile-Plain-10">./_backgrounds/plain/10.xml</include>
+	<include name="Tile-Plain-11">./_backgrounds/plain/11.xml</include>
 
 
 
-	<include name="Plain-01">./_backgrounds/plain/01.xml</include>
-	<include name="Plain-02">./_backgrounds/plain/02.xml</include>
-	<include name="Plain-03">./_backgrounds/plain/03.xml</include>
-	<include name="Plain-04">./_backgrounds/plain/04.xml</include>
-	<include name="Plain-05">./_backgrounds/plain/05.xml</include>
-	<include name="Plain-06">./_backgrounds/plain/06.xml</include>
-	<include name="Plain-07">./_backgrounds/plain/07.xml</include>
-	<include name="Plain-08">./_backgrounds/plain/08.xml</include>
-	<include name="Plain-09">./_backgrounds/plain/09.xml</include>
-	<include name="Plain-10">./_backgrounds/plain/10.xml</include>
-	<include name="Plain-11">./_backgrounds/plain/11.xml</include>
+	<include name="Tile-Squares-01">./_backgrounds/squares/01.xml</include>
+	<include name="Tile-Squares-02">./_backgrounds/squares/02.xml</include>
+	<include name="Tile-Squares-03">./_backgrounds/squares/03.xml</include>
+	<include name="Tile-Squares-04">./_backgrounds/squares/04.xml</include>
+	<include name="Tile-Squares-05">./_backgrounds/squares/05.xml</include>
+	<include name="Tile-Squares-06">./_backgrounds/squares/06.xml</include>
+	<include name="Tile-Squares-07">./_backgrounds/squares/07.xml</include>
+	<include name="Tile-Squares-08">./_backgrounds/squares/08.xml</include>
 
 
 
-	<include name="Squares-01">./_backgrounds/squares/01.xml</include>
-	<include name="Squares-02">./_backgrounds/squares/02.xml</include>
-	<include name="Squares-03">./_backgrounds/squares/03.xml</include>
-	<include name="Squares-04">./_backgrounds/squares/04.xml</include>
-	<include name="Squares-05">./_backgrounds/squares/05.xml</include>
-	<include name="Squares-06">./_backgrounds/squares/06.xml</include>
-	<include name="Squares-07">./_backgrounds/squares/07.xml</include>
-	<include name="Squares-08">./_backgrounds/squares/08.xml</include>
+	<include name="Tile-Steel-01">./_backgrounds/steel/01.xml</include>
+	<include name="Tile-Steel-02">./_backgrounds/steel/02.xml</include>
+	<include name="Tile-Steel-03">./_backgrounds/steel/03.xml</include>
+	<include name="Tile-Steel-04">./_backgrounds/steel/04.xml</include>
+	<include name="Tile-Steel-05">./_backgrounds/steel/05.xml</include>
+	<include name="Tile-Steel-06">./_backgrounds/steel/06.xml</include>
+	<include name="Tile-Steel-07">./_backgrounds/steel/07.xml</include>
+	<include name="Tile-Steel-08">./_backgrounds/steel/08.xml</include>
+	<include name="Tile-Steel-09">./_backgrounds/steel/09.xml</include>
+	<include name="Tile-Steel-10">./_backgrounds/steel/10.xml</include>
+	<include name="Tile-Steel-11">./_backgrounds/steel/11.xml</include>
 
 
 
-	<include name="Steel-01">./_backgrounds/steel/01.xml</include>
-	<include name="Steel-02">./_backgrounds/steel/02.xml</include>
-	<include name="Steel-03">./_backgrounds/steel/03.xml</include>
-	<include name="Steel-04">./_backgrounds/steel/04.xml</include>
-	<include name="Steel-05">./_backgrounds/steel/05.xml</include>
-	<include name="Steel-06">./_backgrounds/steel/06.xml</include>
-	<include name="Steel-07">./_backgrounds/steel/07.xml</include>
-	<include name="Steel-08">./_backgrounds/steel/08.xml</include>
-	<include name="Steel-09">./_backgrounds/steel/09.xml</include>
-	<include name="Steel-10">./_backgrounds/steel/10.xml</include>
-	<include name="Steel-11">./_backgrounds/steel/11.xml</include>
+	<include name="Tile-Mosaic Steamless-01">./_backgrounds/mosaic_steamless/01.xml</include>
+	<include name="Tile-Mosaic Steamless-02">./_backgrounds/mosaic_steamless/02.xml</include>
+	<include name="Tile-Mosaic Steamless-03">./_backgrounds/mosaic_steamless/03.xml</include>
+	<include name="Tile-Mosaic Steamless-04">./_backgrounds/mosaic_steamless/04.xml</include>
+	<include name="Tile-Mosaic Steamless-05">./_backgrounds/mosaic_steamless/05.xml</include>
 
 
 
-	<include name="Mosaic Steamless-01">./_backgrounds/mosaic_steamless/01.xml</include>
-	<include name="Mosaic Steamless-02">./_backgrounds/mosaic_steamless/02.xml</include>
-	<include name="Mosaic Steamless-03">./_backgrounds/mosaic_steamless/03.xml</include>
-	<include name="Mosaic Steamless-04">./_backgrounds/mosaic_steamless/04.xml</include>
-	<include name="Mosaic Steamless-05">./_backgrounds/mosaic_steamless/05.xml</include>
+	<include name="Tile-Gold Flowers-01">./_backgrounds/gold_flowers/01.xml</include>
+	<include name="Tile-Gold Flowers-02">./_backgrounds/gold_flowers/02.xml</include>
 
 
 
-	<include name="Gold Flowers-01">./_backgrounds/gold_flowers/01.xml</include>
-	<include name="Gold Flowers-02">./_backgrounds/gold_flowers/02.xml</include>
+	<include name="Tile-Stained Glass-01">./_backgrounds/stained_glass/01.xml</include>
+	<include name="Tile-Stained Glass-02">./_backgrounds/stained_glass/02.xml</include>
+	<include name="Tile-Stained Glass-03">./_backgrounds/stained_glass/03.xml</include>
+	<include name="Tile-Stained Glass-04">./_backgrounds/stained_glass/04.xml</include>
+	<include name="Tile-Stained Glass-05">./_backgrounds/stained_glass/05.xml</include>
+	<include name="Tile-Stained Glass-06">./_backgrounds/stained_glass/06.xml</include>
+	<include name="Tile-Stained Glass-07">./_backgrounds/stained_glass/07.xml</include>
+	<include name="Tile-Stained Glass-08">./_backgrounds/stained_glass/08.xml</include>
 
 
 
-	<include name="Stained Glass-01">./_backgrounds/stained_glass/01.xml</include>
-	<include name="Stained Glass-02">./_backgrounds/stained_glass/02.xml</include>
-	<include name="Stained Glass-03">./_backgrounds/stained_glass/03.xml</include>
-	<include name="Stained Glass-04">./_backgrounds/stained_glass/04.xml</include>
-	<include name="Stained Glass-05">./_backgrounds/stained_glass/05.xml</include>
-	<include name="Stained Glass-06">./_backgrounds/stained_glass/06.xml</include>
-	<include name="Stained Glass-07">./_backgrounds/stained_glass/07.xml</include>
-	<include name="Stained Glass-08">./_backgrounds/stained_glass/08.xml</include>
-
-
-
-	<include name="Starfield-01">./_backgrounds/starfield/01.xml</include>
-	<include name="Starfield-02">./_backgrounds/starfield/02.xml</include>
-	<include name="Starfield-03">./_backgrounds/starfield/03.xml</include>
-	<include name="Starfield-04">./_backgrounds/starfield/04.xml</include>
-	<include name="Starfield-05">./_backgrounds/starfield/05.xml</include>
+	<include name="Tile-Starfield-01">./_backgrounds/starfield/01.xml</include>
+	<include name="Tile-Starfield-02">./_backgrounds/starfield/02.xml</include>
+	<include name="Tile-Starfield-03">./_backgrounds/starfield/03.xml</include>
+	<include name="Tile-Starfield-04">./_backgrounds/starfield/04.xml</include>
+	<include name="Tile-Starfield-05">./_backgrounds/starfield/05.xml</include>
 	
 
 
-	<include name="Butterflies-01">./_backgrounds/butterflies/01.xml</include>
-	<include name="Butterflies-02">./_backgrounds/butterflies/02.xml</include>
+	<include name="Tile-Butterflies-01">./_backgrounds/butterflies/01.xml</include>
+	<include name="Tile-Butterflies-02">./_backgrounds/butterflies/02.xml</include>
 	
 
 
-	<include name="Wood-01">./_backgrounds/wood/01.xml</include>
-	<include name="Wood-02">./_backgrounds/wood/02.xml</include>
+	<include name="Tile-Wood-01">./_backgrounds/wood/01.xml</include>
+	<include name="Tile-Wood-02">./_backgrounds/wood/02.xml</include>
 
 
 
-	<include name="Stone-01">./_backgrounds/stone/01.xml</include>
-	<include name="Stone-02">./_backgrounds/stone/02.xml</include>
+	<include name="Tile-Stone-01">./_backgrounds/stone/01.xml</include>
+	<include name="Tile-Stone-02">./_backgrounds/stone/02.xml</include>
 
 
 
-	<include name="Retro Game-01">./_backgrounds/retrogame/01.xml</include>
-	<include name="Retro Game-02">./_backgrounds/retrogame/02.xml</include>
-	<include name="Retro Game-03">./_backgrounds/retrogame/03.xml</include>
-	<include name="Retro Game-04">./_backgrounds/retrogame/04.xml</include>
-	<include name="Retro Game-05">./_backgrounds/retrogame/05.xml</include>
+	<include name="Tile-Retro Game-01">./_backgrounds/retrogame/01.xml</include>
+	<include name="Tile-Retro Game-02">./_backgrounds/retrogame/02.xml</include>
+	<include name="Tile-Retro Game-03">./_backgrounds/retrogame/03.xml</include>
+	<include name="Tile-Retro Game-04">./_backgrounds/retrogame/04.xml</include>
+	<include name="Tile-Retro Game-05">./_backgrounds/retrogame/05.xml</include>
 
 	
 	</subset>
@@ -1007,7 +1015,8 @@ V1.0
 
 	</subset>
 
-  
+
+ 
 <!--		CUSTOM BACKGROUNDS		-->
 
 	<include>./_backgrounds/custom/custom.xml</include>

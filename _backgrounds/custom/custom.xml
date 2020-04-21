@@ -13,7 +13,9 @@
          <zIndex>-1</zIndex> 
 		 <path>./../../CUSTOMIZE/backgrounds/tile.png</path>
 		 <path>./../../CUSTOMIZE/backgrounds/tile.jpg</path>
-
+		 <color>ffffff</color>
+		 <colorEnd>252525</colorEnd>
+		 <gradientType>vertical</gradientType>	  
       </image>
 
       <image name="background2" extra="true">
@@ -25,7 +27,9 @@
 		 <path>./../../CUSTOMIZE/backgrounds/background.png</path>
 		 <path>./../../CUSTOMIZE/backgrounds/background.jpg</path>		 
 		 <path>./../../CUSTOMIZE/backgrounds/background.svg</path>		 
-
+		 <color>ffffff</color>
+		 <colorEnd>252525</colorEnd>
+		 <gradientType>vertical</gradientType>	  
       </image>
 	  
 
@@ -37,7 +41,10 @@
          <zIndex>1</zIndex> 
 		 <path>./../../CUSTOMIZE/backgrounds/tile-${system.theme}.png</path>
 		 <path>./../../CUSTOMIZE/backgrounds/tile-${system.theme}.jpg</path>		 	 
-      </image>
+		 <color>ffffff</color>
+		 <colorEnd>252525</colorEnd>
+		 <gradientType>vertical</gradientType>	   
+ </image>
 	  
 
 
@@ -52,6 +59,9 @@
 		 <path>./../../CUSTOMIZE/backgrounds/background-${system.theme}.png</path>
 		 <path>./../../CUSTOMIZE/backgrounds/background-${system.theme}.jpg</path>
 		 <path>./../../CUSTOMIZE/backgrounds/background-${system.theme}.svg</path>
+		 <color>ffffff</color>
+		 <colorEnd>252525</colorEnd>
+		 <gradientType>vertical</gradientType>	  
       </image>	  
 </view>
    

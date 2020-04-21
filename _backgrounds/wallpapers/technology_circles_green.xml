@@ -1,0 +1,20 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+<view name="menu, system, basic, detailed, video, grid">  
+
+      <image name="background2" extra="true">
+		 <tile>false</tile>
+		 <size>1 1</size>
+		 <origin>0 0</origin>
+		 <color>ffffff</color>
+		 <colorEnd>252525</colorEnd>
+		 <gradientType>vertical</gradientType>	  
+		 <path>${wallpaperPath}technology_circles_green.jpg</path>
+      </image>
+	  
+</view>
+   
+</theme>
