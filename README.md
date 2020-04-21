@@ -88,7 +88,7 @@ You can choose style and color, or desactive.
 
 **Carousel:**
 
-Choose Jukebox, Vertical or Wheel in 3 modes or Arcade custom wheel.
+Choose Jukebox, Vertical or Wheel in 3 modes, Arcade custom wheel or "My wheel".
 
 "Forever" jukebox, vertical or wheel display systems in text format needed for use with
 logo decorations.
@@ -98,6 +98,8 @@ logo decorations.
 "Custom" jukebox, vertical or wheel display your custom logos.
 
 "Arcade custom wheel" display your custom logos in a arcade style wheel. (with much logos on screen).
+
+"My Wheel" is for advanced users, display a carousel you can customize in "*CUSTOMIZE/custom_carousel/my_carousel.xml*"
 
 To customize your logos, put files named by system theme in *".png" or ".svg"* format in 
 *CUSTOMIZE/logos* ( 3do.svg, gx4000.png, atari2600.svg etc.. ) and choose CUSTOM jukebox, vertical or wheel.
@@ -132,7 +134,7 @@ Choose 50+ tileables backgrounds.
 
 **Theme style:**
 
-Choose between 8 styles:
+Choose between 9 styles:
 
 	-"Background" will display background in full screen.
 
@@ -143,6 +145,8 @@ Choose between 8 styles:
 	-"Custom Full Screen Videos" will display your full screen background videos in systemview and gamelist view , see *CUSTOMIZE/full_screen_videos_background/* Read_Me file.
 
 	-"Custom Videos + Overlay" will display your full screen background videos in systemview and gamelist view  with "Forever layers", see *CUSTOMIZE/full_screen_videos_background/* Read_Me file.
+
+	-"Custom Videos + Strip" will display your full screen background videos in systemview and gamelist view  with horizontal band, see *CUSTOMIZE/full_screen_videos_background/* Read_Me file.
 
 	-"Custom Full Screen Videos + Strip" will display your full screen background videos in systemview and gamelist view with color strip , see *CUSTOMIZE/full_screen_videos_background/* Read_Me file.
 
