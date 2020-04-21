@@ -15,3 +15,6 @@ It's simple,
 Sega megadrive now display Grey Cabinet.
 
 
+
+
+To customize screen bezel, see "overlays" folder in this CUSTOMIZE section.
