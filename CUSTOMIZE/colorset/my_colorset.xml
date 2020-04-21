@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+
+<!-- DON'T TOUCH ANYTHING BEFORE THIS -->
+
+
+
+
+<!-- MODIFY COLOR LIKE THIS: <customColorset>COLOUR</customColorset> -->
+
+
+		<customColorset>505050</customColorset>
+
+
+
+<!-- DON'T TOUCH ANYTHING AFTER  THIS -->
+
+
+
+
+
+
+</variables>
+</theme>

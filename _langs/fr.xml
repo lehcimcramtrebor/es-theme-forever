@@ -61,6 +61,7 @@
 		<f-yellow>jaune</f-yellow>	
 		<f-pink>rose</f-pink>	
 		<f-purple>violet</f-purple>
+		<f-customUserColorset>ma couleur perso</f-customUserColorset>
 		
 		<f-foreverJukebox>juke-box "forever"</f-foreverJukebox>	
 		<f-foreverWheel>roue "forever"</f-foreverWheel>	

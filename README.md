@@ -126,6 +126,8 @@ Choose vectorial character illustration, display at left of screen.
 
 Choose general theme colors, will affect logos text, menus and differents parts of your theme.
 
+Choose "My custom colorset" to use color you can customize in "*CUSTOMISE/colorset/my_colorset.xml*". See Read_me file.
+
 
 **Background:**
 

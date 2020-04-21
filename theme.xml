@@ -55,6 +55,10 @@ V1.0
 
 	</variables>
 
+<!--		CUSTOM COLORSET			-->
+
+	<include>./CUSTOMIZE/colorset/my_colorset.xml</include>
+
 
 <!--		VARIABLES RPI MODE			-->
 
@@ -217,6 +221,7 @@ V1.0
 	<include name="Cherry" displayName="${f-cherry}">./_colorsets/cherry.xml</include>
 	<include name="Green Apple" displayName="${f-greenApple}">./_colorsets/green_apple.xml</include>
 	<include name="French Blue" displayName="${f-frenchBlue}">./_colorsets/french_blue.xml</include>
+	<include name="Custom Colorset" displayName="${f-customUserColorset}">./_colorsets/custom.xml</include>
 
 
 	</subset>

@@ -1,0 +1,110 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+	<variables>
+
+	<transparentColor>${customColorset}40</transparentColor>	
+							
+	</variables> 
+	
+<view name="system">
+
+		<text name="logoText">
+			<color>${customColorset}</color>
+			<glowColor>101010</glowColor>
+		</text>
+				
+
+
+		
+
+	  <text name="systemInfo">
+
+         <color>${customColorset}</color>
+		 <glowColor>ffffff</glowColor>
+    
+      </text>
+
+
+</view>
+
+<view name="detailed, video, grid">  
+
+	<text name="system_label" extra="true">
+		<color>${customColorset}</color>
+	</text>
+
+</view>
+      
+<view name="menu, system, basic, detailed, video, grid">  
+
+     <image name="background_v1" extra="true"> 
+		 <colorEnd>${customColorset}</colorEnd>
+      </image>		
+
+      <image name="background_v2" extra="true"> 
+		 <color>${customColorset}</color>
+      </image>	
+
+     <image name="background_adjust_h1" extra="true">
+		 <colorEnd>${customColorset}</colorEnd>
+      </image>
+
+     <image name="gamelist_line" extra="true">
+		<color>${customColorset}</color>       
+      </image>  
+	  
+     <image name="gamelist_back_h1" extra="true">
+		<colorEnd>${customColorset}</colorEnd>
+      </image>   
+	  
+     <image name="gamelist_back_h2" extra="true">
+		<color>${customColorset}</color>        
+      </image>  
+	  
+    <image name="frame_edge" extra="true">
+		<color>${customColorset}</color>     
+      </image> 
+
+		<image name="frame_bottom" extra="true">
+			<color>000000</color>
+		</image> 
+		
+      <helpsystem name="help">
+         <iconColor>${customColorset}</iconColor>
+      </helpsystem>	 
+
+		<image name="line_bottom" extra="true">
+			<color>${customColorset}</color>
+		</image>
+
+	 <textlist name="gamelist">
+         <selectorColor>${customColorset}</selectorColor>	  
+	</textlist>
+	
+</view>
+ 
+<view name="menu">  
+
+    <menuText name="menutext">
+      <selectorColor>${customColorset}</selectorColor>
+      <selectedColor>101010</selectedColor>
+    </menuText> 
+
+</view>
+
+<view name="grid">
+
+    <gridtile name="selected">
+      <backgroundEdgeColor>${customColorset}</backgroundEdgeColor>	
+    </gridtile>
+
+    <text name="gridtile_selected">
+      <color>${customColorset}</color>
+    </text>
+	
+</view>
+	
+</theme>

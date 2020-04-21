@@ -60,6 +60,7 @@
 		<f-yellow>yellow</f-yellow>	
 		<f-pink>pink</f-pink>	
 		<f-purple>purple</f-purple>
+		<f-customUserColorset>my custom color</f-customUserColorset>
 		
 		<f-foreverJukebox>"forever" jukebox</f-foreverJukebox>	
 		<f-foreverWheel>"forever" wheel</f-foreverWheel>	
