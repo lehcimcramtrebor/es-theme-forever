@@ -18,7 +18,8 @@
 		<f-screenEffect>screen effect</f-screenEffect>	
 		<f-videoEffect>video effect</f-videoEffect>	
 		<f-focus>focus</f-focus>	
-		<f-displayOverlay>display cabinet overlay</f-displayOverlay>	
+		<f-focus>focus</f-focus>	
+		<f-systemviewOnly>on systemview only</f-systemviewOnly>	
 		<f-logo>logotext font</f-logo>
 		<f-overlay>overlays + themed cabinets</f-overlay>
 		<f-ratioVideos>videos ratio</f-ratioVideos>	

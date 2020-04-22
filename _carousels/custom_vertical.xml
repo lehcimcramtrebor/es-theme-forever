@@ -43,6 +43,8 @@
 		<image name="logo">
 			<path>./../CUSTOMIZE/logos/${system.theme}.png</path>
 			<path>./../CUSTOMIZE/logos/${system.theme}.svg</path>
+			<path>./../CUSTOMIZE/logos/${system.theme}-${lang}.png</path>
+			<path>./../CUSTOMIZE/logos/${system.theme}-${lang}.svg</path>
 		</image>  
 
 </view>
@@ -56,9 +58,10 @@
 
 
 		<image name="cabinet_marquee" extra="true">
-		
 			<path>./../CUSTOMIZE/logos/${system.theme}.png</path>
 			<path>./../CUSTOMIZE/logos/${system.theme}.svg</path>
+			<path>./../CUSTOMIZE/logos/${system.theme}-${lang}.png</path>
+			<path>./../CUSTOMIZE/logos/${system.theme}-${lang}.svg</path>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.0947</pos>
 			<maxSize>0.2 0.05</maxSize>
@@ -85,6 +88,8 @@
 			<zIndex>2000</zIndex>
 			<path>./../CUSTOMIZE/logos/${system.theme}.png</path>
 			<path>./../CUSTOMIZE/logos/${system.theme}.svg</path>
+			<path>./../CUSTOMIZE/logos/${system.theme}-${lang}.png</path>
+			<path>./../CUSTOMIZE/logos/${system.theme}-${lang}.svg</path>
 		</image>
 		
 		<image name="gamelist_logo_back" extra="true">

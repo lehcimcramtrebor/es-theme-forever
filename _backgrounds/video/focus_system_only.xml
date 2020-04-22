@@ -1,0 +1,21 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">  
+
+	    <video name="focus_video" extra="true">
+			<path>${hiderpi}${assetPath}black.mp4</path>
+			<color>ffffff99</color>
+			<delay>1</delay>
+			<size>1 1</size>
+			<origin>0 0</origin>
+			<zIndex>9</zIndex>
+		</video>
+
+
+</view>
+
+
+</theme>

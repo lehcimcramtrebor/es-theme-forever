@@ -249,14 +249,9 @@ V1.0
 
 	<include name="(Default)Tile-Retro Game-06">./_backgrounds/retrogame/06.xml</include>
 
-	<include name="Full-Techology Circles Blue">./_backgrounds/wallpapers/technology_circles_blue.xml</include>
-	<include name="Full-Techology Circles Green">./_backgrounds/wallpapers/technology_circles_green.xml</include>
-	<include name="Full-Techology Circles Orange">./_backgrounds/wallpapers/technology_circles_orange.xml</include>
-	<include name="Full-Techology Circles Pink">./_backgrounds/wallpapers/technology_circles_pink.xml</include>
-	<include name="Full-Techology Circles Purple">./_backgrounds/wallpapers/technology_circles_purple.xml</include>
-
 	<include name="Full-Outrun Landscape">./_backgrounds/wallpapers/outrun_landscape.xml</include>
 	<include name="Full-Outrun Valley">./_backgrounds/wallpapers/outrun_valley.xml</include>
+	<include name="Full-Abstract City">./_backgrounds/wallpapers/abstract_city.xml</include>
 
 	<include name="Tile-Plain-01">./_backgrounds/plain/01.xml</include>
 	<include name="Tile-Plain-02">./_backgrounds/plain/02.xml</include>
@@ -391,6 +386,7 @@ V1.0
 
 		<include subset="Focus" name="Yes" displayName="${f-yes}">./_backgrounds/video/focus.xml</include>	
   		<include subset="Focus" name="No" displayName="${f-no}">>./nope.xml</include>	
+		<include subset="Focus" name="Systemview Only" displayName="${f-systemviewOnly}">./_backgrounds/video/focus_system_only.xml</include>	
 
 	</subset>
 

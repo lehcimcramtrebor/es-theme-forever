@@ -18,6 +18,7 @@
 		<f-screenEffect>effet d'écran de la borne</f-screenEffect>	
 		<f-videoEffect>effet vidéo de la borne</f-videoEffect>	
 		<f-focus>focalisation</f-focus>	
+		<f-systemviewOnly>juste sur l'écran principal</f-systemviewOnly>	
 		<f-displayOverlay>affichage de l'overlay de la borne</f-displayOverlay>	
 		<f-logo>police des logos</f-logo>
 		<f-overlay>overlays + bornes spéciales</f-overlay>
