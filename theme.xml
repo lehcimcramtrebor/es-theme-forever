@@ -165,18 +165,22 @@ V1.0
 	<include name="Mario-01">./_illustrations/mario.xml</include>
 	<include name="Mario-02">./_illustrations/mario2.xml</include>
 	<include name="Mario-03">./_illustrations/mario3.xml</include>
+	<include name="Marsupilami">./_illustrations/marsupilami.xml</include>
 	<include name="Metal Slug">./_illustrations/slug.xml</include>
 	<include name="Mickey">./_illustrations/mickey.xml</include>
 	<include name="Minnie">./_illustrations/minnie.xml</include>
 	<include name="Open Logo">./_illustrations/open.xml</include>
 	<include name="Q-Bert">./_illustrations/qbert.xml</include>
+	<include name="R2D2">./_illustrations/r2d2.xml</include>
 	<include name="Ryu">./_illustrations/ryu.xml</include>
 	<include name="Sailor">./_illustrations/sailor.xml</include>
 	<include name="Sonic">./_illustrations/sonic.xml</include>
 	<include name="Spiderman">./_illustrations/spiderman.xml</include>
+	<include name="Stitch">./_illustrations/stitch.xml</include>
 	<include name="Street Fighter Vs. K.O.F.">./_illustrations/sfvskof.xml</include>
 	<include name="Superman">./_illustrations/superman.xml</include>
 	<include name="Tails">./_illustrations/tails.xml</include>
+	<include name="Tentacle">./_illustrations/tentacle.xml</include>
 	<include name="TMNT">./_illustrations/tmnt.xml</include>
 	<include name="Trunks">./_illustrations/trunks.xml</include>
 	<include name="Wolverine">./_illustrations/wolverine.xml</include>
@@ -189,6 +193,7 @@ V1.0
 	<include name="Baby Pacman Boy">./_illustrations/babypac2.xml</include>
 	<include name="Baby Pacman Girl">./_illustrations/babypac.xml</include>
 	<include name="Batman">./_illustrations/batman.xml</include>
+	<include name="Betty Boop">./_illustrations/betty.xml</include>
 	<include name="Bizon">./_illustrations/bison.xml</include>
 	<include name="Bomb Jack">./_illustrations/bombjack.xml</include>
 	<include name="Bomberman">./_illustrations/bomberman.xml</include>
@@ -201,6 +206,9 @@ V1.0
 	<include name="Donkey">./_illustrations/donkey.xml</include>
 	<include name="Ghostbusters">./_illustrations/sos.xml</include>
 	<include name="Goku">./_illustrations/goku.xml</include>
+	<include name="Goomba">./_illustrations/goomba.xml</include>
+	<include name="Goten">./_illustrations/goten.xml</include>
+	<include name="Iron Man">./_illustrations/ironman.xml</include>
 	<include name="Hulk">./_illustrations/hulk.xml</include>
 	<include name="Krillin">./_illustrations/krillin.xml</include> 
 
@@ -233,10 +241,10 @@ V1.0
 	<subset name="Background Style" displayName="${f-backgroundStyle}">
 
 
-	<include name="Dynamic Colorset Background" displayName="${f-dynamicColorsetBackground}">./_backgrounds/forever/dynamic_background.xml</include>
 	<include name="Background + Strip" displayName="${f-backgroundStrip}">./_backgrounds/forever/background_strip.xml</include>
-	<include name="Background" displayName="${f-background}">./_backgrounds/forever/nope.xml</include>
+	<include name="Dynamic Colorset Background" displayName="${f-dynamicColorsetBackground}">./_backgrounds/forever/dynamic_background.xml</include>
 	<include name="Dynamic Colorset Forever Style" displayName="${f-dynamicColorsetForeverStyle}">./_backgrounds/forever/forever.xml</include>
+	<include name="Background" displayName="${f-background}">./_backgrounds/forever/nope.xml</include>
 
 
 	</subset>
@@ -247,11 +255,18 @@ V1.0
 	<subset name="Background" displayName="${f-background}">
 
 
-	<include name="(Default)Tile-Retro Game-06">./_backgrounds/retrogame/06.xml</include>
-
+	<include name="Full-Outrun Sunset">./_backgrounds/wallpapers/outrun_sunset.xml</include>
 	<include name="Full-Outrun Landscape">./_backgrounds/wallpapers/outrun_landscape.xml</include>
 	<include name="Full-Outrun Valley">./_backgrounds/wallpapers/outrun_valley.xml</include>
+	<include name="Full-Outrun Mountains">./_backgrounds/wallpapers/outrun_mountains.xml</include>
 	<include name="Full-Abstract City">./_backgrounds/wallpapers/abstract_city.xml</include>
+	<include name="Full-Synthwave Vapor City">./_backgrounds/wallpapers/synthwave_vapor_city.xml</include>
+	<include name="Full-Synthwave Vapor Pyramid">./_backgrounds/wallpapers/synthwave_vapor_pyramid.xml</include>
+	<include name="Full-Synthwave Evening Ride">./_backgrounds/wallpapers/synthwave_evening_ride.xml</include>
+	<include name="Full-Retro Wave Sunset">./_backgrounds/wallpapers/retrowave_sunset.xml</include>
+	<include name="Full-Sunset Road">./_backgrounds/wallpapers/sunset_road.xml</include>
+	<include name="Full-Arcade Boys">./_backgrounds/wallpapers/arcade_boys.xml</include>
+	<include name="Full-Computers">./_backgrounds/wallpapers/computers.xml</include>
 
 	<include name="Tile-Plain-01">./_backgrounds/plain/01.xml</include>
 	<include name="Tile-Plain-02">./_backgrounds/plain/02.xml</include>
@@ -344,6 +359,7 @@ V1.0
 	<include name="Tile-Retro Game-03">./_backgrounds/retrogame/03.xml</include>
 	<include name="Tile-Retro Game-04">./_backgrounds/retrogame/04.xml</include>
 	<include name="Tile-Retro Game-05">./_backgrounds/retrogame/05.xml</include>
+	<include name="Tile-Retro Game-06">./_backgrounds/retrogame/06.xml</include>
 
 	
 	</subset>
@@ -384,9 +400,9 @@ V1.0
 
 	<subset name="Focus" displayName="${menurpi}${f-focus}${menurpi}">
 
+		<include subset="Focus" name="Systemview Only" displayName="${f-systemviewOnly}">./_backgrounds/video/focus_system_only.xml</include>	
 		<include subset="Focus" name="Yes" displayName="${f-yes}">./_backgrounds/video/focus.xml</include>	
   		<include subset="Focus" name="No" displayName="${f-no}">>./nope.xml</include>	
-		<include subset="Focus" name="Systemview Only" displayName="${f-systemviewOnly}">./_backgrounds/video/focus_system_only.xml</include>	
 
 	</subset>
 

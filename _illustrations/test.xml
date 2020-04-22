@@ -23,7 +23,7 @@
 
 		<image name="art_shadow" extra="true">
 		
-			<origin>-0.01 0.99</origin>
+			<origin>-0.01 0.98</origin>
 			
 			<zIndex>299</zIndex>
 			
