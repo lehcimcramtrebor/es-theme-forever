@@ -1194,13 +1194,13 @@ V1.0
 
 <!--		SPECIFICS SYSTEMS		-->
 
-	<include>./_specifics/${system.name}.xml</include>
+	<include>./_specifics/${system.theme}.xml</include>
 
 <!--		SPECIFICS SYSTEM CUSTOMIZATION		-->
 
-	<include>./CUSTOMIZE/illustrations/${system.name}.xml</include>
-	<include>./CUSTOMIZE/cabinets/${system.name}.xml</include>
-	<include>./CUSTOMIZE/overlays/${system.name}.xml</include>
+	<include>./CUSTOMIZE/illustrations/${system.theme}.xml</include>
+	<include>./CUSTOMIZE/cabinets/${system.theme}.xml</include>
+	<include>./CUSTOMIZE/overlays/${system.theme}.xml</include>
 
 
 	

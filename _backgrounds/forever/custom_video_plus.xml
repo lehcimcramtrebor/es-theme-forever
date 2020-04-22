@@ -37,8 +37,8 @@
 	    <video name="custom_video" extra="true">
 			<path>./../../CUSTOMIZE/full_screen_videos_background/full.mp4</path>		
 			<path>./../../CUSTOMIZE/full_screen_videos_background/system.mp4</path>		
-			<path>./../../CUSTOMIZE/full_screen_videos_background/both-${system.name}.mp4</path>			
-			<path>./../../CUSTOMIZE/full_screen_videos_background/system-${system.name}.mp4</path>
+			<path>./../../CUSTOMIZE/full_screen_videos_background/both-${system.theme}.mp4</path>			
+			<path>./../../CUSTOMIZE/full_screen_videos_background/system-${system.theme}.mp4</path>
 			<effect>none</effect>		
 			<color>ffffff</color>
 			<delay>1</delay>
@@ -90,8 +90,8 @@
 	    <video name="custom_video" extra="true">
 			<path>./../../CUSTOMIZE/full_screen_videos_background/full.mp4</path>		
 			<path>./../../CUSTOMIZE/full_screen_videos_background/gamelist.mp4</path>		
-			<path>./../../CUSTOMIZE/full_screen_videos_background/both-${system.name}.mp4</path>	
-			<path>./../../CUSTOMIZE/full_screen_videos_background/gamelist-${system.name}.mp4</path>				
+			<path>./../../CUSTOMIZE/full_screen_videos_background/both-${system.theme}.mp4</path>	
+			<path>./../../CUSTOMIZE/full_screen_videos_background/gamelist-${system.theme}.mp4</path>				
 			<effect>none</effect>		
 			<color>ffffff</color>
 			<delay>0</delay>
