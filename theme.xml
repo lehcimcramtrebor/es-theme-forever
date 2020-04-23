@@ -170,6 +170,7 @@ V1.0
 	<include name="Megaman Red">./_illustrations/megaman_red.xml</include>
 	<include name="Metal Slug">./_illustrations/slug.xml</include>
 	<include name="Mickey">./_illustrations/mickey.xml</include>
+	<include name="Minecraft">./_illustrations/minecraft.xml</include>
 	<include name="Minnie">./_illustrations/minnie.xml</include>
 	<include name="Open Logo">./_illustrations/open.xml</include>
 	<include name="Pacman">./_illustrations/pacman.xml</include>
@@ -216,6 +217,7 @@ V1.0
 	<include name="Ghostbusters">./_illustrations/sos.xml</include>
 	<include name="Gohan">./_illustrations/gohan.xml</include>
 	<include name="Goku">./_illustrations/goku.xml</include>
+	<include name="Goku2">./_illustrations/goku2.xml</include>
 	<include name="Goomba">./_illustrations/goomba.xml</include>
 	<include name="Goten">./_illustrations/goten.xml</include>
 	<include name="Iron Man">./_illustrations/ironman.xml</include>

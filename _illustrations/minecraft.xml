@@ -1,0 +1,35 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+		<image name="art, art_shadow" extra="true">
+		
+			<path>${illustrationPath}minecraft.svg</path>
+			<maxSize>1 0.98</maxSize>
+			<pos>-0.02 0.955</pos>
+			
+			
+		</image>
+		
+		<image name="art" extra="true">
+		
+			<origin>0 1</origin>
+			
+			<zIndex>3000</zIndex>
+		</image>
+
+		<image name="art_shadow" extra="true">
+		
+			<origin>-0.01 0.99</origin>
+			
+			<zIndex>2999</zIndex>
+			
+			<color>00000050</color>
+		</image>		
+</view>
+   
+
+</theme>
