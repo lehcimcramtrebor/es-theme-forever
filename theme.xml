@@ -175,12 +175,14 @@ V1.0
 	<include name="Open Logo">./_illustrations/open.xml</include>
 	<include name="Pacman">./_illustrations/pacman.xml</include>
 	<include name="Pacman Jr.">./_illustrations/pacmanjr.xml</include>
+	<include name="Pink Panther">./_illustrations/pinkpanther.xml</include>
 	<include name="Q-Bert">./_illustrations/qbert.xml</include>
 	<include name="R2D2">./_illustrations/r2d2.xml</include>
 	<include name="Ryu">./_illustrations/ryu.xml</include>
 	<include name="Sailor">./_illustrations/sailor.xml</include>
 	<include name="Sonic">./_illustrations/sonic.xml</include>
 	<include name="Sonic-02">./_illustrations/sonic2.xml</include>
+	<include name="Sonic-03">./_illustrations/sonic3.xml</include>
 	<include name="Space Ace">./_illustrations/spaceace.xml</include>
 	<include name="Spiderman">./_illustrations/spiderman.xml</include>
 	<include name="Stitch">./_illustrations/stitch.xml</include>
@@ -190,7 +192,10 @@ V1.0
 	<include name="Tentacle">./_illustrations/tentacle.xml</include>
 	<include name="TMNT">./_illustrations/tmnt.xml</include>
 	<include name="Trunks">./_illustrations/trunks.xml</include>
+	<include name="Vegeta">./_illustrations/vegeta.xml</include>
+	<include name="Whis">./_illustrations/whis.xml</include>
 	<include name="Wolverine">./_illustrations/wolverine.xml</include>
+	<include name="Yoda Baby">./_illustrations/yodababy.xml</include>
 	<include name="Yoshi">./_illustrations/yoshi.xml</include>
 	<include name="Yun">./_illustrations/yun.xml</include>
 	
@@ -200,6 +205,7 @@ V1.0
 	<include name="Baby Pacman Boy">./_illustrations/babypac2.xml</include>
 	<include name="Baby Pacman Girl">./_illustrations/babypac.xml</include>
 	<include name="Batman">./_illustrations/batman.xml</include>
+	<include name="Beerus">./_illustrations/beerus.xml</include>
 	<include name="Betty Boop">./_illustrations/betty.xml</include>
 	<include name="Bizon">./_illustrations/bison.xml</include>
 	<include name="Bomb Jack">./_illustrations/bombjack.xml</include>
@@ -214,10 +220,13 @@ V1.0
 	<include name="Dr. Mario">./_illustrations/drmario.xml</include>
 	<include name="Donald">./_illustrations/donald.xml</include>
 	<include name="Donkey">./_illustrations/donkey.xml</include>
+	<include name="Garydos">./_illustrations/garydos.xml</include>
 	<include name="Ghostbusters">./_illustrations/sos.xml</include>
+	<include name="Gogeta">./_illustrations/gogeta.xml</include>
 	<include name="Gohan">./_illustrations/gohan.xml</include>
 	<include name="Goku">./_illustrations/goku.xml</include>
-	<include name="Goku2">./_illustrations/goku2.xml</include>
+	<include name="Goku-02">./_illustrations/goku2.xml</include>
+	<include name="Goku-03">./_illustrations/goku3.xml</include>
 	<include name="Goomba">./_illustrations/goomba.xml</include>
 	<include name="Goten">./_illustrations/goten.xml</include>
 	<include name="Iron Man">./_illustrations/ironman.xml</include>
