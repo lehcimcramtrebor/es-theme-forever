@@ -7,11 +7,18 @@
 
 		<image name="art, art_shadow" extra="true">
 		
-			<path>${illustrationPath}betty.svg</path>
 			<maxSize>1 0.9</maxSize>
 			<pos>-0.009 1.003</pos>
 			
 			
+		</image>
+		
+		<image name="art" extra="true">		
+			<path>${illustrationPath}betty.svg</path>					
+		</image>
+		
+				<image name="art_shadow" extra="true">		
+			<path>${hiderpi}${illustrationPath}betty.svg</path>
 		</image>
 		
 		<image name="art" extra="true">

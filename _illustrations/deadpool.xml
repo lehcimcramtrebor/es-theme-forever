@@ -7,13 +7,20 @@
 
 		<image name="art, art_shadow" extra="true">
 		
-			<path>${illustrationPath}deadpool.svg</path>
 			<maxSize>1 0.85</maxSize>
 			<pos>0 0.97</pos>
 			
 			
 		</image>
 		
+		<image name="art" extra="true">		
+			<path>${illustrationPath}deadpool.svg</path>					
+		</image>
+		
+				<image name="art_shadow" extra="true">		
+			<path>${hiderpi}${illustrationPath}deadpool.svg</path>
+		</image>
+				
 		<image name="art" extra="true">
 		
 			<origin>0 1</origin>

@@ -7,13 +7,20 @@
 
 		<image name="art, art_shadow" extra="true">
 		
-			<path>${illustrationPath}pacmanjr.svg</path>
 			<maxSize>1 0.75</maxSize>
 			<pos>0.01 0.95</pos>
 			
 			
 		</image>
 		
+		<image name="art" extra="true">		
+			<path>${illustrationPath}pacmanjr.svg</path>					
+		</image>
+		
+				<image name="art_shadow" extra="true">		
+			<path>${hiderpi}${illustrationPath}pacmanjr.svg</path>
+		</image>
+				
 		<image name="art" extra="true">
 		
 			<origin>0 1</origin>

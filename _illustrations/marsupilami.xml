@@ -7,7 +7,6 @@
 
 		<image name="art, art_shadow" extra="true">
 		
-			<path>${illustrationPath}marsupilami.svg</path>
 			<maxSize>1 0.57</maxSize>
 			<pos>0.115 0.75</pos>
 			<rotation>1.5</rotation>
@@ -15,6 +14,14 @@
 			
 		</image>
 		
+		<image name="art" extra="true">		
+			<path>${illustrationPath}marsupilami.svg</path>					
+		</image>
+		
+				<image name="art_shadow" extra="true">		
+			<path>${hiderpi}${illustrationPath}marsupilami.svg</path>
+		</image>
+				
 		<image name="art" extra="true">
 		
 			<origin>0 1</origin>
