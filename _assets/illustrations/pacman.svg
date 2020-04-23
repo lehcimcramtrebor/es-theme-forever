@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   width="1311.7362"
+   height="1326.0922"
+   id="svg2"
+   sodipodi:docname="pacman.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     id="namedview14"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.15858201"
+     inkscape:cx="973.79954"
+     inkscape:cy="639.51423"
+     inkscape:window-x="-8"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title3844">vectorstash-pacman</title>
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4704">
+      <stop
+         id="stop4706"
+         style="stop-color:#ffee9a;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop4708"
+         style="stop-color:#ffd60b;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <radialGradient
+       cx="780.82703"
+       cy="459.09332"
+       r="482.05911"
+       fx="780.82703"
+       fy="459.09332"
+       id="radialGradient4710"
+       xlink:href="#linearGradient4704"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.0156278,0,-11.018055)" />
+    <radialGradient
+       cx="780.82703"
+       cy="459.09332"
+       r="482.05911"
+       fx="780.82703"
+       fy="459.09332"
+       id="radialGradient4716"
+       xlink:href="#linearGradient4704"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.0156278,0,-11.018055)" />
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>vectorstash-pacman</dc:title>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>free vector clip art svg download</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>vectorstash</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <cc:license
+           rdf:resource="" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="matrix(1.3351686,0,0,1.3351686,-639.82928,-278.28569)"
+     id="g4712">
+    <path
+       d="m 1447.2202,981.48183 a 525.57605,486.54813 0 1 1 -1.4689,-554.86554 l -431.0252,278.41234 z"
+       id="path4698"
+       style="fill:url(#radialGradient4716);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:20;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 1524.691,-197.8174 a 83.2596,72.852149 0 1 1 -166.5192,0 83.2596,72.852149 0 1 1 166.5192,0 z"
+       transform="matrix(1.1504438,0,0,1.1719358,-646.16161,671.468)"
+       id="path4702"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
