@@ -305,11 +305,11 @@ V1.0
 	<subset name="Background" displayName="${f-background}">
 
 
+	<include name="Full-Abstract City">./_backgrounds/wallpapers/abstract_city.xml</include>
 	<include name="Full-Outrun Sunset">./_backgrounds/wallpapers/outrun_sunset.xml</include>
 	<include name="Full-Outrun Landscape">./_backgrounds/wallpapers/outrun_landscape.xml</include>
 	<include name="Full-Outrun Valley">./_backgrounds/wallpapers/outrun_valley.xml</include>
 	<include name="Full-Outrun Mountains">./_backgrounds/wallpapers/outrun_mountains.xml</include>
-	<include name="Full-Abstract City">./_backgrounds/wallpapers/abstract_city.xml</include>
 	<include name="Full-Synthwave Vapor City">./_backgrounds/wallpapers/synthwave_vapor_city.xml</include>
 	<include name="Full-Synthwave Vapor Pyramid">./_backgrounds/wallpapers/synthwave_vapor_pyramid.xml</include>
 	<include name="Full-Synthwave Evening Ride">./_backgrounds/wallpapers/synthwave_evening_ride.xml</include>
