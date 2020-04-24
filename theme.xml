@@ -462,27 +462,27 @@ V1.0
 <view name="menu">
 
     <menuText name="menutitle">
-		<fontPath>${policePath}digital.ttf</fontPath>
+		<fontPath>${policePath}cabin-bold.ttf</fontPath>
 		<fontSize>0.042</fontSize>
 		<color>1c1632</color>
     </menuText>
 
     <menuText name="menufooter">
-		<fontPath>${policePath}digital.ttf</fontPath>
+		<fontPath>${policePath}cabin-bold.ttf</fontPath>
 		<fontSize>0.024</fontSize>
 		<color>777777FF</color>
     </menuText>
 
     <menuText name="menutext">
-		<fontPath>${policePath}digital.ttf</fontPath>
-		<fontSize>0.022</fontSize>
+		<fontPath>${policePath}cabin-bold.ttf</fontPath>
+		<fontSize>0.028</fontSize>
 		<color>1c1632</color>
 		<separatorColor>b49ead</separatorColor>
 		<selectorGradientType>horizontal</selectorGradientType>
     </menuText>
 	
     <menuTextSmall name="menutextsmall">
-		<fontPath>${policePath}digital.ttf</fontPath>
+		<fontPath>${policePath}cabin-bold.ttf</fontPath>
 		<fontSize>0.022</fontSize>
 		<color>48387a</color>
 		</menuTextSmall>
