@@ -5,7 +5,14 @@
 
 <view name="system">
 
-		<text name="logoText, system_label">
+<!-- Label of Logos	-->
+		<text name="logoText">
+			<text>WRITE_HERE</text>
+		</text>
+
+
+<!--	Label of Cabinet	-->
+		<text name="system_label">
 			<text>WRITE_HERE</text>
 		</text>
 		

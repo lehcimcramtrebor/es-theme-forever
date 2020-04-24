@@ -5,10 +5,13 @@
 
 <view name="system">
 
-		<text name="logoText, system_label">
+		<text name="logoText">
 			<text>Custom Collection</text>
 		</text>
-		
+
+		<text name="system_label">
+			<text>Custom Collection</text>
+		</text>		
 </view>
 
 </theme>
