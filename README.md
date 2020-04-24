@@ -15,6 +15,7 @@ Some artworks use for cabinet creation from *http://vectorlib.free.fr/*
 Vectorials illustrations from google search with sometimes no liscence information, if you are the creator of one of these and you want to delete illustration
 in this theme, contact me at *lehcimcramtrebor.ztriw@gmail.com*
 
+Lot of artwork illustrations found by Karl Bargues.
 
 Theme creation needs a lot of hours in front of screen, click here if you want to offer me glasses !
 
