@@ -5,8 +5,8 @@
 
 <view name="system">
 
-		<text name="logoText">
-			<text>Final Burn Alpha Libretro</text>
+		<text name="logoText, system_label">
+			<text>WRITE_HERE</text>
 		</text>
 		
 </view>

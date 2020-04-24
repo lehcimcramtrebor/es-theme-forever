@@ -1226,9 +1226,10 @@ V1.0
 	</subset>
 
 
-<!--		SPECIFICS SYSTEMS		-->
+<!--		SPECIFICS SYSTEMS AND CUSTOM NAMES		-->
 
 	<include>./_specifics/${system.theme}.xml</include>
+	<include>./CUSTOMIZE/system_names/${system.theme}.xml</include>
 
 <!--		SPECIFICS SYSTEM CUSTOMIZATION		-->
 

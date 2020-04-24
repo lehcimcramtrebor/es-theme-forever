@@ -1,0 +1,14 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+		<text name="logoText, system_label">
+			<text>Final Burn Alpha Libretro</text>
+		</text>
+		
+</view>
+
+</theme>
