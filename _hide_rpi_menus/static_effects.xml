@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+   <formatVersion>7</formatVersion>
+
+<!------STATIC EFFECTS------>
+
+	<subset name="Screen Effect" displayName="${f-screenEffect}">
+
+
+	<include name="CRT" displayName="${f-crt}">./../_effects/screen_effect_crt.xml</include>		
+	<include name="Scanlines" displayName="${f-scanlines}">./../_effects/screen_effect_scanlines.xml</include>
+	<include name="Vertical Scanlines" displayName="${f-verticalScanlines}">./../_effects/screen_effect_scanlines_vertical.xml</include>
+	<include name="Scanlines Fine" displayName="${f-scanlinesFine}">./../_effects/screen_effect_scanlines_fine.xml</include>	
+	<include name="Vertical Scanlines Fine" displayName="${f-verticalScanlinesFine}">./../_effects/screen_effect_scanlines_vertical_fine.xml</include>
+	<include name="Phosphore" displayName="${f-phosphore}">./../_effects/screen_effect_phosphore.xml</include>
+	<include name="Phosphore +" displayName="${f-phosphorePlus}">./../_effects/screen_effect_phosphore_+.xml</include>
+	<include name="NO" displayName="${f-no}">./nope.xml</include>
+
+	</subset>
+
+</theme>

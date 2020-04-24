@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+   <formatVersion>7</formatVersion>
+
+ <!--		FOCUS		-->
+
+	<subset name="Focus" displayName="${f-focus}">
+
+		<include subset="Focus" name="Systemview Only" displayName="${f-systemviewOnly}">./../_backgrounds/video/focus_system_only.xml</include>	
+		<include subset="Focus" name="Yes" displayName="${f-yes}">./../_backgrounds/video/focus.xml</include>	
+  		<include subset="Focus" name="No" displayName="${f-no}">>./nope.xml</include>	
+
+	</subset>
+
+</theme>

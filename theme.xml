@@ -63,7 +63,7 @@ V1.0
 
 <!--		VARIABLES RPI MODE			-->
 
-	<subset name="RPI LIGHT MODE" displayName="${f-rpi} **N/A**">
+	<subset name="RPI LIGHT MODE" displayName="*${f-rpi}*">
 
 	<include name="On" displayName="${f-on}">./rpi/variables_rpi.xml</include>
 	<include name="Off" displayName="${f-off}">./nope.xml</include>
@@ -417,44 +417,24 @@ V1.0
 
 <!------STATIC EFFECTS------>
 
-	<subset name="Screen Effect" displayName="${menurpi}${f-screenEffect}${menurpi}">
 
+	<include>./${hiderpi}_hide_rpi_menus/static_effects.xml</include>
 
-	<include name="CRT" displayName="${f-crt}">./_effects/screen_effect_crt.xml</include>		
-	<include name="Scanlines" displayName="${f-scanlines}">./_effects/screen_effect_scanlines.xml</include>
-	<include name="Vertical Scanlines" displayName="${f-verticalScanlines}">./_effects/screen_effect_scanlines_vertical.xml</include>
-	<include name="Scanlines Fine" displayName="${f-scanlinesFine}">./_effects/screen_effect_scanlines_fine.xml</include>	
-	<include name="Vertical Scanlines Fine" displayName="${f-verticalScanlinesFine}">./_effects/screen_effect_scanlines_vertical_fine.xml</include>
-	<include name="Phosphore" displayName="${f-phosphore}">./_effects/screen_effect_phosphore.xml</include>
-	<include name="Phosphore +" displayName="${f-phosphorePlus}">./_effects/screen_effect_phosphore_+.xml</include>
-	<include name="NO" displayName="${f-no}">./nope.xml</include>
-
-	</subset>
 
 
 <!------VIDEO EFFECTS------>
 
-	<subset name="Video Effect" displayName="${menurpi}${f-videoEffect}${menurpi}">
 
-	<include name="CRT" displayName="${f-crt}">./_effects/tv_effect_crt.xml</include>
-	<include name="HERTZ" displayName="${f-hertz}">./_effects/tv_effect_hertz.xml</include>	
-	<include name="FLICKERING" displayName="${f-flickering}">./_effects/tv_effect_flickering.xml</include>		
-	<include name="GLITCH" displayName="${f-glitch}">./_effects/tv_effect_glitch.xml</include>						
-	<include name="VHS GLITCH" displayName="${f-vhsGlitch}">./_effects/tv_effect_vhs_glitch.xml</include>
-	<include name="No" displayName="${f-no}">./_effects/nope.xml.xml</include>						
 
-	</subset>
+	<include>./${hiderpi}_hide_rpi_menus/video_effects.xml</include>
+
 
 
  <!--		FOCUS		-->
 
-	<subset name="Focus" displayName="${menurpi}${f-focus}${menurpi}">
 
-		<include subset="Focus" name="Systemview Only" displayName="${f-systemviewOnly}">./_backgrounds/video/focus_system_only.xml</include>	
-		<include subset="Focus" name="Yes" displayName="${f-yes}">./_backgrounds/video/focus.xml</include>	
-  		<include subset="Focus" name="No" displayName="${f-no}">>./nope.xml</include>	
+  	<include>./${hiderpi}_hide_rpi_menus/focus.xml</include>	
 
-	</subset>
 
 
 <view name="screen">
@@ -482,27 +462,27 @@ V1.0
 <view name="menu">
 
     <menuText name="menutitle">
-		<fontPath>${policePath}adventure.otf</fontPath>
+		<fontPath>${policePath}digital.ttf</fontPath>
 		<fontSize>0.042</fontSize>
 		<color>1c1632</color>
     </menuText>
 
     <menuText name="menufooter">
-		<fontPath>${policePath}adventure.otf</fontPath>
+		<fontPath>${policePath}digital.ttf</fontPath>
 		<fontSize>0.024</fontSize>
 		<color>777777FF</color>
     </menuText>
 
     <menuText name="menutext">
-		<fontPath>${policePath}adventure.otf</fontPath>
-		<fontSize>0.03</fontSize>
+		<fontPath>${policePath}digital.ttf</fontPath>
+		<fontSize>0.022</fontSize>
 		<color>1c1632</color>
 		<separatorColor>b49ead</separatorColor>
 		<selectorGradientType>horizontal</selectorGradientType>
     </menuText>
 	
     <menuTextSmall name="menutextsmall">
-		<fontPath>${policePath}adventure.otf</fontPath>
+		<fontPath>${policePath}digital.ttf</fontPath>
 		<fontSize>0.022</fontSize>
 		<color>48387a</color>
 		</menuTextSmall>

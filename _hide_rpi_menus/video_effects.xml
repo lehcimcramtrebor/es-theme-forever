@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+   <formatVersion>7</formatVersion>
+
+<!------VIDEO EFFECTS------>
+
+	<subset name="Video Effect" displayName="${f-videoEffect}">
+
+	<include name="CRT" displayName="${f-crt}">./../_effects/tv_effect_crt.xml</include>
+	<include name="HERTZ" displayName="${f-hertz}">./../_effects/tv_effect_hertz.xml</include>	
+	<include name="FLICKERING" displayName="${f-flickering}">./../_effects/tv_effect_flickering.xml</include>		
+	<include name="GLITCH" displayName="${f-glitch}">./../_effects/tv_effect_glitch.xml</include>						
+	<include name="VHS GLITCH" displayName="${f-vhsGlitch}">./../_effects/tv_effect_vhs_glitch.xml</include>
+	<include name="No" displayName="${f-no}">./../_effects/nope.xml.xml</include>						
+
+	</subset>
+
+
+</theme>
