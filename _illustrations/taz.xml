@@ -1,0 +1,42 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+		<image name="art, art_shadow" extra="true">
+		
+			<maxSize>1 0.75</maxSize>
+			<pos>0.01 0.968</pos>
+			
+			
+		</image>
+		
+		<image name="art" extra="true">		
+			<path>${illustrationPath}taz.svg</path>					
+		</image>
+		
+				<image name="art_shadow" extra="true">		
+			<path>${hiderpi}${illustrationPath}taz.svg</path>
+		</image>
+				
+		<image name="art" extra="true">
+		
+			<origin>0 1</origin>
+			
+			<zIndex>3000</zIndex>
+		</image>
+
+		<image name="art_shadow" extra="true">
+		
+			<origin>-0.01 0.98</origin>
+			
+			<zIndex>2999</zIndex>
+			
+			<color>00000050</color>
+		</image>		
+</view>
+   
+
+</theme>

@@ -13,7 +13,7 @@
 	
 		<text name="system_label" extra="true">
 			<fontPath>${policePath}scoreboard.ttf</fontPath>
-			<fontSize>0.04</fontSize>
+			<fontSize>0.036</fontSize>
 			<glowSize>1</glowSize>
 		</text>
 
