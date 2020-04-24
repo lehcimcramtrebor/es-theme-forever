@@ -556,8 +556,8 @@ V1.0
 	<text name="system_label" extra="true">
 		<text>${system.fullName}</text>
 		<origin>0.5 0.5</origin>
-		<forceUppercase>false</forceUppercase>
-		<size>0.4 0.1</size>
+		<forceUppercase>true</forceUppercase>
+		<size>0.3 0.1</size>
 		<alignment>center</alignment>
 		<zIndex>900</zIndex>
 	</text>
@@ -616,7 +616,11 @@ V1.0
 	<text name="system_label" extra="true">
 		<pos>0.5 0.095</pos>
 	</text>
-
+<!--
+	<text name="logoText">
+		<text>${system.name}</text>
+	</text>
+-->		
     <video name="backgroundvideo" extra="true">
 		<path>{random}</path>
 		<path>./CUSTOMIZE/videos/${system.theme}.mp4</path>                 		
