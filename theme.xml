@@ -489,8 +489,8 @@ V1.0
 
     <menuBackground name="menubg">
 		<color>f8f6f6</color>
-		<cornerSize>32 32</cornerSize>
-    </menuBackground>
+		<cornerSize>16 16</cornerSize>
+		</menuBackground>
 
   </view>
 
