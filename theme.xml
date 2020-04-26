@@ -1050,6 +1050,12 @@ V1.0
 	<include name="Robotron" displayName="Robotron">./_overlays/overlay_robotron.xml</include>
 
 	
+	<include name="Street Fighter II + cabinet" displayName="Street Fighter II + ${f-cabinet}">./_overlays/overlay_sfii.xml</include>
+	<include name="Street Fighter II + cabinet" displayName="Street Fighter II + ${f-cabinet}">./_cabinets/cabinet_sfii.xml</include>
+
+	<include name="Street Fighter II" displayName="Street Fighter II">./_overlays/overlay_sfii.xml</include>
+	
+	
 	<include name="Black + NEO GEO MVS" displayName="${f-black} + ${f-cabinet} NEO GEO MVS">./_overlays/overlay_neogeomvs.xml</include>
 	<include name="Black + NEO GEO MVS" displayName="${f-black} + ${f-cabinet} NEO GEO MVS">./_cabinets/cabinet_neogeomvs.xml</include>
 	
