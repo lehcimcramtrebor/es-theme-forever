@@ -8,7 +8,7 @@
 		<text name="logoText">
 			<text>${system.fullName}</text>
 			<fontPath>${policePath}mario.ttf</fontPath>
-			<fontSize>0.023</fontSize>
+			<fontSize>0.021</fontSize>
 			<glowSize>3</glowSize>
 		</text>
 </view>

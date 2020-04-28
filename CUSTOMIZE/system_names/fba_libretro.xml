@@ -6,8 +6,12 @@
 <view name="system">
 
 		<text name="logoText">
-			<text>Custom Collection</text>
+			<text>Final Burn Alpha Libretro</text>
 		</text>
+		
+		<text name="system_label">
+			<text>Final Burn Alpha Libretro</text>
+		</text>		
 		
 </view>
 

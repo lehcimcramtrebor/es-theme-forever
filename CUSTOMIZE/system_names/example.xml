@@ -5,8 +5,15 @@
 
 <view name="system">
 
+<!-- Label of Logos	-->
 		<text name="logoText">
-			<text>Final Burn Alpha Libretro</text>
+			<text>WRITE_HERE</text>
+		</text>
+
+
+<!--	Label of Cabinet	-->
+		<text name="system_label">
+			<text>WRITE_HERE</text>
 		</text>
 		
 </view>

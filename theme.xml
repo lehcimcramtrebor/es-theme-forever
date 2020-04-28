@@ -489,8 +489,8 @@ V1.0
 
     <menuBackground name="menubg">
 		<color>f8f6f6</color>
-		<cornerSize>32 32</cornerSize>
-    </menuBackground>
+		<cornerSize>16 16</cornerSize>
+		</menuBackground>
 
   </view>
 
@@ -556,8 +556,8 @@ V1.0
 	<text name="system_label" extra="true">
 		<text>${system.fullName}</text>
 		<origin>0.5 0.5</origin>
-		<forceUppercase>false</forceUppercase>
-		<size>0.4 0.1</size>
+		<forceUppercase>true</forceUppercase>
+		<size>0.3 0.1</size>
 		<alignment>center</alignment>
 		<zIndex>900</zIndex>
 	</text>
@@ -616,7 +616,11 @@ V1.0
 	<text name="system_label" extra="true">
 		<pos>0.5 0.095</pos>
 	</text>
-
+<!--
+	<text name="logoText">
+		<text>${system.name}</text>
+	</text>
+-->		
     <video name="backgroundvideo" extra="true">
 		<path>{random}</path>
 		<path>./CUSTOMIZE/videos/${system.theme}.mp4</path>                 		
@@ -1046,6 +1050,12 @@ V1.0
 	<include name="Robotron" displayName="Robotron">./_overlays/overlay_robotron.xml</include>
 
 	
+	<include name="Street Fighter II + cabinet" displayName="Street Fighter II + ${f-cabinet}">./_overlays/overlay_sfii.xml</include>
+	<include name="Street Fighter II + cabinet" displayName="Street Fighter II + ${f-cabinet}">./_cabinets/cabinet_sfii.xml</include>
+
+	<include name="Street Fighter II" displayName="Street Fighter II">./_overlays/overlay_sfii.xml</include>
+	
+	
 	<include name="Black + NEO GEO MVS" displayName="${f-black} + ${f-cabinet} NEO GEO MVS">./_overlays/overlay_neogeomvs.xml</include>
 	<include name="Black + NEO GEO MVS" displayName="${f-black} + ${f-cabinet} NEO GEO MVS">./_cabinets/cabinet_neogeomvs.xml</include>
 	
@@ -1222,9 +1232,10 @@ V1.0
 	</subset>
 
 
-<!--		SPECIFICS SYSTEMS		-->
+<!--		SPECIFICS SYSTEMS AND CUSTOM NAMES		-->
 
 	<include>./_specifics/${system.theme}.xml</include>
+	<include>./CUSTOMIZE/system_names/${system.theme}.xml</include>
 
 <!--		SPECIFICS SYSTEM CUSTOMIZATION		-->
 

@@ -8,7 +8,7 @@
 		<text name="logoText">
 			<text>${system.fullName}</text>
 			<fontPath>${policePath}patchyrobots.otf</fontPath>
-			<fontSize>0.024</fontSize>
+			<fontSize>0.02</fontSize>
 			<glowSize>3</glowSize>
 
 		</text>

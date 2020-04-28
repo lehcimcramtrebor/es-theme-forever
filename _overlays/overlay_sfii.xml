@@ -1,0 +1,30 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="menu, system, basic, detailed, video, grid">  
+
+		<image name="cabinet_overlay" extra="true">
+		
+			<path>${framePath}deco_sfii.jpg</path>
+			
+		</image>
+		
+</view>
+
+<view name="system">  
+
+	  <text name="systemInfo">
+        <pos>0 0.66</pos>
+		<fontPath>${policePath}sfii.ttf</fontPath>
+	    <fontSize>0.028</fontSize>
+        <zIndex>126</zIndex>
+		<color>fefc00</color>
+		<glowColor>00000050</glowColor>
+		<glowSize>5</glowSize>
+      </text> 
+
+</view>
+	  
+</theme>

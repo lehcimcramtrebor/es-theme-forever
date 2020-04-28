@@ -6,13 +6,12 @@
 <view name="system">
 
 		<text name="logoText">
-			<text>${system.fullName}</text>
-			<fontPath>${policePath}monsterz.otf</fontPath>
-			<fontSize>0.022</fontSize>
-			<glowSize>3</glowSize>
-
+			<text>Custom Collection</text>
 		</text>
-		
+
+		<text name="system_label">
+			<text>Custom Collection</text>
+		</text>		
 </view>
 
 </theme>
