@@ -710,6 +710,7 @@ V1.0
         <forceUppercase>false</forceUppercase>
         <scrollSound>${assetPath}clic.ogg</scrollSound>
 		<zIndex>122</zIndex>
+		<lines>7</lines>
     </textlist>	  
 
 </view>
@@ -895,6 +896,7 @@ V1.0
         <scrollSound>${assetPath}clic.ogg</scrollSound>
 		<lineSpacing>1.78</lineSpacing>
 		<zIndex>300</zIndex>
+		<lines>7</lines>		
     </textlist>
 
     <image name="md_thumbnail">
