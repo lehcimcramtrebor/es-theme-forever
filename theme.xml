@@ -120,7 +120,7 @@ V1.0
 
 <!--		CABINETS		-->
 
-	<subset name="Cabinet" displayName="${f-cabinet}">
+	<subset name="Cabinet" displayName="${f-cabinet}" appliesTo="system,basic,detailed,video,grid">
 
 
 	<include name="Kong Blue" displayName="${f-kongBlue}">./_cabinets/cabinet_kong_blue.xml</include>
@@ -155,7 +155,7 @@ V1.0
 
 <!--		ILLUSTRATIONS		-->
 
-	<subset name="Illustration" displayName="${f-illustration}">
+	<subset name="Illustration" displayName="${f-illustration}" appliesTo="system,detailed,video,grid">
 
 
 	<include name="Kong">./_illustrations/kong.xml</include>
@@ -302,7 +302,7 @@ V1.0
 
 <!--		TILES BACKGROUNDS SUBSETS		-->
 
-	<subset name="Background" displayName="${f-background}">
+	<subset name="Background" displayName="${f-background}" appliesTo="system,basic,detailed,video,grid">
 
 
 	<include name="Full-Abstract City">./_backgrounds/wallpapers/abstract_city.xml</include>
@@ -1015,7 +1015,7 @@ V1.0
 
 <!--		DECO Frames	-->
 
-	<subset name="Overlay" displayName="${f-overlay}">
+	<subset name="Overlay" displayName="${f-overlay}" appliesTo="system,basic,detailed,video,grid">
 
 
 	<include name="Donkey Junior + cabinet" displayName="Donkey Junior + ${f-cabinet}">./_overlays/overlay_donkeyjr.xml</include>
