@@ -599,7 +599,7 @@ V1.0
 <view name="system">
 
 
-		
+	<!--	
 		<image name="art, art_shadow" extra="true">
 		<storyboard repeatAt="3000">
         		<animation property="color" to="ff000099" begin="25000" duration="10" autoreverse="true" mode="easyInOut"/>				
@@ -624,7 +624,7 @@ V1.0
         		<animation property="scale" to="0" begin="112000" duration="10" autoreverse="true" repeat="10" mode="easyInOut"/>
 		</storyboard>
 		</image>
-		
+	-->
       <carousel name="systemcarousel">
         <scrollSound>${assetPath}clic.ogg</scrollSound>
 		</carousel>
