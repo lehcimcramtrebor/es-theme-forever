@@ -1,4 +1,5 @@
 # es-theme-forever version 1.0
+# no longer maintained
 
 16/9 theme for Batocera 5.25+ and Retrobat.
 
